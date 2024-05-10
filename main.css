@@ -53,12 +53,99 @@ section {
 }
 
 #hero {
+    display: grid;
+    align-items: center;
     background: #eee;
     text-align: center;
+    padding: 0;
+    overflow: hidden;
+    height: 750px;
+    background: url('assets/landing.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#hero div {
+    text-align: center;
+    width: 50vh;
+    padding-left: 25%;
 }
 
 footer {
     text-align: center;
     padding: 20px;
     background: #f0f0f0;
+}
+
+/* SLIDER */
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 100%;
+    /* Ajusta el ancho según sea necesario */
+    height: 600px;
+    /* Ajusta la altura según sea necesario */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Cambia la anchura total de la slider según la cantidad de imágenes */
+.slides {
+    width: 1000%;
+    /* 10 imágenes */
+}
+
+/* Configura la animación del slider */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    45% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    70% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-300%);
+    }
+
+    95% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Configura el tiempo de pausa entre cada diapositiva */
+.slides {
+    animation: slide 40s linear infinite;
 }
