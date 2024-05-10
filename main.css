@@ -13,6 +13,11 @@
     src: url('assets/POPPINS/Poppins-Regular.otf');
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -52,6 +57,11 @@ section {
     border-bottom: 1px solid #ccc;
 }
 
+#testimonios {
+    background-color: #000;
+    color: #fff;
+}
+
 #hero {
     display: grid;
     align-items: center;
@@ -63,7 +73,7 @@ section {
     background: url('assets/landing.png') no-repeat;
     background-position: center;
     background-size: cover;
-    
+
 }
 
 #hero div {
@@ -80,72 +90,17 @@ footer {
 
 /* SLIDER */
 
-.slider {
+.swiper {
+    height: 800px;
     width: 100%;
-    overflow: hidden;
+}
+.swiper-slide {
+    display: grid;
+    place-content: center;
+    width: 100vh;
 }
 
-.slides {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.slide {
-    flex: 0 0 auto;
+.swiper-slide div {
     width: 100%;
-    /* Ajusta el ancho según sea necesario */
     height: 600px;
-    /* Ajusta la altura según sea necesario */
-    background-size: cover;
-    background-position: center;
-}
-
-/* Cambia la anchura total de la slider según la cantidad de imágenes */
-.slides {
-    width: 1000%;
-    /* 10 imágenes */
-}
-
-/* Configura la animación del slider */
-@keyframes slide {
-    0% {
-        transform: translateX(0);
-    }
-
-    20% {
-        transform: translateX(0);
-    }
-
-    25% {
-        transform: translateX(-100%);
-    }
-
-    45% {
-        transform: translateX(-100%);
-    }
-
-    50% {
-        transform: translateX(-200%);
-    }
-
-    70% {
-        transform: translateX(-200%);
-    }
-
-    75% {
-        transform: translateX(-300%);
-    }
-
-    95% {
-        transform: translateX(-300%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-/* Configura el tiempo de pausa entre cada diapositiva */
-.slides {
-    animation: slide 40s linear infinite;
 }
