@@ -30,7 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background: #000;
+    background: #0D0E0E;
 }
 
 header img {
@@ -58,7 +58,7 @@ section {
 }
 
 #testimonios {
-    background-color: #000;
+    background-color: #0D0E0E;
     color: #fff;
 }
 
