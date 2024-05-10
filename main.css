@@ -1,5 +1,20 @@
+@font-face {
+    font-family: 'Amalfi';
+    src: url('assets/AMALFI\ COAST/amalficoast.ttf');
+}
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url('assets/BASKERVILLE/baskervi.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/POPPINS/Poppins-Regular.otf');
+}
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
@@ -10,11 +25,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background: #fff;
+    background: #000;
 }
 
 header img {
-    height: 50px;
+    height: 80px;
 }
 
 nav ul {
@@ -25,6 +40,11 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
 }
 
 section {
