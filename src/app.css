@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: Poppins;
-  src: url("fonts/POPPINS/Poppins-Regular.otf");
+  src: url("/fonts/POPPINS/Poppins-Regular.otf");
 }
 
 @layer base {
