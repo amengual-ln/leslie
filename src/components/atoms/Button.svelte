@@ -6,7 +6,7 @@
 
 <button
   {type}
-  class="py-2 px-4 bg-[#e2a317] text-[#0D0E0E] font-medium"
+  class="py-2 px-4 bg-leslie_gold text-leslie_black font-medium hover:opacity-80"
   onclick={handleClick}
   >{value}
 </button>

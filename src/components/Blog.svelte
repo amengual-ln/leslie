@@ -6,7 +6,7 @@
 
 <section id="blog" class="m-4 bg-black pt-4 pb-2 text-xl">
   <h1 class="text-3xl text-center text-leslie_gold font-medium">BLOG</h1>
-  <div class="hidden md:flex">
+  <div class="hidden lg:flex">
     <article class="bg-[#222] m-4 p-4 text-white">
       <img src="blog1.png" alt="Imagen del articulo" />
       <p class="py-2 text-justify text-balance">
@@ -45,7 +45,7 @@
     </article>
   </div>
 
-  <swiper-container autoplay-delay="5000" loop class="md:hidden">
+  <swiper-container autoplay-delay="5000" loop class="lg:hidden">
     <swiper-slide>
       <article class="bg-[#222] m-4 p-4 text-white">
         <img src="blog1.png" alt="Imagen del articulo" />

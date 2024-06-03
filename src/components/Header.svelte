@@ -5,10 +5,10 @@
 <header
     class="w-full flex justify-between items-center bg-leslie_black text-white px-8 py-2"
 >
-    <img src="/logo.png" alt="Leslie Beltrán" class="h-12 md:h-20" />
+    <img src="/logo.png" alt="Leslie Beltrán" class="h-12 lg:h-20" />
 
     <nav>
-        <ul class="gap-4 hidden md:flex">
+        <ul class="gap-4 hidden lg:flex">
             <li><a href="#testimonios">TESTIMONIOS</a></li>
             <li><a href="#ceo-de-tu-vida">CEO DE TU VIDA</a></li>
             <li><a href="#ceo-hacking">CEO HACKING</a></li>
@@ -21,7 +21,7 @@
             on:click={() => {
                 open = !open;
             }}
-            class="md:hidden text-3xl px-4 py-2"
+            class="lg:hidden text-3xl px-4 py-2"
         >
             =
         </button>

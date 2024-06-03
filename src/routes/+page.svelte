@@ -9,7 +9,7 @@
 </script>
 
 <Hero />
-<main class="max-w-screen-xl mx-auto">
+<main class="max-w-screen-2xl mx-auto">
     <CEOHacking />
     <CEOTraining />
     <CEOMind />

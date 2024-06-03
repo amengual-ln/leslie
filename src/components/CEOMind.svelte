@@ -4,7 +4,7 @@
     alt="CEO Mind Logo"
     class="aspect-video object-cover"
   />
-  <div class="flex flex-col md:flex-row gap-12 px-4 py-12">
+  <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">
     <div class="flex flex-col justify-center gap-4 flex-1">
       <p>
         CEOmind es una membresía de mantenimiento diseñada para aquellos que ya
