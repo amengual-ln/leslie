@@ -11,6 +11,7 @@
 </script>
 
 <section class="m-4 mb-8 mt-0">
+  <hr class="my-4" />
   <h2 class="text-leslie_black text-3xl font-medium text-center mb-4">
     TESTIMONIOS
   </h2>
