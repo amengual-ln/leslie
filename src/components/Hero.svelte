@@ -1,18 +1,12 @@
 <section
-  class="min-h-[80vh] bg-[#9a9a9a] bg-[url('/landing-mobile.png')] lg:bg-[url('/landing.png')] bg-[-30vw_120px] lg:bg-center bg-no-repeat"
+  class="min-h-[80vh] bg-[#9a9a9a] bg-[url('/landing-mobile.png')] lg:bg-[url('/landing.png')] bg-[50%_120px] lg:bg-center bg-no-repeat"
 >
   <div
-    class="grid gap-4 lg:grid-cols-2 lg:items-center lg:min-h-[80vh] lg:max-w-[70vw] mx-auto text-center lg:text-xl p-8"
+    class="grid gap-4 lg:items-center lg:min-h-[80vh] lg:max-w-[70vw] mx-auto text-center lg:text-xl"
   >
-    <div class="grid gap-4 text-xl">
-      <p>
-        Rompe tus techos de cristal mentales y crea una visión más ambiciosa.
-      </p>
-      <p>Sientate en la silla que te corresponde: la de CEO de tu vida</p>
-      <p>
-        Ten una vida por diseño y ya no por accidente, atreviéndote a romper tus
-        techos de cristal mentales y crearte una nueva filosofía de vida.
-      </p>
+    <div class="grid gap-4 justify-center text-xl drop-shadow lg:-ml-72 m-8">
+      <img src="/logo.png" alt="Leslie Beltrán" class="lg:h-48" />
+      <span class="text-xl opacity-80">MINDSET FOR SUCCESS</span>
     </div>
   </div>
 </section>

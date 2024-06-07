@@ -6,10 +6,12 @@
     import Testimonios from "../components/Testimonios.svelte";
     import CTA from "../components/CTA.svelte";
     import Blog from "../components/Blog.svelte";
+    import CeoDeTuVida from "../components/CEODeTuVida.svelte";
 </script>
 
 <Hero />
 <main class="max-w-screen-2xl mx-auto">
+    <CeoDeTuVida />
     <CEOHacking />
     <CEOTraining />
     <CEOMind />

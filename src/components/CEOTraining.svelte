@@ -2,7 +2,7 @@
   <img
     src="CEOtraining.png"
     alt="CEO Training Logo"
-    class="aspect-video object-cover"
+    class="aspect-[16/5] object-cover"
   />
   <div class="flex gap-12 px-4 py-12">
     <div class="flex flex-col justify-center flex-1">
