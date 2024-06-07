@@ -16,11 +16,11 @@
     <div class="grid gap-4 lg:gap-8 order-last lg:order-first">
       <nav class="order-first">
         <ul class="gap-4 hidden lg:flex">
-          <li><a href="#testimonios">TESTIMONIOS</a></li>
           <li><a href="#ceo-de-tu-vida">CEO DE TU VIDA</a></li>
           <li><a href="#ceo-hacking">CEO HACKING</a></li>
-          <li><a href="#ceo-mind">CEO MIND</a></li>
           <li><a href="#ceo-training">CEO TRAINING</a></li>
+          <li><a href="#ceo-mind">CEO MIND</a></li>
+          <li><a href="#testimonios">TESTIMONIOS</a></li>
           <li><a href="#blog">BLOG</a></li>
           <li><a href="#contacto">CONTACTO</a></li>
         </ul>

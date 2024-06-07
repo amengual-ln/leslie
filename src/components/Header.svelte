@@ -9,11 +9,11 @@
 
     <nav>
         <ul class="gap-4 hidden lg:flex">
-            <li><a href="#testimonios">TESTIMONIOS</a></li>
             <li><a href="#ceo-de-tu-vida">CEO DE TU VIDA</a></li>
             <li><a href="#ceo-hacking">CEO HACKING</a></li>
-            <li><a href="#ceo-mind">CEO MIND</a></li>
             <li><a href="#ceo-training">CEO TRAINING</a></li>
+            <li><a href="#ceo-mind">CEO MIND</a></li>
+            <li><a href="#testimonios">TESTIMONIOS</a></li>
             <li><a href="#blog">BLOG</a></li>
             <li><a href="#contacto">CONTACTO</a></li>
         </ul>
@@ -28,14 +28,65 @@
     </nav>
 </header>
 
-<div class={`absolute bg-leslie_black w-full p-4 text-white text-center text-2xl ${open ? "block" : "hidden"}`}>
+<div
+    class={`absolute bg-leslie_black w-full p-4 text-white text-center text-2xl ${open ? "block" : "hidden"}`}
+>
     <ul class="flex flex-col gap-4 opacity-75 hover:opacity:100">
-        <li><a on:click={() => {open = !open}} href="#testimonios">TESTIMONIOS</a></li>
-        <li><a on:click={() => {open = !open}} href="#ceo-de-tu-vida">CEO DE TU VIDA</a></li>
-        <li><a on:click={() => {open = !open}} href="#ceo-hacking">CEO HACKING</a></li>
-        <li><a on:click={() => {open = !open}} href="#ceo-mind">CEO MIND</a></li>
-        <li><a on:click={() => {open = !open}} href="#ceo-training">CEO TRAINING</a></li>
-        <li><a on:click={() => {open = !open}} href="#blog">BLOG</a></li>
-        <li><a on:click={() => {open = !open}} href="#contacto">CONTACTO</a></li>
+        <li>
+            <a
+                on:click={() => {
+                    open = !open;
+                }}
+                href="#testimonios">TESTIMONIOS</a
+            >
+        </li>
+        <li>
+            <a
+                on:click={() => {
+                    open = !open;
+                }}
+                href="#ceo-de-tu-vida">CEO DE TU VIDA</a
+            >
+        </li>
+        <li>
+            <a
+                on:click={() => {
+                    open = !open;
+                }}
+                href="#ceo-hacking">CEO HACKING</a
+            >
+        </li>
+        <li>
+            <a
+                on:click={() => {
+                    open = !open;
+                }}
+                href="#ceo-mind">CEO MIND</a
+            >
+        </li>
+        <li>
+            <a
+                on:click={() => {
+                    open = !open;
+                }}
+                href="#ceo-training">CEO TRAINING</a
+            >
+        </li>
+        <li>
+            <a
+                on:click={() => {
+                    open = !open;
+                }}
+                href="#blog">BLOG</a
+            >
+        </li>
+        <li>
+            <a
+                on:click={() => {
+                    open = !open;
+                }}
+                href="#contacto">CONTACTO</a
+            >
+        </li>
     </ul>
 </div>
