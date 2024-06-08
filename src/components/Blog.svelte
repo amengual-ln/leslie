@@ -7,37 +7,36 @@
 <section id="blog" class="m-4 bg-black pt-4 pb-2 text-xl">
   <h1 class="text-3xl text-center text-leslie_gold font-medium">BLOG</h1>
   <div class="hidden lg:flex">
-    <article class="bg-[#222] m-4 p-4 text-white">
+    <article class="bg-[#222] m-4 p-4 text-white flex-1 flex flex-col gap-4">
       <img src="blog1.png" alt="Imagen del articulo" />
       <p class="py-2 text-justify text-balance">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
-        reiciendis? Consequatur possimus nostrum labore voluptatibus quisquam
-        ipsa optio, sequi a porro, maxime perspiciatis aliquam rerum non
-        nesciunt nulla earum cum.
+        Que las circunstancias, un “mal jefe”, una mala racha, tu agenda o tu
+        pareja NO controlen tu vida o decidan tu estado de ánimo. Ante cualquier
+        situación tu siempre tienes el poder de elegir que actitud tomar. Elige
+        siempre lo que te dé paz.
       </p>
       <div class="text-center pt-4">
         <Button value="Leer más" />
       </div>
     </article>
-    <article class="bg-[#222] m-4 p-4 text-white">
+    <article class="bg-[#222] m-4 p-4 text-white flex-1 flex flex-col gap-4">
       <img src="blog2.jpeg" alt="Imagen del articulo" />
       <p class="py-2 text-justify text-balance">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
-        reiciendis? Consequatur possimus nostrum labore voluptatibus quisquam
-        ipsa optio, sequi a porro, maxime perspiciatis aliquam rerum non
-        nesciunt nulla earum cum.
+        Que tu pasado o las etiquetas que te han impuesto NO te definan. Tú vas
+        a ser quien elijas ser a partir de hoy.
       </p>
       <div class="text-center pt-4">
         <Button value="Leer más" />
       </div>
     </article>
-    <article class="bg-[#222] m-4 p-4 text-white">
+    <article class="bg-[#222] m-4 p-4 text-white flex-1 flex flex-col gap-4">
       <img src="blog3.jpeg" alt="Imagen del articulo" />
       <p class="py-2 text-justify text-balance">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
-        reiciendis? Consequatur possimus nostrum labore voluptatibus quisquam
-        ipsa optio, sequi a porro, maxime perspiciatis aliquam rerum non
-        nesciunt nulla earum cum.
+        Que tus emociones no secuestren tu objetividad y capacidad de decisión.
+        La inteligencia emocional es una capacidad que se puede desarrollar. Es
+        normal y sano sentir enojo, frustración, tristeza o miedo, pero no te
+        funciona tomar decisiones definitivas cuando transitas por emociones
+        temporales.
       </p>
       <div class="text-center pt-4">
         <Button value="Leer más" />
@@ -50,10 +49,10 @@
       <article class="bg-[#222] m-4 p-4 text-white">
         <img src="blog1.png" alt="Imagen del articulo" />
         <p class="py-2 text-justify text-balance">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
-          reiciendis? Consequatur possimus nostrum labore voluptatibus quisquam
-          ipsa optio, sequi a porro, maxime perspiciatis aliquam rerum non
-          nesciunt nulla earum cum.
+          Que las circunstancias, un “mal jefe”, una mala racha, tu agenda o tu
+          pareja NO controlen tu vida o decidan tu estado de ánimo. Ante
+          cualquier situación tu siempre tienes el poder de elegir que actitud
+          tomar. Elige siempre lo que te dé paz.
         </p>
         <div class="text-center pt-4">
           <Button value="Leer más" />
@@ -64,10 +63,8 @@
       <article class="bg-[#222] m-4 p-4 text-white">
         <img src="blog2.jpeg" alt="Imagen del articulo" />
         <p class="py-2 text-justify text-balance">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
-          reiciendis? Consequatur possimus nostrum labore voluptatibus quisquam
-          ipsa optio, sequi a porro, maxime perspiciatis aliquam rerum non
-          nesciunt nulla earum cum.
+          Que tu pasado o las etiquetas que te han impuesto NO te definan. Tú
+          vas a ser quien elijas ser a partir de hoy.
         </p>
         <div class="text-center pt-4">
           <Button value="Leer más" />
@@ -78,10 +75,11 @@
       <article class="bg-[#222] m-4 p-4 text-white">
         <img src="blog3.jpeg" alt="Imagen del articulo" />
         <p class="py-2 text-justify text-balance">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus,
-          reiciendis? Consequatur possimus nostrum labore voluptatibus quisquam
-          ipsa optio, sequi a porro, maxime perspiciatis aliquam rerum non
-          nesciunt nulla earum cum.
+          Que tus emociones no secuestren tu objetividad y capacidad de
+          decisión. La inteligencia emocional es una capacidad que se puede
+          desarrollar. Es normal y sano sentir enojo, frustración, tristeza o
+          miedo, pero no te funciona tomar decisiones definitivas cuando
+          transitas por emociones temporales.
         </p>
         <div class="text-center pt-4">
           <Button value="Leer más" />
