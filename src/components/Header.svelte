@@ -29,17 +29,9 @@
 </header>
 
 <div
-    class={`absolute bg-leslie_black w-full p-4 text-white text-center text-2xl ${open ? "block" : "hidden"}`}
+    class={`absolute bg-leslie_black w-full p-4 text-white text-center text-2xl ${open ? "block" : "hidden"} z-10`}
 >
     <ul class="flex flex-col gap-4 opacity-75 hover:opacity:100">
-        <li>
-            <a
-                on:click={() => {
-                    open = !open;
-                }}
-                href="#testimonios">TESTIMONIOS</a
-            >
-        </li>
         <li>
             <a
                 on:click={() => {
@@ -61,6 +53,14 @@
                 on:click={() => {
                     open = !open;
                 }}
+                href="#ceo-training">CEO TRAINING</a
+            >
+        </li>
+        <li>
+            <a
+                on:click={() => {
+                    open = !open;
+                }}
                 href="#ceo-mind">CEO MIND</a
             >
         </li>
@@ -69,7 +69,7 @@
                 on:click={() => {
                     open = !open;
                 }}
-                href="#ceo-training">CEO TRAINING</a
+                href="#testimonios">TESTIMONIOS</a
             >
         </li>
         <li>

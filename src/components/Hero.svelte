@@ -5,8 +5,8 @@
     class="grid gap-4 lg:items-center lg:min-h-[80vh] lg:max-w-[70vw] mx-auto text-center lg:text-xl"
   >
     <div class="grid gap-4 justify-center text-xl drop-shadow lg:-ml-72 m-8">
-      <img src="/logo.png" alt="Leslie Beltrán" class="lg:h-48" />
-      <span class="text-xl opacity-80">MINDSET FOR SUCCESS</span>
+      <img src="/heroLogo.png" alt="Leslie Beltrán" class="lg:h-52" />
+      <span class="text-white text-xl opacity-80 tracking-widest">CONFERENCISTA, COACH Y MENTORA</span>
     </div>
   </div>
 </section>
