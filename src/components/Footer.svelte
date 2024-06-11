@@ -4,6 +4,7 @@
   import Instagram from "./icons/Instagram.svelte";
   import Linkedin from "./icons/Linkedin.svelte";
   import Spotify from "./icons/Spotify.svelte";
+  import Youtube from "./icons/Youtube.svelte";
 </script>
 
 <footer
@@ -34,10 +35,37 @@
         <span class="text-sm opacity-80">MINDSET FOR SUCCESS</span>
       </div>
       <ul class="flex justify-center gap-8 mt-2">
-        <li class="opacity-75 hover:opacity-100"><Spotify /></li>
-        <li class="opacity-75 hover:opacity-100"><Instagram /></li>
-        <li class="opacity-75 hover:opacity-100"><Linkedin /></li>
-        <li class="opacity-75 hover:opacity-100"><Facebook /></li>
+        <li class="opacity-75 hover:opacity-100">
+          <a
+            href="https://www.facebook.com/leslie.bienestar"
+            target="_blank"
+            rel="noopener noreferrer"><Facebook /></a
+          >
+        </li>
+        <li class="opacity-75 hover:opacity-100">
+          <a
+            href="https://www.instagram.com/lesliebeltran.oficial/"
+            target="_blank"
+            rel="noopener noreferrer"><Instagram /></a
+          >
+        </li>
+        <li class="opacity-75 hover:opacity-100">
+          <a
+            href="https://www.linkedin.com/in/leslie-beltr%C3%A1n-%F0%9F%87%B2%F0%9F%87%BD-872267130/"
+            target="_blank"
+            rel="noopener noreferrer"><Linkedin /></a
+          >
+        </li>
+        <li class="opacity-75 hover:opacity-100">
+          <a
+            href="https://www.youtube.com/channel/UCxKftN2Ia_DKYROt13GOS-A"
+            target="_blank"
+            rel="noopener noreferrer"><Youtube /></a
+          >
+        </li>
+        <li class="opacity-75 hover:opacity-100">
+          <a href="#contacto" target="_blank" rel="noopener noreferrer"><Spotify /></a>
+        </li>
       </ul>
     </div>
     <div>
