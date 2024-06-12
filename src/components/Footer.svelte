@@ -3,7 +3,6 @@
   import Facebook from "./icons/Facebook.svelte";
   import Instagram from "./icons/Instagram.svelte";
   import Linkedin from "./icons/Linkedin.svelte";
-  import Spotify from "./icons/Spotify.svelte";
   import Youtube from "./icons/Youtube.svelte";
 </script>
 
@@ -60,9 +59,6 @@
             target="_blank"
             rel="noopener noreferrer"><Youtube /></a
           >
-        </li>
-        <li class="opacity-75 hover:opacity-100">
-          <a href="#contacto" target="_blank" rel="noopener noreferrer"><Spotify /></a>
         </li>
       </ul>
     </div>
