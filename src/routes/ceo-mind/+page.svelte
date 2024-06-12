@@ -1,3 +1,7 @@
+<script>
+  import Button from "../../components/atoms/Button.svelte";
+</script>
+
 <main class="max-w-screen-2xl mx-auto">
   <section id="ceo-mind" class="text-xl p-4">
     <img
@@ -31,6 +35,11 @@
           personal por diseño.
         </p>
       </div>
+    </div>
+    <div class="grid justify-center">
+      <a href="/" target="_blank" rel="noopener noreferrer" class="my-8">
+        <Button value="¿Estas listo para tomar el control?" />
+      </a>
     </div>
   </section>
 </main>
