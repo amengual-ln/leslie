@@ -16,7 +16,13 @@
         siempre lo que te dé paz.
       </p>
       <div class="text-center pt-4">
-        <Button value="Leer más" />
+        <a
+          href="https://lesliebeltran.mx/blog/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button value="Leer más" />
+        </a>
       </div>
     </article>
     <article class="bg-[#222] m-4 p-4 text-white flex-1 flex flex-col gap-4">
@@ -26,7 +32,13 @@
         a ser quien elijas ser a partir de hoy.
       </p>
       <div class="text-center pt-4">
-        <Button value="Leer más" />
+        <a
+          href="https://lesliebeltran.mx/blog/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button value="Leer más" />
+        </a>
       </div>
     </article>
     <article class="bg-[#222] m-4 p-4 text-white flex-1 flex flex-col gap-4">
@@ -39,7 +51,13 @@
         temporales.
       </p>
       <div class="text-center pt-4">
-        <Button value="Leer más" />
+        <a
+          href="https://lesliebeltran.mx/blog/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button value="Leer más" />
+        </a>
       </div>
     </article>
   </div>
@@ -55,7 +73,13 @@
           tomar. Elige siempre lo que te dé paz.
         </p>
         <div class="text-center pt-4">
-          <Button value="Leer más" />
+          <a
+            href="https://lesliebeltran.mx/blog/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button value="Leer más" />
+          </a>
         </div>
       </article>
     </swiper-slide>
@@ -67,7 +91,13 @@
           vas a ser quien elijas ser a partir de hoy.
         </p>
         <div class="text-center pt-4">
-          <Button value="Leer más" />
+          <a
+            href="https://lesliebeltran.mx/blog/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button value="Leer más" />
+          </a>
         </div>
       </article>
     </swiper-slide>
@@ -82,7 +112,13 @@
           transitas por emociones temporales.
         </p>
         <div class="text-center pt-4">
-          <Button value="Leer más" />
+          <a
+            href="https://lesliebeltran.mx/blog/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button value="Leer más" />
+          </a>
         </div>
       </article>
     </swiper-slide>
