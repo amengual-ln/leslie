@@ -10,7 +10,7 @@
   />
   <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">
     <div class="flex flex-col justify-center gap-4 flex-1">
-      <p>
+      <p class="text-center lg:text-left">
         CEOmind es una membresía de mantenimiento diseñada para aquellos que ya
         han trabajado conmigo durante al menos un año. Este programa es
         exclusivo para personas que han completado CEO Training o al menos dos
