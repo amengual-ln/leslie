@@ -11,15 +11,15 @@
     />
     <div class="flex gap-12 px-4 py-12">
       <div class="flex flex-col justify-center flex-1">
-        <p>
+        <p class="text-center lg:text-left">
           ¿Sabías que el verdadero crecimiento como líder ocurre cuando te
           rodeas de otros líderes y mentores que te desafían y apoyan?
         </p>
-        <p>
+        <p class="text-center lg:text-left">
           En CEO Training, te ofrecemos un programa de mentoría grupal integral,
           diseñado para transformar tu vida y liderazgo. Este programa incluye:
         </p>
-        <ul class="flex flex-col gap-4 list-disc my-8 mx-8 text-justify">
+        <ul class="flex flex-col gap-4 list-disc my-8 mx-8 text-center lg:text-left">
           <li>
             <b>Onboarding como CEO de tu Vida:</b> Firmarás un contrato contigo mismo
             para comprometerte a tus objetivos durante cinco meses. Hay diez preceptos
@@ -52,8 +52,8 @@
             plan para los próximos tres años.
           </li>
         </ul>
-        <p>Además, CEO Training incluye:</p>
-        <ul class="flex flex-col gap-4 list-disc my-8 mx-8 text-justify">
+        <p class="text-center lg:text-left">Además, CEO Training incluye:</p>
+        <ul class="flex flex-col gap-4 list-disc my-8 mx-8 text-center lg:text-left">
           <li>
             <b>Clases de yoga semanales:</b> Para desarrollar una mente flexible
             en un cuerpo flexible.

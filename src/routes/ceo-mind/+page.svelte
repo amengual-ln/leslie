@@ -11,7 +11,7 @@
     />
     <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">
       <div class="flex flex-col justify-center gap-4 flex-1">
-        <p>
+        <p class="text-center lg:text-left">
           CEOmind es una membresía de mantenimiento diseñada para aquellos que
           ya han trabajado conmigo durante al menos un año. Este programa es
           exclusivo para personas que han completado CEO Training o al menos dos
@@ -19,17 +19,17 @@
         </p>
       </div>
       <div class="flex flex-col justify-center flex-1">
-        <p>
+        <p class="text-center lg:text-left">
           CEOmind se enfoca en mantener y continuar desarrollando las
           habilidades adquiridas, asegurando un crecimiento continuo. Nos
           reunimos dos veces al mes en sesiones grupales para:
         </p>
-        <ul class="flex flex-col gap-4 list-disc my-8 ml-8">
+        <ul class="flex flex-col gap-4 list-disc my-8 ml-8 text-center lg:text-left">
           <li>Revisar y ajustar tus metas y estrategias</li>
           <li>Proporcionar apoyo continuo y comunidad</li>
           <li>Ofrecer contenido exclusivo y actualizaciones</li>
         </ul>
-        <p>
+        <p class="text-center lg:text-left">
           CEOmind es el siguiente nivel para aquellos comprometidos con su
           desarrollo a largo plazo y que desean mantener una vida profesional y
           personal por diseño.
