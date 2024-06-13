@@ -5,7 +5,7 @@
 <div
   class="fixed bottom-0 right-0 m-8 drop-shadow-lg opacity-50 hover:opacity-100 cursor-pointer z-50"
 >
-  <a href="https://walink.co/ba9b16" target="_blank" rel="noopener noreferrer">
+  <a href="https://walink.co/bccb88" target="_blank" rel="noopener noreferrer">
     <Whatsapp />
   </a>
 </div>

@@ -1,12 +1,15 @@
-<section
-  class="min-h-[80vh] bg-[#9a9a9a] bg-[url('/landing-mobile.png')] lg:bg-[url('/landing.png')] bg-[50%_120px] lg:bg-center bg-no-repeat"
->
+<section class="max-h-[80vh] bg-[#DCDCDE] overflow-hidden">
   <div
-    class="grid gap-4 lg:items-center lg:min-h-[80vh] lg:max-w-[70vw] mx-auto text-center lg:text-xl"
+    class="max-h-[80vh] max-w-[1280px] mx-auto grid lg:grid-cols-2 lg:gap-4 lg:items-center text-center lg:text-xl"
   >
-    <div class="grid gap-4 justify-center text-xl drop-shadow lg:-ml-72 m-8">
-      <img src="/heroLogo.png" alt="Leslie Beltrán" class="lg:h-52" />
-      <span class="text-white text-xl opacity-80 tracking-widest">CONFERENCISTA, COACH Y MENTORA</span>
+    <div class="max-h-[80vh] grid gap-4 justify-end text-xl drop-shadow-md m-8">
+      <img src="/heroLogo.png" alt="Leslie Beltrán" class="lg:max-h-52" />
+      <span class="text-white text-xl opacity-80 tracking-widest"
+        >CONFERENCISTA, COACH Y MENTORA</span
+      >
+    </div>
+    <div class="max-h-[80vh]">
+      <img src="hero-img.png" alt="Foto de Leslie" />
     </div>
   </div>
 </section>
