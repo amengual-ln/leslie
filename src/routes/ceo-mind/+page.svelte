@@ -18,6 +18,9 @@
           CEO Hacking.
         </p>
       </div>
+      <div class="block lg:hidden">
+        <img src="/mind.webp" alt="Yoga">
+      </div>
       <div class="flex flex-col justify-center flex-1">
         <p class="text-center lg:text-left">
           CEOmind se enfoca en mantener y continuar desarrollando las

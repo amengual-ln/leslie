@@ -19,7 +19,9 @@
           En CEO Training, te ofrecemos un programa de mentoría grupal integral,
           diseñado para transformar tu vida y liderazgo. Este programa incluye:
         </p>
-        <ul class="flex flex-col gap-4 list-disc my-8 mx-8 text-center lg:text-left">
+        <ul
+          class="flex flex-col gap-4 list-disc my-8 mx-8 text-center lg:text-left"
+        >
           <li>
             <b>Onboarding como CEO de tu Vida:</b> Firmarás un contrato contigo mismo
             para comprometerte a tus objetivos durante cinco meses. Hay diez preceptos
@@ -52,8 +54,13 @@
             plan para los próximos tres años.
           </li>
         </ul>
-        <p class="text-center lg:text-left">Además, CEO Training incluye:</p>
-        <ul class="flex flex-col gap-4 list-disc my-8 mx-8 text-center lg:text-left">
+        <div class="block lg:hidden">
+          <img src="/training.webp" alt="Training" />
+        </div>
+        <p class="text-center lg:text-left mt-8">Además, CEO Training incluye:</p>
+        <ul
+          class="flex flex-col gap-4 list-disc my-8 mx-8 text-center lg:text-left"
+        >
           <li>
             <b>Clases de yoga semanales:</b> Para desarrollar una mente flexible
             en un cuerpo flexible.
@@ -75,7 +82,12 @@
       </div>
     </div>
     <div class="grid justify-center">
-      <a href="https://walink.co/bccb88" target="_blank" rel="noopener noreferrer" class="my-8">
+      <a
+        href="https://walink.co/bccb88"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="my-8"
+      >
         <Button value="¿Estas listo para tomar el control?" />
       </a>
     </div>

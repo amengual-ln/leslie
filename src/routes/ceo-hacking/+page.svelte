@@ -25,6 +25,9 @@
           exitosas profesionalmente, pero que quieren alcanzar nuevas alturas.
         </p>
       </div>
+      <div class="block lg:hidden">
+        <img src="/hacking.webp" alt="hacking">
+      </div>
       <div class="flex flex-col justify-center flex-1">
         <p class="text-center lg:text-left">
           CEO Hacking es un proceso individual de coaching que dura tres meses.
