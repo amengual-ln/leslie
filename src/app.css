@@ -7,11 +7,33 @@
   src: url("/fonts/POPPINS/Poppins-Regular.otf");
 }
 
+@font-face {
+  font-family: Baskerville;
+  src: url("/fonts/BASKERVILLE/baskvl.ttf");
+}
+
+
 @layer base {
 
   html,
   body {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3,
+  button {
+    font-family: Baskerville, sans-serif;
+
+  }
+
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
   }
 }

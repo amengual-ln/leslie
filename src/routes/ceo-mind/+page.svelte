@@ -27,7 +27,7 @@
           habilidades adquiridas, asegurando un crecimiento continuo. Nos
           reunimos dos veces al mes en sesiones grupales para:
         </p>
-        <ul class="flex flex-col gap-4 list-disc my-8 ml-8 text-center lg:text-left">
+        <ul class="flex flex-col gap-4 list-disc my-8 ml-8">
           <li>Revisar y ajustar tus metas y estrategias</li>
           <li>Proporcionar apoyo continuo y comunidad</li>
           <li>Ofrecer contenido exclusivo y actualizaciones</li>

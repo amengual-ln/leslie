@@ -16,8 +16,8 @@
     href="https://lesliebeltran.mx/"
     target="_blank"
     rel="noopener noreferrer"
-    class="mt-12"
+    class="mt-12 text-xl"
   >
-    <Button value="CONOCÉ MÁS" />
+    <Button value="Conoce más..." />
   </a>
 </section>

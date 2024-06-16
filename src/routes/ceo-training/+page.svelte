@@ -20,7 +20,7 @@
           diseñado para transformar tu vida y liderazgo. Este programa incluye:
         </p>
         <ul
-          class="flex flex-col gap-4 list-disc my-8 mx-8 text-center lg:text-left"
+          class="flex flex-col gap-4 list-disc my-8 mx-8"
         >
           <li>
             <b>Onboarding como CEO de tu Vida:</b> Firmarás un contrato contigo mismo
@@ -59,7 +59,7 @@
         </div>
         <p class="text-center lg:text-left mt-8">Además, CEO Training incluye:</p>
         <ul
-          class="flex flex-col gap-4 list-disc my-8 mx-8 text-center lg:text-left"
+          class="flex flex-col gap-4 list-disc my-8 mx-8"
         >
           <li>
             <b>Clases de yoga semanales:</b> Para desarrollar una mente flexible

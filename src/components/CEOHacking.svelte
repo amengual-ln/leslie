@@ -24,7 +24,7 @@
   </p>
   <div class="grid justify-center">
     <a href="/ceo-hacking" class="mt-12">
-      <Button value="CONOCÉ MÁS" />
+      <Button value="Conoce más..." />
     </a>
   </div>
 </section>
