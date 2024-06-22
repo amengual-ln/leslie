@@ -5,7 +5,7 @@
 <section id="ceo-hacking" class="mx-auto text-xl p-4">
   <img
     src="CEOhacking.png"
-    alt="CEO Hacking Logo"
+    alt="CEO HACKING Logo"
     class="aspect-[16/5] object-cover"
   />
   <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">

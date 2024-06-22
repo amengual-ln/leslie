@@ -6,13 +6,13 @@
   <section class="mx-auto text-xl p-4">
     <img
       src="CEOhacking.png"
-      alt="CEO Hacking Logo"
+      alt="CEO HACKING Logo"
       class="aspect-[16/5] object-cover"
     />
     <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">
       <div class="flex flex-col justify-center gap-4 flex-1">
         <p class="text-center lg:text-left">
-          CEO Hacking es para que tengas una vida profesional por diseño y no
+          CEO HACKING es para que tengas una vida profesional por diseño y no
           por accidente. Está dirigido a directivos que desean avanzar en su
           carrera: directivos de área que quieren ascender a directores
           generales, directivos que buscan fundar su propia empresa o aquellos
@@ -30,7 +30,7 @@
       </div>
       <div class="flex flex-col justify-center flex-1">
         <p class="text-center lg:text-left">
-          CEO Hacking es un proceso individual de coaching que dura tres meses.
+          CEO HACKING es un proceso individual de coaching que dura tres meses.
           Aunque puede extenderse, empezamos con un compromiso de tres meses con
           sesiones semanales. Este programa ofrece:
         </p>

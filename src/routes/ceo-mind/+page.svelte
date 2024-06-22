@@ -6,7 +6,7 @@
   <section id="ceo-mind" class="text-xl p-4">
     <img
       src="CEOmind.png"
-      alt="CEO Mind Logo"
+      alt="CEO MIND Logo"
       class="aspect-[16/5] object-cover"
     />
     <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">
@@ -14,8 +14,8 @@
         <p class="text-center lg:text-left">
           CEOmind es una membresía de mantenimiento diseñada para aquellos que
           ya han trabajado conmigo durante al menos un año. Este programa es
-          exclusivo para personas que han completado CEO Training o al menos dos
-          CEO Hacking.
+          exclusivo para personas que han completado CEO TRAINING o al menos dos
+          CEO HACKING.
         </p>
       </div>
       <div class="block lg:hidden">

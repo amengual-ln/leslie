@@ -5,7 +5,7 @@
 <section id="ceo-training" class="text-xl p-4">
   <img
     src="CEOtraining.png"
-    alt="CEO Training Logo"
+    alt="CEO TRAINING Logo"
     class="aspect-[16/5] object-cover"
   />
   <div class="flex gap-12 px-4 py-12">

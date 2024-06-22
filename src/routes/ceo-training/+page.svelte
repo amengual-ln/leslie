@@ -6,7 +6,7 @@
   <section id="ceo-training" class="text-xl p-4">
     <img
       src="CEOtraining.png"
-      alt="CEO Training Logo"
+      alt="CEO TRAINING Logo"
       class="aspect-[16/5] object-cover"
     />
     <div class="flex gap-12 px-4 py-12 text-center lg:text-left">
@@ -16,7 +16,7 @@
           rodeas de otros líderes y mentores que te desafían y apoyan?
         </p>
         <p class="text-center lg:text-left">
-          En CEO Training, te ofrecemos un programa de mentoría grupal integral,
+          En CEO TRAINING, te ofrecemos un programa de mentoría grupal integral,
           diseñado para transformar tu vida y liderazgo. Este programa incluye:
         </p>
         <ol class="flex flex-col gap-4 list-disc my-8 mx-8">
