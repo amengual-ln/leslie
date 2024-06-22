@@ -62,7 +62,7 @@
     </article>
   </div>
 
-  <swiper-container autoplay-delay="5000" loop class="lg:hidden">
+  <swiper-container autoplay-delay="10000" loop class="lg:hidden">
     <swiper-slide>
       <article class="bg-[#222] m-4 p-4 text-white">
         <img src="blog1.png" alt="Imagen del articulo" />

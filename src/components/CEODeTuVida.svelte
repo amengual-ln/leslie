@@ -37,8 +37,8 @@
       <p class="text-center lg:text-left">
         CEO de tu Vida es un programa exclusivo de coaching diseñado para
         líderes y visionarios como tú, que buscan transformar su vida personal y
-        profesional. Ofrecemos tres formatos únicos para ayudarte a alcanzar tu
-        máximo potencial:
+        profesional. Ofrecemos 3 formatos únicos para que dejes de ser el office
+        boy y te transformes en CEO de tu vida:
       </p>
     </div>
   </div>

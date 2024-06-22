@@ -9,8 +9,8 @@
       alt="CEO Training Logo"
       class="aspect-[16/5] object-cover"
     />
-    <div class="flex gap-12 px-4 py-12">
-      <div class="flex flex-col justify-center flex-1">
+    <div class="flex gap-12 px-4 py-12 text-center lg:text-left">
+      <div class="flex flex-col justify-center flex-1 gap-4">
         <p class="text-center lg:text-left">
           ¿Sabías que el verdadero crecimiento como líder ocurre cuando te
           rodeas de otros líderes y mentores que te desafían y apoyan?
@@ -19,66 +19,96 @@
           En CEO Training, te ofrecemos un programa de mentoría grupal integral,
           diseñado para transformar tu vida y liderazgo. Este programa incluye:
         </p>
-        <ul
-          class="flex flex-col gap-4 list-disc my-8 mx-8"
-        >
+        <ol class="flex flex-col gap-4 list-disc my-8 mx-8">
           <li>
-            <b>Onboarding como CEO de tu Vida:</b> Firmarás un contrato contigo mismo
-            para comprometerte a tus objetivos durante cinco meses. Hay diez preceptos
-            fundamentales que guiarán tu liderazgo.
+            <b>Onboarding:</b> tu bienvenida como CEO DE TU VIDA y
+            establecimiento de los
+            <b>indicadores de desempeño de tu vida EXTRA-ordinaria</b>. Medimos
+            muchas cosas en nuestra vida, pero casi nunca medimos nuestro propio
+            desempeño en nuestro día a día, así que aquí elaboras tus KPIs y de
+            manera mensual los evaluamos para ver si estás enfocado realmente en
+            lo que quieres vivir, sentir y tener.
           </li>
           <li>
-            <b>Definición de KPIs personales:</b> Medirás tu desempeño y establecerás
-            estrategias para alcanzar tus metas. Revisamos estos KPIs mensualmente
-            para asegurar tu progreso.
+            <b>Recableado mental:</b> te enseño a usar tu cerebro de forma
+            funcional y cómo trabajar tu inteligencia emocional desde la
+            perspectiva de las neurociencias. Aquí también empiezas a descubrir
+            tus techos de cristal y hacemos una
+            <b
+              >poda neuronal para erradicar los patrones de pensamiento y
+              comportamiento</b
+            > que ya no te son funcionales.
           </li>
           <li>
-            <b>Recableado mental:</b> Te enseño a utilizar tu cerebro, como un Ferrari,
-            creando nuevas conexiones neuronales y trabajando en la inteligencia
-            que más dinero te va a dejar: la inteligencia emocional.
+            <b>Creación cuántica:</b> Te enseño a convertirte en un creador
+            cuántico y a
+            <b>transformar tu realidad a través de lo que piensas y sientes</b>.
+            También aprenderás cómo dejar de ser la persona que has venido
+            siendo, para transformarte en una nueva versión de ti:
+            <b>más valiente, más audaz, más creativa y más brillante</b>. No es
+            brujería, es ciencia 😉
           </li>
           <li>
-            <b>Creación cuántica:</b> Aprende a usar tu mente para visualizar y diseñar
-            la vida que deseas, basado en principios de la física cuántica. Tus pensamientos
-            y emociones son energía que puede transformar realidades.
+            <b>Riqueza y abundancia:</b> Revisamos en qué proyectos, personas o
+            situaciones estás invirtiendo tus 5 recursos más importantes:
+            <b>tiempo, energía, emociones pensamientos y dinero</b> y si te
+            están dando las ganancias que quieres o no. <br /> Y vemos cómo
+            generarte una vida más abundante, ya que la abundancia es una forma
+            de ser, así que aquí aprendes a ser un <b>imán de bendiciones</b>.
           </li>
           <li>
-            <b>Riqueza y abundancia:</b> Desarrolla una actitud de abundancia y felicidad.
-            La riqueza es todo aquello que te queda cuando te quedas sin dinero:
-            contactos, talentos, conocimientos y felicidad.
+            <b>Rebeldía:</b> 5. Nos han enseñado a no incomodar, a no molestar,
+            a encajar a la fuerza y a contenernos. Así que en este módulo
+            rompemos con eso y te muestro cómo ser rebelde para ser tu mismo, a
+            ser rebelde para ir por tus sueños más ambiciosos y a
+            <b>tomar decisiones impopulares sin culpa</b>.
           </li>
-          <li>
-            <b>Módulo de rebeldía:</b> Sé tan rebelde como para tomar decisiones
-            impopulares sin culpa y vivir con ligereza. Saldrás con tres documentos
-            esenciales: tus políticas de vida, tu filosofía personal y un master
-            plan para los próximos tres años.
-          </li>
-        </ul>
+        </ol>
         <div class="block lg:hidden">
           <img src="/training.webp" alt="Training" />
         </div>
-        <p class="text-center lg:text-left mt-8">Además, CEO Training incluye:</p>
-        <ul
-          class="flex flex-col gap-4 list-disc my-8 mx-8"
-        >
+        <p class="text-center lg:text-left mt-8">
+          Adicional a todo esto, también tendrás:
+        </p>
+        <ul class="flex flex-col gap-4 list-disc my-8 mx-8">
           <li>
-            <b>Clases de yoga semanales:</b> Para desarrollar una mente flexible
-            en un cuerpo flexible.
+            Todos los sábados por la mañana tendrás clases de yoga porque mi
+            premisa es que <b>una mente flexible vive en un cuerpo flexible</b> y
+            si tu mente ve que tu cuerpo va más allá de sus límites, tu mente también
+            se empieza a expandir.
           </li>
           <li>
-            <b>Master clases mensuales con expertos:</b> En áreas como finanzas personales,
-            imagen pública, negociación, relaciones de pareja, y más.
-          </li>
-          <li>
-            <b>Retos semanales:</b> Para aplicar lo aprendido de manera práctica.
-          </li>
-          <li>
-            <b>Grupo de WhatsApp:</b> Para soporte y acompañamiento diario durante
-            toda la mentoría. No ser parte de CEO Training es quedarse como un Officeboy,
-            siguiendo instrucciones y esperando oportunidades, en lugar de crear
-            tu propio camino hacia el éxito.
+            Master classes con expertos invitados, un sábado al mes, para que
+            puedas tener herramientas de otros expertos que te ayudarán a
+            <b>aumentar la rentabilidad de tu vida</b>.
           </li>
         </ul>
+        <p>
+          El objetivo del CEO TRAINING, es que tengas herramientas para hacer
+          <b>tu vida altamente rentable</b>
+          (con más tiempo, más energía, más salud, más felicidad, propósito y dinero).
+        </p>
+        <p>
+          Y sales de este traning con una <b
+            >filosofía de vida realmente tuya, que te nutre y te ayuda a ir por
+            tus sueños más ambiciosos</b
+          >, y asi dejar de repetir patrones de pensamiento y comportamiento que
+          aprendiste en casa y que son de la abuelita de tu abuelita.
+        </p>
+        <p>
+          Además, la filosofía de vida es tu As bajo la manga ante cualquier
+          adversidad, crisis o situación que se salga de control.
+        </p>
+        <p>
+          También sales con el Master Plan de la vida que quieres vivir, sentir
+          y tener en los próximos 3 años y una estrategia para conseguirla.
+        </p>
+        <p>La cita es el próximo martes 25 de junio de 7:00 a 9:00 pm</p>
+        <p><b>¿Te gustaría participar?</b></p>
+        <p>
+          Si te interesa, avísame para darte más información y por cierto, te
+          adelante que puedes pagar con tarjeta de crédito hasta 12 meses😉
+        </p>
       </div>
     </div>
     <div class="grid justify-center">

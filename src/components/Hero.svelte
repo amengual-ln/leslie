@@ -1,4 +1,6 @@
-<section class="max-h-[80vh] bg-gradient-to-b from-[#ccc] to-[#bbb] overflow-hidden">
+<section
+  class="max-h-[80vh] bg-gradient-to-b from-[#ccc] to-[#bbb] overflow-hidden"
+>
   <div
     class="max-h-[80vh] max-w-[1280px] mx-auto grid lg:grid-cols-2 lg:gap-4 lg:items-center text-center lg:text-xl"
   >
@@ -8,8 +10,11 @@
         >CONFERENCISTA, COACH Y MENTORA</span
       >
     </div>
-    <div class="max-h-[80vh]">
-      <img src="hero-img.png" alt="Foto de Leslie" />
+    <div class="max-h-[80vh] relative">
+      <img src="hero-img.png" alt="Foto de Leslie" class="absolute mix-blend opacity-100 max-h-[80vh]" />
+
+
+      <img src="hero-img.png" alt="Foto de Leslie" class="opacity-0" />
     </div>
   </div>
 </section>

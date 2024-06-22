@@ -15,13 +15,17 @@
         de otros líderes y mentores que te desafían y apoyan?
       </p>
       <p class="text-center lg:text-left">
-        En CEO Training, te ofrecemos un programa de mentoría grupal integral,
+        En CEO TRAINING, te ofrecemos un programa de mentoría grupal integral,
         diseñado para transformar tu vida y liderazgo.
+      </p>
+      <p class="text-center lg:text-left">
+        Si quieres tener una vida por diseño y ya no por accidente, el CEO
+        TRAINING es para ti.
       </p>
     </div>
   </div>
   <p class="text-center font-[600]">
-    ¡Forma parte de CEO Training y lleva tu liderazgo al siguiente nivel!
+    ¡Forma parte del CEO TRAINING y aprende a liderar tu vida con maestría!
   </p>
   <div class="grid justify-center">
     <a href="/ceo-training" class="mt-12">

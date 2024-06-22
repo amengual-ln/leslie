@@ -11,16 +11,17 @@
   <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">
     <div class="flex flex-col justify-center gap-4 flex-1">
       <p class="text-center lg:text-left">
-        CEO Hacking es para que tengas una vida profesional por diseño y no por
-        accidente. Está dirigido a directivos que desean avanzar en su carrera:
-        directivos de área que quieren ascender a directores generales,
-        directivos que buscan fundar su propia empresa o aquellos que aspiran a
-        la presidencia de su organización.
+        CEO HACKING es un proceso individual exclusivo para Directivos, para que
+        rompan con sus viejos patrones de liderazgo y se entrenen en el
+        desarrollo de life skills que les ayudarán a liderar a sus equipos de
+        forma consciente y efectiva, llevándolos a dar mejores resultados, sin
+        perder su paz mental en el camino y sin tener que pasar más horas en la
+        oficina o sacrificar su vida personal.
       </p>
     </div>
   </div>
   <p class="text-center font-[600]">
-    ¡Descubre cómo maximizar tu potencial con CEO Hacking!
+    ¡Descubre cómo maximizar tu potencial con CEO HACKING!
   </p>
   <div class="grid justify-center">
     <a href="/ceo-hacking" class="mt-12">
