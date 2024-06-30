@@ -1,5 +1,6 @@
 <script>
   import Button from "./atoms/Button.svelte";
+  import FadeUp from "./atoms/FadeUp.svelte";
 </script>
 
 <section id="ceo-de-tu-vida" class="text-xl p-4">
@@ -23,27 +24,33 @@
         Así que antes de liderar un proyecto, un equipo, una organización o un
         hogar, es crucial que empieces por liderar tu propia vida con maestría.
       </p>
-      <h1 class="font-[600] text-center pb-4 mt-12">¿Por qué es importante?</h1>
-      <p class="text-center lg:text-left">
-        Si al día de hoy no estás satisfecho/a con los resultados que has
-        obtenido en lo personal y/o en lo profesional, muy probablemente se deba
-        a que llevas años pensando como la abuelita de tu abuelita, es decir,
-        has estado repitiendo patrones que aprendiste en casa, y has estado
-        corriendo detrás de un objetivo de éxito y felicidad que nada tiene que
-        ver contigo.
-      </p>
-      <p class="text-center lg:text-left">
-        Si quieres tener una vida EXTRA-ordinaria y lograr tus metas más
-        ambiciosas, es momento de romper ese ciclo y recablear tu mente para que
-        pienses, decidas y actúes según tus propias reglas.
-      </p>
-      <h1 class="font-[600] text-center pb-4 mt-12">¿Qué ofrecemos?</h1>
-      <p class="text-center lg:text-left">
-        CEO de tu Vida es un programa exclusivo de coaching diseñado para
-        líderes y visionarios como tú, que buscan transformar su vida personal y
-        profesional. Ofrecemos 3 formatos únicos para que dejes de ser el office
-        boy y te transformes en CEO de tu vida:
-      </p>
+      <FadeUp>
+        <h1 class="font-[600] text-center pb-4 mt-12">
+          ¿Por qué es importante?
+        </h1>
+        <p class="text-center lg:text-left">
+          Si al día de hoy no estás satisfecho/a con los resultados que has
+          obtenido en lo personal y/o en lo profesional, muy probablemente se
+          deba a que llevas años pensando como la abuelita de tu abuelita, es
+          decir, has estado repitiendo patrones que aprendiste en casa, y has
+          estado corriendo detrás de un objetivo de éxito y felicidad que nada
+          tiene que ver contigo.
+        </p>
+        <p class="text-center lg:text-left">
+          Si quieres tener una vida EXTRA-ordinaria y lograr tus metas más
+          ambiciosas, es momento de romper ese ciclo y recablear tu mente para
+          que pienses, decidas y actúes según tus propias reglas.
+        </p>
+      </FadeUp>
+      <FadeUp>
+        <h1 class="font-[600] text-center pb-4 mt-12">¿Qué ofrecemos?</h1>
+        <p class="text-center lg:text-left">
+          CEO de tu Vida es un programa exclusivo de coaching diseñado para
+          líderes y visionarios como tú, que buscan transformar su vida personal
+          y profesional. Ofrecemos 3 formatos únicos para que dejes de ser el
+          office boy y te transformes en CEO de tu vida:
+        </p>
+      </FadeUp>
     </div>
   </div>
   <div class="grid justify-center">
