@@ -2,11 +2,14 @@
   import Button from "./atoms/Button.svelte";
 </script>
 
-<section id="ceo-hacking" class="mx-auto text-xl p-4">
+<section
+  id="ceo-hacking"
+  class="text-xl p-4 intersect:animate-fade-up intersect-once"
+>
   <img
     src="CEOhacking.png"
     alt="CEO HACKING Logo"
-    class="aspect-[16/5] object-cover"
+    class="aspect-[16/5] object-cover intersect:animate-fade-up intersect-once"
   />
   <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">
     <div class="flex flex-col justify-center gap-4 flex-1">

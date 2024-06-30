@@ -48,7 +48,7 @@
   </div>
   <div class="grid justify-center">
     <a href="/benefits" class="mt-12">
-      <Button value="Conoce más..." />
+      <Button value="Conoce los beneficios..." />
     </a>
   </div>
 </section>

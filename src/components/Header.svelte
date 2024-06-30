@@ -20,7 +20,8 @@
                 <a href="/#ceo-de-tu-vida">CEO DE TU VIDA</a>
                 <span class="ml-1">▼</span>
                 <div
-                    class={`absolute w-48 top-6 bg-leslie_black p-4 gap-4 flex-col ${subMenuOpen ? "flex" : "hidden"}`}
+                    style="display: 'hidden'"
+                    class={`absolute w-48 top-6 bg-leslie_black p-4 gap-4 flex-col ${subMenuOpen ? "flex" : "hidden"} z-10`}
                 >
                     <li><a href="/#ceo-hacking">CEO HACKING</a></li>
                     <li><a href="/#ceo-training">CEO TRAINING</a></li>
@@ -44,7 +45,7 @@
 </header>
 
 <div
-    class={`absolute bg-leslie_black w-full p-4 text-white text-center text-2xl ${open ? "block" : "hidden"} z-10`}
+    class={`absolute bg-leslie_black w-full p-4 text-white text-center text-2xl ${open ? "block" : "hidden"} z-50`}
 >
     <ul class="flex flex-col gap-4 opacity-75 hover:opacity:100">
         <li>
