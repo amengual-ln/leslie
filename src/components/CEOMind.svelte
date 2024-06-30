@@ -1,26 +1,15 @@
 <script>
-  import { fly } from "svelte/transition";
-  import { inview } from "svelte-inview";
   import Button from "./atoms/Button.svelte";
-
-  let isInView;
+  import FadeUp from "./atoms/FadeUp.svelte";
 </script>
 
 <section id="ceo-mind" class="text-xl p-4">
-  <div
-    use:inview={{ unobserveOnEnter: true, rootMargin: "0%" }}
-    on:change={({ detail }) => {
-      isInView = detail.inView;
-    }}
-  >
-    {#if isInView}
-      <img
-        in:fly={{ delay: 250, duration: 500, y: 100, opacity: 0 }}
-        src="CEOmind.png"
-        alt="CEO MIND Logo"
-        class="aspect-[16/5] object-cover"
-      />
-    {/if}
+  <FadeUp>
+    <img
+      src="CEOmind.png"
+      alt="CEO MIND Logo"
+      class="aspect-[16/5] object-cover"
+    />
     <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">
       <div class="flex flex-col justify-center gap-4 flex-1">
         <p class="text-center lg:text-left">
@@ -37,5 +26,5 @@
         <Button value="Conoce más..." />
       </a>
     </div>
-  </div>
+  </FadeUp>
 </section>
