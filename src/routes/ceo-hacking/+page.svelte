@@ -7,7 +7,7 @@
     <img
       src="CEOhacking.png"
       alt="CEO HACKING Logo"
-      class="aspect-[16/5] object-cover"
+      class="aspect-[16/5] object-cover animate-fade-up"
     />
     <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">
       <div class="flex flex-col justify-center gap-4 flex-1">

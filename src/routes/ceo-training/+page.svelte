@@ -1,5 +1,6 @@
 <script>
   import Button from "../../components/atoms/Button.svelte";
+  import FadeUp from "../../components/atoms/FadeUp.svelte";
 </script>
 
 <main class="max-w-screen-2xl mx-auto">
@@ -7,7 +8,7 @@
     <img
       src="CEOtraining.png"
       alt="CEO TRAINING Logo"
-      class="aspect-[16/5] object-cover"
+      class="aspect-[16/5] object-cover animate-fade-up"
     />
     <div class="flex gap-12 px-4 py-12 text-center lg:text-left">
       <div class="flex flex-col justify-center flex-1 gap-4">
@@ -102,12 +103,6 @@
         <p>
           También sales con el Master Plan de la vida que quieres vivir, sentir
           y tener en los próximos 3 años y una estrategia para conseguirla.
-        </p>
-        <p>La cita es el próximo martes 25 de junio de 7:00 a 9:00 pm</p>
-        <p><b>¿Te gustaría participar?</b></p>
-        <p>
-          Si te interesa, avísame para darte más información y por cierto, te
-          adelante que puedes pagar con tarjeta de crédito hasta 12 meses😉
         </p>
       </div>
     </div>
