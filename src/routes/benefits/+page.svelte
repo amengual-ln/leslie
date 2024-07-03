@@ -9,7 +9,7 @@
       <p class="text-center text-gray-600 max-w-2xl mb-4">
         El objetivo principal de transformarte en el CEO de tu vida es que tengas una Vida Altamente Rentable, y los resultados que obtendrás, son:
       </p>
-      <ul class="list-disc pl-8 text-left text-gray-600 max-w-2xl mb-4">
+      <ul class="grid gap-4 list-disc pl-8 text-left text-gray-600 max-w-2xl mb-4">
         <li><em>Romper Barreras Internas</em>: Destruye esos techos de cristal que limitan y sabotean tu carrera profesional y tu vida personal.</li>
         <li><em>Aumentar tus Ingresos</em>: Muchos de mis clientes han triplicado sus ingresos mientras reducen sus horas de trabajo. Gana más dinero trabajando menos.</li>
         <li><em>Desarrollar una Mentalidad a prueba de crisis</em>: Afronta crisis emocionales, financieras y profesionales con una mentalidad resiliente y segura.</li>
@@ -22,7 +22,7 @@
         <li><em>Superar el Síndrome del Impostor</em>: Libérate del síndrome del impostor y vive con ligereza, en constante expansión y crecimiento.</li>
       </ul>
       <p class="text-center text-gray-600 max-w-2xl mt-4">
-        ¡Es tu momento de tomar el control y convertirte en el CEO de tu vida!
+        ¡Es tu momento de dejar de ser el office boy y transformarte en el CEO de tu vida!
     </div>
   </div>
   <div class="grid justify-center">

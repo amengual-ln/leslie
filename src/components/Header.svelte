@@ -23,8 +23,8 @@
                     style="display: 'hidden'"
                     class={`absolute w-48 top-6 bg-leslie_black p-4 gap-4 flex-col ${subMenuOpen ? "flex" : "hidden"} z-10`}
                 >
-                    <li><a href="/#ceo-hacking">CEO HACKING</a></li>
                     <li><a href="/#ceo-training">CEO TRAINING</a></li>
+                    <li><a href="/#ceo-hacking">CEO HACKING</a></li>
                     <li><a href="/#ceo-mind">CEO MIND</a></li>
                 </div>
             </li>
@@ -61,7 +61,7 @@
                 on:click={() => {
                     open = !open;
                 }}
-                href="/#ceo-hacking">CEO HACKING</a
+                href="/#ceo-training">CEO TRAINING</a
             >
         </li>
         <li>
@@ -69,7 +69,7 @@
                 on:click={() => {
                     open = !open;
                 }}
-                href="/#ceo-training">CEO TRAINING</a
+                href="/#ceo-hacking">CEO HACKING</a
             >
         </li>
         <li>

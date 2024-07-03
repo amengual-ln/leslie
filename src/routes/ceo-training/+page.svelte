@@ -13,8 +13,7 @@
     <div class="flex gap-12 px-4 py-12 text-center lg:text-left">
       <div class="flex flex-col justify-center flex-1 gap-4">
         <p class="text-center lg:text-left">
-          ¿Sabías que el verdadero crecimiento como líder ocurre cuando te
-          rodeas de otros líderes y mentores que te desafían y apoyan?
+          ¿Sabías que tu proyecto y empresa más importante es tu vida?
         </p>
         <p class="text-center lg:text-left">
           En CEO TRAINING, te ofrecemos un programa de mentoría grupal integral,

@@ -12,8 +12,8 @@
 <Hero />
 <main class="max-w-screen-2xl mx-auto">
     <CeoDeTuVida />
-    <CEOHacking />
     <CEOTraining />
+    <CEOHacking />
     <CEOMind />
     <Testimonios />
     <CTA />
