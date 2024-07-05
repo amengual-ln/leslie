@@ -52,7 +52,7 @@
             <b>Riqueza y abundancia:</b> Revisamos en qué proyectos, personas o
             situaciones estás invirtiendo tus 5 recursos más importantes:
             <b>tiempo, energía, emociones pensamientos y dinero</b> y si te
-            están dando las ganancias que quieres o no. <br /> Y vemos cómo
+            están dando las ganancias que quieres o no. <br /><br /> Y te enseñamos cómo
             generarte una vida más abundante, ya que la abundancia es una forma
             de ser, así que aquí aprendes a ser un <b>imán de bendiciones</b>.
           </li>
@@ -67,7 +67,7 @@
         <div class="block lg:hidden">
           <img src="/training.webp" alt="Training" />
         </div>
-        <p class="text-center lg:text-left mt-8">
+        <p class="text-center lg:text-left">
           Adicional a todo esto, también tendrás:
         </p>
         <ul class="flex flex-col gap-4 list-disc my-8 mx-8">
@@ -85,23 +85,10 @@
         </ul>
         <p>
           El objetivo del CEO TRAINING, es que tengas herramientas para hacer
-          <b>tu vida altamente rentable</b>
-          (con más tiempo, más energía, más salud, más felicidad, propósito y dinero).
-        </p>
-        <p>
-          Y sales de este traning con una <b
-            >filosofía de vida realmente tuya, que te nutre y te ayuda a ir por
-            tus sueños más ambiciosos</b
-          >, y asi dejar de repetir patrones de pensamiento y comportamiento que
+          <b>tu Vida Altamente Rentable</b>
+          con más tiempo, más energía, más salud, más felicidad, propósito y dinero, escribiendote una 
+            tus sueños más ambiciosos, y asi dejar de repetir patrones de pensamiento y comportamiento que
           aprendiste en casa y que son de la abuelita de tu abuelita.
-        </p>
-        <p>
-          Además, la filosofía de vida es tu As bajo la manga ante cualquier
-          adversidad, crisis o situación que se salga de control.
-        </p>
-        <p>
-          También sales con el Master Plan de la vida que quieres vivir, sentir
-          y tener en los próximos 3 años y una estrategia para conseguirla.
         </p>
       </div>
     </div>
