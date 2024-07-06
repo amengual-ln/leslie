@@ -13,7 +13,7 @@
   >
   </iframe>
   <a
-    href="https://lesliebeltran.mx/"
+    href="https://lesliebeltran.mx/webinar"
     target="_blank"
     rel="noopener noreferrer"
     class="mt-12 text-xl animate-fade-up animate-delay-800"
