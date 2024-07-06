@@ -12,14 +12,14 @@
     />
     <div class="flex gap-12 px-4 py-12">
       <div class="flex flex-col gap-2 justify-center flex-1">
-        <p class="text-center lg:text-left">
+        <p class="text-left lg:text-left">
           ¿Sabías que tu proyecto y empresa más importante es tu vida?
         </p>
-        <p class="text-center lg:text-left">
+        <p class="text-left lg:text-left">
           En CEO TRAINING, te ofrecemos un programa de mentoría grupal integral,
           diseñado para transformar tu vida y liderazgo.
         </p>
-        <p class="text-center lg:text-left">
+        <p class="text-left lg:text-left">
           Si quieres tener una vida por diseño y ya no por accidente, el CEO
           TRAINING es para ti.
         </p>

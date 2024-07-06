@@ -8,7 +8,7 @@
   class="m-4 bg-leslie_black text-white p-8 lg:px-20 lg:grid grid-cols-2 gap-18 text-center items-center text-xl"
 >
     <h3 class="text-3xl lg:text-6xl pb-4 font">
-      ¿Están listos para tomar el control?
+      ¡Es momento de tomar acción!
     </h3>
     <div class="flex flex-col gap-4 my-4 mx-2 lg:mx-6">
       <p>

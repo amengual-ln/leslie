@@ -11,7 +11,7 @@
     />
     <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">
       <div class="flex flex-col justify-center gap-4 flex-1">
-        <p class="text-center lg:text-left">
+        <p class="text-left lg:text-left">
           CEOmind es una membresía de mantenimiento diseñada para aquellos que
           ya han trabajado conmigo durante al menos un año. Este programa es
           exclusivo para personas que han completado CEO TRAINING o al menos dos
@@ -22,7 +22,7 @@
         <img src="/mind.webp" alt="Yoga">
       </div>
       <div class="flex flex-col justify-center flex-1">
-        <p class="text-center lg:text-left">
+        <p class="text-left lg:text-left">
           CEOmind se enfoca en mantener y continuar desarrollando las
           habilidades adquiridas, asegurando un crecimiento continuo. Nos
           reunimos dos veces al mes en sesiones grupales para:
@@ -32,7 +32,7 @@
           <li>Proporcionar apoyo continuo y comunidad</li>
           <li>Ofrecer contenido exclusivo y actualizaciones</li>
         </ul>
-        <p class="text-center lg:text-left">
+        <p class="text-left lg:text-left">
           CEOmind es el siguiente nivel para aquellos comprometidos con su
           desarrollo a largo plazo y que desean mantener una vida profesional y
           personal por diseño.
@@ -41,7 +41,7 @@
     </div>
     <div class="grid justify-center">
       <a href="https://walink.co/bccb88" target="_blank" rel="noopener noreferrer" class="my-8">
-        <Button value="¿Están listos para tomar el control?" />
+        <Button value="¡Es momento de tomar acción!" />
       </a>
     </div>
   </section>

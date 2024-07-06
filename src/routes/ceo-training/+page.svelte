@@ -10,16 +10,16 @@
       alt="CEO TRAINING Logo"
       class="aspect-[16/5] object-cover animate-fade-up"
     />
-    <div class="flex gap-12 px-4 py-12 text-center lg:text-left">
+    <div class="flex gap-12 px-4 py-12 text-left lg:text-left">
       <div class="flex flex-col justify-center flex-1 gap-4">
-        <p class="text-center lg:text-left">
+        <p class="text-left lg:text-left">
           ¿Sabían que sus proyectos y empresas más importantes son sus vidas?
         </p>
-        <p class="text-center lg:text-left">
+        <p class="text-left lg:text-left">
           En CEO TRAINING, les ofrecemos un programa de mentoría grupal integral,
           diseñado para transformar sus vidas y liderazgo.
         </p>        
-        <p class="text-center lg:text-left">
+        <p class="text-left lg:text-left">
           Este programa incluye:
         </p>
         <ol class="flex flex-col gap-4 list-disc my-8 mx-8">
@@ -71,7 +71,7 @@
         <div class="block lg:hidden">
           <img src="/training.webp" alt="Training" />
         </div>
-        <p class="text-center lg:text-left">
+        <p class="text-left lg:text-left">
           Adicional a todo esto, también tendrán:
         </p>
         <ul class="flex flex-col gap-4 list-disc my-8 mx-8">
@@ -103,7 +103,7 @@
         rel="noopener noreferrer"
         class="my-8"
       >
-        <Button value="¿Están listos para tomar el control?" />
+        <Button value="¡Es momento de tomar acción!" />
       </a>
     </div>
   </section>

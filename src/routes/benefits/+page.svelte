@@ -27,7 +27,7 @@
   </div>
   <div class="grid justify-center">
     <a href="https://walink.co/bccb88" target="_blank" rel="noopener noreferrer" class="my-8">
-      <Button value="¿Están listos para tomar el control?" />
+      <Button value="¡Es momento de tomar acción!" />
     </a>
   </div>
 </section>

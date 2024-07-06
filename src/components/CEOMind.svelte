@@ -12,7 +12,7 @@
     />
     <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">
       <div class="flex flex-col justify-center gap-4 flex-1">
-        <p class="text-center lg:text-left">
+        <p class="text-left lg:text-left">
           Este programa es exclusivo para personas que han completado CEO
           TRAINING o al menos dos CEO HACKING.
         </p>
