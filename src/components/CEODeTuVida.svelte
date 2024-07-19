@@ -21,7 +21,12 @@
       </p>
       <p class="text-left lg:text-left py-4">
         Así que antes de liderar un proyecto, un equipo, una organización o un
-        hogar, es crucial que empieces por liderar tu propia vida con maestría.
+        hogar, es crucial que empieces por liderar tu propia vida con maestría 
+        porque si tú no te sientas en la silla de CEO de tu vida, entonces te 
+        conviertes en el office boy de tus miedos, inseguridades, tu pasado o 
+        de los demás. 
+
+        Ser CEO de tu vida implica también crear tu propia filosofía de vida, para vivir bajo tus propias reglas ya que si al día de hoy no estás satisfecho.
       </p>
       <h1 class="font-[600] text-left pb-4 mt-12">¿Por qué es importante?</h1>
       <p class="text-left lg:text-left py-4">
@@ -33,15 +38,18 @@
         ver contigo.
       </p>
       <p class="text-left lg:text-left py-4">
-        Si quieres tener una vida EXTRA-ordinaria y lograr tus metas más
+        Si quieres tener una Vida Altamente Rentable y lograr tus metas más
         ambiciosas, es momento de romper ese ciclo y recablear tu mente para que
         pienses, decidas y actúes según tus propias reglas.
       </p>
       <h1 class="font-[600] text-left pb-4 mt-12">¿Qué ofrecemos?</h1>
       <p class="text-left lg:text-left py-4">
-        CEO de tu Vida es un programa exclusivo de coaching diseñado para
-        líderes y visionarios como tú, que buscan transformar su vida personal y
-        profesional. Ofrecemos 3 formatos únicos para que dejes de ser el office
+        CEO de tu vida es una metodología que cuenta con varios programas exclusivos
+        para Ejecutivos y Empresarios de alto nivel, que buscan transformar su vida 
+        personal y profesional. 
+      </p>
+      <p class="text-left lg:text-left py-4">
+      Ofrecemos 3 formatos únicos para que dejes de ser el office
         boy y te transformes en CEO de tu vida:
       </p>
     </div>

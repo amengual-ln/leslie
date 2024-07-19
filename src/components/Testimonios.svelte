@@ -83,6 +83,18 @@
           alt="Testimonio de un cliente"
         /></swiper-slide
       >
+      <swiper-slide
+        ><img
+          src="testimonios/testi11.png"
+          alt="Testimonio de un cliente"
+        /></swiper-slide
+      >
+      <swiper-slide
+        ><img
+          src="testimonios/testi12.png"
+          alt="Testimonio de un cliente"
+        /></swiper-slide
+      >
     </swiper-container>
   </FadeUp>
 </section>
