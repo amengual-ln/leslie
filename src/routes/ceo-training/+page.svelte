@@ -24,9 +24,9 @@
         </p>
         <ol class="flex flex-col gap-4 list-disc my-8 mx-8">
           <li>
-            <b>Onboarding:</b> Tu bienvenida como CEOs de tu vida y establecimiento de los
-            <b>indicadores de desempeño de tu vidas EXTRA-ordinarias</b>. Medimos
-            muchas cosas en nuestras vidas, pero casi nunca medimos nuestro propio
+            <b>Onboarding:</b> Tu bienvenida como CEO de tu vida y establecimiento de los
+            <b>indicadores de desempeño de tu Vida Altamente Rentable</b>. Medimos
+            muchas cosas en nuestras vida, pero casi nunca medimos nuestro propio
             desempeño en nuestro día a día, así que aquí elabomos tus KPIs y de
             manera mensual te evaluamos para ver si estás enfocado realmente en
             lo que quieress vivir, sentir y tener.
