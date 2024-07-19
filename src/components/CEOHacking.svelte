@@ -13,8 +13,8 @@
     <div class="flex flex-col lg:flex-row gap-12 px-4 py-12">
       <div class="flex flex-col justify-center gap-4 flex-1">
         <p class="text-left lg:text-left">
-          CEO HACKING es un proceso individual exclusivo para Directivos, para
-          que rompan con sus viejos patrones de liderazgo y se entrenen en el
+          CEO HACKING es un proceso individual exclusivo para Directivos, con el 
+          objetivo de romper con sus viejos patrones de liderazgo y se entrenen en el
           desarrollo de life skills que les ayudarán a liderar a sus equipos de
           forma consciente y efectiva, llevándolos a dar mejores resultados, sin
           perder su paz mental en el camino y sin tener que pasar más horas en
