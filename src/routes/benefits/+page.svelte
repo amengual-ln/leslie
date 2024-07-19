@@ -3,13 +3,13 @@
   </script>
 
 <section id="benefits" class="text-xl p-4 bg-gray-100">
-  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
     <div class="flex flex-col items-center justify-center">
-      <h2 class="font-semibold text-center pb-4 mt-12 text-gray-800 text-3xl"></h2>Conviértete en el CEO de tu Vida</h2>
-      <p class="text-center text-gray-600 max-w-2xl mb-4">
+      <h2 class="font-semibold text-center pb-4 mt-12 text-gray-800 text-3xl">Conviértete en el CEO de tu Vida</h2>
+      <p class="text-center text-gray-600 max-w-screen-xl mb-12">
         El objetivo principal de transformarte en el CEO de tu vida es que tengas una Vida Altamente Rentable, y los resultados que obtendrás, son:
       </p>
-      <ul class="grid gap-4 list-disc pl-8 text-left text-gray-600 max-w-2xl mb-4">
+      <ul class="grid gap-4 list-disc pl-8 text-left text-gray-600 max-w-screen-xl mb-4">
         <li><em>Romper Barreras Internas</em>: Destruye esos techos de cristal que limitan y sabotean tu carrera profesional y tu vida personal.</li>
         <li><em>Aumentar tus Ingresos</em>: Muchos de mis clientes han triplicado sus ingresos mientras reducen sus horas de trabajo. Gana más dinero trabajando menos.</li>
         <li><em>Desarrollar una Mentalidad a prueba de crisis</em>: Afronta crisis emocionales, financieras y profesionales con una mentalidad resiliente y segura.</li>
