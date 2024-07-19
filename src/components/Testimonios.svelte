@@ -18,7 +18,7 @@
       TESTIMONIOS
     </h2>
     <swiper-container
-      autoplay-delay="10000"
+      autoplay-delay="100000"
       loop
       slides-per-view={windowWidth > 768 ? 3 : 1}
       space-between={18}
