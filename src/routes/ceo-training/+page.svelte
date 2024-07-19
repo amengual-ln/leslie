@@ -27,9 +27,9 @@
             <b>Onboarding:</b> Tu bienvenida como CEO de tu vida y establecimiento de los
             <b>indicadores de desempeño de tu Vida Altamente Rentable</b>. 
             Medimos muchas cosas en nuestras vida, pero casi nunca medimos nuestro propio
-            desempeño en nuestro día a día, así que aquí elabomos tus KPIs y de
+            desempeño en nuestro día a día, así que aquí elaboramos tus KPIs y de
             manera mensual te evaluamos para ver si estás enfocado realmente en
-            lo que quieress vivir, sentir y tener.
+            lo que quieres vivir, sentir y tener.
           </li>
           <li>
             <b>Recableado mental:</b> Te enseñamos a usar tu cerebro de forma
@@ -43,9 +43,9 @@
           </li>
           <li>
             <b>Creación cuántica:</b> Te enseñamos a convertirte en un creador
-            cuánticos y a
+            cuántico y a
             <b>transformar tu realidad a través de lo que piensas y sientes</b>.
-            También aprenderás cómo dejar de ser la persona que han venido
+            También aprenderás cómo dejar de ser la persona que has venido
             siendo, para transformarte en una nueva versión de ti:
             <b>más valientes, más audaz, más creativa y más brillante</b>. No es
             brujería, es ciencia 😉
@@ -55,15 +55,15 @@
             <b>Riqueza y abundancia:</b> Revisamos en qué proyectos, personas o
             situaciones estás invirtiendo tus 5 recursos más importantes:
             <b>tiempo, energía, emociones, pensamientos y dinero</b> y si te
-            están dando las ganancias que quieres o no. <br /><br /> Y te enseñamos cómo
+            están dando las ganancias que quieres. <br /><br /> Te enseñamos cómo
             generar una vida más abundante, ya que la abundancia es una forma
             de ser, así que aquí aprendes a ser <b>un imán de bendiciones</b>.
             
           </li>
           <li>
             <b>Rebeldía:</b> Nos han enseñado a no incomodar, a no molestar,
-            a encajar a la fuerza y a contenernos. Así que en este módulo
-            rompemos con eso y te mostramos cómo ser rebelde para ser tú mismo, a
+            a encajar a la fuerza y a contenernos. En este módulo
+            rompemos con eso y te mostramos cómo ser rebelde para ser tú mismo,
             ser rebelde para ir por tus sueños más ambiciosos y a
             <b>tomar decisiones impopulares sin culpa</b>.
           </li>
@@ -72,14 +72,13 @@
           <img src="/training.webp" alt="Training" />
         </div>
         <p class="text-left lg:text-left">
-          Adicional a todo esto, también tendrás:
+          Adicional a todo esto, también tendrás acceso:
         </p>
         <ul class="flex flex-col gap-4 list-disc my-8 mx-8">
           <li>
-            Todos los sábados por la mañana tendrás clases de yoga porque mi
-            premisa es que <b>una mente flexible vive en un cuerpo flexible</b> y
-            si tu mente ve que tu cuerpo va más allá de sus límites, tu mentes también
-            se empieza a expandir.
+            Clases de yoga porque mipremisa es que <b>una mente flexible vive
+            en un cuerpo flexible</b> ysi tu mente ve que tu cuerpo va más allá
+            de sus límites, tu mente también se empieza a expandir.
           </li>
           <li>
             Master classes con expertos invitados, un sábado al mes, para que
@@ -88,11 +87,10 @@
           </li>
         </ul>
         <p>
-          El objetivo del CEO TRAINING es que tengan herramientas para hacer
+          El objetivo del CEO TRAINING es que tengas herramientas para hacer
           <b>tu Vida Altamente Rentable</b>
-          con más tiempo, más energía, más salud, más felicidad, propósito y dinero, escribiendo tus
-          sueños más ambiciosos, y así dejar de repetir patrones de pensamiento y comportamiento que
-          aprendiste en casa y que son de la abuelita de tu abuelita.          
+          con más tiempo, más energía, más salud, más felicidad, propósito y dinero, alcanzando tus
+          sueños más ambiciosos, y así dejar de ser el office boy.          
         </p>
       </div>
     </div>
