@@ -26,7 +26,7 @@
     <swiper-container autoplay-delay="10000" loop class="lg:hidden">
       <swiper-slide>
         <article class="bg-[#222] m-4 p-4 text-white">
-          <img src="blog1.png" alt="Imagen del articulo" />
+          <img src="Blog2.png" alt="Imagen del articulo" />
           <div class="text-center pt-4">
             <a
               href="https://walink.co/d35a95"
