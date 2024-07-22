@@ -10,10 +10,7 @@
     <h1 class="text-3xl text-center text-leslie_gold font-medium">CEO Test</h1>
     <div class="hidden lg:flex">
       <article class="bg-[#222] m-4 p-4 text-white flex-1 flex flex-col gap-4">
-<!-- <img src="blog1.png" alt="Imagen del articulo" /> -->
-        <p class="py-2 text-justify text-balance">
-          CEO Test Da el primer paso para transformarte en CEO de tu vida!El CEO Test te permitirá identificar si eres el CEO de tu vida o el office boy. Responde el CEO Test y te regalo una sesión individual conmigo para conversar sobre tus resultados y generar una estrategia que te ayude a transformarte en CEO de tu vida. Precio Especial:$39 USD ¡Adquiérelo ahora!
-        </p>
+        <img src="blog1.png" alt="Imagen del articulo" />
         <div class="text-center pt-4">
           <a
             href="https://walink.co/d35a95"
@@ -29,10 +26,7 @@
     <swiper-container autoplay-delay="10000" loop class="lg:hidden">
       <swiper-slide>
         <article class="bg-[#222] m-4 p-4 text-white">
-          <!-- <img src="blog1.png" alt="Imagen del articulo" /> -->
-          <p class="py-2 text-justify text-balance">
-            CEO Test Da el primer paso para transformarte en CEO de tu vida!El CEO Test te permitirá identificar si eres el CEO de tu vida o el office boy. Responde el CEO Test y te regalo una sesión individual conmigo para conversar sobre tus resultados y generar una estrategia que te ayude a transformarte en CEO de tu vida. Precio Especial:$39 USD ¡Adquiérelo ahora!
-          </p>
+          <img src="blog1.png" alt="Imagen del articulo" />
           <div class="text-center pt-4">
             <a
               href="https://walink.co/d35a95"
