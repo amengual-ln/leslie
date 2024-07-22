@@ -17,7 +17,7 @@
                 on:mouseleave={() => (subMenuOpen = !subMenuOpen)}
                 class="relative cursor-pointer"
             >
-                <a href="/#ceo-de-tu-vida">CEO DE TU VIDA</a>
+                <a href="/#ceo-de-tu-vida">SERVICIOS</a>
                 <span class="ml-1">▼</span>
                 <div
                     style="display: 'hidden'"
@@ -30,7 +30,7 @@
             </li>
             <li><a href="/webinars">WEBINARS</a></li>
             <li><a href="/#testimonios">TESTIMONIOS</a></li>
-            <li><a href="/#blog">BLOG</a></li>
+            <li><a href="/#blog">CEO TEST</a></li>
             <li><a href="/#contacto">CONTACTO</a></li>
         </ul>
         <button
@@ -101,7 +101,7 @@
                 on:click={() => {
                     open = !open;
                 }}
-                href="/#blog">BLOG</a
+                href="/#blog">CEO TEST</a
             >
         </li>
         <li>
