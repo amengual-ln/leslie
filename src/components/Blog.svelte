@@ -31,11 +31,11 @@
         <article class="bg-[#222] m-4 p-4 text-white">
           <img src="blog1.png" alt="Imagen del articulo" />
           <p class="py-2 text-justify text-balance">
-            CEO Test Da el primer paso para transformarte en CEO de tu vida!El CEO Test te permitirá identificar si eres el CEO de tu vida o el Office Boy. Responde el CEO TEST y te regalo una sesión individual conmigo para conversar sobre tus resultados y generar una estrategia que te ayude a transformarte en CEO de tu vida. Precio Especial:$39 USD Adquiérelo Ahora
+            CEO Test Da el primer paso para transformarte en CEO de tu vida!El CEO Test te permitirá identificar si eres el CEO de tu vida o el office boy. Responde el CEO Test y te regalo una sesión individual conmigo para conversar sobre tus resultados y generar una estrategia que te ayude a transformarte en CEO de tu vida. Precio Especial:$39 USD ¡Adquiérelo ahora!
           </p>
           <div class="text-center pt-4">
             <a
-              href="https://walink.co/bccb88"
+              href="https://walink.co/d35a95"
               target="_blank"
               rel="noopener noreferrer"
             >

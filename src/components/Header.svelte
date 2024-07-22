@@ -53,7 +53,7 @@
                 on:click={() => {
                     open = !open;
                 }}
-                href="/#ceo-de-tu-vida">CEO DE TU VIDA</a
+                href="/#ceo-de-tu-vida">SERVICIOS</a
             >
         </li>
         <li>

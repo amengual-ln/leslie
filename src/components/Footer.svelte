@@ -101,7 +101,7 @@
               <div class="ml-form-checkboxRow ml-validate-required">
                 <label class="checkbox flex items-center gap-4 mb-6 cursor-pointer">
                   <input type="checkbox" class="text-center" />
-                  <p>Acepto la Política de Privacidad</p>
+                  <p>Acepto la <a href="https://drive.google.com/file/d/1MZL1P-ShhQN_z_q7H-JdR86WuouRsICm/view?usp=sharing" target="_blank" style="text-decoration: underline;">Política de Privacidad</a></p>
                 </label>
               </div>
               <input type="hidden" name="ml-submit" value="1" />
