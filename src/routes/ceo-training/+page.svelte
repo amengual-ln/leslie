@@ -76,8 +76,8 @@
         </p>
         <ul class="flex flex-col gap-4 list-disc my-8 mx-8">
           <li>
-            Clases de yoga porque mipremisa es que <b>una mente flexible vive
-            en un cuerpo flexible</b> ysi tu mente ve que tu cuerpo va más allá
+            Clases de yoga porque mi premisa es que <b>una mente flexible vive
+            en un cuerpo flexible</b> y si tu mente ve que tu cuerpo va más allá
             de sus límites, tu mente también se empieza a expandir.
           </li>
           <li>
