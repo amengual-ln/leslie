@@ -5,11 +5,11 @@
   register();
 </script>
 
-<FadeUp>
-<section id="blog" class="m-4 bg-black pt-4 pb-2 text-xl">
+<section id="blog" class="m-4 bg-black pt-4 pb-2 text-xl min-h-[60vh]">
+  <FadeUp>
     <h1 class="text-3xl text-center text-leslie_gold font-medium">CEO Test</h1>
     <div class="hidden lg:flex">
-      <article class="bg-[#222] m-4 p-4 text-white flex-1 flex flex-col gap-4">
+      <article class="m-4 p-4 text-white flex-1 flex flex-col gap-4">
         <img src="blog1.png" alt="Imagen del articulo" />
         <div class="text-center pt-4">
           <a
@@ -37,7 +37,7 @@
             </a>
           </div>
         </article>
-      </swiper-slide>      
+      </swiper-slide>
     </swiper-container>
-  </section>
-</FadeUp>
+  </FadeUp>
+</section>

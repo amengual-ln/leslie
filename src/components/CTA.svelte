@@ -5,7 +5,7 @@
 
 <FadeUp>
 <section
-  class="m-4 bg-leslie_black text-white p-8 lg:px-20 lg:grid grid-cols-2 gap-18 text-center items-center text-xl"
+  class="m-4 bg-leslie_black text-white p-8 lg:px-20 lg:grid grid-cols-2 gap-18 text-center items-center text-xl min-h-[40vh]"
 >
     <h3 class="text-3xl lg:text-6xl pb-4 font">
       ¡Es momento de tomar acción!

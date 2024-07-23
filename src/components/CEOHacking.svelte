@@ -3,7 +3,7 @@
   import FadeUp from "./atoms/FadeUp.svelte";
 </script>
 
-<section id="ceo-hacking" class="text-xl p-4">
+<section id="ceo-hacking" class="text-xl p-4 min-h-[80vh]">
   <FadeUp>
     <img
       src="CEOhacking.png"
