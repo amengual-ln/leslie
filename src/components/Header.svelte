@@ -12,12 +12,12 @@
 
     <nav>
         <ul class="gap-4 hidden lg:flex">
+            <li><a href="/#ceo-de-tu-vida">INICIO</a></li>
             <li
                 on:mouseenter={() => (subMenuOpen = true)}
                 on:mouseleave={() => (subMenuOpen = !subMenuOpen)}
                 class="relative cursor-pointer"
             >
-                <a href="/#ceo-de-tu-vida">INICIO</a>
                 <a href="/#ceo-de-tu-vida">SERVICIOS</a>
                 <span class="ml-1">▼</span>
                 <div

@@ -15,16 +15,16 @@
           CEO Mind es una membresía de mantenimiento exclusiva para personas que 
           han completado CEO TRAINING o al menos dos CEO HACKING.
         </p>
+        <p class="text-left lg:text-left">
+          CEO Mind se enfoca en mantener y continuar desarrollando
+          life skills para que tu Vida Altamente Rentable sea sustentable.
+        </p>
+        <br/>
       </div>
       <div class="block lg:hidden">
         <img src="/mind.webp" alt="Yoga">
       </div>
       <div class="flex flex-col justify-center flex-1">
-        <p class="text-left lg:text-left">
-          CEO Mind se enfoca en mantener y continuar desarrollando
-          life skills para que tu Vida Altamente Rentable sea sustentable.
-        </p>^
-        <br/>
         <p class="text-left lg:text-left">
           Nos reunimos dos veces al mes en sesiones grupales para:
         </p>

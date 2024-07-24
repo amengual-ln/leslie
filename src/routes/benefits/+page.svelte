@@ -6,6 +6,7 @@
   <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
     <div class="flex flex-col items-center justify-center">
       <h2 class="font-semibold text-center pb-4 mt-12 text-gray-800 text-3xl">Conviértete en el CEO de tu Vida</h2>
+      <br/>    
       <p class="text-center text-gray-600 max-w-screen-xl mb-12">
         El objetivo principal de transformarte en el CEO de tu vida es que tengas una Vida Altamente Rentable, y los resultados que obtendrás, son:
       </p>

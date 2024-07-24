@@ -3,6 +3,11 @@
 </script>
 
 <section id="ceo-de-tu-vida" class="text-xl p-4">
+  <div class="grid justify-center">
+    <a href="https://www.lesliebeltran.mx">
+      <Button value="Te cuento mi historia" />
+    </a>
+  </div>
   <div class="flex gap-12 px-4 py-12">
     <div class="flex flex-col justify-center flex-1 animate-fade-up animate-delay-300">
       <h1 class="font-[600] text-left pb-4">
