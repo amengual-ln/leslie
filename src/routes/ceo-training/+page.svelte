@@ -26,7 +26,7 @@
           <li>
             <b>Onboarding:</b> Tu bienvenida como CEO de tu vida y establecimiento de los
             <b>indicadores de desempeño de tu Vida Altamente Rentable</b>. 
-            Medimos muchas cosas en nuestras vida, pero casi nunca medimos nuestro propio
+            Medimos muchas cosas en nuestra vida, pero casi nunca medimos nuestro propio
             desempeño en nuestro día a día, así que aquí elaboramos tus KPIs y de
             manera mensual te evaluamos para ver si estás enfocado realmente en
             lo que quieres vivir, sentir y tener.
@@ -72,7 +72,7 @@
           <img src="/training.webp" alt="Training" />
         </div>
         <p class="text-left lg:text-left">
-          Adicional a todo esto, también tendrás acceso:
+          Adicional a todo esto, también tendrás acceso a:
         </p>
         <ul class="flex flex-col gap-4 list-disc my-8 mx-8">
           <li>
