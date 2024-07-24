@@ -23,10 +23,12 @@
         <p class="text-left lg:text-left">
           CEO Mind se enfoca en mantener y continuar desarrollando
           life skills para que tu Vida Altamente Rentable sea sustentable.
-        </p>
+        </p>^
+        <br/>
         <p class="text-left lg:text-left">
-          No sreunimos dos veces al mes en sesiones grupales para:
+          Nos reunimos dos veces al mes en sesiones grupales para:
         </p>
+        
         <ul class="flex flex-col gap-4 list-disc my-8 ml-8">
           <li>Revisar y ajustar tus metas y estrategias</li>
           <li>Proporcionar apoyo continuo y comunidad</li>

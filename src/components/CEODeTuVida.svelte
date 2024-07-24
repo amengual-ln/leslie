@@ -26,7 +26,6 @@
         conviertes en el office boy de tus miedos, inseguridades, tu pasado o 
         de los demás. 
 
-        Ser CEO de tu vida implica también crear tu propia filosofía de vida, para vivir bajo tus propias reglas ya que si al día de hoy no estás satisfecho.
       </p>
       <h1 class="font-[600] text-left pb-4 mt-12">¿Por qué es importante?</h1>
       <p class="text-left lg:text-left py-4">

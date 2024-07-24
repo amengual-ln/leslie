@@ -16,6 +16,7 @@
     <div class="grid justify-center gap-4 lg:gap-8 order-last lg:order-first">
       <nav class="order-first">
         <ul class="gap-4 hidden lg:flex">
+          <li><a href="/#ceo-de-tu-vida">INICIO</a></li>
           <li><a href="/#ceo-de-tu-vida">SERVICIOS</a></li>
           <li><a href="/webinars">WEBINARS</a></li>
           <li><a href="/#testimonios">TESTIMONIOS</a></li>

@@ -13,7 +13,7 @@
     <div class="flex gap-12 px-4 py-12 text-left lg:text-left">
       <div class="flex flex-col justify-center flex-1 gap-4">
         <p class="text-left lg:text-left">
-          ¿Sabías que tu proyecto y empresa más importantes es tu vida?
+          ¿Sabías que tu proyecto y empresa más importante es tu vida?
         </p>
         <p class="text-left lg:text-left">
           En CEO TRAINING, te ofrecemos un programa de mentoría grupal integral,
@@ -47,7 +47,7 @@
             <b>transformar tu realidad a través de lo que piensas y sientes</b>.
             También aprenderás cómo dejar de ser la persona que has venido
             siendo, para transformarte en una nueva versión de ti:
-            <b>más valientes, más audaz, más creativa y más brillante</b>. No es
+            <b>más valiente, más audaz, más creativa y más brillante</b>. No es
             brujería, es ciencia 😉
             
           </li>
