@@ -5,12 +5,35 @@
   register();
 </script>
 
-<section id="blog" class="m-4 bg-black pt-4 pb-2 text-xl min-h-[60vh]">
+<section
+  id="blog"
+  class="flex items-center m-4 bg-leslie_black pt-4 pb-2 text-xl min-h-[60vh]"
+>
   <FadeUp>
-    <h1 class="text-3xl text-center text-leslie_gold font-medium">CEO Test</h1>
-    <div class="hidden lg:flex">
-      <article class="m-4 p-4 text-white flex-1 flex flex-col gap-4">
-        <img src="blog1.png" alt="Imagen del articulo" />
+    <!-- <h1 class="text-3xl text-center text-leslie_gold font-medium">CEO Test</h1> -->
+    <div class="grid lg:grid-cols-2">
+      <img src="CEOtest.png" alt="CEO test" class="p-8" />
+      <article
+        class="m-4 p-4 text-white flex-1 flex flex-col justify-center gap-4"
+      >
+        <h2 class="font-[600] text-center">
+          ¡Da el primer paso para transformarte en CEO de tu vida!
+        </h2>
+
+        <div class="text-center">
+          <p>
+            El CEO Test te permitirá identificar si eres el CEO de tu vida o el
+            office boy.
+          </p>
+          <p>
+            Responde el CEO Test y obtén de regalo una sesión para conversar
+            sobre tus resultados y generar una estrategia que te ayude a
+            comenzar tu transformación.
+          </p>
+          <p class="mt-6 font-[500] line-through">$139 USD</p>
+          <p class="mt-2 font-[600] text-xl">Precio Especial: $39 USD ¡Adquiérelo ahora!</p>
+        </div>
+
         <div class="text-center pt-4">
           <a
             href="https://walink.co/d35a95"
@@ -22,22 +45,5 @@
         </div>
       </article>
     </div>
-
-    <swiper-container autoplay-delay="10000" loop class="lg:hidden">
-      <swiper-slide>
-        <article class="bg-[#222] m-4 p-4 text-white">
-          <img src="Blog2.png" alt="Imagen del articulo" />
-          <div class="text-center pt-4">
-            <a
-              href="https://walink.co/d35a95"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button value="Quiero hacer el CEO Test" />
-            </a>
-          </div>
-        </article>
-      </swiper-slide>
-    </swiper-container>
   </FadeUp>
 </section>
