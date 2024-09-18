@@ -37,7 +37,7 @@
 
         <div class="text-center pt-4">
           <a
-            href="https://walink.co/d35a95"
+            href="https://walink.co/45aabc"
             target="_blank"
             rel="noopener noreferrer"
           >

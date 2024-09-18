@@ -20,7 +20,7 @@
     </div>
     <div class="pt-4 lg:pt-8 col-span-2">
       <a
-        href="https://walink.co/bccb88"
+        href="https://walink.co/45aabc"
         target="_blank"
         rel="noopener noreferrer"
       >

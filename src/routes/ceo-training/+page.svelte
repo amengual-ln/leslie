@@ -96,7 +96,7 @@
     </div>
     <div class="grid justify-center">
       <a
-        href="https://walink.co/bccb88"
+        href="https://walink.co/45aabc"
         target="_blank"
         rel="noopener noreferrer"
         class="my-8"
