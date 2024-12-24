@@ -1,166 +1,136 @@
 <script>
+  import { onMount } from 'svelte';
+
   let questions = [
-    {
-      question: "1. Toma de Decisiones\n¿Tomas las decisiones importantes en tu vida o dejas que otros lo hagan por ti?",
-      answers: [
-        "A) Siempre soy yo quien toma las decisiones importantes.",
-        "B) A veces dejo que otros influyan en mis decisiones.",
-        "C) A menudo dejo que otros tomen decisiones por mí."
-      ]
-    },
-    {
-      question: "2. Autonomía y Control\n¿Qué tanto sientes que tienes el control de tu vida?",
-      answers: [
-        "A) Siento que tengo un alto nivel de control sobre mi vida.",
-        "B) En ocasiones siento que pierdo el control de algunas áreas.",
-        "C) Siento que mi vida está bajo el control de otras personas o circunstancias."
-      ]
-    },
-    {
-      question: "3. Metas y Visión\n¿Tienes claros tus objetivos y metas a largo plazo?",
-      answers: [
-        "A) Tengo una visión clara de lo que quiero lograr y metas escritas.",
-        "B) A veces defino metas, pero no siempre son claras o consistentes.",
-        "C) No tengo metas claras y tiendo a seguir la corriente."
-      ]
-    },
-    {
-      question: "4. Adaptabilidad\n¿Te adaptas fácilmente a los cambios inesperados?",
-      answers: [
-        "A) Me adapto fácilmente a los cambios y mantengo una actitud optimista.",
-        "B) A veces me cuesta adaptarme, pero trato de mantenerme positivo/a.",
-        "C) Me siento agobiado/a cuando las cosas no salen como esperaba."
-      ]
-    },
-    {
-      question: "5. Inteligencia Emocional\n¿Gestionas tus emociones de forma efectiva y equilibrada?",
-      answers: [
-        "A) Manejo mis emociones y las de los demás sin perder mi paz mental.",
-        "B) A veces me cuesta manejar mis emociones, pero lo intento.",
-        "C) Tengo dificultades para gestionar mis emociones y las de los demás."
-      ]
-    },
-    {
-      question: "6. Empoderamiento\n¿Sientes que tienes el poder de transformar tu presente y futuro?",
-      answers: [
-        "A) Siento que tengo el poder para cambiar mi vida.",
-        "B) Algunas veces me siento empoderado/a, pero no siempre lo mantengo.",
-        "C) Me siento a merced de las circunstancias y decisiones de otros."
-      ]
-    },
-    {
-      question: "7. Síndrome del Impostor\n¿Reconoces tus logros o sueles dudar de tus capacidades?",
-      answers: [
-        "A) Reconozco mis logros y no me siento como un impostor.",
-        "B) A veces dudo de mis logros, pero trato de enfocarme en lo positivo.",
-        "C) A menudo siento que no soy lo suficientemente bueno/a."
-      ]
-    },
-    {
-      question: "8. Utilización de la Mente\n¿Sabes utilizar tu mente para alcanzar tus metas?",
-      answers: [
-        "A) Utilizo mi mente de manera estratégica y efectiva para alcanzar mis objetivos.",
-        "B) A veces logro enfocarme, pero no siempre soy consistente.",
-        "C) Me veo atrapado/a en patrones de pensamiento negativos."
-      ]
-    },
-    {
-      question: "9. Responsabilidad Personal\n¿Asumes la responsabilidad total de tus acciones y resultados?",
-      answers: [
-        "A) Asumo la responsabilidad de mis acciones y resultados.",
-        "B) A veces me cuesta asumir la responsabilidad completa, pero lo intento.",
-        "C) Generalmente busco a otros responsables por mis resultados."
-      ]
-    },
-    {
-      question: "10. Aprendizaje y Crecimiento\n¿Qué tan comprometido/a estás con tu crecimiento personal?",
-      answers: [
-        "A) Busco constantemente oportunidades para aprender y mejorar.",
-        "B) A veces busco crecer, pero no siempre me mantengo enfocado/a.",
-        "C) Evito lo nuevo porque los desafíos me ponen nervioso/a."
-      ]
-    },
-    {
-      question: "11. Liderazgo Personal\n¿Sientes que lideras tu vida con claridad y propósito?",
-      answers: [
-        "A) Lidero mi vida con enfoque y propósito.",
-        "B) A veces siento control, pero me falta claridad en algunas áreas.",
-        "C) Me siento perdido/a y sin liderazgo en mi vida."
-      ]
-    },
-    {
-      question: "12. Felicidad y Satisfacción\n¿Te consideras una persona feliz y satisfecha con tu vida en general?",
-      answers: [
-        "A) Me siento feliz y satisfecho/a con mi vida.",
-        "B) Algunas áreas me hacen feliz, pero hay cosas que me preocupan.",
-        "C) Siento insatisfacción y rara vez experimento verdadera felicidad."
-      ]
-    },
-    {
-      question: "13. Pasión y Propósito\n¿Vives con pasión y propósito o sientes que te falta algo?",
-      answers: [
-        "A) Vivo con pasión y propósito claro en lo que hago.",
-        "B) A veces encuentro propósito, pero no siempre es consistente.",
-        "C) Me falta pasión y propósito en mi vida."
-      ]
-    },
-    {
-      question: "14. Relaciones y Comunicación\n¿Cómo son tus relaciones personales y profesionales?",
-      answers: [
-        "A) Mantengo relaciones positivas y efectivas tanto en lo personal como en lo profesional.",
-        "B) Mis relaciones suelen ser buenas, pero tengo dificultades en ciertas áreas.",
-        "C) Mis relaciones son tensas y difíciles de manejar."
-      ]
-    },
-    {
-      question: "15. Estrategia Personal y Desarrollo Profesional\n¿Tienes una estrategia clara para tu desarrollo profesional?",
-      answers: [
-        "A) Tengo una estrategia clara para mi desarrollo profesional.",
-        "B) A veces me enfoco en mi desarrollo, pero sin una estrategia clara.",
-        "C) No tengo una estrategia clara y me siento perdido/a."
-      ]
-    },
-    {
-      question: "16. Espiritualidad y Conexión Interior\n¿Qué tan conectado/a estás con tu espiritualidad y paz interior?",
-      answers: [
-        "A) Trabajo de forma consciente en cultivar mi espiritualidad y paz interior.",
-        "B) A veces reflexiono sobre ello, pero no es una prioridad constante.",
-        "C) No presto atención a la espiritualidad ni busco una conexión interior."
-      ]
-    },
-    {
-      question: "17. Empoderamiento y Autonomía\n¿Te sientes capaz de enfrentar grandes retos o te limitan las circunstancias?",
-      answers: [
-        "A) Me considero valiente y capaz de enfrentar grandes retos.",
-        "B) A veces enfrento desafíos, pero con cierto temor.",
-        "C) Me siento limitado/a por las circunstancias y decisiones de los demás."
-      ]
-    },
-    {
-      question: "18. Logro de Metas y Visión a Largo Plazo\n¿Sientes que vives pleno/a y alcanzas tus objetivos?",
-      answers: [
-        "A) Normalmente logro mis objetivos y tengo una visión clara a largo plazo.",
-        "B) A veces logro mis metas, pero me cuesta mantener una visión sólida.",
-        "C) Me cuesta lograr mis metas y carezco de motivación o disciplina."
-      ]
-    },
-    {
-      question: "19. Adaptabilidad en el Trabajo\n¿Te adaptas a los desafíos y cambios en el trabajo?",
-      answers: [
-        "A) Me adapto rápidamente a los cambios y desafíos en mi trabajo.",
-        "B) A veces me cuesta, pero trato de mantener una actitud positiva.",
-        "C) Los cambios en el trabajo me frustran y agobian."
-      ]
-    },
-    {
-      question: "20. Liderazgo en Relaciones\n¿Qué tan bien lideras tus relaciones con amigos, familia y colegas?",
-      answers: [
-        "A) Lidero mis relaciones de manera positiva y efectiva.",
-        "B) A veces tengo dificultades para mantener relaciones saludables.",
-        "C) Suelo tener problemas para liderar y gestionar mis relaciones."
-      ]
-    }
-  ];
+  {
+    question: "1. Decisiones que Definen tu Camino\nImagina que tienes una decisión importante que tomar en tu carrera, como cambiar de puesto o proponer una idea innovadora. ¿Qué haces?",
+    answers: [
+      "a) Actúo con seguridad y confianza, tomando decisiones alineadas con mi visión y metas.",
+      "b) Evito tomar decisiones por miedo a equivocarme o a que otros me critiquen.",
+      "c) Decido solo después de mucho tiempo de dudas y análisis, pero aún así me cuesta confiar en mi elección."
+    ]
+  },
+  {
+    question: "2. ¿Quién Dirige tu Tiempo?\nSi alguien analizara tu rutina diaria, ¿diría que tienes el control de tu tiempo y tus prioridades?",
+    answers: [
+      "a) Sí, manejo mi tiempo con claridad y me enfoco en lo que realmente importa.",
+      "b) No, siento que mi día se va resolviendo cosas urgentes y no lo que realmente me acerca a mis metas.",
+      "c) A veces tengo control, pero muchas veces las urgencias o las opiniones de otros toman el mando."
+    ]
+  },
+  {
+    question: "3. Claridad en tus Metas\n¿Cuándo fue la última vez que escribiste tus metas y trabajaste activamente en ellas?",
+    answers: [
+      "a) Siempre tengo mis metas claras y trabajo consistentemente en ellas.",
+      "b) No recuerdo la última vez que escribí mis metas, y usualmente solo voy reaccionando a las situaciones.",
+      "c) Tengo algunas metas en mente, pero aún me falta claridad y acción para lograrlas."
+    ]
+  },
+  {
+    question: "4. Tu Confianza en la Mesa de Reunión\nEn reuniones importantes, ¿te sientes seguro compartiendo tus ideas?",
+    answers: [
+      "a) Sí, mis opiniones son valoradas y confío plenamente en mi capacidad de liderar.",
+      "b) Me siento nervioso y dudo de mis ideas, prefiriendo quedarme en silencio para no arriesgarme.",
+      "c) Comparto mis ideas, pero no siempre siento que tienen el impacto que me gustaría."
+    ]
+  },
+  {
+    question: "5. El Precio de tu Balance Personal\nImagina que llegas a casa después de un día laboral. ¿Cómo te sientes?",
+    answers: [
+      "a) Energizado, con tiempo y ganas de disfrutar a mi familia y a mis hobbies.",
+      "b) Agotado, con ganas de desconectarme por completo y evitar cualquier interacción.",
+      "c) Cansado, pero hago un esfuerzo por dedicar tiempo a mi familia, aunque no siempre es suficiente."
+    ]
+  },
+  {
+    question: "6. Estrategia para el Éxito Profesional\n¿Tienes un plan claro para llevar tu carrera al siguiente nivel?",
+    answers: [
+      "a) Sí, tengo una estrategia definida y estoy avanzando en ella.",
+      "b) No, no tengo un plan claro y a menudo me siento estancado.",
+      "c) Tengo ideas de cómo avanzar, pero no estoy seguro de los pasos concretos a seguir."
+    ]
+  },
+  {
+    question: "7. Manejo de tus Emociones\nCuando enfrentas críticas o momentos tensos, ¿cómo reaccionas?",
+    answers: [
+      "a) Mantengo la calma y respondo de forma constructiva, sin dejar que las emociones me dominen.",
+      "b) Me afecta profundamente, y a menudo me paralizo o reacciono impulsivamente.",
+      "c) Intento mantenerme tranquilo, pero a veces las emociones me superan."
+    ]
+  },
+  {
+    question: "8. Comparación y Reconocimiento\n¿Cómo te sientes cuando ves que otros avanzan en sus carreras?",
+    answers: [
+      "a) Inspirado, sabiendo que yo también puedo lograrlo.",
+      "b) Amenazado, sintiendo que nunca estaré al nivel de ellos.",
+      "c) Un poco frustrado, pero trato de enfocarme en mis propios objetivos."
+    ]
+  },
+  {
+    question: "9. Tu Relación con la Energía\nPiensa en tu última semana laboral. ¿Cómo describirías tus niveles de energía?",
+    answers: [
+      "a) Constantes y suficientes para lograr todo lo que me propongo.",
+      "b) Bajos, siento que estoy en un ciclo constante de cansancio y agotamiento.",
+      "c) Variables, algunos días me siento bien, pero otros estoy completamente drenado."
+    ]
+  },
+  {
+    question: "10. Propósito que te Mueve\nSi alguien te preguntara qué es lo que más te motiva en la vida, ¿podrías responder con claridad?",
+    answers: [
+      "a) Sí, tengo un propósito definido que me impulsa todos los días.",
+      "b) No, siento que he perdido el rumbo y no sé qué es lo que realmente quiero.",
+      "c) Tengo una idea general, pero no estoy completamente claro."
+    ]
+  },
+  {
+    question: "11. Tiempo con tus Seres Queridos\nCuando piensas en el tiempo que dedicas a tu familia, ¿qué sientes?",
+    answers: [
+      "a) Orgullo, porque logro equilibrar mi tiempo entre trabajo y familia.",
+      "b) Culpa, porque sé que no les dedico el tiempo y atención que merecen.",
+      "c) Frustración, porque intento estar presente, pero el trabajo siempre termina interfiriendo."
+    ]
+  },
+  {
+    question: "12. ¿Quién Refleja tu Espejo?\n¿Cómo te sientes al verte al espejo después de una larga semana laboral?",
+    answers: [
+      "a) Energizado y orgulloso de lo que estoy logrando.",
+      "b) Cansado, insatisfecho y con ganas de un cambio urgente.",
+      "c) A veces me siento bien, pero hay días en los que veo una versión de mí que no reconozco."
+    ]
+  },
+  {
+    question: "13. Seguridad Ante la Autoridad\nEn reuniones con personas de mayor jerarquía, ¿cómo te sientes?",
+    answers: [
+      "a) Me siento cómodo/a y expongo mis ideas con confianza.",
+      "b) Me siento nervioso/a, incómodo/a, dudo de mis capacidades y evito hablar para no equivocarme.",
+      "c) Hablo cuando es necesario, pero no siempre me siento seguro de mi posición."
+    ]
+  },
+  {
+    question: "14. Red de Apoyo y Perspectiva\nCuando enfrentas decisiones importantes en tu vida profesional o personal, ¿tienes a quién recurrir para obtener claridad y apoyo?",
+    answers: [
+      "a) Sí, cuento con una red sólida de mentores, colegas o personas clave que me ayudan a ver mis puntos ciegos y tomar decisiones estratégicas.",
+      "b) No, generalmente enfrento las decisiones solo y me siento inseguro, porque no tengo a nadie que me guíe o me dé una perspectiva diferente.",
+      "c) A veces recurro a amigos o familiares, pero no siempre tienen la experiencia o visión que necesito para ayudarme a tomar las mejores decisiones."
+    ]
+  },
+  {
+    question: "15. Futuro y Retiro: ¿Preparado o Preocupado?\n¿Cómo te sientes al pensar en tu retiro o en los próximos 10 años de tu vida profesional?",
+    answers: [
+      "a) Tranquilo y confiado, porque tengo un plan claro para esa etapa.",
+      "b) Ansioso y preocupado, porque no sé cómo asegurarme un futuro estable y satisfactorio.",
+      "c) Indeciso, porque aunque pienso en el retiro, no sé por dónde empezar a prepararme."
+    ]
+  },
+  {
+    question: "16. Camino Profesional: ¿Quién Lidera tu Desarrollo?\n¿Qué tan claro tienes el camino para tu crecimiento y éxito profesional?",
+    answers: [
+      "a) Tengo una estrategia definida y estoy tomando pasos claros para lograrlo.",
+      "b) No tengo claridad sobre cómo crecer y a menudo me siento atrapado en mi situación actual.",
+      "c) Sé qué quiero lograr, pero me cuesta definir los siguientes pasos para avanzar."
+    ]
+  }
+];
 
   let currentQuestion = 0;
   let userAnswers = Array(questions.length).fill(null);
@@ -177,20 +147,18 @@
   }
 
   function calculateResult() {
-    let counts = [0, 0, 0];
-    userAnswers.forEach(answer => counts[answer]++);
-    
-    if (counts[0] >= 18) {
-      result = "CEO de tu vida: Felicidades, eres CEO de tu vida, ahora veamos como esto se puede poner mejor (o que sería lo que sigue para ti).";
-    } else if (counts[1] >= 16) {
-      result = "Encaminado/a: Estás tomando buenas decisiones, pero aún hay áreas de mejora para llegar al control total sobre tu vida.";
-    } else if (counts[2] >= 5) {
-      result = "Office Boy: Necesitas asumir mayor responsabilidad y tomar el control de tu vida, ya que actualmente dejas que las circunstancias o los demás decidan por ti.";
-    } else {
-      result = "Encaminado/a: Estás tomando buenas decisiones, pero aún hay áreas de mejora para llegar al control total sobre tu vida.";
-    }
-    quizCompleted = true;
+  let countA = userAnswers.filter(answer => answer === 0).length;
+  let countB = userAnswers.filter(answer => answer === 1).length;
+  
+  if (countA >= 15) {
+    result = "CEO de tu Vida: ¡Felicitaciones! Tienes claridad, propósito y control en tu vida. Sabes hacia dónde vas y tomas decisiones alineadas con tus metas. Sin embargo, incluso los mejores líderes pueden beneficiarse de una estrategia renovada para maximizar su impacto y disfrutar aún más de sus logros.";
+  } else if (countA <= 14 && countB <= 3) {
+    result = "En transición: Estás en el camino, pero aún hay áreas clave que necesitan atención. Reconoces ciertos bloqueos, pero no terminas de actuar para resolverlos. Con un poco de guía y enfoque estratégico, podrías dar un gran salto hacia la vida que realmente deseas.";
+  } else {
+    result = "Office Boy: Estás atrapado en un ciclo de inseguridad, dudas y falta de dirección. Tu potencial está ahí, pero lo estás desperdiciando al reaccionar a las circunstancias en lugar de controlarlas. Este es el momento perfecto para romper con tus miedos y convertirte en el CEO de tu vida.";
   }
+  quizCompleted = true;
+}
 
   function restartQuiz() {
     currentQuestion = 0;
@@ -198,25 +166,33 @@
     quizCompleted = false;
     result = "";
   }
+
+  onMount(() => {
+    console.log("Quiz component mounted");
+  });
 </script>
 
-<div class="quiz-container rounded-xl">
-  <h1 class="font-[600] text-left pb-4">Quiz: ¿Eres el CEO de tu Vida?</h1>
+<div class="quiz-container">
+  <h2>Quiz: ¿Eres el CEO o el Office Boy de tu vida?</h2>
+  <p class="instructions">Instrucciones: Lee cada situación y selecciona la opción que más se parezca a tu realidad.</p>
   
   {#if !quizCompleted}
     <div class="question">
-      <h2 class="text center">{questions[currentQuestion].question}</h2>
+      <h3>{@html questions[currentQuestion].question.replace('\n', '<br>')}</h3>
       <div class="answers">
         {#each questions[currentQuestion].answers as answer, index}
           <button on:click={() => selectAnswer(index)} class="py-2 px-4 bg-leslie_gold text-leslie_black text-xl font-medium hover:opacity-80">{answer}</button>
         {/each}
       </div>
     </div>
+    <div class="progress">
+      Pregunta {currentQuestion + 1} de {questions.length}
+    </div>
   {:else}
     <div class="result">
-      <h3 class="text-2xl">Resultado:</h3>
-      <p>{result}</p>
-      <button on:click={restartQuiz} class="py-2 px-4 bg-leslie_gold text-leslie_black text-xl font-medium hover:opacity-80">Reiniciar Quiz</button>
+      <h3>Resultado:</h3>
+      <p >{result}</p>
+      <button on:click={restartQuiz}>Reiniciar Quiz</button>
     </div>
   {/if}
 </div>
@@ -228,12 +204,19 @@
     margin: 0 auto;
     padding: 20px;
     background-color: #f0f0f0;
-    border-radius: 15px;
+    border-radius: 16px;
   }
 
   h2 {
     font-size: 24px;
     color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .instructions {
+    font-size: 16px;
+    color: #666;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -246,6 +229,7 @@
   }
 
   h3 {
+    font-size: 18px;
     color: #444;
     margin-bottom: 15px;
   }
@@ -254,6 +238,13 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+
+  .progress {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
   }
 
   .result {
@@ -268,5 +259,27 @@
     font-size: 16px;
     line-height: 1.5;
     color: #333;
+  }
+
+  @media (max-width: 600px) {
+    .quiz-container {
+      padding: 10px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    .instructions {
+      font-size: 14px;
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+
+    button {
+      font-size: 14px;
+    }
   }
 </style>

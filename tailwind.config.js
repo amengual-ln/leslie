@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+import tailwindcssIntersect from 'tailwindcss-intersect';
+import tailwindcssAnimated from 'tailwindcss-animated';
+
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
@@ -10,8 +13,8 @@ export default {
     },
   },
   plugins: [
-    require('tailwindcss-animated'),
-    require('tailwindcss-intersect')
+    tailwindcssIntersect,
+    tailwindcssAnimated
   ],
 }
 
