@@ -3,7 +3,7 @@
 
   let questions = [
   {
-    question: "<b>1. Decisiones que definen tu camino</b>\nImagina que tienes una decisión importante que tomar en tu carrera, como cambiar de puesto o proponer una idea innovadora. ¿Qué haces?",
+    question: "<b>1. Decisiones que definen tu camino</b>\nImagina que tienes una decisión importante que tomar en tu carrera, como cambiar de puesto o proponer una idea innovadora. ¿Qué haces?<br />",
     answers: [
       "a) Actúo con seguridad y confianza, tomando decisiones alineadas con mi visión y metas.",
       "b) Evito tomar decisiones por miedo a equivocarme o a que otros me critiquen.",
@@ -11,7 +11,7 @@
     ]
   },
   {
-    question: "<b>2. ¿Quién dirige tu tiempo?</b>\nSi alguien analizara tu rutina diaria, ¿diría que tienes el control de tu tiempo y tus prioridades?",
+    question: "<b>2. ¿Quién dirige tu tiempo?</b>\nSi alguien analizara tu rutina diaria, ¿diría que tienes el control de tu tiempo y tus prioridades?<br />",
     answers: [
       "a) Sí, manejo mi tiempo con claridad y me enfoco en lo que realmente importa.",
       "b) No, siento que mi día se va resolviendo cosas urgentes y no lo que realmente me acerca a mis metas.",
@@ -19,7 +19,7 @@
     ]
   },
   {
-    question: "<b>3. Claridad en tus metas</b>\n¿Cuándo fue la última vez que escribiste tus metas y trabajaste activamente en ellas?",
+    question: "<b>3. Claridad en tus metas</b>\n¿Cuándo fue la última vez que escribiste tus metas y trabajaste activamente en ellas?<br />",
     answers: [
       "a) Siempre tengo mis metas claras y trabajo consistentemente en ellas.",
       "b) No recuerdo la última vez que escribí mis metas, y usualmente solo voy reaccionando a las situaciones.",
@@ -27,7 +27,7 @@
     ]
   },
   {
-    question: "<b>4. Tu confianza en la mesa de reunión</b>\nEn reuniones importantes, ¿te sientes seguro compartiendo tus ideas?",
+    question: "<b>4. Tu confianza en la mesa de reunión</b>\nEn reuniones importantes, ¿te sientes seguro compartiendo tus ideas?<br />",
     answers: [
       "a) Sí, mis opiniones son valoradas y confío plenamente en mi capacidad de liderar.",
       "b) Me siento nervioso y dudo de mis ideas, prefiriendo quedarme en silencio para no arriesgarme.",
@@ -35,7 +35,7 @@
     ]
   },
   {
-    question: "<b>5. El precio de tu balance personal</b>\nImagina que llegas a casa después de un día laboral. ¿Cómo te sientes?",
+    question: "<b>5. El precio de tu balance personal</b>\nImagina que llegas a casa después de un día laboral. ¿Cómo te sientes?<br />",
     answers: [
       "a) Energizado, con tiempo y ganas de disfrutar a mi familia y a mis hobbies.",
       "b) Agotado, con ganas de desconectarme por completo y evitar cualquier interacción.",
@@ -43,7 +43,7 @@
     ]
   },
   {
-    question: "<b>6. Estrategia para el éxito profesional</b>\n¿Tienes un plan claro para llevar tu carrera al siguiente nivel?",
+    question: "<b>6. Estrategia para el éxito profesional</b>\n¿Tienes un plan claro para llevar tu carrera al siguiente nivel?<br />",
     answers: [
       "a) Sí, tengo una estrategia definida y estoy avanzando en ella.",
       "b) No, no tengo un plan claro y a menudo me siento estancado.",
@@ -51,7 +51,7 @@
     ]
   },
   {
-    question: "<b>7. Manejo de tus emociones</b>\nCuando enfrentas críticas o momentos tensos, ¿cómo reaccionas?",
+    question: "<b>7. Manejo de tus emociones</b>\nCuando enfrentas críticas o momentos tensos, ¿cómo reaccionas?<br />",
     answers: [
       "a) Mantengo la calma y respondo de forma constructiva, sin dejar que las emociones me dominen.",
       "b) Me afecta profundamente, y a menudo me paralizo o reacciono impulsivamente.",
@@ -59,7 +59,7 @@
     ]
   },
   {
-    question: "<b>8. Comparación y reconocimiento</b>\n¿Cómo te sientes cuando ves que otros avanzan en sus carreras?",
+    question: "<b>8. Comparación y reconocimiento</b>\n¿Cómo te sientes cuando ves que otros avanzan en sus carreras?<br />",
     answers: [
       "a) Inspirado, sabiendo que yo también puedo lograrlo.",
       "b) Amenazado, sintiendo que nunca estaré al nivel de ellos.",
@@ -67,7 +67,7 @@
     ]
   },
   {
-    question: "<b>9. Tu relación con la energía</b>\nPiensa en tu última semana laboral. ¿Cómo describirías tus niveles de energía?",
+    question: "<b>9. Tu relación con la energía</b>\nPiensa en tu última semana laboral. ¿Cómo describirías tus niveles de energía?<br />",
     answers: [
       "a) Constantes y suficientes para lograr todo lo que me propongo.",
       "b) Bajos, siento que estoy en un ciclo constante de cansancio y agotamiento.",
@@ -75,7 +75,7 @@
     ]
   },
   {
-    question: "<b>10. Propósito que te mueve</b>\nSi alguien te preguntara qué es lo que más te motiva en la vida, ¿podrías responder con claridad?",
+    question: "<b>10. Propósito que te mueve</b>\nSi alguien te preguntara qué es lo que más te motiva en la vida, ¿podrías responder con claridad?<br />",
     answers: [
       "a) Sí, tengo un propósito definido que me impulsa todos los días.",
       "b) No, siento que he perdido el rumbo y no sé qué es lo que realmente quiero.",
@@ -83,7 +83,7 @@
     ]
   },
   {
-    question: "<b>11. Tiempo con tus seres queridos</b>\nCuando piensas en el tiempo que dedicas a tu familia, ¿qué sientes?",
+    question: "<b>11. Tiempo con tus seres queridos</b>\nCuando piensas en el tiempo que dedicas a tu familia, ¿qué sientes?<br />",
     answers: [
       "a) Orgullo, porque logro equilibrar mi tiempo entre trabajo y familia.",
       "b) Culpa, porque sé que no les dedico el tiempo y atención que merecen.",
@@ -91,7 +91,7 @@
     ]
   },
   {
-    question: "<b>12. Lo que refleja tu espejo</b>\n¿Cómo te sientes al verte al espejo después de una larga semana laboral?",
+    question: "<b>12. Lo que refleja tu espejo</b>\n¿Cómo te sientes al verte al espejo después de una larga semana laboral?<br />",
     answers: [
       "a) Energizado y orgulloso de lo que estoy logrando.",
       "b) Cansado, insatisfecho y con ganas de un cambio urgente.",
@@ -99,7 +99,7 @@
     ]
   },
   {
-    question: "<b>13. Seguridad ante la autoridad</b>\nEn reuniones con personas de mayor jerarquía, ¿cómo te sientes?",
+    question: "<b>13. Seguridad ante la autoridad</b>\nEn reuniones con personas de mayor jerarquía, ¿cómo te sientes?<br />",
     answers: [
       "a) Me siento cómodo/a y expongo mis ideas con confianza.",
       "b) Me siento nervioso/a, incómodo/a, dudo de mis capacidades y evito hablar para no equivocarme.",
@@ -107,7 +107,7 @@
     ]
   },
   {
-    question: "<b>14. Red de apoyo y perspectiva</b>\nCuando enfrentas decisiones importantes en tu vida profesional o personal, ¿tienes a quién recurrir para obtener claridad y apoyo?",
+    question: "<b>14. Red de apoyo y perspectiva</b>\nCuando enfrentas decisiones importantes en tu vida profesional o personal, ¿tienes a quién recurrir para obtener claridad y apoyo?<br />",
     answers: [
       "a) Sí, cuento con una red sólida de mentores, colegas o personas clave que me ayudan a ver mis puntos ciegos y tomar decisiones estratégicas.",
       "b) No, generalmente enfrento las decisiones solo y me siento inseguro, porque no tengo a nadie que me guíe o me dé una perspectiva diferente.",
@@ -115,7 +115,7 @@
     ]
   },
   {
-    question: "<b>15. Futuro y retiro: ¿preparado o preocupado?</b>\n¿Cómo te sientes al pensar en tu retiro o en los próximos 10 años de tu vida profesional?",
+    question: "<b>15. Futuro y retiro: ¿preparado o preocupado?</b>\n¿Cómo te sientes al pensar en tu retiro o en los próximos 10 años de tu vida profesional?<br />",
     answers: [
       "a) Tranquilo y confiado, porque tengo un plan claro para esa etapa.",
       "b) Ansioso y preocupado, porque no sé cómo asegurarme un futuro estable y satisfactorio.",
@@ -123,7 +123,7 @@
     ]
   },
   {
-    question: "<b>16. Camino profesional: ¿Quién lidera tu desarrollo?</b>\n¿Qué tan claro tienes el camino para tu crecimiento y éxito profesional?",
+    question: "<b>16. Camino profesional: ¿Quién lidera tu desarrollo?</b>\n¿Qué tan claro tienes el camino para tu crecimiento y éxito profesional?<br />",
     answers: [
       "a) Tengo una estrategia definida y estoy tomando pasos claros para lograrlo.",
       "b) No tengo claridad sobre cómo crecer y a menudo me siento atrapado en mi situación actual.",
@@ -173,7 +173,7 @@
 </script>
 
 <div class="quiz-container">
-  <h2>Quiz: ¿Eres el CEO o el Office Boy de tu vida?</h2>
+  <h2>Quiz: <br /> ¿Eres el CEO o el Office Boy de tu vida?</h2>
   <p class="instructions">Instrucciones: Lee cada situación y selecciona la opción que más se parezca a tu realidad.</p>
   
   {#if !quizCompleted}
@@ -181,7 +181,7 @@
       <h3>{@html questions[currentQuestion].question.replace('\n', '<br>')}</h3>
       <div class="answers">
         {#each questions[currentQuestion].answers as answer, index}
-          <button on:click={() => selectAnswer(index)} class="py-2 px-4 bg-leslie_gold text-leslie_black text-xl font-medium hover:opacity-80">{answer}</button>
+          <button on:click={() => selectAnswer(index)} class="py-2 px-4 bg-leslie_gold text-leslie_black text-xl hover:opacity-80">{answer}</button>
         {/each}
       </div>
     </div>
@@ -201,7 +201,7 @@
   .quiz-container {
     font-family: Arial, sans-serif;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 2em auto;
     padding: 20px;
     background-color: #f0f0f0;
     border-radius: 16px;
@@ -229,7 +229,7 @@
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 20px;
     color: #444;
     margin-bottom: 15px;
   }

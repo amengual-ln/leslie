@@ -107,7 +107,7 @@
               </div>
               <input type="hidden" name="ml-submit" value="1" />
               <div class="ml-form-embedSubmit">
-                <button type="submit" class="primary">Subscribirse</button>
+                <button type="submit" class="primary">Suscribirse</button>
                 <button
                   disabled="disabled"
                   style="display: none;"
@@ -289,7 +289,7 @@
 
   .primary {
     background-color: #e2a317;
-    color: white;
+    color: black;
     padding: 12px 24px;
     border: none;
     cursor: pointer;

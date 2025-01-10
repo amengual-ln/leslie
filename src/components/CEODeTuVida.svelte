@@ -10,7 +10,7 @@
   </div>
   <div class="flex gap-12 px-4 py-12">
     <div class="flex flex-col justify-center flex-1 animate-fade-up animate-delay-300">
-      <h1 class="font-[600] text-left pb-4">
+      <h1 class="font-[500] text-left pb-4">
         ¿Qué significa ser CEO de tu Vida?
       </h1>
       <p class="text-left lg:text-left py-4">
@@ -32,7 +32,7 @@
         de los demás. 
 
       </p>
-      <h1 class="font-[600] text-left pb-4 mt-12">¿Por qué es importante?</h1>
+      <h1 class="font-[500] text-left pb-4 mt-12">¿Por qué es importante?</h1>
       <p class="text-left lg:text-left py-4">
         Si al día de hoy no estás satisfecho/a con los resultados que has
         obtenido en lo personal y/o en lo profesional, muy probablemente se deba
@@ -46,7 +46,7 @@
         ambiciosas, es momento de romper ese ciclo y recablear tu mente para que
         pienses, decidas y actúes según tus propias reglas.
       </p>
-      <h1 class="font-[600] text-left pb-4 mt-12">¿Qué ofrecemos?</h1>
+      <h1 class="font-[500] text-left pb-4 mt-12">¿Qué ofrecemos?</h1>
       <p class="text-left lg:text-left py-4">
         CEO de tu vida es una metodología que cuenta con varios programas exclusivos
         para Ejecutivos y Empresarios de alto nivel, que buscan transformar su vida 

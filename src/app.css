@@ -8,10 +8,10 @@
 }
 
 @font-face {
-  font-family: Baskerville;
-  src: url("/fonts/BASKERVILLE/baskvl.ttf");
+  font-family: Poppins;
+  font-weight: 500;
+  src: url("/fonts/POPPINS/Poppins-SemiBold.otf");
 }
-
 
 @layer base {
 
@@ -26,7 +26,7 @@
   h2,
   h3,
   button {
-    font-family: Baskerville, sans-serif;
+    font-family: Poppins, sans-serif;
 
   }
 
