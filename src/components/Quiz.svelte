@@ -174,7 +174,9 @@
 
 <div class="quiz-container">
   <h2>Quiz: <br /> ¿Eres el CEO o el Office Boy de tu vida?</h2>
-  <p class="instructions">Instrucciones: Lee cada situación y selecciona la opción que más se parezca a tu realidad.</p>
+  {#if !quizCompleted}
+    <p class="instructions">Instrucciones: Lee cada situación y selecciona la opción que más se parezca a tu realidad.</p>
+  {/if}
   
   {#if !quizCompleted}
     <div class="question">
