@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte';
+  import Button from "./atoms/Button.svelte";
 
   let questions = [
   {
@@ -193,7 +194,12 @@
   {:else}
     <div class="result">
       <h3>Resultado:</h3>
-      <p >{@html result}</p>
+      <p class="text-xl">{@html result}</p>
+
+      <p class="text-xl">¡Esto puede ponerse mejor!</p>
+      <Button value="¡Descubre más!" />
+      <br />
+      <br />
       <button on:click={restartQuiz}>Reiniciar Quiz</button>
     </div>
   {/if}
@@ -244,7 +250,7 @@
 
   .progress {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     color: #666;
     margin-top: 10px;
   }
@@ -258,7 +264,7 @@
 
   .result p {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     color: #333;
   }
