@@ -4,6 +4,8 @@
   import Instagram from "./icons/Instagram.svelte";
   import Linkedin from "./icons/Linkedin.svelte";
   import Youtube from "./icons/Youtube.svelte";
+
+  import { page } from "$app/stores";
 </script>
 
 <footer
@@ -11,7 +13,7 @@
   class="w-full bg-black text-xl text-white text-center px-4"
 >
   <section
-    class="max-w-screen-2xl mx-auto p-8 grid grid-cols-1 lg:grid-cols-[2fr_1fr] lg:items-center gap-4 lg:gap-8 justify-center"
+    class={`max-w-screen-2xl mx-auto p-8 grid grid-cols-1 ${$page.route.id === '/newsletter' ? "grid-cols-1" : "lg:grid-cols-[2fr_1fr]"} lg:items-center gap-4 lg:gap-8 justify-center`}
   >
     <div class="grid justify-center gap-4 lg:gap-8 order-last lg:order-first">
       <nav class="order-first">
@@ -63,73 +65,86 @@
         </li>
       </ul>
     </div>
-    <div
-      id="mlb2-16173497"
-      class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-16173497"
-    >
-      <div class="ml-form-align-center">
-        <div class="ml-form-embedWrapper embedForm">
-          <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
-            <div class="ml-form-embedContent text-center mb-4">
-              <p>¡Suscríbete a mi Newsletter para recibir mi contenido!</p>
-            </div>
-            <form
-              class="ml-block-form"
-              action="https://assets.mailerlite.com/jsonp/780653/forms/125961743657600458/subscribe"
-              data-code=""
-              method="post"
-              target="_blank"
-            >
-              <div class="ml-form-formContent">
-                <div class="ml-form-fieldRow ml-last-item">
-                  <div
-                    class="ml-field-group ml-field-email ml-validate-email ml-validate-required"
-                  >
-                    <input
-                      aria-label="email"
-                      aria-required="true"
-                      type="email"
-                      class="form-control mb-4"
-                      data-inputmask=""
-                      name="fields[email]"
-                      placeholder="Email"
-                      autocomplete="email"
-                    />
+
+    <!-- Newsletter section -->
+    {#if $page.route.id !== "/newsletter"}
+      <div
+        id="mlb2-16173497"
+        class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-16173497"
+      >
+        <div class="ml-form-align-center">
+          <div class="ml-form-embedWrapper embedForm">
+            <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+              <div class="ml-form-embedContent text-center mb-4">
+                <p>¡Suscríbete a mi Newsletter para recibir mi contenido!</p>
+              </div>
+              <form
+                class="ml-block-form"
+                action="https://assets.mailerlite.com/jsonp/780653/forms/125961743657600458/subscribe"
+                data-code=""
+                method="post"
+                target="_blank"
+              >
+                <div class="ml-form-formContent">
+                  <div class="ml-form-fieldRow ml-last-item">
+                    <div
+                      class="ml-field-group ml-field-email ml-validate-email ml-validate-required"
+                    >
+                      <input
+                        aria-label="email"
+                        aria-required="true"
+                        type="email"
+                        class="form-control mb-4"
+                        data-inputmask=""
+                        name="fields[email]"
+                        placeholder="Email"
+                        autocomplete="email"
+                      />
+                    </div>
                   </div>
                 </div>
+                <div class="ml-form-embedPermissions"></div>
+                <div class="ml-form-checkboxRow ml-validate-required">
+                  <label
+                    class="checkbox flex items-center gap-4 mb-6 cursor-pointer"
+                  >
+                    <input type="checkbox" class="text-center" />
+                    <p>
+                      Acepto la <a
+                        href="https://drive.google.com/file/d/1MZL1P-ShhQN_z_q7H-JdR86WuouRsICm/view?usp=sharing"
+                        target="_blank"
+                        style="text-decoration: underline;"
+                        >Política de Privacidad</a
+                      >
+                    </p>
+                  </label>
+                </div>
+                <input type="hidden" name="ml-submit" value="1" />
+                <div class="ml-form-embedSubmit">
+                  <button type="submit" class="primary">Suscribirse</button>
+                  <button
+                    disabled="disabled"
+                    style="display: none;"
+                    type="button"
+                    class="loading"
+                  >
+                    <div class="ml-form-embedSubmitLoad"></div>
+                    <span class="sr-only">Loading...</span>
+                  </button>
+                </div>
+                <input type="hidden" name="anticsrf" value="true" />
+              </form>
+            </div>
+            <div class="ml-form-successBody row-success" style="display: none">
+              <div class="ml-form-successContent">
+                <h3 class="mb-4">¡Gracias!</h3>
+                <p>Te has suscrito con éxito.</p>
               </div>
-              <div class="ml-form-embedPermissions"></div>
-              <div class="ml-form-checkboxRow ml-validate-required">
-                <label class="checkbox flex items-center gap-4 mb-6 cursor-pointer">
-                  <input type="checkbox" class="text-center" />
-                  <p>Acepto la <a href="https://drive.google.com/file/d/1MZL1P-ShhQN_z_q7H-JdR86WuouRsICm/view?usp=sharing" target="_blank" style="text-decoration: underline;">Política de Privacidad</a></p>
-                </label>
-              </div>
-              <input type="hidden" name="ml-submit" value="1" />
-              <div class="ml-form-embedSubmit">
-                <button type="submit" class="primary">Suscribirse</button>
-                <button
-                  disabled="disabled"
-                  style="display: none;"
-                  type="button"
-                  class="loading"
-                >
-                  <div class="ml-form-embedSubmitLoad"></div>
-                  <span class="sr-only">Loading...</span>
-                </button>
-              </div>
-              <input type="hidden" name="anticsrf" value="true" />
-            </form>
-          </div>
-          <div class="ml-form-successBody row-success" style="display: none">
-            <div class="ml-form-successContent">
-              <h3 class="mb-4">¡Gracias!</h3>
-              <p>Te has suscrito con éxito.</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    {/if}
     <script>
       function ml_webform_success_16173497() {
         var $ = ml_jQuery || jQuery;
@@ -143,7 +158,7 @@
     ></script>
     <script>
       fetch(
-        "https://assets.mailerlite.com/jsonp/780653/forms/125961743657600458/takel",
+        "https://assets.mailerlite.com/jsonp/780653/forms/125961743657600458/takel"
       );
     </script>
   </section>

@@ -21,6 +21,7 @@
   "type": "module",
   "dependencies": {
     "caniuse-lite": "^1.0.30001690",
+    "lucide-svelte": "^0.474.0",
     "svelte-inview": "^4.0.2",
     "swiper": "^11.1.4",
     "tailwindcss-intersect": "^2.0.1"
