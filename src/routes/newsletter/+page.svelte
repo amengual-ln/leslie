@@ -12,7 +12,7 @@
   const benefits = [
     {
       title: "Descubre tu Potencial",
-      description: "Para que obtengas herramientas para recablear tu mente y usarla de forma estrategia .",
+      description: "Para que obtengas herramientas para recablear tu mente y usarla de forma estrategia.",
     },
     {
       title: "Estrategias Probadas",
