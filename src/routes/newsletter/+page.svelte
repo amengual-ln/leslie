@@ -12,15 +12,15 @@
   const benefits = [
     {
       title: "Descubre tu Potencial",
-      description: "Aprende a identificar y maximizar tus fortalezas para alcanzar el éxito en tu vida profesional y personal.",
+      description: "Para que obtengas herramientas para recablear tu mente y usarla de forma estrategia .",
     },
     {
       title: "Estrategias Probadas",
-      description: "Accede a herramientas y metodologías que han ayudado a cientos de profesionales a transformar sus vidas.",
+      description: "Para que recibas en tu correo electrónico los tips y secretos que han ayudado a cientos de ejecutivos a llevar su vida al siguiente nivel.",
     },
     {
       title: "Comunidad de Líderes",
-      description: "Únete a una red exclusiva de personas comprometidas con su desarrollo y crecimiento personal.",
+      description: "Para dejar de pensar cómo la abuelita de tu abuelita y empieces a vivir para tus propias reglas.",
     },
   ];
 
