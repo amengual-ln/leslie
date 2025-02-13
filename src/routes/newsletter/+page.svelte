@@ -20,7 +20,7 @@
     },
     {
       title: "Comunidad de Líderes",
-      description: "Para dejar de pensar cómo la abuelita de tu abuelita y empieces a vivir para tus propias reglas.",
+      description: "Para dejar de pensar cómo la abuelita de tu abuelita y empieces a vivir bajo tus propias reglas.",
     },
   ];
 
