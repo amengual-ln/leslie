@@ -11,98 +11,107 @@
       class="aspect-[16/5] object-cover animate-fade-up"
     />
     <div class="flex gap-12 px-4 py-12 text-left lg:text-left">
-      <div class="flex flex-col justify-center flex-1 gap-4">
-        <p class="text-left lg:text-left">
-          ¿Sabías que tu proyecto y empresa más importante es tu vida?
-        </p>
-        <p class="text-left lg:text-left">
-          En CEO TRAINING, te ofrecemos un programa de mentoría grupal integral,
-          diseñado para transformar tu vida y liderazgo.
-        </p>        
-        <p class="text-left lg:text-left">
-          Los módulos son:
-        </p>
-        <ol class="flex flex-col gap-4 list-disc my-8 mx-8">
-          <li>
-            <b>Onboarding:</b> Tu bienvenida como CEO de tu vida y establecimiento de los
-            <b>indicadores de desempeño de tu Vida Altamente Rentable</b>. 
-            Medimos muchas cosas en nuestra vida, pero casi nunca medimos nuestro propio
-            desempeño en nuestro día a día, así que aquí elaboramos tus KPIs y de
-            manera mensual te evaluamos para ver si estás enfocado realmente en
-            lo que quieres vivir, sentir y tener.
-          </li>
-          <li>
-            <b>Recableado mental:</b> Te enseñamos a usar tu cerebro de forma
-            funcional y cómo trabajar tu inteligencia emocional desde la
-            perspectiva de las neurociencias. Aquí también empiezas a descubrir
-            tus techos de cristal y hacemos una
-            <b
-              >poda neuronal para erradicar los patrones de pensamiento y
-              comportamiento</b
-            > que ya no son funcionales para ti.
-          </li>
-          <li>
-            <b>Creación cuántica:</b> Te enseñamos a convertirte en un creador
-            cuántico y a
-            <b>transformar tu realidad a través de lo que piensas y sientes</b>.
-            También aprenderás cómo dejar de ser la persona que has venido
-            siendo, para transformarte en una nueva versión de ti:
-            <b>más valiente, más audaz, más creativa y más brillante</b>. No es
-            brujería, es ciencia 😉
-            
-          </li>
-          <li>
-            <b>Riqueza y abundancia:</b> Revisamos en qué proyectos, personas o
-            situaciones estás invirtiendo tus 5 recursos más importantes:
-            <b>tiempo, energía, emociones, pensamientos y dinero</b> y si te
-            están dando las ganancias que quieres. <br /><br /> Te enseñamos cómo
-            generar una vida más abundante, ya que la abundancia es una forma
-            de ser, así que aquí aprendes a ser <b>un imán de bendiciones</b>.
-            
-          </li>
-          <li>
-            <b>Rebeldía:</b> Nos han enseñado a no incomodar, a no molestar,
-            a encajar a la fuerza y a contenernos. En este módulo
-            rompemos con eso y te mostramos cómo ser rebelde para ser tú mismo,
-            ser rebelde para ir por tus sueños más ambiciosos y a
-            <b>tomar decisiones impopulares sin culpa</b>.
-          </li>
-        </ol>
-        <div class="block lg:hidden">
-          <img src="/training.webp" alt="Training" />
-        </div>
-        <p class="text-left lg:text-left">
-          Adicional a todo esto, también tendrás acceso a:
-        </p>
-        <ul class="flex flex-col gap-4 list-disc my-8 mx-8">
-          <li>
-            Clases de yoga porque mi premisa es que <b>una mente flexible vive
-            en un cuerpo flexible</b> y si tu mente ve que tu cuerpo va más allá
-            de sus límites, tu mente también se empieza a expandir.
-          </li>
-          <li>
-            Master classes con expertos invitados, un sábado al mes, para que
-            puedas tener herramientas de otros expertos que te ayudarán a
-            <b>aumentar la rentabilidad de tu vida</b>.            
-          </li>
-        </ul>
-        <p>
-          El objetivo del CEO TRAINING es que tengas herramientas para hacer
-          <b>tu Vida Altamente Rentable</b>
-          con más tiempo, más energía, más salud, más felicidad, propósito y dinero, alcanzando tus
-          sueños más ambiciosos, y así dejar de ser el office boy.          
-        </p>
-      </div>
+    <div class="flex flex-col justify-center flex-1 gap-4">
+      <h1 class="font-[500] text-left pb-4">
+        CEO TRAINING: El entrenamiento para que pases de tener una vida que no te gusta, a tener las herramientas para que cada aspecto de tu vida se sienta en expansión.
+      </h1>
+  
+      <p class="text-left lg:text-left">
+        Es el programa de mentoría grupal que recablea tu mente, transforma tu realidad y te enseña a generar más dinero, más éxito y más felicidad, sin sacrificios ni dramas innecesarios.
+      </p>  
+  
+      <h2 class="font-[500] text-left pb-4 mt-12">RESULTADOS QUE OBTIENEN MIS CLIENTES</h2>
+  
+      <ul class="list-disc ml-8">
+        <li>Han triplicado sus ingresos en menos de un año.</li>
+        <li>Han conseguido ascensos que llevaban años persiguiendo sin éxito.</li>
+        <li>Han pasado de ser invisibles en su empresa a ser reconocidos como líderes.</li>
+        <li>Han renunciado a trabajos tóxicos y han conseguido opciones mucho mejor pagadas.</li>
+        <li>Han lanzado su propio negocio y han empezado a generar más dinero del que creían posible.</li>
+        <li>Han aprendido a negociar y han logrado aumentos salariales que parecían imposibles.</li>
+        <li>Han dejado de sentirse pequeños ante sus jefes y ahora hablan con seguridad.</li>
+        <li>Han recuperado su tiempo libre y han dejado de ser esclavos del trabajo.</li>
+        <li>Han creado fuentes de ingreso extra sin trabajar más horas.</li>
+        <li>Han reprogramado su mente para atraer oportunidades en vez de perseguirlas.</li>
+        <li>Han eliminado la culpa de ponerse en primer lugar y han aprendido a decir NO sin miedo.</li>
+        <li>Han transformado su relación con el dinero y ahora el dinero fluye sin esfuerzo.</li>
+        <li>Han cambiado su vida por completo en cuestión de meses.</li>
+      </ul>
+  
+      <p class="text-left lg:text-left font-bold mt-4">
+        Si tú también ESTÁS LISTO PARA LLEVARTE A UNA SIGUIENTE REALIDAD Y TOMAR ACCIÓN, ENTONCES CEO TRAINING ES PARA TI.
+      </p>
+  
+      <h2 class="font-[500] text-left pb-4 mt-12">INFORMACIÓN GENERAL</h2>
+  
+      <ul class="list-disc ml-8">
+        <li><strong>Duración:</strong> 4 meses</li>
+        <li><strong>Modalidad:</strong> Online en vivo (sesión semanal de 2 horas).</li>
+        <li><strong>Estructura:</strong> 4 módulos estratégicos + herramientas de alto impacto.</li>
+        <li><strong>Metodología:</strong> Neurociencia, Física Cuántica, PNL, Psicología Positiva, Coaching Ejecutivo.</li>
+        <li><strong>Herramientas clave:</strong> Desarrollo de KPI’s personales, Inventario de Riqueza, Master Plan de Vida Altamente Rentable y modelo Canvas de vida.</li>
+      </ul>
+  
+      <h2 class="font-[500] text-left pb-4 mt-12">MÓDULOS DEL PROGRAMA</h2>
+  
+      <ul class="list-disc ml-8">
+        <li><strong>MÓDULO 1:</strong> Bienvenido a tu nuevo puesto – Onboarding como CEO de tu vida.</li>
+        <li><strong>MÓDULO 2:</strong> Recableado mental – Reconfigurando tu sistema operativo.</li>
+        <li><strong>MÓDULO 3:</strong> Creación cuántica – Hackea tu presente y futuro con neurociencia cuántica.</li>
+        <li><strong>MÓDULO 4:</strong> Riqueza y abundancia – Genera más dinero y oportunidades en tu vida.</li>
+      </ul>
+  
+      <h2 class="font-[500] text-left pb-4 mt-12">BONUS EXCLUSIVOS</h2>
+  
+      <ul class="list-disc ml-8">
+        <li>Ejercicios para que generes nuevas conexiones neuronales y acelerar tu reconfiguración mental.</li>
+        <li>Acceso a una comunidad privada en donde tendremos conversaciones para sostenerte durante todo el proceso.</li>
+        <li>Materiales descargables (Cuaderno de Trabajo y Manual de Operación del CEO) diseñados para reforzar lo visto en las sesiones, hacer ejercicios prácticos, llevar registros de tus avances y planificar tu vida en los próximos 3 años.</li>
+      </ul>
+  
+      <h2 class="font-[500] text-left pb-4 mt-12">ESTO NO ES PARA CUALQUIERA</h2>
+  
+      <p class="text-left lg:text-left">
+        El CEO TRAINING NO ES para quienes buscan soluciones mágicas sin comprometerse con su transformación.
+      </p>
+  
+      <p class="text-left lg:text-left font-bold">
+        Es solo para personas decididas, ambiciosas y hartas de tener una vida “normal”, que saben que merecen más pero no han encontrado el camino para lograrlo.
+      </p>
+  
+      <p class="text-left lg:text-left font-bold">
+        Este entrenamiento es para ti si:
+      </p>
+  
+      <ul class="list-disc ml-8">
+        <li>Estás cansado de hacer, hacer y hacer… pero sigues sin ver resultados reales en tu vida.</li>
+        <li>Sientes que has logrado cosas, pero no terminas de creer en ti mismo.</li>
+        <li>Te exiges demasiado, pero nunca sientes que es suficiente.</li>
+        <li>Quieres ganar más dinero sin trabajar más horas, pero no sabes cómo romper el techo de cristal.</li>
+        <li>Tienes sueños grandes, pero el miedo al qué dirán o al fracaso te ha paralizado.</li>
+        <li>Sabes que necesitas un cambio ya, pero no encuentras por dónde empezar.</li>
+        <li>Te ha costado ponerte en primer lugar sin sentir culpa.</li>
+      </ul>
+  
+      <p class="text-left lg:text-left font-bold mt-4">
+        Si esto resuena contigo, entonces es momento de tomar el control.
+      </p>
+  
+      <p class="text-left lg:text-left">
+        No esperes más. El momento de transformar tu vida es ahora.
+      </p>
+  
+      <p class="text-left lg:text-left font-bold">
+        Inscríbete al CEO TRAINING y conviértete en el CEO de tu vida.
+      </p>
     </div>
-    <div class="grid justify-center">
-      <a
-        href="https://walink.co/45aabc"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="my-8"
-      >
-        <Button value="¡Es momento de tomar acción!" />
-      </a>
-    </div>
+  </div>
+  
+  <div class="grid justify-center">
+    <a href="https://walink.co/45aabc" target="_blank" rel="noopener noreferrer" class="my-8">
+      <Button value="¡Es momento de tomar acción!" />
+    </a>
+  </div>
+
   </section>
 </main>
