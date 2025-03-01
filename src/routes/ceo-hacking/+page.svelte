@@ -4,10 +4,11 @@
 
 <main class="max-w-screen-2xl mx-auto">
   <section class="mx-auto text-xl p-4">
+    <!-- Ajuste del banner para que no se corte -->
     <img
       src="CEOhacking.png"
       alt="CEO HACKING Logo"
-      class="w-full max-h-[250px] object-cover animate-fade-up"
+      class="w-full max-h-[300px] object-cover"
     />
 
     <!-- Sección Principal con Imagen Pequeña -->
