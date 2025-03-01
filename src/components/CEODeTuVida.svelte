@@ -3,11 +3,6 @@
 </script>
 
 <section id="ceo-de-tu-vida" class="text-xl p-4">
-  <div class="grid justify-center">
-    <a href="https://www.lesliebeltran.mx">
-      <Button value="Te cuento mi historia" />
-    </a>
-  </div>
   <div class="px-4 py-12 space-y-12">
     <!-- Sección Mi Historia -->
     <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -40,7 +35,7 @@
       <div class="flex flex-col gap-4">
         <h1 class="font-[500] text-left text-3xl pb-4">CEO DE TU VIDA – LA METODOLOGÍA PARA EJECUTIVOS QUE QUIEREN MÁS</h1>
   
-        <p class="text-left font-bold text-red-500">ADVERTENCIA: ESTA METODOLOGÍA NO ES PARA CUALQUIERA.</p>
+        <p class="text-left font-bold -500">ADVERTENCIA: ESTA METODOLOGÍA NO ES PARA CUALQUIERA.</p>
   
         <p class="text-left py-2">
           Si buscas un curso más de desarrollo personal, técnicas motivacionales que olvidarás en un mes o consejos genéricos sobre liderazgo, esto NO es para ti.
