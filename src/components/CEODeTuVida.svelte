@@ -26,7 +26,7 @@
       </div>
   
       <div class="hidden lg:block">
-        <img src="/leslie.webp" alt="Leslie Beltrán" class="w-full rounded-lg">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.w8I0bvtuKaV1LcPL3A_bHgHaFj&pid=Api" alt="Leslie Beltrán" class="w-full rounded-lg">
       </div>
     </div>
   
@@ -57,7 +57,7 @@
       </div>
   
       <div>
-        <img src="/metodologia.webp" alt="Metodología CEO de tu Vida" class="w-full rounded-lg">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.iiVfzjtf6-MhYcV3B4n72wHaHa&pid=Api" alt="Metodología CEO de tu Vida" class="w-full rounded-lg">
       </div>
     </div>
   
