@@ -3,10 +3,6 @@
   import FadeUp from "../../components/atoms/FadeUp.svelte";
 </script>
 
-<script>
-  import Button from "../../components/atoms/Button.svelte";
-</script>
-
 <main class="max-w-screen-2xl mx-auto">
   <section class="mx-auto text-xl p-4">
     <!-- Banner corregido para no cortarse -->
