@@ -3,16 +3,20 @@
   import FadeUp from "../../components/atoms/FadeUp.svelte";
 </script>
 
+<script>
+  import Button from "../../components/atoms/Button.svelte";
+</script>
+
 <main class="max-w-screen-2xl mx-auto">
   <section class="mx-auto text-xl p-4">
-    <!-- Ajuste del banner para que no se corte -->
+    <!-- Banner corregido para no cortarse -->
     <img
       src="CEOtraining.png"
       alt="CEO TRAINING Logo"
       class="w-full max-h-[300px] object-cover"
     />
 
-    <!-- Sección Principal con Imagen Pequeña -->
+    <!-- Introducción con imagen a la derecha -->
     <div class="grid lg:grid-cols-2 gap-12 px-4 py-12 items-center">
       <div class="flex flex-col justify-center gap-4">
         <h1 class="font-[500] text-left pb-4">
@@ -29,32 +33,30 @@
       </div>
     </div>
 
-    <!-- Sección Resultados de CEO TRAINING -->
-    <div class="grid lg:grid-cols-2 gap-8">
-      <div class="bg-black text-white p-6 rounded-lg">
-        <h2 class="font-[500] text-left text-2xl pb-4">RESULTADOS QUE OBTIENEN MIS CLIENTES</h2>
+    <!-- Sección Resultados (caja negra) -->
+    <div class="bg-black text-white p-6 rounded-lg">
+      <h2 class="font-[500] text-left text-2xl pb-4">RESULTADOS QUE OBTIENEN MIS CLIENTES</h2>
 
-        <ul class="list-disc ml-6 space-y-4">
-          <li>Han triplicado sus ingresos en menos de un año.</li>
-          <li>Han conseguido ascensos que llevaban años persiguiendo sin éxito.</li>
-          <li>Han pasado de ser invisibles en su empresa a ser reconocidos como líderes.</li>
-          <li>Han renunciado a trabajos tóxicos y han conseguido opciones mucho mejor pagadas.</li>
-          <li>Han lanzado su propio negocio y han empezado a generar más dinero del que creían posible.</li>
-          <li>Han aprendido a negociar y han logrado aumentos salariales que parecían imposibles.</li>
-          <li>Han dejado de sentirse pequeños ante sus jefes y ahora hablan con seguridad.</li>
-          <li>Han recuperado su tiempo libre y han dejado de ser esclavos del trabajo.</li>
-          <li>Han creado fuentes de ingreso extra sin trabajar más horas.</li>
-          <li>Han reprogramado su mente para atraer oportunidades en vez de perseguirlas.</li>
-          <li>Han eliminado la culpa de ponerse en primer lugar y han aprendido a decir NO sin miedo.</li>
-          <li>Han transformado su relación con el dinero y ahora el dinero fluye sin esfuerzo.</li>
-          <li>Han cambiado su vida por completo en cuestión de meses.</li>
-        </ul>
-      </div>
+      <ul class="list-disc ml-6 space-y-4">
+        <li>Han triplicado sus ingresos en menos de un año.</li>
+        <li>Han conseguido ascensos que llevaban años persiguiendo sin éxito.</li>
+        <li>Han pasado de ser invisibles en su empresa a ser reconocidos como líderes.</li>
+        <li>Han renunciado a trabajos tóxicos y han conseguido opciones mucho mejor pagadas.</li>
+        <li>Han lanzado su propio negocio y han empezado a generar más dinero del que creían posible.</li>
+        <li>Han aprendido a negociar y han logrado aumentos salariales que parecían imposibles.</li>
+        <li>Han dejado de sentirse pequeños ante sus jefes y ahora hablan con seguridad.</li>
+        <li>Han recuperado su tiempo libre y han dejado de ser esclavos del trabajo.</li>
+        <li>Han creado fuentes de ingreso extra sin trabajar más horas.</li>
+        <li>Han reprogramado su mente para atraer oportunidades en vez de perseguirlas.</li>
+        <li>Han eliminado la culpa de ponerse en primer lugar y han aprendido a decir NO sin miedo.</li>
+        <li>Han transformado su relación con el dinero y ahora el dinero fluye sin esfuerzo.</li>
+        <li>Han cambiado su vida por completo en cuestión de meses.</li>
+      </ul>
     </div>
 
-    <!-- Sección Información General -->
+    <!-- Información general y estructura en dos columnas -->
     <div class="grid lg:grid-cols-2 gap-8 mt-12">
-      <div class="bg-black text-white p-6 rounded-lg">
+      <div>
         <h2 class="font-[500] text-left text-2xl pb-4">INFORMACIÓN GENERAL</h2>
 
         <ul class="list-disc ml-6 space-y-4">
@@ -66,7 +68,7 @@
         </ul>
       </div>
 
-      <div class="bg-black text-white p-6 rounded-lg">
+      <div>
         <h2 class="font-[500] text-left text-2xl pb-4">ESTRUCTURA DEL PROGRAMA</h2>
 
         <ul class="list-disc ml-6 space-y-4">
@@ -78,8 +80,8 @@
       </div>
     </div>
 
-    <!-- Sección Bonus Exclusivos -->
-    <div class="bg-black text-white p-6 rounded-lg mt-12">
+    <!-- Bonus Exclusivos -->
+    <div class="mt-12">
       <h2 class="font-[500] text-left text-2xl pb-4">BONUS EXCLUSIVOS</h2>
 
       <ul class="list-disc ml-6 space-y-4">
@@ -89,7 +91,7 @@
       </ul>
     </div>
 
-    <!-- Sección Final -->
+    <!-- Advertencia final -->
     <div class="bg-black text-white p-6 rounded-lg text-center mt-12">
       <h2 class="font-[500] text-2xl pb-4">ESTO NO ES PARA CUALQUIERA</h2>
 
@@ -102,6 +104,7 @@
       </p>
     </div>
 
+    <!-- CTA Final -->
     <div class="grid justify-center mt-12">
       <a href="https://walink.co/45aabc" target="_blank" rel="noopener noreferrer" class="my-8">
         <Button value="¡Inscríbete al CEO TRAINING!" />
@@ -109,3 +112,4 @@
     </div>
   </section>
 </main>
+
