@@ -26,7 +26,7 @@
       </div>
   
       <div class="hidden lg:block">
-        <img src="https://tse3.mm.bing.net/th?id=OIP.w8I0bvtuKaV1LcPL3A_bHgHaFj&pid=Api" alt="Leslie Beltrán" class="w-full rounded-lg">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.w8I0bvtuKaV1LcPL3A_bHgHaFj&pid=Api" alt="Business Coaching Session" class="w-1/2 mx-auto rounded-lg">
       </div>
     </div>
   
@@ -57,7 +57,7 @@
       </div>
   
       <div>
-        <img src="https://tse4.mm.bing.net/th?id=OIP.iiVfzjtf6-MhYcV3B4n72wHaHa&pid=Api" alt="Metodología CEO de tu Vida" class="w-full rounded-lg">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.iiVfzjtf6-MhYcV3B4n72wHaHa&pid=Api" alt="Business Coaching Session" class="max-w-[300px] mx-auto rounded-lg">
       </div>
     </div>
   
