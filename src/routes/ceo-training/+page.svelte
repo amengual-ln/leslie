@@ -102,7 +102,7 @@
 
     <!-- CTA Final -->
     <div class="grid justify-center mt-12">
-      <a href="https://walink.co/45aabc" target="_blank" rel="noopener noreferrer" class="my-8">
+      <a href="https://v0-cdtv-le9qcwl392u.vercel.app/" target="_blank" rel="noopener noreferrer" class="my-8">
         <Button value="¡Inscríbete al CEO TRAINING!" />
       </a>
     </div>
