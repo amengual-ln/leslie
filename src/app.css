@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ========== Global Fonts ========== */
 @font-face {
   font-family: Poppins;
   src: url("/fonts/POPPINS/Poppins-Regular.otf");
@@ -13,8 +14,8 @@
   src: url("/fonts/POPPINS/Poppins-SemiBold.otf");
 }
 
+/* ========== Global Base Styles ========== */
 @layer base {
-
   html,
   body {
     font-family: Poppins, sans-serif;
@@ -27,7 +28,6 @@
   h3,
   button {
     font-family: Poppins, sans-serif;
-
   }
 
   h1 {
@@ -37,4 +37,42 @@
   h2 {
     @apply text-3xl;
   }
+}
+
+/* ========== Webinars Specific Styles ========== */
+:root {
+  --webinar-primary: #d4af37;
+  --webinar-primary-foreground: #000000;
+  --webinar-secondary: #000000;
+  --webinar-secondary-foreground: #ffffff;
+  --gray-dark: #111827;
+  --gray-light: #d1d5db;
+  --gray-role: #9ca3af;
+  --blue: #60a5fa;
+  --red: #ef4444;
+  --cta-bg: #422006;
+}
+
+.webinar-page {
+  background-color: var(--webinar-secondary);
+  color: var(--webinar-secondary-foreground);
+}
+
+.webinar-page h1,
+.webinar-page h2,
+.webinar-page h3,
+.webinar-page button {
+  color: var(--webinar-secondary-foreground);
+}
+
+.webinar-page .text-primary {
+  color: var(--webinar-primary);
+}
+
+.webinar-page .bg-primary {
+  background-color: var(--webinar-primary);
+}
+
+.webinar-page .fill-primary {
+  fill: var(--webinar-primary);
 }
