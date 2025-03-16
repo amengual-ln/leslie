@@ -41,7 +41,7 @@
     <div class="absolute inset-0 bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lesnoback-OWSuBlYLiyaDAcZnXB4oJU5Puc39be.png')] bg-cover bg-center opacity-10 bg-no-repeat"></div>
     <div class="container mx-auto px-4 relative z-10 text-center max-w-4xl">
       <h1 class="text-4xl md:text-6xl font-bold mb-4">
-        SESIÓN <span class="text-[var(--webinar-primary)]">ESTRATÉGICA</span> <span class="text-[var(--webinar-secondary-foreground)]">DE EXPANSIÓN</span>
+        SESIÓN ESTRATÉGICA<span class="text-[var(--webinar-primary)]">DE EXPANSIÓN</span> <span class="text-[var(--webinar-secondary-foreground)]"></span>
       </h1>
       <h2 class="text-xl md:text-2xl font-semibold mb-6">
         90 MINUTOS PARA SALIR DEL ESTANCAMIENTO Y TOMAR ACCIÓN CON CLARIDAD
