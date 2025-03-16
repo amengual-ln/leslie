@@ -14,8 +14,10 @@
   src: url("/fonts/POPPINS/Poppins-SemiBold.otf");
 }
 
+
 /* ========== Global Base Styles ========== */
 @layer base {
+
   html,
   body {
     font-family: Poppins, sans-serif;
@@ -28,6 +30,7 @@
   h3,
   button {
     font-family: Poppins, sans-serif;
+
   }
 
   h1 {
@@ -37,7 +40,7 @@
   h2 {
     @apply text-3xl;
   }
-}
+} 
 
 /* ========== Webinars Specific Styles ========== */
 :root {
