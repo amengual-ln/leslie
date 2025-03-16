@@ -127,9 +127,3 @@
 </main>
 {/if}
 
-<style>
-  :global(body) {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-  }
-</style>
