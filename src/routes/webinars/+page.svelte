@@ -35,13 +35,17 @@
 </script>
 
 {#if mounted}
-<main class="font-sans bg-[var(--secondary)] text-[var(--secondary-foreground)] min-h-screen">
+<main class="font-poppins bg-[var(--secondary)] text-[var(--secondary-foreground)] min-h-screen">
   <!-- Hero Section -->
   <section class="relative min-h-screen flex items-center justify-center overflow-hidden py-20">
     <div class="absolute inset-0 bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lesnoback-OWSuBlYLiyaDAcZnXB4oJU5Puc39be.png')] bg-cover bg-center opacity-10 bg-no-repeat"></div>
-    <div class="container mx-auto px-4 relative z-10 text-center max-w-4xl" in:fade>
-      <h1 class="text-4xl md:text-6xl font-bold mb-4">SESIÓN <span class="text-[var(--primary)]">ESTRATÉGICA</span> <span class="text-[var(--secondary-foreground)]">DE EXPANSIÓN</span></h1>
-      <h2 class="text-xl md:text-2xl font-semibold mb-6">90 MINUTOS PARA SALIR DEL ESTANCAMIENTO Y TOMAR ACCIÓN CON CLARIDAD</h2>
+    <div class="container mx-auto px-4 relative z-10 text-center max-w-4xl">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">
+        SESIÓN <span class="text-[var(--primary)]">ESTRATÉGICA</span> <span class="text-[var(--secondary-foreground)]">DE EXPANSIÓN</span>
+      </h1>
+      <h2 class="text-xl md:text-2xl font-semibold mb-6">
+        90 MINUTOS PARA SALIR DEL ESTANCAMIENTO Y TOMAR ACCIÓN CON CLARIDAD
+      </h2>
       <p class="text-lg mb-6">Esta sesión <strong>NO</strong> es teoría, <strong>NO</strong> es motivación pasajera, <strong>NO</strong> es más información sin aplicación.</p>
       <p class="text-lg mb-10">Es una estrategia puntual, práctica y accionable diseñada para que en 90 minutos obtengas claridad y un plan para resolver lo que te está frenando ahora mismo.</p>
       <div class="max-w-md mx-auto">
