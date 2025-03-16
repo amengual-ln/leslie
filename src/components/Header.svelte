@@ -30,7 +30,6 @@
                     <li><a href="/sesion-estrategica">EXPANSIÓN ESTRATÉGICA</a></li>
                 </div>
             </li>
-            //<li><a href="/webinars">WEBINARS</a></li>
             <li><a href="/#testimonios">TESTIMONIOS</a></li>
             <li><a href="/#blog">CEO TEST</a></li>
             <li><a href="/#contacto">CONTACTO</a></li>
