@@ -27,10 +27,10 @@
                     <li><a href="/#ceo-training">CEO TRAINING</a></li>
                     <li><a href="/#ceo-hacking">CEO HACKING</a></li>
                     <li><a href="/#ceo-mind">CEO MIND</a></li>
-                    <li><a href="/#sesion-estrategica">EXPANSIÓN ESTRATÉGICA</a></li>
+                    <li><a href="/sesion-estrategica">EXPANSIÓN ESTRATÉGICA</a></li>
                 </div>
             </li>
-            <li><a href="/webinars">WEBINARS</a></li>
+            //<li><a href="/webinars">WEBINARS</a></li>
             <li><a href="/#testimonios">TESTIMONIOS</a></li>
             <li><a href="/#blog">CEO TEST</a></li>
             <li><a href="/#contacto">CONTACTO</a></li>
