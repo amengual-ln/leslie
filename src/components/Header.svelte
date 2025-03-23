@@ -27,7 +27,8 @@
                     <li><a href="/#ceo-training">CEO TRAINING</a></li>
                     <li><a href="/#ceo-hacking">CEO HACKING</a></li>
                     <li><a href="/#ceo-mind">CEO MIND</a></li>
-                    <li><a href="/sesion-estrategica">EXPANSIÓN ESTRATÉGICA</a></li>
+                    <li><a href="/sesion-estrategica">EXPANSIÓN ESTRATÉGICA</a>
+                    </li><li><a href="/fundamentals">FUNDAMENTALS</a></li>
                 </div>
             </li>
             <li><a href="/#testimonios">TESTIMONIOS</a></li>
