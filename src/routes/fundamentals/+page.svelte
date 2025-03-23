@@ -97,19 +97,25 @@
             Los tres pilares para transformarte en el CEO de tu vida:
             <br/>
             <span class="text-[var(--webinar-primary)]">Felicidad</span>. <span class="text-[var(--webinar-primary)]">Autoconcepto</span>. <span class="text-[var(--webinar-primary)]">Éxito</span>.
-          </h2>
-          <p class="text-lg mb-4 max-w-3xl mx-auto">
-            No puedes liderar tu vida si estás viviendo bajo reglas que no son tuyas. 
-          </p>
-          <p class="text-lg mb-10 max-w-3xl mx-auto">
-            Y no puedes expandirte si no sabes quién eres ni qué estás persiguiendo. 
-          </p>
-          <p class="text-lg mb-10 max-w-3xl mx-auto">
-            Es hora de soltar el deber, el miedo y las expectativas ajenas. 
-          </p>
-          <p class="text-lg mb-10 max-w-3xl mx-auto">
+            </h2>
+        <p class="text-lg mb-4 max-w-3xl mx-auto">
+            No puedes liderar tu vida si estás viviendo bajo reglas que no son tuyas.
+        </p>
+        <p class="text-lg mb-4 max-w-3xl mx-auto">
+            Y no puedes expandirte si no sabes quién eres ni qué estás persiguiendo.
+        </p>
+        <p class="text-lg mb-4 max-w-3xl mx-auto">
+            Es hora de soltar el deber, el miedo y las expectativas ajenas.
+        </p>
+        <p class="text-lg mb-4 max-w-3xl mx-auto">
             Reconecta con lo esencial y comienza a tomar decisiones alineadas con lo que verdaderamente eres y deseas.
-          </p>
+        </p>
+        <p class="text-xl max-w-3xl mx-auto mb-6 text-[var(--gray-light)]">
+          El programa <strong>CEO de tu Vida Fundamentals</strong> tiene un valor regular de <span class="line-through">6,500 MXN</span>. 
+        </p>
+        <p class="text-2xl font-bold text-[var(--webinar-primary)] mb-4">✨ Pero por ser mi cumpleaños, solo pagarás 4,999 MXN ✨</p>
+        <p class="text-lg mb-4 text-[var(--gray-light)]">Además, puedes dividirlo en <strong>2 exhibiciones sin intereses</strong>.</p>
+        <p class="text-lg mb-8 text-[var(--gray-light)]">¡La promoción estará disponible hasta el <strong>31 de marzo</strong>!</p>
         <div class="max-w-md mx-auto h-[432px] mt-10">
           <iframe
             src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
@@ -117,6 +123,9 @@
             title="Form de Fundamentals"
           ></iframe>
         </div>
+        <p class="text-xl text-[var(--gray-light)]">
+            A partir del <strong>1 de abril</strong>, el precio volverá a ser de <strong>9,000 MXN</strong>.
+          </p>
       </div>
     </section>
    <!-- Pillars -->
@@ -153,7 +162,7 @@
         En solo <strong>5 semanas</strong>, vas a crear tu propio concepto de Felicidad, Autoconcepto y Éxito (FAE) y empezar a tomar decisiones alineadas contigo.<br><br>
         Ya no para demostrarle algo a otros. Sino para vivir desde quien tú realmente eres.
       </p>
-      <a href="#form" class="bg-[var(--webinar-primary)] text-black font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition">
+      <a href="wa.link/fundamentals" class="bg-[var(--webinar-primary)] text-black font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition">
         Comienza ahora
       </a>
     </div>
@@ -265,7 +274,8 @@
     <section class="py-20 bg-[var(--cta-bg)]">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">No dejes pasar esta oportunidad</h2>
-        <p class="text-xl mb-8 max-w-2xl mx-auto">Es hora de crear tu propio <span class="text-[var(--webinar-primary)]">FAE</span> y de quien quieres ser. Del otro lado de esta decisión… está la vida que realmente mereces.</p>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">Es hora de crear tu propio <span class="text-[var(--webinar-primary)]">FAE</span> y de quien quieres ser.</p>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">Al otro lado de esta decisión… está la vida que realmente mereces.</p>
         <div class="max-w-md mx-auto h-[432px]">
           <iframe
             src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
