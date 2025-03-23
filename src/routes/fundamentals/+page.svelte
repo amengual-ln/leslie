@@ -86,57 +86,44 @@
   
   {#if mounted}
   <main class="font-poppins bg-[var(--webinar-secondary)] text-[var(--webinar-secondary-foreground)] min-h-screen webinar-page">
-    <!-- Hero Section -->
-    <section class="relative min-h-screen flex items-center justify-center overflow-hidden py-20">
-      <div class="absolute inset-0 bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lesnoback-OWSuBlYLiyaDAcZnXB4oJU5Puc39be.png')] bg-cover bg-center opacity-10 bg-no-repeat"></div>
-      <div class="container mx-auto px-4 relative z-10 text-center max-w-4xl">
-        <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-            <span class="text-[var(--webinar-primary)]">F</span>UND<span class="text-[var(--webinar-primary)]">A</span>M<span class="text-[var(--webinar-primary)]">E</span>NTALS
-          </h1>
-          <h2 class="text-xl md:text-2xl mb-6">
-            Los tres pilares para transformarte en el CEO de tu vida:
-            <br/>
-            <span class="text-[var(--webinar-primary)]">Felicidad</span>. <span class="text-[var(--webinar-primary)]">Autoconcepto</span>. <span class="text-[var(--webinar-primary)]">Éxito</span>.
-            </h2>
-        <p class="text-lg mb-4 max-w-3xl mx-auto">
-            No puedes liderar tu vida si estás viviendo bajo reglas que no son tuyas.
-        </p>
-        <p class="text-lg mb-4 max-w-3xl mx-auto">
-            Y no puedes expandirte si no sabes quién eres ni qué estás persiguiendo.
-        </p>
-        <p class="text-lg mb-4 max-w-3xl mx-auto">
-            Es hora de soltar el deber, el miedo y las expectativas ajenas.
-        </p>
-        <p class="text-lg mb-4 max-w-3xl mx-auto">
-            Reconecta con lo esencial y comienza a tomar decisiones alineadas con lo que verdaderamente eres y deseas.
-        </p>
-        <p class="text-xl max-w-3xl mx-auto mb-6 text-[var(--gray-light)]">
-          El programa <strong>Fundamentals</strong> tiene un valor regular de <span class="line-through">6,500 MXN</span>. 
-        </p>
-        <p class="text-2xl font-bold text-[var(--webinar-primary)] mb-4">✨ Pero por ser mi cumpleaños, solo pagarás 4,499 MXN ✨</p>
-        <p class="text-lg mb-4 text-[var(--gray-light)]">Además, puedes dividirlo en <strong>2 exhibiciones de 2,249.50 MXN</strong>.</p>
-        <p class="text-lg mb-8 text-[var(--gray-light)]">La promoción estará disponible hasta el <strong>31 de marzo</strong></p>
-        <div class="max-w-md mx-auto h-[432px] mt-10">
-          <iframe
-            src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
-            style="width:100%;height:100%;border:none;border-radius:10px"
-            title="Form de Fundamentals"
-          ></iframe>
-        <p class="text-xl text-[var(--gray-light)]">
-            A partir del <strong>1 de abril</strong>, el precio volverá a ser de <strong>6,500 MXN</strong>.
-        </p>
-      </div>
-    </section>
-   <!-- Pillars -->
-<section class="py-20 bg-black/50"> 
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold mb-12">
+    <!-- Hero Pillars Section -->
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden py-24">
+    <div class="absolute inset-0 bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lesnoback-OWSuBlYLiyaDAcZnXB4oJU5Puc39be.png')] bg-cover bg-center opacity-10 bg-no-repeat"></div>
+    
+    <div class="container mx-auto px-4 relative z-10 text-center max-w-4xl">
+      
+      <h1 class="text-5xl md:text-6xl font-bold mb-8 leading-tight">
+        <span class="text-[var(--webinar-primary)]">F</span>UND<span class="text-[var(--webinar-primary)]">A</span>M<span class="text-[var(--webinar-primary)]">E</span>NTALS
+      </h1>
+  
+      <h2 class="text-xl md:text-2xl mb-8">
+        Los tres pilares para transformarte en el CEO de tu vida:
+        <br/>
+        <span class="text-[var(--webinar-primary)]">Felicidad</span>. <span class="text-[var(--webinar-primary)]">Autoconcepto</span>. <span class="text-[var(--webinar-primary)]">Éxito</span>
+      </h2>
+  
+      <p class="text-lg mb-4 max-w-3xl mx-auto">
+        No puedes liderar tu vida si estás viviendo bajo reglas que no son tuyas.
+      </p>
+      <p class="text-lg mb-4 max-w-3xl mx-auto">
+        Y no puedes expandirte si no sabes quién eres ni qué estás persiguiendo.
+      </p>
+      <p class="text-lg mb-4 max-w-3xl mx-auto">
+        Es hora de soltar el deber, el miedo y las expectativas ajenas.
+      </p>
+      <p class="text-lg mb-12 max-w-3xl mx-auto">
+        Reconecta con lo esencial y comienza a tomar decisiones alineadas con lo que verdaderamente eres y deseas.
+      </p>
+  
+      <!-- Separador -->
+      <h2 class="text-3xl md:text-4xl font-bold mb-16 mt-20">
         Tu <span class="text-[var(--webinar-primary)]">FAE</span>: 
         <span class="text-[var(--webinar-primary)]">Felicidad</span>, 
         <span class="text-[var(--webinar-primary)]">Autoconcepto</span> y 
         <span class="text-[var(--webinar-primary)]">Éxito</span>
       </h2>
-      <div class="grid md:grid-cols-3 gap-8">
+  
+      <div class="grid md:grid-cols-3 gap-8 mb-16">
         {#each pillars as p, index}
           <div in:fly={{ y: 20, duration: 500, delay: index * 200 }} class="bg-[var(--gray-dark)] p-8 rounded-lg">
             <h3 class="text-2xl font-bold text-[var(--webinar-primary)] mb-4"><span class="text-[var(--webinar-primary)]">{p.title}</span></h3>
@@ -144,50 +131,18 @@
           </div>
         {/each}
       </div>
-      <p class="text-xl max-w-3xl mx-auto mt-12 text-[var(--gray-light)]">En 5 semanas, construirás tu propia definición de éxito, felicidad y autoconcepto, y empezarás a vivir desde ahí.</p>
-    </div>
-  </section>
-
-<!-- Dolor y Promesa: Tu FAE -->
-<section class="py-20 bg-black/50">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold mb-8">
-        Deja de vivir la vida que otros definieron para ti.
-      </h2>
-      <p class="text-xl max-w-4xl mx-auto mb-8 text-[var(--gray-light)]">
-        Es momento de construir tu propio <span class="text-[var(--webinar-primary)] font-semibold">FAE: Felicidad, Autoconcepto y Éxito</span>.
+      <p class="text-xl max-w-3xl mx-auto text-[var(--gray-light)]">
+        En 5 semanas, construirás tu propia definición de éxito, felicidad y autoconcepto, y empezarás a vivir desde ahí.
       </p>
-      <p class="text-lg max-w-3xl mx-auto mb-12">
-        En solo <strong>5 semanas</strong>, vas a crear tu propio concepto de Felicidad, Autoconcepto y Éxito (FAE) y empezar a tomar decisiones alineadas contigo.<br><br>
-        Ya no para demostrarle algo a otros. Sino para vivir desde quien tú realmente eres.
-      </p>
-      <a href="https://wa.link/fundamentals" 
-        class="bg-[var(--webinar-primary)] text-black font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition"
-        target="_blank" 
-        rel="noopener noreferrer">
-        Pagar ahora
-      </a>
-    </div>
-  </section>
-  <!-- Reason -->  
-  <section class="py-20 bg-black/50">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold mb-12">¿Por qué estoy creando este programa?</h2>
-      <ul class="space-y-6 max-w-4xl mx-auto text-left">
-        {#each reasons as reason, index}
-          <li class="flex items-start gap-3" in:fly={{ y: 20, duration: 500, delay: index * 150 }}>
-            <span class="text-[var(--webinar-primary)] text-xl">🔥</span>
-            <span class="text-[var(--gray-light)]">{reason}</span>
-          </li>
-        {/each}
-      </ul>
-      <p class="text-xl max-w-3xl mx-auto mt-12 text-[var(--gray-light)]">Si aún tienes duda de si es para ti…</p>
+    
     </div>
   </section>
   <!-- Achievements -->  
-  <section class="py-20">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold mb-12">¿Qué más vas a lograr al finalizar el programa?</h2>
+  <section class="py-20 bg-black/90">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 mt-20"> <!-- agrega mt-20 -->
+        ¿Qué vas a lograr al finalizar el programa?
+      </h2>
       <ul class="space-y-6 max-w-4xl mx-auto text-left">
         {#each achievements as item, index}
           <li class="flex items-start gap-3" in:fly={{ y: 20, duration: 500, delay: index * 150 }}>
@@ -222,10 +177,29 @@
         </ul>
       </div>
     </section>
+   <!-- CTA1 -->
+   <section class="py-20 bg-black/50"> 
+    <div class="container mx-auto px-4 text-center">
+      <p class="text-xl max-w-3xl mx-auto mb-6 text-[var(--gray-light)]">
+        El programa <strong>Fundamentals</strong> tiene un valor regular de <span class="line-through">6,500 MXN</span>. 
+      </p>
+      <p class="text-2xl font-bold text-[var(--webinar-primary)] mb-4">✨ Pero por ser mi cumpleaños, solo pagarás 4,499 MXN ✨</p>
+      <p class="text-lg mb-4 text-[var(--gray-light)]">Además, puedes dividirlo en <strong>2 exhibiciones de 2,249.50 MXN</strong>.</p>
+      <p class="text-lg mb-8 text-[var(--gray-light)]">La promoción estará disponible hasta el <strong>31 de marzo</strong></p>
+      <div class="max-w-md mx-auto h-[432px] mt-10">
+        <iframe
+          src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
+          style="width:100%;height:100%;border:none;border-radius:10px"
+          title="Form de Fundamentals"
+        ></iframe>
+      <p class="text-xl text-[var(--gray-light)]">
+          A partir del <strong>1 de abril</strong>, el precio volverá a ser de <strong>6,500 MXN</strong>.
+      </p>
+    </div>
     <!-- Program -->    
     <section class="py-20 bg-black/50">
         <div class="container mx-auto px-4 text-center">
-          <h2 class="text-3xl md:text-4xl font-bold mb-16">Temario del Programa</h2>
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 mt-20"> <!-- agrega mt-20 -->Temario del Programa</h2>
           <div class="space-y-12 max-w-5xl mx-auto">
             {#each weeks as week, index}
               <div class="bg-[var(--gray-dark)] p-8 rounded-lg text-left flex flex-col md:flex-row gap-6 items-start" in:fly={{ y: 20, duration: 500, delay: index * 200 }}>
