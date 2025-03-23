@@ -113,7 +113,7 @@
         <p class="text-xl max-w-3xl mx-auto mb-6 text-[var(--gray-light)]">
           El programa <strong>Fundamentals</strong> tiene un valor regular de <span class="line-through">6,500 MXN</span>. 
         </p>
-        <p class="text-2xl font-bold text-[var(--webinar-primary)] mb-4">✨ Pero por ser mi cumpleaños, solo pagarás 4,999 MXN ✨</p>
+        <p class="text-2xl font-bold text-[var(--webinar-primary)] mb-4">✨ Pero por ser mi cumpleaños, solo pagarás 4,499 MXN ✨</p>
         <p class="text-lg mb-4 text-[var(--gray-light)]">Además, puedes dividirlo en <strong>2 exhibiciones sin intereses</strong>.</p>
         <p class="text-lg mb-8 text-[var(--gray-light)]">¡La promoción estará disponible hasta el <strong>31 de marzo</strong>!</p>
         <div class="max-w-md mx-auto h-[432px] mt-10">
