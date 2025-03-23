@@ -88,7 +88,7 @@
         <ul class="list-disc ml-6 space-y-4">
           <li><strong>DURACIÓN:</strong> Mínimo 3 meses (100% personalizado).</li>
           <li><strong>FORMATO:</strong> Sesiones 1:1 online, solo tú y yo.</li>
-          <li><strong>FRECUENCIA:</strong> Una sesión semanal de 2 horas.</li>
+          <li><strong>FRECUENCIA:</strong> Una sesión semanal de 1 hora.</li>
           <li><strong>ENFOQUE:</strong> Aplicación práctica de la metodología CEO de Tu Vida a tus objetivos específicos.</li>
           <li><strong>ESTRATEGIA PERSONALIZADA:</strong> Adaptada a tu carrera, negocio y visión de éxito.</li>
         </ul>

@@ -111,7 +111,7 @@
             Reconecta con lo esencial y comienza a tomar decisiones alineadas con lo que verdaderamente eres y deseas.
         </p>
         <p class="text-xl max-w-3xl mx-auto mb-6 text-[var(--gray-light)]">
-          El programa <strong>CEO de tu Vida Fundamentals</strong> tiene un valor regular de <span class="line-through">6,500 MXN</span>. 
+          El programa <strong>Fundamentals</strong> tiene un valor regular de <span class="line-through">6,500 MXN</span>. 
         </p>
         <p class="text-2xl font-bold text-[var(--webinar-primary)] mb-4">✨ Pero por ser mi cumpleaños, solo pagarás 4,999 MXN ✨</p>
         <p class="text-lg mb-4 text-[var(--gray-light)]">Además, puedes dividirlo en <strong>2 exhibiciones sin intereses</strong>.</p>
@@ -122,10 +122,9 @@
             style="width:100%;height:100%;border:none;border-radius:10px"
             title="Form de Fundamentals"
           ></iframe>
-        </div>
         <p class="text-xl text-[var(--gray-light)]">
             A partir del <strong>1 de abril</strong>, el precio volverá a ser de <strong>9,000 MXN</strong>.
-          </p>
+        </p>
       </div>
     </section>
    <!-- Pillars -->
