@@ -9,26 +9,68 @@
       { title: "Autoconcepto", description: "Rompe con el autoconcepto impuesto y diseña quién eres desde tu autenticidad." },
       { title: "Éxito", description: "Deja de perseguir definiciones ajenas y empieza a crear tu propio modelo de éxito." }
     ];
-  
-    const includes = [
-      "5 semanas de contenido grabado con videos directos y accionables.",
-      "Ejercicios prácticos en cada módulo para aplicar lo aprendido.",
-      "2 sesiones en vivo de Preguntas y Respuestas conmigo para profundizar en tu proceso.",
-      "Material descargable para acompañar tu transformación.",
-      "Acceso a la comunidad privada para compartir avances y recibir apoyo."
+    const weeks = [
+        {
+        week: "Semana 1",
+        title: "EL GRAN ERROR QUE TE ESTÁ COSTANDO TU VIDA",
+        objective: "Darte cuenta de que estás viviendo en segundo lugar y del costo real de seguir así."
+        },
+        {
+        week: "Semana 2",
+        title: "ROMPIENDO EL GUIÓN QUE NO ES TUYO",
+        objective: "Identificar y desprogramar los conceptos de éxito y felicidad que has heredado para que dejes de pensar como la abuelita de tu abuelita."
+        },
+        {
+        week: "Semana 3",
+        title: "REDEFINIENDO TU FAE (FELICIDAD, AUTOCONCEPTO Y ÉXITO)",
+        objective: "Diseñar tu propio concepto de Felicidad, Autoconcepto y Éxito, desde la claridad y la autenticidad."
+        },
+        {
+        week: "Semana 4",
+        title: "DISEÑANDO TU NUEVA VIDA – PRIMEROS PASOS PARA HACERLO REALIDAD",
+        objective: "Crear estrategias simples para empezar a vivir HOY tu FAE."
+        },
+        {
+        week: "Semana 5",
+        title: "IMPLEMENTACIÓN Y SOPORTE",
+        objective: "Implementación de las estrategias y seguimiento."
+        }
+  ];  
+    const achievements = [
+        "Vas a dejar de sentirte atrapado en una vida que no se siente tuya.",
+        "Vas a soltar la culpa de ponerte en primer lugar.",
+        "Vas a tomar decisiones con claridad y seguridad, sin miedo al juicio externo.",
+        "Vas a tener por fin una brújula interna para avanzar sin perderte en lo que los demás esperan de ti.",
+        "Vas a dejar de autoexigirte tanto, porque ya no estarás tratando de llenar un molde ajeno.",
+        "Vas a recuperar tu energía y tu enfoque, porque estarás alineado con lo que realmente te importa.",
+        "Vas a empezar a construir un éxito que no te desgaste… sino que te expanda.",
+        "Y vas a recuperar algo que habías olvidado: tu voz, tus sueños y lo que te hace feliz."
     ];
-  
+    const includes = [
+    "5 semanas de contenido grabado con videos directos y accionables.",
+    "Ejercicios prácticos en cada módulo para aplicar lo aprendido.",
+    "2 sesiones en vivo de Preguntas y Respuestas conmigo para profundizar en tu proceso.",
+    "Material descargable para acompañar tu transformación.",
+    "Acceso a la comunidad privada para compartir avances y recibir apoyo."
+    ];
+    const reasons = [
+    "Porque veo que muchos ejecutivos, empresarios y profesionales exitosos siguen sintiéndose vacíos y agotados.",
+    "Porque he trabajado con cientos de clientes que se han pasado la vida en segundo lugar sin siquiera darse cuenta.",
+    "Porque sé que el éxito real no es solo dinero o títulos, sino vivir con claridad, propósito y bienestar.",
+    "Porque antes de enseñar estrategias de expansión y abundancia, es clave que tengas un punto de partida sólido.",
+    "Porque quiero que dejes de actuar como el office boy de tu vida y empieces a liderarla como un verdadero CEO."
+    ];
     const whoFor = [
-      "Gerentes y Directores que han invertido años acumulando títulos y siguen sin sentirse plenos.",
-      "Personas que saben que necesitan hacer un cambio, pero no tienen claro por dónde empezar.",
-      "Quienes buscan resultados reales, en poco tiempo y con un proceso flexible.",
-      "Ejecutivos que quieren claridad sobre su concepto de éxito y felicidad personal."
+    "Gerentes y Directores que han invertido años acumulando títulos y siguen sin sentirse plenos.",
+    "Personas que saben que necesitan hacer un cambio, pero no tienen claro por dónde empezar.",
+    "Quienes buscan resultados reales, en poco tiempo y con un proceso flexible.",
+    "Ejecutivos que quieren claridad sobre su concepto de éxito y felicidad personal."
     ];
   
     const notFor = [
-      "Personas que creen que el éxito solo se logra sacrificando bienestar.",
-      "Quienes esperan soluciones mágicas sin cuestionarse o cambiar mentalidad.",
-      "Los que prefieren seguir en automático y no tomar decisiones conscientes."
+    "Personas que creen que el éxito solo se logra sacrificando bienestar.",
+    "Quienes esperan soluciones mágicas sin cuestionarse o cambiar mentalidad.",
+    "Los que prefieren seguir en automático y no tomar decisiones conscientes."
     ];
   
     const testimonials = [
@@ -72,7 +114,23 @@
         </div>
       </div>
     </section>
-  
+   <!-- Program -->    
+   <section class="py-20 bg-black/50">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-16">Temario del Programa</h2>
+      <div class="space-y-12 max-w-5xl mx-auto">
+        {#each weeks as week, index}
+          <div class="bg-[var(--gray-dark)] p-8 rounded-lg text-left flex flex-col md:flex-row gap-6 items-start" in:fly={{ y: 20, duration: 500, delay: index * 200 }}>
+            <div class="flex-shrink-0 text-[var(--webinar-primary)] text-4xl font-bold">{week.week}</div>
+            <div>
+              <h3 class="text-xl font-bold mb-2 text-[var(--webinar-primary)]">{week.title}</h3>
+              <p class="text-[var(--gray-light)]"><strong>Objetivo:</strong> {week.objective}</p>
+            </div>
+          </div>
+        {/each}
+      </div>
+    </div>
+  </section>
    <!-- Pillars -->
 <section class="py-20 bg-black/50"> 
     <div class="container mx-auto px-4 text-center">
@@ -93,21 +151,54 @@
       <p class="text-xl max-w-3xl mx-auto mt-12 text-[var(--gray-light)]">En 5 semanas, construirás tu propia definición de éxito, felicidad y autoconcepto, y empezarás a vivir desde ahí.</p>
     </div>
   </section>
-  
-      
-  
-    <!-- What Includes -->
-    <section class="py-20">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">¿Qué incluye este programa?</h2>
-        <ul class="space-y-6 max-w-4xl mx-auto">
-          {#each includes as item}
-            <li class="flex items-start gap-3"><span class="text-[var(--webinar-primary)] text-xl">✔️</span><span>{item}</span></li>
-          {/each}
-        </ul>
-      </div>
-    </section>
-  
+
+<!-- Dolor y Promesa: Tu FAE -->
+<section class="py-20 bg-black/50">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-8">
+        Deja de vivir la vida que otros definieron para ti.
+      </h2>
+      <p class="text-xl max-w-4xl mx-auto mb-8 text-[var(--gray-light)]">
+        Es momento de construir tu propio <span class="text-[var(--webinar-primary)] font-semibold">FAE: Felicidad, Autoconcepto y Éxito</span>.
+      </p>
+      <p class="text-lg max-w-3xl mx-auto mb-12">
+        En solo <strong>5 semanas</strong>, vas a crear tu propio concepto de Felicidad, Autoconcepto y Éxito (FAE) y empezar a tomar decisiones alineadas contigo.<br><br>
+        Ya no para demostrarle algo a otros. Sino para vivir desde quien tú realmente eres.
+      </p>
+      <a href="#form" class="bg-[var(--webinar-primary)] text-black font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition">
+        Comienza ahora
+      </a>
+    </div>
+  </section>
+  <section class="py-20 bg-black/50">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">¿Por qué estoy creando este programa?</h2>
+      <ul class="space-y-6 max-w-4xl mx-auto text-left">
+        {#each reasons as reason, index}
+          <li class="flex items-start gap-3" in:fly={{ y: 20, duration: 500, delay: index * 150 }}>
+            <span class="text-[var(--webinar-primary)] text-xl">🔥</span>
+            <span class="text-[var(--gray-light)]">{reason}</span>
+          </li>
+        {/each}
+      </ul>
+      <p class="text-xl max-w-3xl mx-auto mt-12 text-[var(--gray-light)]">Si aún tienes duda de si es para ti…</p>
+    </div>
+  </section>
+  <!-- Achievements -->  
+  <section class="py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">¿Qué más vas a lograr al finalizar el programa?</h2>
+      <ul class="space-y-6 max-w-4xl mx-auto text-left">
+        {#each achievements as item, index}
+          <li class="flex items-start gap-3" in:fly={{ y: 20, duration: 500, delay: index * 150 }}>
+            <span class="text-[var(--webinar-primary)] text-xl">📌</span>
+            <span class="text-[var(--gray-light)]">{item}</span>
+          </li>
+        {/each}
+      </ul>
+    </div>
+  </section> 
+
     <!-- Who For -->
     <section class="py-20 bg-[var(--gray-dark)]">
       <div class="container mx-auto px-4">
@@ -150,7 +241,6 @@
         </div>
       </div>
     </section>
-  
     <!-- Final CTA -->
     <section class="py-20 bg-[var(--cta-bg)]">
       <div class="container mx-auto px-4 text-center">
