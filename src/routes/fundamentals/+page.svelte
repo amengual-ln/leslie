@@ -161,8 +161,11 @@
         En solo <strong>5 semanas</strong>, vas a crear tu propio concepto de Felicidad, Autoconcepto y Éxito (FAE) y empezar a tomar decisiones alineadas contigo.<br><br>
         Ya no para demostrarle algo a otros. Sino para vivir desde quien tú realmente eres.
       </p>
-      <a href="wa.link/fundamentals" class="bg-[var(--webinar-primary)] text-black font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition">
-        Comienza ahora
+      <a href="https://wa.link/fundamentals" 
+        class="bg-[var(--webinar-primary)] text-black font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition"
+        target="_blank" 
+        rel="noopener noreferrer">
+        Pagar ahora
       </a>
     </div>
   </section>
