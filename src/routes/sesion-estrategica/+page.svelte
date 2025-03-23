@@ -1,7 +1,6 @@
 <script>
   import { onMount } from 'svelte';
   import { fade, fly } from 'svelte/transition';
-  import { Check, X, Star } from 'lucide-svelte';
 
   let mounted = false;
 

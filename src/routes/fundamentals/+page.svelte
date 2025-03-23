@@ -99,11 +99,16 @@
             <span class="text-[var(--webinar-primary)]">Felicidad</span>. <span class="text-[var(--webinar-primary)]">Autoconcepto</span>. <span class="text-[var(--webinar-primary)]">Éxito</span>.
           </h2>
           <p class="text-lg mb-4 max-w-3xl mx-auto">
-            No puedes liderar tu vida si estás viviendo bajo reglas que no son tuyas. <br />
-            Y no puedes expandirte si no sabes quién eres ni qué estás persiguiendo.
+            No puedes liderar tu vida si estás viviendo bajo reglas que no son tuyas. 
           </p>
           <p class="text-lg mb-10 max-w-3xl mx-auto">
-            Es hora de soltar el deber, el miedo y las expectativas ajenas. Reconecta con lo esencial y comienza a tomar decisiones alineadas con lo que verdaderamente eres y deseas.
+            Y no puedes expandirte si no sabes quién eres ni qué estás persiguiendo. 
+          </p>
+          <p class="text-lg mb-10 max-w-3xl mx-auto">
+            Es hora de soltar el deber, el miedo y las expectativas ajenas. 
+          </p>
+          <p class="text-lg mb-10 max-w-3xl mx-auto">
+            Reconecta con lo esencial y comienza a tomar decisiones alineadas con lo que verdaderamente eres y deseas.
           </p>
         <div class="max-w-md mx-auto h-[432px] mt-10">
           <iframe
@@ -114,23 +119,6 @@
         </div>
       </div>
     </section>
-   <!-- Program -->    
-   <section class="py-20 bg-black/50">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold mb-16">Temario del Programa</h2>
-      <div class="space-y-12 max-w-5xl mx-auto">
-        {#each weeks as week, index}
-          <div class="bg-[var(--gray-dark)] p-8 rounded-lg text-left flex flex-col md:flex-row gap-6 items-start" in:fly={{ y: 20, duration: 500, delay: index * 200 }}>
-            <div class="flex-shrink-0 text-[var(--webinar-primary)] text-4xl font-bold">{week.week}</div>
-            <div>
-              <h3 class="text-xl font-bold mb-2 text-[var(--webinar-primary)]">{week.title}</h3>
-              <p class="text-[var(--gray-light)]"><strong>Objetivo:</strong> {week.objective}</p>
-            </div>
-          </div>
-        {/each}
-      </div>
-    </div>
-  </section>
    <!-- Pillars -->
 <section class="py-20 bg-black/50"> 
     <div class="container mx-auto px-4 text-center">
@@ -170,6 +158,7 @@
       </a>
     </div>
   </section>
+  <!-- Reason -->  
   <section class="py-20 bg-black/50">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl md:text-4xl font-bold mb-12">¿Por qué estoy creando este programa?</h2>
@@ -222,7 +211,38 @@
         </ul>
       </div>
     </section>
-  
+    <!-- Program -->    
+    <section class="py-20 bg-black/50">
+        <div class="container mx-auto px-4 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold mb-16">Temario del Programa</h2>
+          <div class="space-y-12 max-w-5xl mx-auto">
+            {#each weeks as week, index}
+              <div class="bg-[var(--gray-dark)] p-8 rounded-lg text-left flex flex-col md:flex-row gap-6 items-start" in:fly={{ y: 20, duration: 500, delay: index * 200 }}>
+                <div class="flex-shrink-0 text-[var(--webinar-primary)] text-4xl font-bold">{week.week}</div>
+                <div>
+                  <h3 class="text-xl font-bold mb-2 text-[var(--webinar-primary)]">{week.title}</h3>
+                  <p class="text-[var(--gray-light)]"><strong>Objetivo:</strong> {week.objective}</p>
+                </div>
+              </div>
+            {/each}
+          </div>
+        </div>
+      </section> 
+  <!-- Reason -->  
+  <section class="py-20 bg-black/50">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">¿Por qué estoy creando este programa?</h2>
+      <ul class="space-y-6 max-w-4xl mx-auto text-left">
+        {#each reasons as reason, index}
+          <li class="flex items-start gap-3" in:fly={{ y: 20, duration: 500, delay: index * 150 }}>
+            <span class="text-[var(--webinar-primary)] text-xl">🔥</span>
+            <span class="text-[var(--gray-light)]">{reason}</span>
+          </li>
+        {/each}
+      </ul>
+      <p class="text-xl max-w-3xl mx-auto mt-12 text-[var(--gray-light)]">Si aún tienes duda de si es para ti…</p>
+    </div>
+  </section>
     <!-- Testimonials -->
     <section class="py-20 bg-black/30">
       <div class="container mx-auto px-4">
@@ -244,8 +264,8 @@
     <!-- Final CTA -->
     <section class="py-20 bg-[var(--cta-bg)]">
       <div class="container mx-auto px-4 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold mb-6">Reconecta contigo y empieza ahora</h2>
-        <p class="text-xl mb-8 max-w-2xl mx-auto">Tu <span class="text-[var(--webinar-primary)]">FAE</span> te está esperando. Y del otro lado de esta decisión… está la vida que realmente mereces.</p>
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">No dejes pasar esta oportunidad</h2>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">Es hora de crear tu propio <span class="text-[var(--webinar-primary)]">FAE</span> y de quien quieres ser. Del otro lado de esta decisión… está la vida que realmente mereces.</p>
         <div class="max-w-md mx-auto h-[432px]">
           <iframe
             src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
