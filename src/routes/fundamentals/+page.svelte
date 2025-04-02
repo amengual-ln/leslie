@@ -181,11 +181,9 @@
    <section class="py-20 bg-black/50"> 
     <div class="container mx-auto px-4 text-center">
       <p class="text-xl max-w-3xl mx-auto mb-6 text-[var(--gray-light)]">
-        El programa <strong>Fundamentals</strong> tiene un valor regular de <span class="line-through">6,500 MXN</span>. 
+        El programa <strong>Fundamentals</strong> tiene un valor regular de solamente<span class="line-through">6,500 MXN</span>. 
       </p>
-      <p class="text-2xl font-bold text-[var(--webinar-primary)] mb-4">✨ Pero por ser mi cumpleaños, solo pagarás 4,499 MXN ✨</p>
-      <p class="text-lg mb-4 text-[var(--gray-light)]">Además, puedes dividirlo en <strong>2 exhibiciones de 2,249.50 MXN</strong>.</p>
-      <p class="text-lg mb-8 text-[var(--gray-light)]">La promoción estará disponible hasta el <strong>31 de marzo</strong></p>
+      <p class="text-lg mb-4 text-[var(--gray-light)]">que puedes pagar en <strong>2 exhibiciones de 3,250 MXN</strong>.</p>
       <div class="max-w-md mx-auto h-[432px] mt-10">
         <iframe
           src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
