@@ -181,7 +181,7 @@
    <section class="py-20 bg-black/50"> 
     <div class="container mx-auto px-4 text-center">
       <p class="text-xl max-w-3xl mx-auto mb-6 text-[var(--gray-light)]">
-        El programa <strong>Fundamentals</strong> tiene un valor regular de solamente 6,500 MXN</span>. 
+        El programa <strong>Fundamentals</strong> tiene un valor regular de solamente 6,500 MXN. 
       </p>
       <p class="text-lg mb-4 text-[var(--gray-light)]">que puedes pagar en <strong>2 exhibiciones de 3,250 MXN</strong>.</p>
       <div class="max-w-md mx-auto h-[432px] mt-10">
