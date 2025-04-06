@@ -157,15 +157,12 @@
 <section class="py-20 bg-black/80">
   <div class="container mx-auto px-4 text-center">
     <h2 class="text-3xl md:text-4xl font-bold mb-12">Tu FAE, visualizado</h2>
-    <p class="text-xl mb-12 max-w-3xl mx-auto text-[var(--gray-light)]">
-      Estas infografías te ayudan a ver con claridad el camino que vas a recorrer en Fundamentals:
-    </p>
 
     <!-- Imagen 1: Diagrama de Flujo -->
     <div class="mb-16" in:fade={{ duration: 700 }}>
       <img 
-        src="info1.png" 
-        alt="Infografía Flujo FAE" 
+        src="infog1.png" 
+        alt="Construcción del FAE" 
         class="mx-auto max-w-4xl rounded-lg shadow-lg"
       />
     </div>
@@ -173,8 +170,8 @@
     <!-- Imagen 2: Escalera FAE -->
     <div in:fade={{ duration: 700, delay: 200 }}>
       <img 
-        src="info2.png" 
-        alt="Infografía Escalera FAE" 
+        src="infog2.png" 
+        alt="Proceso FAE" 
         class="mx-auto max-w-3xl rounded-lg shadow-lg"
       />
     </div>
