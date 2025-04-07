@@ -131,10 +131,12 @@
           </div>
         {/each}
       </div>
-      <p class="text-xl max-w-3xl mx-auto text-[var(--gray-light)]">
-        En 5 semanas, construirás tu propia definición de éxito, felicidad y autoconcepto, y empezarás a vivir desde ahí.
-      </p>
-    
+    <p class="text-2xl sm:text-3xl font-bold text-center max-w-4xl mx-auto text-[var(--gray-light)] leading-relaxed">
+      En solo <span class="text-[var(--webinar-primary)] text-4xl font-extrabold">5 semanas</span>, construirás tu propia definición de 
+      <span class="text-[var(--webinar-primary)] font-semibold">éxito</span>, 
+      <span class="text-[var(--webinar-primary)] font-semibold">felicidad</span> y 
+      <span class="text-[var(--webinar-primary)] font-semibold">autoconcepto</span>, y empezarás a vivir desde ahí.
+    </p>
     </div>
   </section>
   <!-- Achievements -->  
@@ -165,22 +167,22 @@
         <div class="mb-12 sm:mb-16" in:fade={{ duration: 700 }}>
           <img 
             src="infog1.png" 
-            alt="Infografía Flujo FAE" 
+            alt="Proceso FAE" 
             class="w-full max-w-md sm:max-w-3xl mx-auto rounded-lg shadow-lg"
             loading="lazy"
           />
-          <p class="mt-4 text-sm text-white italic">Infografía Flujo FAE</p>
+          <p class="mt-4 text-sm text-white italic">Procesoo FAE</p>
         </div>
     
         <!-- Imagen 2: Escalera FAE -->
         <div in:fade={{ duration: 700, delay: 200 }}>
           <img 
             src="infog2.png" 
-            alt="Infografía Escalera FAE" 
+            alt="Escalera FAE" 
             class="w-full max-w-md sm:max-w-2xl mx-auto rounded-lg shadow-lg"
             loading="lazy"
           />
-          <p class="mt-4 text-sm text-white italic">Infografía Escalera FAE</p>
+          <p class="mt-4 text-sm text-white italic">Escalera FAE</p>
         </div>
       </div>
     </section>
@@ -210,10 +212,12 @@
    <!-- CTA1 -->
    <section class="py-20 bg-black/50"> 
     <div class="container mx-auto px-4 text-center">
-      <p class="text-xl max-w-3xl mx-auto mb-6 text-[var(--gray-light)]">
-        El programa <strong>Fundamentals</strong> tiene un valor regular de solamente 6,500 MXN. 
-      </p>
-      <p class="text-lg mb-4 text-[var(--gray-light)]">que puedes pagar en <strong>2 exhibiciones de 3,250 MXN</strong>.</p>
+    <p class="text-2xl sm:text-3xl font-semibold max-w-3xl mx-auto mb-6 text-[var(--gray-light)]">
+      El programa <strong class="text-white font-bold">Fundamentals</strong> tiene un valor regular de solamente <strong>$6,500 MXN</strong>.
+    </p>
+    <p class="text-xl sm:text-2xl mb-6 text-[var(--gray-light)]">
+      Que puedes pagar en <strong class="text-white font-bold">2 exhibiciones de $3,250 MXN</strong>.
+    </p>
       <div class="max-w-md mx-auto h-[432px] mt-10">
         <iframe
           src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
@@ -221,6 +225,7 @@
           title="Form de Fundamentals"
         ></iframe>
     </div>
+   </section>
     <!-- Program -->    
     <section class="py-20 bg-black/50">
         <div class="container mx-auto px-4 text-center">
