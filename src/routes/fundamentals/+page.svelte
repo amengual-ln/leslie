@@ -207,10 +207,22 @@
     </section>
    <!-- CTA1 -->
    <section class="py-20 bg-black/50"> 
-    <div class="container mx-auto px-4 text-center">
-    <p class="text-2xl sm:text-3xl font-semibold max-w-3xl mx-auto mb-6 text-[var(--gray-light)]">
-      El programa <strong class="text-white font-bold">Fundamentals</strong> tiene un valor regular de solamente <strong>$6,500 MXN</strong> que puedes pagar en <strong class="text-white font-bold">2 exhibiciones de $3,250 MXN</strong>.
-    </p>
+      <style>
+          @keyframes fadeInHighlight {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+      </style>
+      <div class="bg-white/10 backdrop-blur-md border border-[var(--webinar-primary)] rounded-2xl p-6 sm:p-8 max-w-3xl mx-auto mb-10 shadow-xl animate-[fadeInHighlight_0.8s_ease-out]">
+          <div class="text-center text-[var(--webinar-primary)] text-4xl mb-4">🎁</div>
+          <p class="text-2xl sm:text-3xl font-semibold text-[var(--gray-light)] leading-relaxed text-center">
+            El programa <strong class="text-white font-bold">Fundamentals</strong> tiene un valor regular de
+            <strong class="text-[var(--webinar-primary)] font-extrabold text-3xl">$6,500 MXN</strong>,
+            <br class="hidden sm:block" />
+            que puedes pagar en 
+            <strong class="text-[var(--webinar-primary)] font-extrabold text-3xl">2 exhibiciones de $3,250 MXN</strong>.
+          </p>
+      </div>
       <div class="max-w-md mx-auto h-[432px] mt-10">
         <iframe
           src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
