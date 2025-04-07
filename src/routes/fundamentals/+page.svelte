@@ -153,31 +153,37 @@
       </ul>
     </div>
   </section> 
-<!-- Infografías FAE -->
-<section class="py-20 bg-black/80">
-  <div class="container mx-auto px-4 text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-12">Tu FAE, visualizado</h2>
-
-    <!-- Imagen 1: Diagrama de Flujo -->
-    <div class="mb-16" in:fade={{ duration: 700 }}>
-      <img 
-        src="infog1.png" 
-        alt="Construcción del FAE" 
-        class="mx-auto max-w-4xl rounded-lg shadow-lg"
-      />
-    </div>
-
-    <!-- Imagen 2: Escalera FAE -->
-    <div in:fade={{ duration: 700, delay: 200 }}>
-      <img 
-        src="infog2.png" 
-        alt="Proceso FAE" 
-        class="mx-auto max-w-3xl rounded-lg shadow-lg"
-      />
-    </div>
-  </div>
-</section>
-
+    <!-- Infografías FAE -->
+    <section class="py-16 bg-black/80">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12">Tu FAE, visualizado</h2>
+        <p class="text-base sm:text-lg mb-10 sm:mb-12 max-w-md sm:max-w-2xl mx-auto text-[var(--gray-light)]">
+          Estas infografías te ayudan a ver con claridad el camino que vas a recorrer en Fundamentals:
+        </p>
+    
+        <!-- Imagen 1: Diagrama de Flujo -->
+        <div class="mb-12 sm:mb-16" in:fade={{ duration: 700 }}>
+          <img 
+            src="infog1.png" 
+            alt="Infografía Flujo FAE" 
+            class="w-full max-w-md sm:max-w-3xl mx-auto rounded-lg shadow-lg"
+            loading="lazy"
+          />
+          <p class="mt-4 text-sm text-white italic">Infografía Flujo FAE</p>
+        </div>
+    
+        <!-- Imagen 2: Escalera FAE -->
+        <div in:fade={{ duration: 700, delay: 200 }}>
+          <img 
+            src="infog2.png" 
+            alt="Infografía Escalera FAE" 
+            class="w-full max-w-md sm:max-w-2xl mx-auto rounded-lg shadow-lg"
+            loading="lazy"
+          />
+          <p class="mt-4 text-sm text-white italic">Infografía Escalera FAE</p>
+        </div>
+      </div>
+    </section>
     <!-- Who For -->
     <section class="py-20 bg-[var(--gray-dark)]">
       <div class="container mx-auto px-4">
@@ -214,9 +220,6 @@
           style="width:100%;height:100%;border:none;border-radius:10px"
           title="Form de Fundamentals"
         ></iframe>
-      <p class="text-xl text-[var(--gray-light)]">
-          A partir del <strong>1 de abril</strong>, el precio volverá a ser de <strong>6,500 MXN</strong>.
-      </p>
     </div>
     <!-- Program -->    
     <section class="py-20 bg-black/50">
