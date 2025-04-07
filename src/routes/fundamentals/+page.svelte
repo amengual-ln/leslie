@@ -158,11 +158,7 @@
     <!-- Infografías FAE -->
     <section class="py-16 bg-black/80">
       <div class="container mx-auto px-4 text-center">
-        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12">Tu FAE, visualizado</h2>
-        <p class="text-base sm:text-lg mb-10 sm:mb-12 max-w-md sm:max-w-2xl mx-auto text-[var(--gray-light)]">
-          Estas infografías te ayudan a ver con claridad el camino que vas a recorrer en Fundamentals:
-        </p>
-    
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12">Tu FAE, visualizado</h2>    
         <!-- Imagen 1: Diagrama de Flujo -->
         <div class="mb-12 sm:mb-16" in:fade={{ duration: 700 }}>
           <img 
@@ -213,10 +209,7 @@
    <section class="py-20 bg-black/50"> 
     <div class="container mx-auto px-4 text-center">
     <p class="text-2xl sm:text-3xl font-semibold max-w-3xl mx-auto mb-6 text-[var(--gray-light)]">
-      El programa <strong class="text-white font-bold">Fundamentals</strong> tiene un valor regular de solamente <strong>$6,500 MXN</strong>.
-    </p>
-    <p class="text-xl sm:text-2xl mb-6 text-[var(--gray-light)]">
-      Que puedes pagar en <strong class="text-white font-bold">2 exhibiciones de $3,250 MXN</strong>.
+      El programa <strong class="text-white font-bold">Fundamentals</strong> tiene un valor regular de solamente <strong>$6,500 MXN</strong> que puedes pagar en <strong class="text-white font-bold">2 exhibiciones de $3,250 MXN</strong>.
     </p>
       <div class="max-w-md mx-auto h-[432px] mt-10">
         <iframe
