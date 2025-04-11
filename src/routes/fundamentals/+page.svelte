@@ -101,20 +101,7 @@
         <br/>
         <span class="text-[var(--webinar-primary)]">Felicidad</span>. <span class="text-[var(--webinar-primary)]">Autoconcepto</span>. <span class="text-[var(--webinar-primary)]">Éxito</span>
       </h2>
-  
-      <p class="text-lg mb-4 max-w-3xl mx-auto">
-        No puedes liderar tu vida si estás viviendo bajo reglas que no son tuyas.
-      </p>
-      <p class="text-lg mb-4 max-w-3xl mx-auto">
-        Y no puedes expandirte si no sabes quién eres ni qué estás persiguiendo.
-      </p>
-      <p class="text-lg mb-4 max-w-3xl mx-auto">
-        Es hora de soltar el deber, el miedo y las expectativas ajenas.
-      </p>
-      <p class="text-lg mb-12 max-w-3xl mx-auto">
-        Reconecta con lo esencial y comienza a tomar decisiones alineadas con lo que verdaderamente eres y deseas.
-      </p>
-  
+    
       <!-- Separador -->
       <h2 class="text-3xl md:text-4xl font-bold mb-16 mt-20">
         Tu <span class="text-[var(--webinar-primary)]">FAE</span>: 
@@ -131,14 +118,49 @@
           </div>
         {/each}
       </div>
-    <p class="text-2xl sm:text-3xl font-bold text-center max-w-4xl mx-auto text-[var(--gray-light)] leading-relaxed">
-      En solo <span class="text-[var(--webinar-primary)] text-4xl font-extrabold">5 semanas</span>, construirás tu propia definición de 
-      <span class="text-[var(--webinar-primary)] font-semibold">éxito</span>, 
-      <span class="text-[var(--webinar-primary)] font-semibold">felicidad</span> y 
-      <span class="text-[var(--webinar-primary)] font-semibold">autoconcepto</span>, y empezarás a vivir desde ahí.
-    </p>
     </div>
   </section>
+
+  <!-- Introducción a FAE -->
+<section class="py-20 bg-black/90 text-[var(--gray-light)]">
+  <div class="container mx-auto px-4 text-center max-w-4xl">
+    <h2 class="text-3xl md:text-4xl font-bold mb-10 text-white">
+      El primer paso para liderar tu vida desde lo que realmente eres
+    </h2>
+
+    <p class="text-lg mb-6">
+      Este es el primer paso para liderar tu vida <strong>sin sacrificar lo que amas</strong>, 
+      sin obligarte a encajar en un molde que no es tuyo, ni cargar con las expectativas de otros.
+    </p>
+
+    <p class="text-lg mb-6">
+      <strong>FUNDAMENTALS</strong> es un programa breve, profundo y poderoso de solo 5 semanas, 
+      diseñado para ejecutivos y líderes que, a pesar de tener una carrera “exitosa” según los estándares externos, 
+      se sienten abrumados, desconectados de sí mismos y viviendo en automático.
+    </p>
+
+    <p class="text-lg mb-6">
+      Es un espacio estratégico donde vas a <strong>cuestionar lo que has venido creyendo</strong> 
+      sobre el éxito, sobre ti y sobre la felicidad.
+    </p>
+
+    <p class="text-xl font-semibold text-white mb-6">
+      ¿El objetivo?
+    </p>
+    <p class="text-lg mb-8">
+      Que dejes de actuar por deber o por complacer, y empieces a tomar decisiones 
+      <strong>alineadas con lo que tú realmente quieres y necesitas.</strong>
+    </p>
+
+    <h3 class="text-2xl font-bold text-[var(--webinar-primary)] mt-10">
+      Aquí vas a construir tu FAE:
+    </h3>
+    <p class="text-xl text-white mt-2">
+      Tu propia definición de <strong>Felicidad</strong>, <strong>Autoconcepto</strong> y <strong>Éxito</strong>.
+    </p>
+  </div>
+</section>
+
   <!-- Achievements -->  
   <section class="py-20 bg-black/90">
     <div class="container mx-auto px-4">
@@ -182,29 +204,42 @@
         </div>
       </div>
     </section>
-    <!-- Who For -->
-    <section class="py-20 bg-[var(--gray-dark)]">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">¿Para quién es este programa?</h2>
-        <ul class="space-y-6 max-w-4xl mx-auto">
-          {#each whoFor as item}
-            <li class="flex items-start gap-3"><span class="text-[var(--webinar-primary)] text-xl">✔️</span><span>{item}</span></li>
-          {/each}
-        </ul>
-      </div>
-    </section>
-  
-    <!-- Not For -->
-    <section class="py-20">
-      <div class="container mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">¿Para quién NO es este programa?</h2>
-        <ul class="space-y-6 max-w-4xl mx-auto">
-          {#each notFor as item}
-            <li class="flex items-start gap-3"><span class="text-[var(--red)] text-xl">❌</span><span>{item}</span></li>
-          {/each}
-        </ul>
-      </div>
-    </section>
+<script>
+      import { fade } from 'svelte/transition';
+</script>
+  <!-- ¿Para quién es este programa? -->
+<section class="py-20 bg-[var(--gray-dark)] text-[var(--gray-light)]">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-16">
+      ¿Para quién es este programa?
+    </h2>
+    <ul class="space-y-6 text-lg">
+      <li class="flex gap-3" in:fade={{ delay: 0 }}><span class="text-[var(--webinar-primary)] text-xl">🔹</span> Tienes un puesto directivo o ejecutivo, y aunque todo parece ir bien en lo profesional, por dentro te sientes perdida(o), cansada(o) y con la sensación de que algo no está bien.</li>
+      <li class="flex gap-3" in:fade={{ delay: 100 }}><span class="text-[var(--webinar-primary)] text-xl">🔹</span> Vives con caos constante, haciendo malabares para complacer a todos, pero postergándote a ti misma(o) una y otra vez.</li>
+      <li class="flex gap-3" in:fade={{ delay: 200 }}><span class="text-[var(--webinar-primary)] text-xl">🔹</span> Ya no sabes si lo que estás haciendo es por ti o solo por cumplir con lo que otros esperan.</li>
+      <li class="flex gap-3" in:fade={{ delay: 300 }}><span class="text-[var(--webinar-primary)] text-xl">🔹</span> Has logrado lo que “se supone” que te haría feliz, pero no te llena.</li>
+      <li class="flex gap-3" in:fade={{ delay: 400 }}><span class="text-[var(--webinar-primary)] text-xl">🔹</span> Quieres tener claridad sobre qué decisiones, ajustes o acciones necesitas tomar para dejar de vivir en automático y empezar a liderar tu vida con propósito.</li>
+      <li class="flex gap-3" in:fade={{ delay: 500 }}><span class="text-[var(--webinar-primary)] text-xl">🔹</span> No quieres perder más tiempo, necesitas algo que te dé claridad y dirección rápida, sin largas teorías, sin perderte en contenido interminable.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ¿Para quién NO es este programa? -->
+<section class="py-20 bg-black text-[var(--gray-light)]">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-16">
+      ¿Para quién NO es este programa?
+    </h2>
+    <ul class="space-y-6 text-lg">
+      <li class="flex gap-3" in:fade={{ delay: 0 }}><span class="text-[var(--red)] text-xl">❌</span> Estás esperando una fórmula mágica que lo resuelva todo sin cuestionarte.</li>
+      <li class="flex gap-3" in:fade={{ delay: 100 }}><span class="text-[var(--red)] text-xl">❌</span> Prefieres seguir haciendo lo que “toca” aunque no te haga sentido.</li>
+      <li class="flex gap-3" in:fade={{ delay: 200 }}><span class="text-[var(--red)] text-xl">❌</span> No estás dispuesto a desafiar los conceptos que te enseñaron sobre ti, el éxito o la felicidad.</li>
+      <li class="flex gap-3" in:fade={{ delay: 300 }}><span class="text-[var(--red)] text-xl">❌</span> Buscas motivación momentánea pero no estás listo(a) para tomar decisiones y hacer cambios reales.</li>
+      <li class="flex gap-3" in:fade={{ delay: 400 }}><span class="text-[var(--red)] text-xl">❌</span> Crees que el éxito es solo sacrificio, perfección y complacer a los demás.</li>
+    </ul>
+  </div>
+</section>
+
    <!-- CTA1 -->
    <section class="py-20 bg-black/50"> 
       <style>
@@ -248,6 +283,43 @@
           </div>
         </div>
       </section> 
+
+  <!-- ¿Qué más vas a lograr? -->
+<section class="py-20 bg-black/90">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-12" in:fade={{ duration: 500 }}>
+      ¿Qué más vas a lograr?
+    </h2>
+
+    <ul class="space-y-6 max-w-4xl mx-auto text-left">
+      <li class="flex items-start gap-3" in:fade={{ delay: 100 }}>
+        <span class="text-[var(--webinar-primary)] text-xl">✅</span>
+        <span class="text-[var(--gray-light)]">Vas a tener claridad sobre tu siguiente paso personal y profesional, sin culpa ni miedo.</span>
+      </li>
+      <li class="flex items-start gap-3" in:fade={{ delay: 200 }}>
+        <span class="text-[var(--webinar-primary)] text-xl">✅</span>
+        <span class="text-[var(--gray-light)]">Vas a dejar de vivir por inercia y empezar a tomar decisiones desde quien realmente eres.</span>
+      </li>
+      <li class="flex items-start gap-3" in:fade={{ delay: 300 }}>
+        <span class="text-[var(--webinar-primary)] text-xl">✅</span>
+        <span class="text-[var(--gray-light)]">Vas a identificar de dónde vienen tus patrones de autosabotaje, complacencia y agotamiento.</span>
+      </li>
+      <li class="flex items-start gap-3" in:fade={{ delay: 400 }}>
+        <span class="text-[var(--webinar-primary)] text-xl">✅</span>
+        <span class="text-[var(--gray-light)]">Vas a descubrir por qué el éxito y la felicidad que persigues no te están llenando… y vas a crear nuevas definiciones que te representen de verdad.</span>
+      </li>
+      <li class="flex items-start gap-3" in:fade={{ delay: 500 }}>
+        <span class="text-[var(--webinar-primary)] text-xl">✅</span>
+        <span class="text-[var(--gray-light)]">Vas a salir del caos y vas a recuperar dirección, enfoque y control.</span>
+      </li>
+      <li class="flex items-start gap-3" in:fade={{ delay: 600 }}>
+        <span class="text-[var(--webinar-primary)] text-xl">✅</span>
+        <span class="text-[var(--gray-light)]">Vas a empezar a ponerte en primer lugar, incluso si eso implica dejar de encajar donde ya no te corresponde.</span>
+      </li>
+    </ul>
+  </div>
+</section>
+    
   <!-- Reason -->  
   <section class="py-20 bg-black/50">
     <div class="container mx-auto px-4 text-center">
@@ -281,6 +353,21 @@
         </div>
       </div>
     </section>
+    <!-- CTA: Primer Paso -->
+<section class="py-20 bg-black/80">
+  <div class="container mx-auto px-4 text-center max-w-3xl">
+    <p class="text-2xl font-semibold text-white mb-6 leading-relaxed" in:fade={{ duration: 500 }}>
+      Si quieres vivir con más claridad, tomar decisiones con seguridad y construir una vida que realmente te represente, este es tu primer paso.
+    </p>
+    <p class="text-xl text-[var(--gray-light)] leading-relaxed" in:fade={{ delay: 200 }}>
+      <strong class="text-white">FUNDAMENTALS</strong> no te promete que vas a cambiar toda tu vida en cinco semanas.
+    </p>
+    <p class="text-xl text-[var(--gray-light)] mt-4" in:fade={{ delay: 400 }}>
+      Pero sí te promete algo <strong class="text-[var(--webinar-primary)]">MUY PODEROSO</strong>: te va a devolver el timón para que seas tú quien la dirija.
+    </p>
+  </div>
+</section>
+
     <!-- Final CTA -->
     <section class="py-20 bg-[var(--cta-bg)]">
       <div class="container mx-auto px-4 text-center">
