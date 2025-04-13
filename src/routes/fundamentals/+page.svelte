@@ -101,7 +101,52 @@
         <br/>
         <span class="text-[var(--webinar-primary)]">Felicidad</span>. <span class="text-[var(--webinar-primary)]">Autoconcepto</span>. <span class="text-[var(--webinar-primary)]">Éxito</span>
       </h2>
-    
+<!-- Introducción a FAE con h3 y estilo visual mejorado -->
+<section class="py-10 bg-black/90 text-[var(--gray-light)]">
+  <div class="container mx-auto px-4 max-w-4xl text-left">
+    <h3 class="text-2xl mb-6 text-white font-bold">
+      Este es el primer paso para liderar tu vida:
+    </h3>
+    <ul class="text-2xl text-white list-disc list-inside mb-10 space-y-2">
+      <li><strong>Sin sacrificar lo que amas</strong></li>
+      <li>Sin obligarte a encajar en un molde que no es tuyo</li>
+      <li>Sin cargar con las expectativas de otros</li>
+    </ul>
+
+    <h3 class="text-2xl mb-6 text-center">
+      <strong class="text-white">✔ FUNDAMENTALS</strong> es un programa 
+      <span class="text-[var(--webinar-primary)] font-bold">breve, profundo y poderoso de</span> 
+      <span class="text-white font-bold">solo 5 semanas</span>.
+    </h3>
+
+    <h3 class="text-2xl mb-6 text-white">
+      Diseñado para ejecutivos y líderes que, 
+      <span class="font-medium">a pesar de tener una carrera “exitosa”</span> según los estándares externos,
+      se sienten:
+    </h3>
+    <ul class="text-2xl text-white list-disc list-inside mb-10 space-y-2">
+      <li>Abrumados</li>
+      <li>Desconectados de sí mismos</li>
+      <li>Viviendo en automático</li>
+    </ul>
+
+    <h3 class="text-2xl mb-8 leading-relaxed text-white text-center">
+      <span class="text-[var(--webinar-primary)]">💡</span> 
+      Es un <strong>espacio estratégico</strong> donde vas a 
+      <strong>cuestionar lo que has venido creyendo</strong> sobre el éxito, sobre ti y sobre la felicidad.
+    </h3>
+
+    <div class="text-center mb-6">
+      <h3 class="text-3xl font-bold text-[var(--webinar-primary)] mt-10">
+        Aquí vas a construir tu FAE:
+      </h3>
+      <h3 class="text-2xl text-white mt-2">
+        Tu propia definición de <strong>Felicidad</strong>, <strong>Autoconcepto</strong> y <strong>Éxito</strong>.
+      </h3>
+    </div>
+  </div>
+</section>
+
       <!-- Separador -->
       <h2 class="text-3xl md:text-4xl font-bold mb-16 mt-20">
         Tu <span class="text-[var(--webinar-primary)]">FAE</span>: 
@@ -120,47 +165,6 @@
       </div>
     </div>
   </section>
-
-  <!-- Introducción a FAE -->
-<section class="py-20 bg-black/90 text-[var(--gray-light)]">
-  <div class="container mx-auto px-4 text-center max-w-4xl">
-    <h2 class="text-3xl md:text-4xl font-bold mb-10 text-white">
-      El primer paso para liderar tu vida desde lo que realmente eres
-    </h2>
-
-    <p class="text-lg mb-6">
-      Este es el primer paso para liderar tu vida <strong>sin sacrificar lo que amas</strong>, 
-      sin obligarte a encajar en un molde que no es tuyo, ni cargar con las expectativas de otros.
-    </p>
-
-    <p class="text-lg mb-6">
-      <strong>FUNDAMENTALS</strong> es un programa breve, profundo y poderoso de solo 5 semanas, 
-      diseñado para ejecutivos y líderes que, a pesar de tener una carrera “exitosa” según los estándares externos, 
-      se sienten abrumados, desconectados de sí mismos y viviendo en automático.
-    </p>
-
-    <p class="text-lg mb-6">
-      Es un espacio estratégico donde vas a <strong>cuestionar lo que has venido creyendo</strong> 
-      sobre el éxito, sobre ti y sobre la felicidad.
-    </p>
-
-    <p class="text-xl font-semibold text-white mb-6">
-      ¿El objetivo?
-    </p>
-    <p class="text-lg mb-8">
-      Que dejes de actuar por deber o por complacer, y empieces a tomar decisiones 
-      <strong>alineadas con lo que tú realmente quieres y necesitas.</strong>
-    </p>
-
-    <h3 class="text-2xl font-bold text-[var(--webinar-primary)] mt-10">
-      Aquí vas a construir tu FAE:
-    </h3>
-    <p class="text-xl text-white mt-2">
-      Tu propia definición de <strong>Felicidad</strong>, <strong>Autoconcepto</strong> y <strong>Éxito</strong>.
-    </p>
-  </div>
-</section>
-
   <!-- Achievements -->  
   <section class="py-20 bg-black/90">
     <div class="container mx-auto px-4">
