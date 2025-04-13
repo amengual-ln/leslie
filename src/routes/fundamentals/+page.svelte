@@ -104,17 +104,8 @@
 <!-- Introducción a FAE con h3 y estilo visual mejorado -->
 <section class="py-10 bg-black/90 text-[var(--gray-light)]">
   <div class="container mx-auto px-4 max-w-4xl text-left">
-    <h3 class="text-2xl mb-6 text-white font-bold">
-      Este es el primer paso para liderar tu vida:
-    </h3>
-    <ul class="text-2xl text-white list-disc list-inside mb-10 space-y-2">
-      <li><strong>Sin sacrificar lo que amas</strong></li>
-      <li>Sin obligarte a encajar en un molde que no es tuyo</li>
-      <li>Sin cargar con las expectativas de otros</li>
-    </ul>
-
     <h3 class="text-2xl mb-6 text-center">
-      <strong class="text-white">✔ FUNDAMENTALS</strong> es un programa 
+      <strong class="text-white"></strong> Es un programa 
       <span class="text-[var(--webinar-primary)] font-bold">breve, profundo y poderoso de</span> 
       <span class="text-white font-bold">solo 5 semanas</span>.
     </h3>
@@ -129,9 +120,18 @@
       <li>Desconectados de sí mismos</li>
       <li>Viviendo en automático</li>
     </ul>
+    <h3 class="text-2xl mb-6 text-white font-bold">
+      Este es el primer paso para liderar tu vida:
+    </h3>
+    <ul class="text-2xl text-white list-disc list-inside mb-10 space-y-2">
+      <li><strong>Sin sacrificar lo que amas</strong></li>
+      <li>Sin obligarte a encajar en un molde que no es tuyo</li>
+      <li>Sin cargar con las expectativas de otros</li>
+    </ul>
+
 
     <h3 class="text-2xl mb-8 leading-relaxed text-white text-center">
-      <span class="text-[var(--webinar-primary)]">💡</span> 
+      <span class="text-[var(--webinar-primary)]"></span> 
       Es un <strong>espacio estratégico</strong> donde vas a 
       <strong>cuestionar lo que has venido creyendo</strong> sobre el éxito, sobre ti y sobre la felicidad.
     </h3>
