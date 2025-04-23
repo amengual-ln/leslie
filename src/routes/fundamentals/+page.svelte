@@ -97,7 +97,7 @@
       </h1>
   
       <h2 class="text-xl md:text-2xl mb-8">
-        Los tres pilares para transformarte en el CEO de tu vida:
+        Los tres pilares para empezar a transformarte en el CEO de tu vida:
         <br/>
         <span class="text-[var(--webinar-primary)]">Felicidad</span>. <span class="text-[var(--webinar-primary)]">Autoconcepto</span>. <span class="text-[var(--webinar-primary)]">Éxito</span>
       </h2>
