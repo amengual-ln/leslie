@@ -107,7 +107,7 @@
     <h3 class="text-2xl mb-6 text-center">
       <strong class="text-white"></strong> Es un programa 
       <span class="text-[var(--webinar-primary)] font-bold">breve, profundo y poderoso de</span> 
-      <span class="text-white font-bold">solo 5 semanas</span>.
+      <span class="text-white font-bold text-xl md:text-2xl">solo 5 semanas</span>.
     </h3>
 
     <h3 class="text-2xl mb-6 text-white">
@@ -181,6 +181,23 @@
       </ul>
     </div>
   </section> 
+  <!-- Video -->
+  <section class="py-20 bg-black text-center text-white">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-3xl md:text-4xl font-bold mb-10">Mira este mensaje importante antes de comenzar</h2>
+      <div class="w-full rounded-2xl shadow-2xl overflow-hidden">
+        <iframe 
+          src="https://www.youtube.com/embed/GfJJV4_EqYg" 
+          title="Video de Bienvenida Fundamentals" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen 
+          class="w-full h-[400px] md:h-[500px]">
+        </iframe>
+      </div>
+    </div>
+  </section>
+  
     <!-- Infografías FAE -->
     <section class="py-16 bg-black/80">
       <div class="container mx-auto px-4 text-center">
