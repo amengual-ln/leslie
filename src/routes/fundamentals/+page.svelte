@@ -197,7 +197,33 @@
       </div>
     </div>
   </section>
+    <!-- Ventajas -->
+  <section class="py-20 bg-black/90 text-white text-center">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-3xl md:text-4xl font-bold mb-10">
+        Empieza ahora y a tu propio ritmo
+      </h2>
   
+      <ul class="space-y-6 text-left mx-auto max-w-2xl text-lg">
+        <li class="flex items-start gap-3">
+          <span class="text-[var(--webinar-primary)] text-2xl">✔️</span>
+          100% online: estudia desde cualquier lugar.
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-[var(--webinar-primary)] text-2xl">✔️</span>
+          Videos pregrabados que puedes ver a tu propio ritmo.
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-[var(--webinar-primary)] text-2xl">✔️</span>
+          Acceso inmediato: el contenido ya está disponible.
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-[var(--webinar-primary)] text-2xl">✔️</span>
+          Ideal si tienes poco tiempo y quieres avanzar con flexibilidad.
+        </li>
+      </ul>
+    </div>
+  </section>
     <!-- Infografías FAE -->
     <section class="py-16 bg-black/80">
       <div class="container mx-auto px-4 text-center">
