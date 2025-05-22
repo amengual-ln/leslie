@@ -86,53 +86,60 @@
   
   {#if mounted}
   <main class="font-poppins bg-[var(--webinar-secondary)] text-[var(--webinar-secondary-foreground)] min-h-screen webinar-page">
-    <!-- Hero Pillars Section -->
+ <!-- Hero Pillars Section -->
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden py-24">
-    <div class="absolute inset-0 bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lesnoback-OWSuBlYLiyaDAcZnXB4oJU5Puc39be.png')] bg-cover bg-center opacity-10 bg-no-repeat"></div>
-    
-    <div class="container mx-auto px-4 relative z-10 text-center max-w-4xl">
-      
-      <h1 class="text-5xl md:text-6xl font-bold mb-8 leading-tight">
-        <span class="text-[var(--webinar-primary)]">F</span>UND<span class="text-[var(--webinar-primary)]">A</span>M<span class="text-[var(--webinar-primary)]">E</span>NTALS
-      </h1>
+  <div class="absolute inset-0 bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lesnoback-OWSuBlYLiyaDAcZnXB4oJU5Puc39be.png')] bg-cover bg-center opacity-10 bg-no-repeat"></div>
   
-      <h2 class="text-xl md:text-2xl mb-8">
-        Los tres pilares para empezar a transformarte en el CEO de tu vida:
-        <br/>
-        <span class="text-[var(--webinar-primary)]">Felicidad</span>. <span class="text-[var(--webinar-primary)]">Autoconcepto</span>. <span class="text-[var(--webinar-primary)]">Éxito</span>
-      </h2>
-<!-- Introducción a FAE con h3 y estilo visual mejorado -->
+  <div class="container mx-auto px-4 relative z-10 text-center max-w-4xl">
+    
+    <h1 class="text-4xl md:text-5xl font-bold mb-8 leading-tight">
+      <span class="text-[var(--webinar-primary)]">F</span>UND<span class="text-[var(--webinar-primary)]">A</span>M<span class="text-[var(--webinar-primary)]">E</span>NTALS
+    </h1>
+
+    <h2 class="text-2xl mb-8">
+      Los tres pilares para empezar a transformarte en el CEO de tu vida:
+      <br/>
+      <span class="text-[var(--webinar-primary)]">Felicidad</span>. 
+      <span class="text-[var(--webinar-primary)]">Autoconcepto</span>. 
+      <span class="text-[var(--webinar-primary)]">Éxito</span>
+    </h2>
+  </div>
+</section>
+<!-- Introducción a FAE con estilo visual unificado -->
 <section class="py-10 bg-black/90 text-[var(--gray-light)]">
   <div class="container mx-auto px-4 max-w-4xl text-left">
-    <h3 class="text-2xl mb-6 text-center">
-      <strong class="text-white"></strong> Es un programa 
-      <span class="text-[var(--webinar-primary)] font-bold">breve, profundo y poderoso de</span> 
-      <span class="text-white font-bold text-xl md:text-2xl">solo 5 semanas</span>.
+
+    <h3 class="text-2xl mb-4 text-center text-white">
+      Es un programa 
+      <span class="text-[var(--webinar-primary)] font-bold">breve, profundo y poderoso</span> 
+      de <span class="text-white font-bold">solo 5 semanas</span>.
     </h3>
 
     <h3 class="text-2xl mb-6 text-white">
-      Diseñado para ejecutivos y líderes que, 
-      <span class="font-medium">a pesar de tener una carrera “exitosa”</span> según los estándares externos,
-      se sienten:
+      Diseñado para ejecutivos y líderes que se sienten:
     </h3>
+
     <ul class="text-2xl text-white list-disc list-inside mb-10 space-y-2">
+      <li>En caos</li>
       <li>Abrumados</li>
       <li>Desconectados de sí mismos</li>
       <li>Viviendo en automático</li>
+      <li>Complaciendo a los demás</li>
+      <li>Poniéndose en segundo lugar de su lista de prioridades</li>
     </ul>
+
     <h3 class="text-2xl mb-6 text-white font-bold">
       Este es el primer paso para liderar tu vida:
     </h3>
+
     <ul class="text-2xl text-white list-disc list-inside mb-10 space-y-2">
       <li><strong>Sin sacrificar lo que amas</strong></li>
       <li>Sin obligarte a encajar en un molde que no es tuyo</li>
       <li>Sin cargar con las expectativas de otros</li>
     </ul>
 
-
     <h3 class="text-2xl mb-8 leading-relaxed text-white text-center">
-      <span class="text-[var(--webinar-primary)]"></span> 
-      Es un <strong>espacio estratégico</strong> donde vas a 
+      Este programa es un <strong>espacio estratégico</strong> donde vas a 
       <strong>cuestionar lo que has venido creyendo</strong> sobre el éxito, sobre ti y sobre la felicidad.
     </h3>
 
@@ -141,15 +148,28 @@
         Aquí vas a construir tu FAE:
       </h3>
       <h3 class="text-2xl text-white mt-2">
-        Tu propia definición de <strong>Felicidad</strong>, <strong>Autoconcepto</strong> y <strong>Éxito</strong>.
+        Tu propia definición de <strong>Felicidad</strong>, <strong>Autoconcepto</strong> y <strong>Éxito</strong> para que dejes dde vivir bajo las reglas absurdas y arcaicas que otros te han impuesto.
       </h3>
     </div>
+          <div class="container mx-auto px-4 text-center">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12">Tu FAE, visualizado</h2>    
+        <!-- Imagen 1: Diagrama de Flujo -->
+        <div class="mb-12 sm:mb-16" in:fade={{ duration: 700 }}>
+          <img 
+            src="infog1.png" 
+            alt="Proceso FAE" 
+            class="w-full max-w-md sm:max-w-3xl mx-auto rounded-lg shadow-lg"
+            loading="lazy"
+          />
+          <p class="mt-4 text-sm text-white italic">Procesoo FAE</p>
+        </div>
   </div>
 </section>
 
       <!-- Separador -->
       <h2 class="text-3xl md:text-4xl font-bold mb-16 mt-20">
-        Tu <span class="text-[var(--webinar-primary)]">FAE</span>: 
+        Tu <span class="text-[var(--webinar-primary)]">FAE</span>: </h2>
+      <h2 class="text-3xl md:text-4xl font-bold mb-16 mt-20">
         <span class="text-[var(--webinar-primary)]">Felicidad</span>, 
         <span class="text-[var(--webinar-primary)]">Autoconcepto</span> y 
         <span class="text-[var(--webinar-primary)]">Éxito</span>
@@ -165,38 +185,91 @@
       </div>
     </div>
   </section>
-  <!-- Achievements -->  
-  <section class="py-20 bg-black/90">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 mt-20"> <!-- agrega mt-20 -->
-        ¿Qué vas a lograr al finalizar el programa?
-      </h2>
-      <ul class="space-y-6 max-w-4xl mx-auto text-left">
-        {#each achievements as item, index}
-          <li class="flex items-start gap-3" in:fly={{ y: 20, duration: 500, delay: index * 150 }}>
-            <span class="text-[var(--webinar-primary)] text-xl">📌</span>
-            <span class="text-[var(--gray-light)]">{item}</span>
+<!-- CTA1 -->
+<section class="py-20 bg-black/50"> 
+  <style>
+    @keyframes fadeInHighlight {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <div class="bg-white/10 backdrop-blur-md border border-[var(--webinar-primary)] rounded-2xl p-6 sm:p-8 max-w-3xl mx-auto mb-10 shadow-xl animate-[fadeInHighlight_0.8s_ease-out]">
+    <div class="text-center text-[var(--webinar-primary)] text-4xl mb-4">🎁</div>
+    <p class="text-2xl sm:text-3xl font-semibold text-[var(--gray-light)] leading-relaxed text-center">
+      El programa <strong class="text-white font-bold">Fundamentals</strong> tiene un valor regular de
+      <strong class="text-[var(--webinar-primary)] font-extrabold text-3xl">$6,500 MXN</strong>.
+    </p>
+
+    <div class="mt-8 text-center space-y-4">
+      <p class="text-xl text-[var(--gray-light)]">
+        👉 <a href="https://academy.ceodetuvida.com/courses/offers/aba9c77c-959f-42bb-bfd4-4eefe1b60de6" 
+              target="_blank" 
+              class="underline text-[var(--webinar-primary)] font-semibold hover:text-white transition-colors">
+          Haz clic aquí para pagar en una sola exhibición
+        </a>
+      </p>
+      <p class="text-xl text-[var(--gray-light)]">
+        👉 <a href="https://academy.ceodetuvida.com/courses/offers/c7d9708c-a13a-463c-9b65-be0e98abf33b" 
+              target="_blank" 
+              class="underline text-[var(--webinar-primary)] font-semibold hover:text-white transition-colors">
+          O haz clic aquí para pagar en 2 exhibiciones de $3,250 MXN
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="max-w-md mx-auto h-[432px] mt-10">
+    <iframe
+      src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
+      style="width:100%;height:100%;border:none;border-radius:10px"
+      title="Form de Fundamentals"
+    ></iframe>
+  </div>
+</section>
+
+<!-- Achievements -->  
+<section class="py-20 bg-black/90">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 mt-20">
+      ¿Qué vas a lograr al finalizar el programa?
+    </h2>
+
+    <ul class="space-y-6 max-w-4xl mx-auto text-left text-2xl text-[var(--gray-light)]">
+      {#each achievements as item, index}
+        {#if index === Math.floor(achievements.length / 2)}
+          <li class="text-center text-white font-bold mt-6 mb-4 text-2xl">
+            ¿Qué más vas a lograr?
           </li>
-        {/each}
-      </ul>
+        {/if}
+        <li class="flex items-start gap-3" in:fly={{ y: 20, duration: 500, delay: index * 150 }}>
+          <span class="text-[var(--webinar-primary)]">📌</span>
+          <span>{item}</span>
+        </li>
+      {/each}
+    </ul>
+  </div>
+</section>
+
+<!-- Video -->
+<section class="py-20 bg-black text-center text-white">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <h2 class="text-3xl md:text-4xl font-bold mb-10">
+      Mira por qué <span class="text-[var(--webinar-primary)]">Fundamentals</span> te ayuda a tomar el timón de tu vida
+    </h2>
+    <div class="w-full rounded-2xl shadow-2xl overflow-hidden">
+      <iframe 
+        src="https://www.youtube.com/embed/GfJJV4_EqYg" 
+        title="Video de Bienvenida Fundamentals" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen 
+        class="w-full h-[400px] md:h-[500px]">
+      </iframe>
     </div>
-  </section> 
-  <!-- Video -->
-  <section class="py-20 bg-black text-center text-white">
-    <div class="container mx-auto px-4 max-w-4xl">
-      <h2 class="text-3xl md:text-4xl font-bold mb-10">Mira este mensaje importante antes de comenzar</h2>
-      <div class="w-full rounded-2xl shadow-2xl overflow-hidden">
-        <iframe 
-          src="https://www.youtube.com/embed/GfJJV4_EqYg" 
-          title="Video de Bienvenida Fundamentals" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen 
-          class="w-full h-[400px] md:h-[500px]">
-        </iframe>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
+
     <!-- Ventajas -->
   <section class="py-20 bg-black/90 text-white text-center">
     <div class="container mx-auto px-4 max-w-4xl">
@@ -225,20 +298,7 @@
     </div>
   </section>
     <!-- Infografías FAE -->
-    <section class="py-16 bg-black/80">
-      <div class="container mx-auto px-4 text-center">
-        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12">Tu FAE, visualizado</h2>    
-        <!-- Imagen 1: Diagrama de Flujo -->
-        <div class="mb-12 sm:mb-16" in:fade={{ duration: 700 }}>
-          <img 
-            src="infog1.png" 
-            alt="Proceso FAE" 
-            class="w-full max-w-md sm:max-w-3xl mx-auto rounded-lg shadow-lg"
-            loading="lazy"
-          />
-          <p class="mt-4 text-sm text-white italic">Procesoo FAE</p>
-        </div>
-    
+    <section class="py-16 bg-black/80">    
         <!-- Imagen 2: Escalera FAE -->
         <div in:fade={{ duration: 700, delay: 200 }}>
           <img 
@@ -287,32 +347,49 @@
   </div>
 </section>
 
-   <!-- CTA1 -->
-   <section class="py-20 bg-black/50"> 
-      <style>
-          @keyframes fadeInHighlight {
-            from { opacity: 0; transform: translateY(12px); }
-            to { opacity: 1; transform: translateY(0); }
-          }
-      </style>
-      <div class="bg-white/10 backdrop-blur-md border border-[var(--webinar-primary)] rounded-2xl p-6 sm:p-8 max-w-3xl mx-auto mb-10 shadow-xl animate-[fadeInHighlight_0.8s_ease-out]">
-          <div class="text-center text-[var(--webinar-primary)] text-4xl mb-4">🎁</div>
-          <p class="text-2xl sm:text-3xl font-semibold text-[var(--gray-light)] leading-relaxed text-center">
-            El programa <strong class="text-white font-bold">Fundamentals</strong> tiene un valor regular de
-            <strong class="text-[var(--webinar-primary)] font-extrabold text-3xl">$6,500 MXN</strong>,
-            <br class="hidden sm:block" />
-            que puedes pagar en 
-            <strong class="text-[var(--webinar-primary)] font-extrabold text-3xl">2 exhibiciones de $3,250 MXN</strong>.
-          </p>
-      </div>
-      <div class="max-w-md mx-auto h-[432px] mt-10">
-        <iframe
-          src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
-          style="width:100%;height:100%;border:none;border-radius:10px"
-          title="Form de Fundamentals"
-        ></iframe>
+<!-- CTA1 -->
+<section class="py-20 bg-black/50"> 
+  <style>
+    @keyframes fadeInHighlight {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <div class="bg-white/10 backdrop-blur-md border border-[var(--webinar-primary)] rounded-2xl p-6 sm:p-8 max-w-3xl mx-auto mb-10 shadow-xl animate-[fadeInHighlight_0.8s_ease-out]">
+    <div class="text-center text-[var(--webinar-primary)] text-4xl mb-4">🎁</div>
+    <p class="text-2xl sm:text-3xl font-semibold text-[var(--gray-light)] leading-relaxed text-center">
+      El programa <strong class="text-white font-bold">Fundamentals</strong> tiene un valor regular de
+      <strong class="text-[var(--webinar-primary)] font-extrabold text-3xl">$6,500 MXN</strong>.
+    </p>
+
+    <div class="mt-8 text-center space-y-4">
+      <p class="text-xl text-[var(--gray-light)]">
+        👉 <a href="https://academy.ceodetuvida.com/courses/offers/aba9c77c-959f-42bb-bfd4-4eefe1b60de6" 
+              target="_blank" 
+              class="underline text-[var(--webinar-primary)] font-semibold hover:text-white transition-colors">
+          Haz clic aquí para pagar en una sola exhibición
+        </a>
+      </p>
+      <p class="text-xl text-[var(--gray-light)]">
+        👉 <a href="https://academy.ceodetuvida.com/courses/offers/c7d9708c-a13a-463c-9b65-be0e98abf33b" 
+              target="_blank" 
+              class="underline text-[var(--webinar-primary)] font-semibold hover:text-white transition-colors">
+          O haz clic aquí para pagar en 2 exhibiciones de $3,250 MXN
+        </a>
+      </p>
     </div>
-   </section>
+  </div>
+
+  <div class="max-w-md mx-auto h-[432px] mt-10">
+    <iframe
+      src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
+      style="width:100%;height:100%;border:none;border-radius:10px"
+      title="Form de Fundamentals"
+    ></iframe>
+  </div>
+</section>
+
     <!-- Program -->    
     <section class="py-20 bg-black/50">
         <div class="container mx-auto px-4 text-center">
