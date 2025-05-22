@@ -18,7 +18,9 @@
         </h1>
 
         <p class="text-left">
-          Has seguido el camino correcto. Tienes un buen puesto, buen sueldo y reconocimiento. Pero por dentro sientes que algo te falta. Has leído, tomado cursos, incluso ido a terapia… y aún no encuentras ese “click” que lo cambie todo. Has llegado a la cima de “la montaña del éxito”, pero ahora te preguntas: ¿Y qué sigue?
+          Has seguido el camino correcto. Tienes un buen puesto, buen sueldo y reconocimiento.
+          <strong> Pero por dentro sientes que algo te falta.</strong><br />
+          Has leído, tomado cursos, incluso ido a terapia… y aún no encuentras ese “click” que lo cambie todo. Has llegado a la cima de “la montaña del éxito”, pero ahora te preguntas: <strong> ¿Y qué sigue?</strong>
           <br><br>
           Los demás te ven como un ejemplo de éxito y superación, pero tú no te sientes realmente feliz ni realizado/a. No estás mal, pero sabes que podrías estar mejor. Estás listo para más, pero no sabes por dónde empezar. 
         </p>
@@ -101,13 +103,15 @@
 
     <div class="mt-12">
       <h2 class="font-[500] text-left text-2xl pb-4">🎁 BONO EXCLUSIVO POR TIEMPO LIMITADO</h2>
-      <p class="py-2">Si te inscribes antes del 5 de junio, recibirás sin costo el programa FUNDAMENTALS, donde trabajarás las bases de tu felicidad, autoconcepto y éxito.</p>
-      <p class="py-2 font-bold">Valorado en $6,500 MXN ($343 USD), y hoy es tuyo, gratis. Es mi regalo para quienes están listos para ir en serio.</p>
+      <p class="py-2">Si te inscribes <strong> antes del  5 de junio <strong>, recibirás <strong> sin costo <strong> el programa FUNDAMENTALS, donde trabajarás las bases de tu felicidad, autoconcepto y éxito.</p>
+      <p class="py-2 font-bold">Valorado en $6,500 MXN ($343 USD), y hoy es tuyo, gratis.</p>
+      <p class="py-2">Es mi regalo para quienes están listos para ir en serio.</p>
       <p class="py-2">La combinación ideal para romper tus techos de cristal y construir una Vida Altamente Rentable desde el fondo.</p>
     </div>
 
     <div class="mt-12">
       <h2 class="font-[500] text-left text-2xl pb-4">Tu siguiente nivel no se alcanza con más esfuerzo, se alcanza con estrategia. Y aquí empieza todo.</h2>
+      <h2 class="font-[500] text-left text-2xl pb-4">Y aquí empieza todo.</h2>
     </div>
 
     <!-- CTA Final -->
