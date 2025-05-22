@@ -82,7 +82,7 @@
     </div>
 
     <div class="grid lg:grid-cols-5 gap-12 px-4 py-12 items-center">
-      <!-- Primera columna: abarca 3/4 -->
+      <!-- Primera columna: abarca 3/5 -->
       <div class="lg:col-span-3 flex flex-col gap-6">
         <div class="bg-black text-white p-6 rounded-lg text-center">
           <h2 class="font-[500] text-2xl pb-4">🎁 ACCESO EXCLUSIVO A TU PLATAFORMA DE ALTA DIRECCIÓN PERSONAL</h2>
@@ -94,11 +94,13 @@
             <li>Llevar una bitácora emocional estratégica.</li>
             <li>Visualizar en tiempo real tus avances hacia una Vida Altamente Rentable.</li>
           </ul>
-          <p class="mt-4">No es una simple plataforma. Es tu centro de comando. Y está incluida en tu proceso.</p>
+          <p class="mt-4">No es una simple plataforma.</p>
+          <p class="mt-4">Es tu centro de comando.</p>
+          <p class="mt-4">Y está incluida en tu proceso.</p>
         </div>
       </div>
     
-      <!-- Segunda columna: imagen ocupa 1/4 -->
+      <!-- Segunda columna: imagen ocupa 2/5 -->
       <div class="lg:col-span-2 hidden lg:block">
         <img src="/training.webp" alt="CEO Training" class="w-full rounded-lg" />
       </div>
