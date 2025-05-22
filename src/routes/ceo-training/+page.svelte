@@ -45,9 +45,6 @@
           Es para quienes quieren dejar de tener una vida ordinaria y comenzar a construir una <strong>Vida EXTRA-ordinaria y Altamente Rentable</strong>.
         </p>
       </div>
-      <div class="hidden lg:block">
-        <img src="/training.webp" alt="CEO Training" class="w-full rounded-lg">
-      </div>
     </div>
 
     <div class="bg-black text-white p-6 rounded-lg">
@@ -84,17 +81,27 @@
       </div>
     </div>
 
-    <div class="bg-black text-white p-6 rounded-lg text-center mt-12">
-      <h2 class="font-[500] text-2xl pb-4">🎁 ACCESO EXCLUSIVO A TU PLATAFORMA DE ALTA DIRECCIÓN PERSONAL</h2>
-       <p class="py-2">Obtendrás acceso exclusivo a una plataforma de alto nivel, diseñada especialmente para ayudarte a dirigir tu vida como tu empresa más importante.</p>
-      <p class="py-2">Aquí podrás:</p>
-      <ul class="list-disc list-inside space-y-4 text-left inline-block text-left">
-        <li>Registrar y dar seguimiento a tus KPIs personales.</li>
-        <li>Evaluar el rendimiento de tus roles de vida como líneas de negocio.</li>
-        <li>Llevar una bitácora emocional estratégica.</li>
-        <li>Visualizar en tiempo real tus avances hacia una Vida Altamente Rentable.</li>
-      </ul>
-      <p class="mt-4">No es una simple plataforma. Es tu centro de comando. Y está incluida en tu proceso.</p>
+    <div class="grid lg:grid-cols-2 gap-12 px-4 py-12 items-center">
+      <!-- Primera columna: texto y beneficios -->
+      <div class="flex flex-col gap-6">
+        <div class="bg-black text-white p-6 rounded-lg text-center">
+          <h2 class="font-[500] text-2xl pb-4">🎁 ACCESO EXCLUSIVO A TU PLATAFORMA DE ALTA DIRECCIÓN PERSONAL</h2>
+          <p class="py-2">Obtendrás acceso exclusivo a una plataforma de alto nivel, diseñada especialmente para ayudarte a dirigir tu vida como tu empresa más importante.</p>
+          <p class="py-2">Aquí podrás:</p>
+          <ul class="list-disc list-inside space-y-4 text-left inline-block">
+            <li>Registrar y dar seguimiento a tus KPIs personales.</li>
+            <li>Evaluar el rendimiento de tus roles de vida como líneas de negocio.</li>
+            <li>Llevar una bitácora emocional estratégica.</li>
+            <li>Visualizar en tiempo real tus avances hacia una Vida Altamente Rentable.</li>
+          </ul>
+          <p class="mt-4">No es una simple plataforma. Es tu centro de comando. Y está incluida en tu proceso.</p>
+        </div>
+      </div>
+    
+      <!-- Segunda columna: imagen -->
+      <div class="hidden lg:block">
+        <img src="/training.webp" alt="CEO Training" class="w-full rounded-lg" />
+      </div>
     </div>
 
     <div class="bg-black text-white p-6 rounded-lg text-center mt-12">
@@ -104,7 +111,7 @@
     </div>
 
     <div class="bg-black text-white p-6 rounded-lg text-center mt-12">
-      <h2 class="font-[500] text-left text-2xl pb-4">🎁 BONO EXCLUSIVO POR TIEMPO LIMITADO</h2>
+      <h2 class="font-[500] text-center text-2xl pb-4">🎁 BONO EXCLUSIVO POR TIEMPO LIMITADO</h2>
       <p class="py-2">Si te inscribes <strong> antes del  5 de junio <strong>, recibirás <strong> sin costo <strong> el programa FUNDAMENTALS, donde trabajarás las bases de tu felicidad, autoconcepto y éxito.</p>
       <p class="py-2 font-bold">Valorado en $6,500 MXN ($343 USD), y hoy es tuyo, gratis.</p>
       <p class="py-2">Es mi regalo para quienes están listos para ir en serio.</p>
@@ -112,8 +119,8 @@
     </div>
 
     <div class="text-center mt-12">
-      <h2 class="font-[500] text-left text-2xl pb-4">Tu siguiente nivel no se alcanza con más esfuerzo, se alcanza con estrategia.</h2>
-      <h2 class="font-[500] text-left text-2xl pb-4">Y aquí empieza todo.</h2>
+      <h2 class="font-[500] text-center text-2xl pb-4">Tu siguiente nivel no se alcanza con más esfuerzo, se alcanza con estrategia.</h2>
+      <h2 class="font-[500] text-center text-2xl pb-4">Y aquí empieza todo.</h2>
     </div>
 
     <!-- CTA Final -->
