@@ -110,6 +110,6 @@
         title="Form de landing para Lista de Espera"
       ></iframe>
     </div>
-    <script src="https://link.funnelia.io/js/form_embed.js"></script>
   </section>
+<script src="https://link.funnelia.io/js/form_embed.js"></script>
 </main>
