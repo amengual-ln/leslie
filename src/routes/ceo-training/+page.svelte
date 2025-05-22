@@ -81,7 +81,7 @@
       </div>
     </div>
 
-    <div class="grid lg:grid-cols-4 gap-12 px-4 py-12 items-center">
+    <div class="grid lg:grid-cols-5 gap-12 px-4 py-12 items-center">
       <!-- Primera columna: abarca 3/4 -->
       <div class="lg:col-span-3 flex flex-col gap-6">
         <div class="bg-black text-white p-6 rounded-lg text-center">
@@ -99,7 +99,7 @@
       </div>
     
       <!-- Segunda columna: imagen ocupa 1/4 -->
-      <div class="lg:col-span-1 hidden lg:block">
+      <div class="lg:col-span-2 hidden lg:block">
         <img src="/training.webp" alt="CEO Training" class="w-full rounded-lg" />
       </div>
     </div>
