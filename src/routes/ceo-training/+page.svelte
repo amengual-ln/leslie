@@ -20,10 +20,29 @@
         <p class="text-left">
           Has seguido el camino correcto. Tienes un buen puesto, buen sueldo y reconocimiento. Pero por dentro sientes que algo te falta. Has leído, tomado cursos, incluso ido a terapia… y aún no encuentras ese “click” que lo cambie todo. Has llegado a la cima de “la montaña del éxito”, pero ahora te preguntas: ¿Y qué sigue?
           <br><br>
-          Los demás te ven como un ejemplo de éxito y superación, pero tú no te sientes realmente feliz ni realizado/a. No estás mal, pero sabes que podrías estar mejor. Estás listo para más, pero no sabes por dónde empezar. Entonces, el CEO TRAINING es para ti.
+          Los demás te ven como un ejemplo de éxito y superación, pero tú no te sientes realmente feliz ni realizado/a. No estás mal, pero sabes que podrías estar mejor. Estás listo para más, pero no sabes por dónde empezar. 
         </p>
       </div>
-
+      <div class="bg-white/10 p-6 rounded-lg mt-12 text-left text-lg leading-relaxed">
+        <p class="mb-4">
+          <strong>Entonces, el CEO TRAINING es para ti.</strong><br />
+          Una mentoría grupal de 5 meses donde dejarás de vivir en automático para comenzar a dirigir tu vida con estrategia, claridad y expansión.
+        </p>
+      
+        <p class="mb-4">Aquí vas a:</p>
+      
+        <ul class="list-none space-y-2">
+          <li>✅ Reprogramar tu mente y tu sistema nervioso para dejar de reaccionar… y empezar a liderar.</li>
+          <li>✅ Establecer KPIs personales y medir tus avances reales.</li>
+          <li>✅ Diseñar tu Master Plan de Vida para los próximos 3 años.</li>
+          <li>✅ Aplicar herramientas de alto rendimiento basadas en neurociencia, física cuántica y coaching ejecutivo.</li>
+          <li>✅ Y sobre todo: te vas a transformar en CEO de tu vida.</li>
+        </ul>
+      
+        <p class="mt-6">
+          Es para quienes quieren dejar de tener una vida ordinaria y comenzar a construir una <strong>Vida EXTRA-ordinaria y Altamente Rentable</strong>.
+        </p>
+      </div>
       <div class="hidden lg:block">
         <img src="/training.webp" alt="CEO Training" class="w-full rounded-lg">
       </div>
