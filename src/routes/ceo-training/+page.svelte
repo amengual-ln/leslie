@@ -84,7 +84,7 @@
       </div>
     </div>
 
-    <div class="bg-white/10 text-center p-6 rounded-lg mt-12">
+    <div class="bg-black text-white p-6 rounded-lg text-center mt-12">
       <h2 class="font-[500] text-2xl pb-4">🎁 ACCESO EXCLUSIVO A TU PLATAFORMA DE ALTA DIRECCIÓN PERSONAL</h2>
        <p class="py-2">Obtendrás acceso exclusivo a una plataforma de alto nivel, diseñada especialmente para ayudarte a dirigir tu vida como tu empresa más importante.</p>
       <p class="py-2">Aquí podrás:</p>
@@ -103,7 +103,7 @@
       <p class="py-2 font-bold">Los lugares son limitados. Esto no es para cualquiera. Es para quienes están listos para dejar de ejecutar… y empezar a dirigir.</p>
     </div>
 
-    <div class="mt-12">
+    <div class="bg-black text-white p-6 rounded-lg text-center mt-12">
       <h2 class="font-[500] text-left text-2xl pb-4">🎁 BONO EXCLUSIVO POR TIEMPO LIMITADO</h2>
       <p class="py-2">Si te inscribes <strong> antes del  5 de junio <strong>, recibirás <strong> sin costo <strong> el programa FUNDAMENTALS, donde trabajarás las bases de tu felicidad, autoconcepto y éxito.</p>
       <p class="py-2 font-bold">Valorado en $6,500 MXN ($343 USD), y hoy es tuyo, gratis.</p>
@@ -111,8 +111,8 @@
       <p class="py-2">La combinación ideal para romper tus techos de cristal y construir una Vida Altamente Rentable desde el fondo.</p>
     </div>
 
-    <div class="mt-12">
-      <h2 class="font-[500] text-left text-2xl pb-4">Tu siguiente nivel no se alcanza con más esfuerzo, se alcanza con estrategia. Y aquí empieza todo.</h2>
+    <div class="text-center mt-12">
+      <h2 class="font-[500] text-left text-2xl pb-4">Tu siguiente nivel no se alcanza con más esfuerzo, se alcanza con estrategia.</h2>
       <h2 class="font-[500] text-left text-2xl pb-4">Y aquí empieza todo.</h2>
     </div>
 
