@@ -5,22 +5,22 @@
 
 <main class="max-w-screen-2xl mx-auto">
   <section class="mx-auto text-xl p-4">
-    <!-- Banner corregido para no cortarse -->
     <img
       src="CEOtraining.png"
       alt="CEO TRAINING Logo"
-      class="w-full max-h-[300px] object-cover"
+      class="w-full max-h-[400px] object-cover"
     />
 
-    <!-- Introducción con imagen a la derecha -->
     <div class="grid lg:grid-cols-2 gap-12 px-4 py-12 items-center">
       <div class="flex flex-col justify-center gap-4">
         <h1 class="font-[500] text-left pb-4">
-          CEO TRAINING: El entrenamiento para que pases de tener una vida que no te gusta, a tener las herramientas para que cada aspecto de tu vida se sienta en expansión.
+          CEO TRAINING: La mentoría estratégica para Gerentes, Directores y Empresarios que ya lo lograron todo… pero quieren más.
         </h1>
 
         <p class="text-left">
-          Es el programa de mentoría grupal que recablea tu mente, transforma tu realidad y te enseña a generar más dinero, más éxito y más felicidad, sin sacrificios ni dramas innecesarios.
+          Has seguido el camino correcto. Tienes un buen puesto, buen sueldo y reconocimiento. Pero por dentro sientes que algo te falta. Has leído, tomado cursos, incluso ido a terapia… y aún no encuentras ese “click” que lo cambie todo. Has llegado a la cima de “la montaña del éxito”, pero ahora te preguntas: ¿Y qué sigue?
+          <br><br>
+          Los demás te ven como un ejemplo de éxito y superación, pero tú no te sientes realmente feliz ni realizado/a. No estás mal, pero sabes que podrías estar mejor. Estás listo para más, pero no sabes por dónde empezar. Entonces, el CEO TRAINING es para ti.
         </p>
       </div>
 
@@ -29,78 +29,68 @@
       </div>
     </div>
 
-    <!-- Sección Resultados (caja negra) -->
     <div class="bg-black text-white p-6 rounded-lg">
-      <h2 class="font-[500] text-left text-2xl pb-4">RESULTADOS QUE OBTIENEN MIS CLIENTES</h2>
-
+      <h2 class="font-[500] text-left text-2xl pb-4">RESULTADOS QUE NO CABEN EN UN CV</h2>
       <ul class="list-disc ml-6 space-y-4">
-        <li>Han triplicado sus ingresos en menos de un año.</li>
-        <li>Han conseguido ascensos que llevaban años persiguiendo sin éxito.</li>
-        <li>Han pasado de ser invisibles en su empresa a ser reconocidos como líderes.</li>
-        <li>Han renunciado a trabajos tóxicos y han conseguido opciones mucho mejor pagadas.</li>
-        <li>Han lanzado su propio negocio y han empezado a generar más dinero del que creían posible.</li>
-        <li>Han aprendido a negociar y han logrado aumentos salariales que parecían imposibles.</li>
-        <li>Han dejado de sentirse pequeños ante sus jefes y ahora hablan con seguridad.</li>
-        <li>Han recuperado su tiempo libre y han dejado de ser esclavos del trabajo.</li>
-        <li>Han creado fuentes de ingreso extra sin trabajar más horas.</li>
-        <li>Han reprogramado su mente para atraer oportunidades en vez de perseguirlas.</li>
-        <li>Han eliminado la culpa de ponerse en primer lugar y han aprendido a decir NO sin miedo.</li>
-        <li>Han transformado su relación con el dinero y ahora el dinero fluye sin esfuerzo.</li>
-        <li>Han cambiado su vida por completo en cuestión de meses.</li>
+        <li><strong>Triplican sus ingresos sin sacrificar su vida personal:</strong> Aprenden a negociar, cobrar con seguridad, y experimentar abundancia real.</li>
+        <li><strong>Cumplen sueños que llevaban años guardados:</strong> Publican libros, lanzan empresas, dan conferencias internacionales, aceptan puestos globales.</li>
+        <li><strong>Recuperan su tiempo, su energía y su paz:</strong> Se desconectan sin culpa, retoman el control de su agenda y viven con dirección.</li>
+        <li><strong>Se hacen visibles y dejan de pedir permiso:</strong> Ocupan su lugar, toman decisiones firmes, se expresan con claridad.</li>
+        <li><strong>Transforman su cuerpo, mente e identidad:</strong> Tienen más vitalidad, seguridad, dirección. Se despiertan con propósito, no con ansiedad.</li>
       </ul>
     </div>
 
-    <!-- Información general y estructura en dos columnas -->
     <div class="grid lg:grid-cols-2 gap-8 mt-12">
       <div>
-        <h2 class="font-[500] text-left text-2xl pb-4">INFORMACIÓN GENERAL</h2>
-
+        <h2 class="font-[500] text-left text-2xl pb-4">¿QUÉ INCLUYE EL CEO TRAINING?</h2>
         <ul class="list-disc ml-6 space-y-4">
-          <li><strong>Duración:</strong> 4 meses.</li>
-          <li><strong>Modalidad:</strong> Online en vivo (cada semana tendremos una sesión semanal de 2 horas).</li>
-          <li><strong>Estructura:</strong> 4 módulos estratégicos + herramientas de alto impacto.</li>
-          <li><strong>Metodología:</strong> Neurociencia, Física Cuántica, PNL, Psicología Positiva, Coaching Ejecutivo.</li>
-          <li><strong>Herramientas clave:</strong> Desarrollo de KPI’s personales, Inventario de Riqueza, Master Plan de Vida Altamente Rentable y modelo Canvas de vida.</li>
+          <li>5 meses de mentoría grupal online en vivo (una sesión semanal de 2 horas).</li>
+          <li>4 módulos estratégicos: Onboarding, Recableado, Creación Cuántica, Abundancia.</li>
+          <li>Herramientas Clave: Master Plan, KPI personales, Canvas de Vida y más.</li>
+          <li>Comunidad privada de alto nivel para sostenerte durante todo el proceso.</li>
+          <li>Materiales descargables y ejercicios de integración para aplicar lo visto en las sesiones.</li>
         </ul>
       </div>
 
       <div>
-        <h2 class="font-[500] text-left text-2xl pb-4">ESTRUCTURA DEL PROGRAMA</h2>
-
+        <h2 class="font-[500] text-left text-2xl pb-4">DESARROLLARÁS LAS 4 LIFE SKILLS DEL CEO</h2>
         <ul class="list-disc ml-6 space-y-4">
-          <li><strong>MÓDULO 1:</strong> BIENVENIDO A TU NUEVO PUESTO – ONBOARDING COMO CEO DE TU VIDA.</li>
-          <li><strong>MÓDULO 2:</strong> RECABLEADO MENTAL – RECONFIGURANDO TU SISTEMA OPERATIVO.</li>
-          <li><strong>MÓDULO 3:</strong> CREACIÓN CUÁNTICA – HACKEA TU PRESENTE Y FUTURO CON NEUROCIENCIA CUÁNTICA.</li>
-          <li><strong>MÓDULO 4:</strong> RIQUEZA Y ABUNDANCIA – GENERA MÁS DINERO Y OPORTUNIDADES EN TU VIDA.</li>
+          <li><strong>Recableado Mental:</strong> Rompes techos mentales y creas nuevas conexiones neuronales.</li>
+          <li><strong>Creación Cuántica:</strong> Aprendes a vibrar en la frecuencia de las oportunidades y expansión.</li>
+          <li><strong>Riqueza y Abundancia:</strong> Diseñas una vida donde el dinero fluye con gozo y estrategia.</li>
+          <li><strong>Rebeldía Estratégica:</strong> Tomas decisiones valientes, fieles a ti, aunque incomoden a otros.</li>
         </ul>
       </div>
     </div>
 
-    <!-- Bonus Exclusivos -->
     <div class="mt-12">
-      <h2 class="font-[500] text-left text-2xl pb-4">BONUS EXCLUSIVOS</h2>
-
+      <h2 class="font-[500] text-left text-2xl pb-4">🎁 ACCESO EXCLUSIVO A TU PLATAFORMA DE ALTA DIRECCIÓN PERSONAL</h2>
       <ul class="list-disc ml-6 space-y-4">
-        <li>Ejercicios para que generes nuevas conexiones neuronales y acelerar tu reconfiguración mental.</li>
-        <li>Acceso a una comunidad privada en donde tendremos conversaciones para sostenerte durante todo el proceso.</li>
-        <li>Materiales descargables (Cuaderno de Trabajo y Manual de Operación del CEO) diseñados para reforzar lo visto en las sesiones, hacer ejercicios prácticos, llevar registros de tus avances, así como para la implementación del Master Plan de la vida que quieres tener en los próximos 3 años.</li>
+        <li>Registrar y dar seguimiento a tus KPIs personales.</li>
+        <li>Evaluar el rendimiento de tus roles de vida como líneas de negocio.</li>
+        <li>Llevar una bitácora emocional estratégica.</li>
+        <li>Visualizar en tiempo real tus avances hacia una Vida Altamente Rentable.</li>
       </ul>
+      <p class="mt-4">No es una simple plataforma. Es tu centro de comando. Y está incluida en tu proceso.</p>
     </div>
 
-    <!-- Advertencia final -->
     <div class="bg-black text-white p-6 rounded-lg text-center mt-12">
-      <h2 class="font-[500] text-2xl pb-4">ESTO NO ES PARA CUALQUIERA</h2>
-
-      <p class="text-left lg:text-center py-2">
-        CEO TRAINING NO ES para quienes buscan soluciones mágicas sin comprometerse con su transformación.
-      </p>
-
-      <p class="text-left lg:text-center py-2 font-bold">
-        Es solo para personas decididas, ambiciosas y hartas de tener una vida “normal”, que saben que merecen más pero no han encontrado el camino para lograrlo.
-      </p>
+      <h2 class="font-[500] text-2xl pb-4">💰 INVERSIÓN</h2>
+      <p class="py-2">La inversión es de $40,000 MXN ($2,105 USD) con posibilidad de plan de pagos.</p>
+      <p class="py-2 font-bold">Los lugares son limitados. Esto no es para cualquiera. Es para quienes están listos para dejar de ejecutar… y empezar a dirigir.</p>
     </div>
 
-    <!-- CTA Final -->
+    <div class="mt-12">
+      <h2 class="font-[500] text-left text-2xl pb-4">🎁 BONO EXCLUSIVO POR TIEMPO LIMITADO</h2>
+      <p class="py-2">Si te inscribes antes del 5 de junio, recibirás sin costo el programa FUNDAMENTALS, donde trabajarás las bases de tu felicidad, autoconcepto y éxito.</p>
+      <p class="py-2 font-bold">Valorado en $6,500 MXN ($343 USD), y hoy es tuyo, gratis. Es mi regalo para quienes están listos para ir en serio.</p>
+      <p class="py-2">La combinación ideal para romper tus techos de cristal y construir una Vida Altamente Rentable desde el fondo.</p>
+    </div>
+
+    <div class="mt-12">
+      <h2 class="font-[500] text-left text-2xl pb-4">Tu siguiente nivel no se alcanza con más esfuerzo, se alcanza con estrategia. Y aquí empieza todo.</h2>
+    </div>
+
     <div class="grid justify-center mt-12">
       <a href="https://v0-cdtv-le9qcwl392u.vercel.app/" target="_blank" rel="noopener noreferrer" class="my-8">
         <Button value="¡Inscríbete al CEO TRAINING!" />
@@ -108,4 +98,3 @@
     </div>
   </section>
 </main>
-
