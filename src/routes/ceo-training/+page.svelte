@@ -86,6 +86,8 @@
 
     <div class="bg-white/10 text-center p-6 rounded-lg mt-12">
       <h2 class="font-[500] text-2xl pb-4">🎁 ACCESO EXCLUSIVO A TU PLATAFORMA DE ALTA DIRECCIÓN PERSONAL</h2>
+       <p class="py-2">Obtendrás acceso exclusivo a una plataforma de alto nivel, diseñada especialmente para ayudarte a dirigir tu vida como tu empresa más importante.</p>
+      <p class="py-2">Aquí podrás:</p>
       <ul class="list-disc list-inside space-y-4 text-left inline-block text-left">
         <li>Registrar y dar seguimiento a tus KPIs personales.</li>
         <li>Evaluar el rendimiento de tus roles de vida como líneas de negocio.</li>
