@@ -63,9 +63,9 @@
       </div>
     </div>
 
-    <div class="mt-12">
-      <h2 class="font-[500] text-left text-2xl pb-4">🎁 ACCESO EXCLUSIVO A TU PLATAFORMA DE ALTA DIRECCIÓN PERSONAL</h2>
-      <ul class="list-disc ml-6 space-y-4">
+    <div class="bg-white/10 text-center p-6 rounded-lg mt-12">
+      <h2 class="font-[500] text-2xl pb-4">🎁 ACCESO EXCLUSIVO A TU PLATAFORMA DE ALTA DIRECCIÓN PERSONAL</h2>
+      <ul class="list-disc list-inside space-y-4 text-left inline-block text-left">
         <li>Registrar y dar seguimiento a tus KPIs personales.</li>
         <li>Evaluar el rendimiento de tus roles de vida como líneas de negocio.</li>
         <li>Llevar una bitácora emocional estratégica.</li>
@@ -91,10 +91,25 @@
       <h2 class="font-[500] text-left text-2xl pb-4">Tu siguiente nivel no se alcanza con más esfuerzo, se alcanza con estrategia. Y aquí empieza todo.</h2>
     </div>
 
-    <div class="grid justify-center mt-12">
-      <a href="https://v0-cdtv-le9qcwl392u.vercel.app/" target="_blank" rel="noopener noreferrer" class="my-8">
-        <Button value="¡Inscríbete al CEO TRAINING!" />
-      </a>
+    <div class="mt-12">
+      <iframe
+        src="https://link.funnelia.io/widget/form/olof0u8d468YHvfDLv65"
+        style="width:100%;height:100%;border:none;border-radius:10px"
+        id="inline-olof0u8d468YHvfDLv65" 
+        data-layout="{'id':'INLINE'}"
+        data-trigger-type="alwaysShow"
+        data-trigger-value=""
+        data-activation-type="alwaysActivated"
+        data-activation-value=""
+        data-deactivation-type="neverDeactivate"
+        data-deactivation-value=""
+        data-form-name="Form de landing para Lista de Espera"
+        data-height="432"
+        data-layout-iframe-id="inline-olof0u8d468YHvfDLv65"
+        data-form-id="olof0u8d468YHvfDLv65"
+        title="Form de landing para Lista de Espera"
+      ></iframe>
+      <script src="https://link.funnelia.io/js/form_embed.js"></script>
     </div>
   </section>
 </main>
