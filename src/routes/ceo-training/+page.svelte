@@ -49,6 +49,8 @@
 
     <div class="bg-black text-white p-6 rounded-lg">
       <h2 class="font-[500] text-left text-2xl pb-4">RESULTADOS QUE NO CABEN EN UN CV</h2>
+      <p class="mt-4">Esto es lo que logran las personas que han tomado el CEO TRAINING:</p>
+
       <ul class="list-disc ml-6 space-y-4">
         <li><strong>Triplican sus ingresos sin sacrificar su vida personal:</strong> Aprenden a negociar, cobrar con seguridad, y experimentar abundancia real.</li>
         <li><strong>Cumplen sueños que llevaban años guardados:</strong> Publican libros, lanzan empresas, dan conferencias internacionales, aceptan puestos globales.</li>
@@ -84,7 +86,7 @@
     <div class="grid lg:grid-cols-5 gap-12 px-4 py-12 items-center">
       <!-- Primera columna: abarca 3/5 -->
       <div class="lg:col-span-3 flex flex-col gap-6">
-        <div class="bg-black text-white p-6 rounded-lg text-center">
+        <div class="bg-white/10 p-6 rounded-lg mt-12 text-left text-lg leading-relaxed">
           <h2 class="font-[500] text-2xl pb-4">🎁 ACCESO EXCLUSIVO A TU PLATAFORMA DE ALTA DIRECCIÓN PERSONAL</h2>
           <p class="py-2">Obtendrás acceso exclusivo a una plataforma de alto nivel, diseñada especialmente para ayudarte a dirigir tu vida como tu empresa más importante.</p>
           <p class="py-2">Aquí podrás:</p>
