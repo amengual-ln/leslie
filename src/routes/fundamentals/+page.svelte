@@ -218,14 +218,6 @@
       </p>
     </div>
   </div>
-
-  <div class="max-w-md mx-auto h-[432px] mt-10">
-    <iframe
-      src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
-      style="width:100%;height:100%;border:none;border-radius:10px"
-      title="Form de Fundamentals"
-    ></iframe>
-  </div>
 </section>
 
 <!-- Achievements -->  
