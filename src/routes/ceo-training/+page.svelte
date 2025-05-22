@@ -109,7 +109,7 @@
         data-form-id="olof0u8d468YHvfDLv65"
         title="Form de landing para Lista de Espera"
       ></iframe>
-      <script src="https://link.funnelia.io/js/form_embed.js"></script>
     </div>
+    <script src="https://link.funnelia.io/js/form_embed.js"></script>
   </section>
 </main>
