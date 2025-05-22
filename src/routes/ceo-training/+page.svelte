@@ -91,25 +91,11 @@
       <h2 class="font-[500] text-left text-2xl pb-4">Tu siguiente nivel no se alcanza con más esfuerzo, se alcanza con estrategia. Y aquí empieza todo.</h2>
     </div>
 
-    <div class="mt-12">
-      <iframe
-        src="https://link.funnelia.io/widget/form/olof0u8d468YHvfDLv65"
-        style="width:100%;height:100%;border:none;border-radius:10px"
-        id="inline-olof0u8d468YHvfDLv65" 
-        data-layout="{'id':'INLINE'}"
-        data-trigger-type="alwaysShow"
-        data-trigger-value=""
-        data-activation-type="alwaysActivated"
-        data-activation-value=""
-        data-deactivation-type="neverDeactivate"
-        data-deactivation-value=""
-        data-form-name="Form de landing para Lista de Espera"
-        data-height="432"
-        data-layout-iframe-id="inline-olof0u8d468YHvfDLv65"
-        data-form-id="olof0u8d468YHvfDLv65"
-        title="Form de landing para Lista de Espera"
-      ></iframe>
+    <!-- CTA Final -->
+    <div class="grid justify-center mt-12">
+      <a href="https://wa.link/ceotraining" target="_blank" rel="noopener noreferrer" class="my-8">
+        <Button value="¡Inscríbete al CEO TRAINING!" />
+      </a>
     </div>
   </section>
-<script src="https://link.funnelia.io/js/form_embed.js"></script>
 </main>
