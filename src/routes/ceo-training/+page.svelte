@@ -49,7 +49,7 @@
 
     <div class="bg-black text-white p-6 rounded-lg">
       <h2 class="font-[500] text-left text-2xl pb-4">RESULTADOS QUE NO CABEN EN UN CV</h2>
-      <p class="mb-4">Esto es lo que logran las personas que han tomado el CEO TRAINING:</p>
+      <p class="mb-4"><strong>Esto es lo que logran las personas que han tomado el CEO TRAINING:</strong></p>
 
       <ul class="list-disc ml-6 space-y-4">
         <li><strong>Triplican sus ingresos sin sacrificar su vida personal:</strong> Aprenden a negociar, cobrar con seguridad, y experimentar abundancia real.</li>
