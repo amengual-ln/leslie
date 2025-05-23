@@ -275,6 +275,10 @@
           <span class="text-[var(--webinar-primary)] text-2xl">✔️</span>
           Ideal si tienes poco tiempo y quieres avanzar con flexibilidad.
         </li>
+        <li class="flex items-start gap-3">
+          <span class="text-[var(--webinar-primary)] text-2xl">✔️</span>
+          Soporte directo con Leslie Beltrán para aclarar dudas, dentro de la plataforma,
+        </li>
       </ul>
     </div>
   </section>
