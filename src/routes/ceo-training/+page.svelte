@@ -133,9 +133,6 @@
       <div class="container mx-auto px-4">
 
         <FadeUp>
-          <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">
-            <span class="text-primary">📹</span> CONOCE MÁS SOBRE EL CEO TRAINING
-          </h2>
           <p class="text-lg max-w-3xl mx-auto mb-12 text-center">
             Descubre cómo el CEO TRAINING te ayudará a tener una vida altamente rentable con más amor,
             más dinero, más felicidad y más tiempo.

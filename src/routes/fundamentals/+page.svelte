@@ -87,14 +87,8 @@
 {#if mounted}
 <main class="font-poppins bg-[var(--webinar-secondary)] text-[var(--webinar-secondary-foreground)] min-h-screen webinar-page">
   <section class="relative min-h-screen flex items-center justify-center overflow-hidden py-24">
-    <div class="absolute inset-0 bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/lesnoback-OWSuBlYLiyaDAcZnXB4oJU5Puc39be.png')] bg-cover bg-center opacity-10 bg-no-repeat"></div>
-
+    <div  class="absolute inset-0 bg-[url('/lesnoback.png')] bg-cover bg-center opacity-10 bg-no-repeat"></div>
     <div class="container mx-auto px-4 relative z-10 text-center max-w-4xl">
-
-      <h1 class="text-4xl md:text-5xl font-bold mb-8 leading-tight">
-        <span class="text-[var(--webinar-primary)]">F</span>UND<span class="text-[var(--webinar-primary)]">A</span>M<span class="text-[var(--webinar-primary)]">E</span>NTALS
-      </h1>
-
       <h2 class="text-2xl mb-8">
         Los tres pilares para empezar a transformarte en el CEO de tu vida:
         <br/>
@@ -348,14 +342,6 @@
           </a>
         </p>
       </div>
-    </div>
-
-    <div class="max-w-md mx-auto h-[432px] mt-10">
-      <iframe
-        src="https://link.funnelia.io/widget/form/HhoGA8ulHKhERBCb5ACZ"
-        style="width:100%;height:100%;border:none;border-radius:10px"
-        title="Form de Fundamentals"
-      ></iframe>
     </div>
   </section>
 
