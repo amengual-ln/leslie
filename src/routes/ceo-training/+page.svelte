@@ -133,12 +133,13 @@
       <div className="pt-[56.25%]"></div>
       <iframe
         className="absolute inset-0 w-full h-full"
-        src="https://www.youtube.com/embed/VIDEO_ID?rel=0&modestbranding=1"
+        src="https://www.youtube.com/embed/SnrY0uIz6oM?si=LZ5qufl0AQwvkU6R"
         title="Mensaje CEO Training"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       />
     </div>
+  </div>
     {/* -------------------------------------- */}
     <!-- CTA Final -->
     <div class="grid justify-center mt-12">
