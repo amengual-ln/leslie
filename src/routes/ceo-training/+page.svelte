@@ -127,20 +127,35 @@
       <h2 class="font-[500] text-center text-2xl pb-4">Tu siguiente nivel no se alcanza con más esfuerzo, se alcanza con estrategia.</h2>
       <h2 class="font-[500] text-center text-2xl pb-4">Y aquí empieza todo.</h2>
     </div>
-    {/* ---------- VIDEO FULL-WIDTH ---------- */}
-    <div className="relative w-full max-w-6xl mx-auto overflow-hidden rounded-2xl shadow-2xl">
-      {/* 56.25% = 16/9 aspect ratio */}
-      <div className="pt-[56.25%]"></div>
-      <iframe
-        className="absolute inset-0 w-full h-full"
-        src="https://www.youtube.com/embed/SnrY0uIz6oM?si=LZ5qufl0AQwvkU6R"
-        title="Mensaje CEO Training"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      />
-    </div>
-  </div>
-    {/* -------------------------------------- */}
+
+    <!-- 8. SECCIÓN DE VIDEO EN GRANDE -->
+    <section class="py-20 bg-black/30">
+      <div class="container mx-auto px-4">
+
+        <FadeUp>
+          <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">
+            <span class="text-primary">📹</span> CONOCE MÁS SOBRE EL CEO TRAINING
+          </h2>
+          <p class="text-lg max-w-3xl mx-auto mb-12 text-center">
+            Descubre cómo el CEO TRAINING te ayudará a tener una vida altamente rentable con más amor,
+            más dinero, más felicidad y más tiempo.
+          </p>
+        </FadeUp>
+
+        <!-- Contenedor responsivo 16:9   -->
+        <div class="relative w-full max-w-6xl mx-auto rounded-2xl overflow-hidden shadow-2xl">
+          <div class="pt-[56.25%]"></div>  <!-- mantiene relación 16:9 -->
+          <iframe
+            class="absolute inset-0 w-full h-full"
+            src="https://www.youtube.com/embed/SnrY0uIz6oM?si=LZ5qufl0AQwvkU6R"
+            title="Video CEO Training"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          />
+        </div>
+      </div>
+    </section>
+
     <!-- CTA Final -->
     <div class="grid justify-center mt-12">
       <a href="https://wa.link/ceotraining" target="_blank" rel="noopener noreferrer" class="my-8">
