@@ -127,7 +127,15 @@
       <h2 class="font-[500] text-center text-2xl pb-4">Tu siguiente nivel no se alcanza con más esfuerzo, se alcanza con estrategia.</h2>
       <h2 class="font-[500] text-center text-2xl pb-4">Y aquí empieza todo.</h2>
     </div>
-
+    <div className="relative w-full pt-[56.25%] max-w-4xl mx-auto my-10 shadow-xl rounded-xl overflow-hidden">
+        <iframe
+          className="absolute inset-0 w-full h-full"
+          src="https://www.youtube.com/embed/VIDEO_ID?rel=0&modestbranding=1"
+          title="Avance CEO Training"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
+    </div>
     <!-- CTA Final -->
     <div class="grid justify-center mt-12">
       <a href="https://wa.link/ceotraining" target="_blank" rel="noopener noreferrer" class="my-8">
