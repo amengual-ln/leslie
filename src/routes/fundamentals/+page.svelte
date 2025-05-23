@@ -86,16 +86,29 @@
 
 {#if mounted}
 <main class="font-poppins bg-[var(--webinar-secondary)] text-[var(--webinar-secondary-foreground)] min-h-screen webinar-page">
-  <section class="relative min-h-screen flex items-center justify-center overflow-hidden py-24">
-    <div  class="absolute inset-0 bg-[url('/fundamentals.png')] bg-cover bg-center opacity-10 bg-no-repeat"></div>
-    <div class="container mx-auto px-4 relative z-10 text-center max-w-4xl">
-      <h2 class="text-2xl mb-4">
+    <!-- Hero section: compact height, no animations -->
+  <section class="relative isolate flex items-center justify-center py-16">
+    <!-- Background image -->
+    <img
+      src="/fundamentals.png"
+      alt="Fondo caligráfico de la palabra 'fundamentals'"
+      class="absolute inset-0 -z-10 w-full h-full object-cover object-center" />
+
+    <!-- Dark overlay to improve contrast -->
+    <div class="absolute inset-0 -z-10 bg-black/70"></div>
+
+    <!-- Copy block -->
+    <div class="max-w-3xl px-6 text-center">
+      <p class="mb-4 text-lg sm:text-xl font-light tracking-wider text-white/80">
         Los tres pilares para empezar a transformarte en el CEO de tu vida:
-        <br/>
-        <span class="text-[var(--webinar-primary)]">Felicidad</span>. 
-        <span class="text-[var(--webinar-primary)]">Autoconcepto</span>. 
+      </p>
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight text-white">
+        <span class="text-[var(--webinar-primary)]">Felicidad</span>
+        <span class="text-white">.</span>
+        <span class="text-[var(--webinar-primary)]">Autoconcepto</span>
+        <span class="text-white">.</span>
         <span class="text-[var(--webinar-primary)]">Éxito</span>
-      </h2>
+      </h1>
     </div>
   </section>
   <section class="py-10 bg-black/90 text-[var(--gray-light)]">
