@@ -87,9 +87,9 @@
 {#if mounted}
 <main class="font-poppins bg-[var(--webinar-secondary)] text-[var(--webinar-secondary-foreground)] min-h-screen webinar-page">
   <section class="relative min-h-screen flex items-center justify-center overflow-hidden py-24">
-    <div  class="absolute inset-0 bg-[url('/lesnoback.png')] bg-cover bg-center opacity-10 bg-no-repeat"></div>
+    <div  class="absolute inset-0 bg-[url('/fundamentals.png')] bg-cover bg-center opacity-10 bg-no-repeat"></div>
     <div class="container mx-auto px-4 relative z-10 text-center max-w-4xl">
-      <h2 class="text-2xl mb-8">
+      <h2 class="text-2xl mb-4">
         Los tres pilares para empezar a transformarte en el CEO de tu vida:
         <br/>
         <span class="text-[var(--webinar-primary)]">Felicidad</span>. 
