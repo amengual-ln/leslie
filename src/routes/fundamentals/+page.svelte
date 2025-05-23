@@ -138,7 +138,7 @@
       </h3>
 
       <ul class="text-2xl text-white list-disc list-inside mb-10 space-y-2">
-        <li><strong>Sin sacrificar lo que amas</strong></li>
+        <li>Sin sacrificar lo que amas</li>
         <li>Sin obligarte a encajar en un molde que no es tuyo</li>
         <li>Sin cargar con las expectativas de otros</li>
       </ul>
@@ -148,7 +148,7 @@
         <strong>cuestionar lo que has venido creyendo</strong> sobre el éxito, sobre ti y sobre la felicidad.
       </h3>
 
-      <div class="text-center mb-6">
+      <div class="text-center mb-10">
         <h3 class="text-3xl font-bold text-[var(--webinar-primary)] mt-10">
           Aquí vas a construir tu FAE:
         </h3>
@@ -157,7 +157,6 @@
         </h3>
       </div>
       <div class="container mx-auto px-4 text-center">
-        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12">Tu FAE, visualizado</h2> 
         <div class="mb-12 sm:mb-16" in:fade={{ duration: 700 }}>
           <img 
             src="infog1.png" 
@@ -229,7 +228,7 @@
         {#each achievements as item, index}
           {#if index === Math.floor(achievements.length / 2)}
             <li class="text-center text-white font-bold mt-6 mb-4 text-2xl">
-              ¿Qué más vas a lograr?
+              y también...
             </li>
           {/if}
           <li class="flex items-start gap-3" in:fly={{ y: 20, duration: 500, delay: index * 150 }}>
@@ -261,29 +260,29 @@
 
   <section class="py-20 bg-black/90 text-white text-center">
     <div class="container mx-auto px-4 max-w-4xl">
-      <h2 class="text-3xl md:text-4xl font-bold mb-10">
+      <h2 class="text-3xl md:text-4lg font-bold mb-10">
         Empieza ahora y a tu propio ritmo
       </h2>
 
-      <ul class="space-y-6 text-left mx-auto max-w-2xl text-lg">
+      <ul class="space-y-6 max-w-4xl mx-auto text-left text-2xl text-[var(--gray-light)]">
         <li class="flex items-start gap-3">
-          <span class="text-[var(--webinar-primary)] text-2xl">✔️</span>
+          <span class="text-[var(--webinar-primary)] text-2lg">✔️</span>
           100% online: estudia desde cualquier lugar.
         </li>
         <li class="flex items-start gap-3">
-          <span class="text-[var(--webinar-primary)] text-2xl">✔️</span>
+          <span class="text-[var(--webinar-primary)] text-2lg">✔️</span>
           Videos pregrabados que puedes ver a tu propio ritmo.
         </li>
         <li class="flex items-start gap-3">
-          <span class="text-[var(--webinar-primary)] text-2xl">✔️</span>
+          <span class="text-[var(--webinar-primary)] text-2l">✔️</span>
           Acceso inmediato: el contenido ya está disponible.
         </li>
         <li class="flex items-start gap-3">
-          <span class="text-[var(--webinar-primary)] text-2xl">✔️</span>
+          <span class="text-[var(--webinar-primary)] text-2xlg">✔️</span>
           Ideal si tienes poco tiempo y quieres avanzar con flexibilidad.
         </li>
         <li class="flex items-start gap-3">
-          <span class="text-[var(--webinar-primary)] text-2xl">✔️</span>
+          <span class="text-[var(--webinar-primary)] text-2lg">✔️</span>
           Soporte directo con Leslie Beltrán para aclarar dudas, dentro de la plataforma,
         </li>
       </ul>
@@ -305,7 +304,7 @@
       <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-16">
         ¿Para quién es este programa?
       </h2>
-      <ul class="space-y-6 text-lg">
+      <ul class="space-y-6 max-w-4xl mx-auto text-left text-2xl text-[var(--gray-light)]">
         <li class="flex gap-3" in:fade={{ delay: 0 }}><span class="text-[var(--webinar-primary)] text-xl">🔹</span> Tienes un puesto directivo o ejecutivo, y aunque todo parece ir bien en lo profesional, por dentro te sientes perdida(o), cansada(o) y con la sensación de que algo no está bien.</li>
         <li class="flex gap-3" in:fade={{ delay: 100 }}><span class="text-[var(--webinar-primary)] text-xl">🔹</span> Vives con caos constante, haciendo malabares para complacer a todos, pero postergándote a ti misma(o) una y otra vez.</li>
         <li class="flex gap-3" in:fade={{ delay: 200 }}><span class="text-[var(--webinar-primary)] text-xl">🔹</span> Ya no sabes si lo que estás haciendo es por ti o solo por cumplir con lo que otros esperan.</li>
@@ -321,7 +320,7 @@
       <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-16">
         ¿Para quién NO es este programa?
       </h2>
-      <ul class="space-y-6 text-lg">
+      <ul class="space-y-6 max-w-4xl mx-auto text-left text-2xl text-[var(--gray-light)]">
         <li class="flex gap-3" in:fade={{ delay: 0 }}><span class="text-[var(--red)] text-xl">❌</span> Estás esperando una fórmula mágica que lo resuelva todo sin cuestionarte.</li>
         <li class="flex gap-3" in:fade={{ delay: 100 }}><span class="text-[var(--red)] text-xl">❌</span> Prefieres seguir haciendo lo que “toca” aunque no te haga sentido.</li>
         <li class="flex gap-3" in:fade={{ delay: 200 }}><span class="text-[var(--red)] text-xl">❌</span> No estás dispuesto a desafiar los conceptos que te enseñaron sobre ti, el éxito o la felicidad.</li>
@@ -381,7 +380,7 @@
         ¿Qué más vas a lograr?
       </h2>
 
-      <ul class="space-y-6 max-w-4xl mx-auto text-left text-lg"> <li class="flex items-start gap-3" in:fade={{ delay: 100 }}>
+      <ul class="space-y-6 max-w-4xl mx-auto text-left text-2xl text-[var(--gray-light)]"> <li class="flex items-start gap-3" in:fade={{ delay: 100 }}>
           <span class="text-[var(--webinar-primary)] text-xl">✅</span>
           <span class="text-[var(--gray-light)]">Vas a tener claridad sobre tu siguiente paso personal y profesional, sin culpa ni miedo.</span>
         </li>
@@ -412,19 +411,19 @@
   <section class="py-20 bg-black/50">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl md:text-4xl font-bold mb-12">¿Por qué estoy creando este programa?</h2>
-      <ul class="space-y-6 max-w-4xl mx-auto text-left text-lg"> {#each reasons as reason, index}
+      <ul class="space-y-6 max-w-4xl mx-auto text-left text-2xl text-[var(--gray-light)]"> {#each reasons as reason, index}
           <li class="flex items-start gap-3" in:fly={{ y: 20, duration: 500, delay: index * 150 }}>
             <span class="text-[var(--webinar-primary)] text-xl">🔥</span>
             <span class="text-[var(--gray-light)]">{reason}</span>
           </li>
         {/each}
       </ul>
-      <p class="text-xl max-w-3xl mx-auto mt-12 text-[var(--gray-light)]">Si aún tienes duda de si es para ti…</p>
+      <p class="space-y-6 max-w-4xl mx-auto text-left text-2xl text-[var(--gray-light)]">Si aún tienes duda de si es para ti…</p>
     </div>
   </section>
   <section class="py-20 bg-black/30">
     <div class="container mx-auto px-4">
-      <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Lo que dicen quienes han tomado FUNDAMENTALS</h2>
+      <h2 class="space-y-6 max-w-4xl mx-auto text-left text-2xl text-[var(--gray-light)]">Lo que dicen quienes han tomado FUNDAMENTALS</h2>
       <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {#each testimonials as t, index}
           <div class="bg-[var(--gray-dark)] p-8 rounded-lg text-center" in:fade={{ duration: 300, delay: index * 100 }}> <div class="flex justify-center mb-4">
