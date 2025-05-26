@@ -87,34 +87,39 @@
 {#if mounted}
 <main class="font-poppins bg-[var(--webinar-secondary)] text-[var(--webinar-secondary-foreground)] min-h-screen webinar-page">
     <!-- Hero section: compact height, no animations -->
-  <section class="relative isolate flex items-center justify-center py-16">
-    <!-- Background image -->
-    <img
-      src="/fundamentals.png"
-      alt="Fondo caligráfico de la palabra 'fundamentals'"
-      class="absolute inset-0 -z-10 w-full h-full object-cover object-center" />
+<!-- BLOQUE 1 · Hero más pequeño -->
+<section class="relative flex items-center justify-center h-[45vh] md:h-[55vh] bg-black">
+  <img
+    src="/fundamentals.png"
+    alt="Fondo caligráfico de la palabra 'fundamentals'"
+    class="h-full w-auto object-contain" />
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black/60 pointer-events-none"></div>
+</section>
 
-    <!-- Dark overlay to improve contrast -->
-    <div class="absolute inset-0 -z-10 bg-black/70"></div>
+<!-- BLOQUE 2 · Texto, con menos espacio arriba -->
+<section class="pt-10 pb-16 sm:pt-12 sm:pb-20 flex items-center justify-center">
+  <div class="max-w-3xl px-6 text-center">
+    <p class="mb-6 text-2xl sm:text-3xl font-light tracking-wider text-white/80">
+      Los tres pilares para empezar a transformarte en el CEO de tu vida:
+    </p>
 
-    <!-- Copy block -->
-    <div class="max-w-3xl px-6 text-center">
-      <p class="mb-4 text-lg sm:text-xl font-light tracking-wider text-white/80">
-        Los tres pilares para empezar a transformarte en el CEO de tu vida:
-      </p>
-      <h1 class="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight text-white">
-        <span class="text-[var(--webinar-primary)]">Felicidad</span>
-        <span class="text-white">.</span>
-        <span class="text-[var(--webinar-primary)]">Autoconcepto</span>
-        <span class="text-white">.</span>
-        <span class="text-[var(--webinar-primary)]">Éxito</span>
-      </h1>
-    </div>
-  </section>
+    <h2
+      class="flex flex-nowrap items-baseline justify-center gap-2
+             text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight text-white">
+      <span class="text-[var(--webinar-primary)]">Felicidad</span>
+      <span class="text-white">·</span>
+      <span class="text-[var(--webinar-primary)]">Autoconcepto</span>
+      <span class="text-white">·</span>
+      <span class="text-[var(--webinar-primary)]">Éxito</span>
+    </h2>
+  </div>
+</section>
+
   <section class="py-10 bg-black/90 text-[var(--gray-light)]">
     <div class="container mx-auto px-4 max-w-4xl text-left">
 
-      <h3 class="text-2xl mb-4 text-center text-white">
+      <h3 class="text-2xl mb-4 text-left text-white">
         Es un programa 
         <span class="text-[var(--webinar-primary)] font-bold">breve, profundo y poderoso</span> 
         de <span class="text-white font-bold">solo 5 semanas</span>.
@@ -418,24 +423,44 @@
           </li>
         {/each}
       </ul>
-      <p class="space-y-6 max-w-4xl mx-auto text-left text-2xl text-[var(--gray-light)]">Si aún tienes duda de si es para ti…</p>
     </div>
   </section>
-  <section class="py-20 bg-black/30">
-    <div class="container mx-auto px-4">
-      <h2 class="space-y-6 max-w-4xl mx-auto text-left text-2xl text-[var(--gray-light)]">Lo que dicen quienes han tomado FUNDAMENTALS</h2>
-      <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-        {#each testimonials as t, index}
-          <div class="bg-[var(--gray-dark)] p-8 rounded-lg text-center" in:fade={{ duration: 300, delay: index * 100 }}> <div class="flex justify-center mb-4">
-              {#each Array(5) as _}<span class="text-[var(--webinar-primary)] text-xl">⭐</span>{/each}
-            </div>
-            <p class="italic mb-6 text-[var(--gray-light)]">"{t.text}"</p> <p class="font-semibold text-[var(--webinar-primary)]">{t.name}</p>
-            <p class="text-sm text-[var(--gray-role)]">{t.role}</p>
-          </div>
-        {/each}
+<section class="py-16">
+  <!-- Encabezado -->
+  <div class="max-w-4xl mx-auto text-center space-y-2">
+    <p class="text-2xl md:text-3xl font-light text-white">
+      ¿Todavía no estás seguro de que <span class="font-semibold">FUNDAMENTALS</span> sea para ti?
+    </p>
+
+    <h2 class="text-2xl md:text-3xl font-semibold tracking-wide text-white">
+      Esto es lo que opinan quienes ya lo cursaron:
+    </h2>
+  </div>
+
+  <!-- Tarjetas de testimonios -->
+  <div class="mt-12 grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
+    {#each testimonials as t, index}
+      <div
+        class="bg-[var(--gray-dark)] p-8 rounded-lg text-center"
+        in:fade={{ duration: 300, delay: index * 100 }}
+      >
+        <!-- Estrellas -->
+        <div class="flex justify-center mb-4">
+          {#each Array(5) as _}
+            <span class="text-[var(--webinar-primary)] text-xl">⭐</span>
+          {/each}
+        </div>
+
+        <!-- Texto del testimonio -->
+        <p class="italic mb-6 text-[var(--gray-light)]">"{t.text}"</p>
+
+        <!-- Nombre y rol -->
+        <p class="font-semibold text-[var(--webinar-primary)]">{t.name}</p>
+        <p class="text-sm text-[var(--gray-role)]">{t.role}</p>
       </div>
-    </div>
-  </section>
+    {/each}
+  </div>
+</section>
   <section class="py-20 bg-black/80">
     <div class="container mx-auto px-4 text-center max-w-3xl">
       <p class="text-2xl font-semibold text-white mb-6 leading-relaxed" in:fade={{ duration: 500 }}>
