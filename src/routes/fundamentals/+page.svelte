@@ -101,16 +101,22 @@
   <div class="absolute inset-0 bg-black/60 pointer-events-none"></div>
 </section>
 
-<!-- BLOQUE 2 · Texto -->
-<section class="pt-8 pb-14 sm:pt-10 sm:pb-16 flex items-center justify-center">
-  <div class="max-w-3xl px-4 sm:px-6 text-center">
-    <p class="mb-6 text-xl sm:text-2xl md:text-3xl font-light tracking-wider text-white/80">
+<!-- BLOQUE 2 · Texto responsive -->
+<section class="py-6 sm:py-10 lg:py-16 flex items-center justify-center">
+  <div class="w-full max-w-5xl px-4 sm:px-6 lg:px-8 text-center">
+    <!-- Intro -->
+    <p
+      class="mb-6 font-light tracking-wider text-white/80
+             text-base xs:text-lg sm:text-xl md:text-2xl lg:text-3xl">
       Los tres pilares para empezar a transformarte en el CEO de tu vida:
     </p>
 
+    <!-- Título -->
     <h2
-      class="flex flex-nowrap items-baseline justify-center gap-2
-             text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight text-white">
+      class="flex flex-wrap sm:flex-nowrap items-baseline justify-center
+             gap-x-1 gap-y-2 sm:gap-x-2
+             font-semibold leading-tight text-white
+             text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
       <span class="text-[var(--webinar-primary)]">Felicidad</span>
       <span class="text-white">·</span>
       <span class="text-[var(--webinar-primary)]">Autoconcepto</span>
@@ -119,6 +125,7 @@
     </h2>
   </div>
 </section>
+
 
 
   <section class="py-10 bg-black/90 text-[var(--gray-light)]">
