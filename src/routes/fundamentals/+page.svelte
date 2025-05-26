@@ -87,26 +87,30 @@
 {#if mounted}
 <main class="font-poppins bg-[var(--webinar-secondary)] text-[var(--webinar-secondary-foreground)] min-h-screen webinar-page">
     <!-- Hero section: compact height, no animations -->
-<!-- BLOQUE 1 · Hero más pequeño -->
-<section class="relative flex items-center justify-center h-[45vh] md:h-[55vh] bg-black">
+<!-- HERO · la mitad de alto, sin recorte -->
+<section
+  class="relative flex items-center justify-center h-[25vh] sm:h-[30vh] md:h-[35vh] lg:h-[40vh] bg-black">
+
+  <!-- Imagen: cabe completa dentro de la altura -->
   <img
     src="/fundamentals.png"
     alt="Fondo caligráfico de la palabra 'fundamentals'"
     class="h-full w-auto object-contain" />
-  <!-- Overlay -->
+
+  <!-- Overlay para contraste -->
   <div class="absolute inset-0 bg-black/60 pointer-events-none"></div>
 </section>
 
-<!-- BLOQUE 2 · Texto, con menos espacio arriba -->
-<section class="pt-10 pb-16 sm:pt-12 sm:pb-20 flex items-center justify-center">
-  <div class="max-w-3xl px-6 text-center">
-    <p class="mb-6 text-2xl sm:text-3xl font-light tracking-wider text-white/80">
+<!-- BLOQUE 2 · Texto -->
+<section class="pt-8 pb-14 sm:pt-10 sm:pb-16 flex items-center justify-center">
+  <div class="max-w-3xl px-4 sm:px-6 text-center">
+    <p class="mb-6 text-xl sm:text-2xl md:text-3xl font-light tracking-wider text-white/80">
       Los tres pilares para empezar a transformarte en el CEO de tu vida:
     </p>
 
     <h2
       class="flex flex-nowrap items-baseline justify-center gap-2
-             text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight text-white">
+             text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight text-white">
       <span class="text-[var(--webinar-primary)]">Felicidad</span>
       <span class="text-white">·</span>
       <span class="text-[var(--webinar-primary)]">Autoconcepto</span>
@@ -115,6 +119,7 @@
     </h2>
   </div>
 </section>
+
 
   <section class="py-10 bg-black/90 text-[var(--gray-light)]">
     <div class="container mx-auto px-4 max-w-4xl text-left">
