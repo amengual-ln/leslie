@@ -16,11 +16,8 @@
     <!-- Intro Block -->
     <div class="grid gap-12 lg:grid-cols-2">
       <div class="flex flex-col justify-center gap-6">
-        <h1 class="text-5xl md:text-4xl font-medium">
-          La mentoría estratégica para Gerentes, Directores y Empresarios que ya lo lograron todo… pero quieren más.
-        </h1>
-
         <p>
+          La mentoría estratégica para Gerentes, Directores y Empresarios que ya lo lograron todo… pero quieren más.
           Has seguido el camino correcto. Tienes un buen puesto, buen sueldo y reconocimiento.
           <strong>Pero por dentro sientes que algo te falta.</strong>
         </p>
