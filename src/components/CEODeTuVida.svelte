@@ -19,10 +19,6 @@
           y felicidad, para que las personas logren ser más exitosas, tener más felicidad y generar mayores ingresos, 
           sin sacrificios ni dramas.
         </p>
-  
-        <a href="/historia" class="mt-4">
-          <Button value="Te cuento mi historia" />
-        </a>
       </div>
   
       <div class="hidden lg:block">
