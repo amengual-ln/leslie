@@ -138,16 +138,6 @@
         <img src="/training.webp" alt="CEO Training" class="w-full rounded-lg" />
       </div>
     </div>
-
-    <!-- Investment -->
-    <div class="bg-black text-white p-6 rounded-lg text-center space-y-4">
-      <h2 class="text-4xl md:text-5xl font-medium">INVERSIÓN</h2>
-      <p class="leading-relaxed">La inversión es de $40,000 MXN (≈ $2,105 USD) con posibilidad de plan de pagos.</p>
-      <p class="font-bold leading-relaxed">
-        Los lugares son limitados. Esto no es para cualquiera; es para quienes están listos para dejar de ejecutar… y empezar a dirigir.
-      </p>
-    </div>
-
     <!-- CTA Button -->
     <div class="text-center">
       <a
