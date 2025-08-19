@@ -103,27 +103,28 @@
 
 <!-- BLOQUE 2 · Texto responsive -->
 <section class="py-6 sm:py-10 lg:py-16 flex items-center justify-center">
-  <div class="w-full max-w-5xl px-4 sm:px-6 lg:px-8 text-center">
-    <!-- Intro -->
-    <p
-      class="mb-6 font-light tracking-wider text-white/80
-             text-base xs:text-lg sm:text-xl md:text-2xl lg:text-3xl">
-      Los tres pilares para empezar a transformarte en el CEO de tu vida:
-    </p>
+<div class="w-full max-w-5xl px-4 sm:px-6 lg:px-8 text-center">
+<!-- Intro -->
+<p
+class="mb-6 font-light tracking-wider text-white/80
+text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+Los tres pilares para empezar a transformarte en el CEO de tu vida:
+</p>
 
-    <!-- Título -->
-    <h2
-      class="flex flex-wrap sm:flex-nowrap items-baseline justify-center
-             gap-x-1 gap-y-2 sm:gap-x-2
-             font-semibold leading-tight text-white
-             text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
-      <span class="text-[var(--webinar-primary)]">Felicidad</span>
-      <span class="text-white">·</span>
-      <span class="text-[var(--webinar-primary)]">Autoconcepto</span>
-      <span class="text-white">·</span>
-      <span class="text-[var(--webinar-primary)]">Éxito</span>
-    </h2>
-  </div>
+
+<!-- Título -->
+<h2
+class="flex flex-wrap sm:flex-nowrap items-baseline justify-center
+gap-x-2 gap-y-3 sm:gap-x-3
+font-semibold leading-snug text-white
+text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+<span class="text-[var(--webinar-primary)]">Felicidad</span>
+<span class="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl">·</span>
+<span class="text-[var(--webinar-primary)]">Autoconcepto</span>
+<span class="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl">·</span>
+<span class="text-[var(--webinar-primary)]">Éxito</span>
+</h2>
+</div>
 </section>
 
 
