@@ -117,11 +117,11 @@ Los tres pilares para empezar a transformarte en el CEO de tu vida:
 class="flex flex-wrap sm:flex-nowrap items-baseline justify-center
 gap-x-2 gap-y-3 sm:gap-x-3
 font-semibold leading-snug text-white
-text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
+text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
 <span class="text-[var(--webinar-primary)]">Felicidad</span>
-<span class="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl">·</span>
+<span class="text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl">·</span>
 <span class="text-[var(--webinar-primary)]">Autoconcepto</span>
-<span class="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl">·</span>
+<span class="text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl">·</span>
 <span class="text-[var(--webinar-primary)]">Éxito</span>
 </h2>
 </div>
@@ -242,7 +242,7 @@ text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl">
         ¿Qué vas a lograr al finalizar el programa?
       </h2>
 
-      <ul class="space-y-6 max-w-4xl mx-auto text-left text-2xl text-[var(--gray-light)]">
+      <ul class="space-y-6 max-w-2xl mx-auto text-left text-xl text-[var(--gray-light)]">
         {#each achievements as item, index}
           {#if index === Math.floor(achievements.length / 2)}
             <li class="text-center text-white font-bold mt-6 mb-4 text-2xl">
