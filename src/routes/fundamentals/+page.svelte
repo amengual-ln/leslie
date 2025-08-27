@@ -85,48 +85,44 @@
 </script>
 
 {#if mounted}
-<main class="font-poppins bg-[var(--webinar-secondary)] text-[var(--webinar-secondary-foreground)] min-h-screen webinar-page">
-    <!-- Hero section: compact height, no animations -->
-<!-- HERO · la mitad de alto, sin recorte -->
-<section
-  class="relative flex items-center justify-center h-[25vh] sm:h-[30vh] md:h-[35vh] lg:h-[40vh] bg-black">
+<main class="font-poppins bg-[var(--webinar-secondary)] text-[var(--webinar-secondary-foreground)] min-h-screen webinar-page"> 
+  <!-- Hero section -->
+  <section
+    class="relative flex items-center justify-center h-[25vh] sm:h-[30vh] md:h-[35vh] lg:h-[40vh] bg-black">
 
-  <!-- Imagen: cabe completa dentro de la altura -->
-  <img
-    src="/fundamentals.png"
-    alt="Fondo caligráfico de la palabra 'fundamentals'"
-    class="h-full w-auto object-contain" />
+    <!-- Imagen -->
+    <img
+      src="/fundamentals.png"
+      alt="Fondo caligráfico de la palabra 'fundamentals'"
+      class="h-full w-auto object-contain" />
 
-  <!-- Overlay para contraste -->
-  <div class="absolute inset-0 bg-black/60 pointer-events-none"></div>
-</section>
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/60 pointer-events-none"></div>
+  </section>
 
-<!-- BLOQUE 2 · Texto responsive -->
-<section class="py-6 sm:py-10 lg:py-16 flex items-center justify-center">
-<div class="w-full max-w-5xl px-4 sm:px-6 lg:px-8 text-center">
-<!-- Intro -->
-<p
-class="mb-6 font-light tracking-wider text-white/80
-text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-Los tres pilares para empezar a transformarte en el CEO de tu vida:
-</p>
+  <!-- BLOQUE 2 -->
+  <section class="py-6 sm:py-10 lg:py-16 flex items-center justify-center">
+    <div class="w-full max-w-5xl px-4 sm:px-6 lg:px-8 text-center">
+      <!-- Intro -->
+      <p class="mb-6 font-light tracking-wider text-white/80
+                 text-base sm:text-lg md:text-xl lg:text-2xl">
+        Los tres pilares para empezar a transformarte en el CEO de tu vida:
+      </p>
 
-
-<!-- Título -->
-<h2
-class="flex flex-wrap sm:flex-nowrap items-baseline justify-center
-gap-x-2 gap-y-3 sm:gap-x-3
-font-semibold leading-snug text-white
-text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-<span class="text-[var(--webinar-primary)]">Felicidad</span>
-<span class="text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl">·</span>
-<span class="text-[var(--webinar-primary)]">Autoconcepto</span>
-<span class="text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl">·</span>
-<span class="text-[var(--webinar-primary)]">Éxito</span>
-</h2>
-</div>
-</section>
-
+      <!-- Título -->
+      <h2
+        class="flex flex-wrap sm:flex-nowrap items-baseline justify-center
+               gap-x-2 gap-y-2 sm:gap-x-3
+               font-semibold leading-snug text-white
+               text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+        <span class="text-[var(--webinar-primary)]">Felicidad</span>
+        <span class="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl">·</span>
+        <span class="text-[var(--webinar-primary)]">Autoconcepto</span>
+        <span class="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl">·</span>
+        <span class="text-[var(--webinar-primary)]">Éxito</span>
+      </h2>
+    </div>
+  </section>
 
 
   <section class="py-10 bg-black/90 text-[var(--gray-light)]">
