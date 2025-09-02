@@ -4,7 +4,7 @@
   onMount(() => { mounted = true; });
 
   const PAY_ONCE = "https://academy.ceodetuvida.com/courses/offers/aba9c77c-959f-42bb-bfd4-4eefe1b60de6";
-  const PAY_SPLIT = "https://academy.ceodetuvida.com/courses/offers/aba9c77c-959f-42bb-bfd4-4eefe1b60de6";
+  const PAY_SPLIT = "https://academy.ceodetuvida.com/courses/offers/c7d9708c-a13a-463c-9b65-be0e98abf33b";
   const PDF_PLAN = "https://drive.google.com/file/d/1RI4RRpaB7B0L3v1jL3tvSNXCbL5KiGva/view?usp=sharing";
 </script>
 
@@ -145,13 +145,6 @@
     </div>
   </section>
 
-  <!-- Testimonios -->
-  <section class="sec-brown py-10">
-    <div class="container mx-auto px-4 max-w-3xl text-center">
-      <h2 class="text-base sm:text-lg md:text-xl font-bold mb-5">Lo que dicen quienes ya vivieron Fundamentals</h2>
-      <p class="text-sm sm:text-base md:text-lg">[ Aquí van testimonios + screenshots ]</p>
-    </div>
-  </section>
 
   <!-- Cierre -->
   <section class="sec-light py-10 text-center">
