@@ -4,443 +4,211 @@
 
   let mounted = false;
 
-  const pillars = [
-    { title: "Felicidad", description: "Redefine qué significa ser feliz para ti y construye tu propio concepto." },
-    { title: "Autoconcepto", description: "Rompe con el autoconcepto impuesto y diseña quién eres desde tu autenticidad." },
-    { title: "Éxito", description: "Deja de perseguir definiciones ajenas y empieza a crear tu propio modelo de éxito." }
-  ];
-  const weeks = [
-    {
-      week: "Semana 1",
-      title: "EL GRAN ERROR QUE TE ESTÁ COSTANDO TU VIDA",
-      objective: "Darte cuenta de que estás viviendo en segundo lugar y del costo real de seguir así."
-    },
-    {
-      week: "Semana 2",
-      title: "ROMPIENDO EL GUIÓN QUE NO ES TUYO",
-      objective: "Identificar y desprogramar los conceptos de éxito y felicidad que has heredado para que dejes de pensar como la abuelita de tu abuelita."
-    },
-    {
-      week: "Semana 3",
-      title: "REDEFINIENDO TU FAE (FELICIDAD, AUTOCONCEPTO Y ÉXITO)",
-      objective: "Diseñar tu propio concepto de Felicidad, Autoconcepto y Éxito, desde la claridad y la autenticidad."
-    },
-    {
-      week: "Semana 4",
-      title: "DISEÑANDO TU NUEVA VIDA – PRIMEROS PASOS PARA HACERLO REALIDAD",
-      objective: "Crear estrategias simples para empezar a vivir HOY tu FAE."
-    },
-    {
-      week: "Semana 5",
-      title: "EDIFICANDO TU FAE",
-      objective: "Implementación de las estrategias y seguimiento."
-    }
-  ];
-  const achievements = [
-    "Vas a dejar de sentirte atrapado en una vida que no se siente tuya.",
-    "Vas a soltar la culpa de ponerte en primer lugar.",
-    "Vas a tomar decisiones con claridad y seguridad, sin miedo al juicio externo.",
-    "Vas a tener por fin una brújula interna para avanzar sin perderte en lo que los demás esperan de ti.",
-    "Vas a dejar de autoexigirte tanto, porque ya no estarás tratando de llenar un molde ajeno.",
-    "Vas a recuperar tu energía y tu enfoque, porque estarás alineado con lo que realmente te importa.",
-    "Vas a empezar a construir un éxito que no te desgaste… sino que te expanda.",
-    "Y vas a recuperar algo que habías olvidado: tu voz, tus sueños y lo que te hace feliz."
-  ];
-  const includes = [
-    "5 semanas de contenido grabado con videos directos y accionables.",
-    "Ejercicios prácticos en cada módulo para aplicar lo aprendido.",
-    "2 sesiones en vivo de Preguntas y Respuestas conmigo para profundizar en tu proceso.",
-    "Material descargable para acompañar tu transformación.",
-    "Acceso a la comunidad privada para compartir avances y recibir apoyo."
-  ];
-  const reasons = [
-    "Porque veo que muchos ejecutivos, empresarios y profesionales exitosos siguen sintiéndose vacíos y agotados.",
-    "Porque he trabajado con cientos de clientes que se han pasado la vida en segundo lugar sin siquiera darse cuenta.",
-    "Porque sé que el éxito real no es solo dinero o títulos, sino vivir con claridad, propósito y bienestar.",
-    "Porque antes de enseñar estrategias de expansión y abundancia, es clave que tengas un punto de partida sólido.",
-    "Porque quiero que dejes de actuar como el office boy de tu vida y empieces a liderarla como un verdadero CEO."
-  ];
-  const whoFor = [
-    "Gerentes y Directores que han invertido años acumulando títulos y siguen sin sentirse plenos.",
-    "Personas que saben que necesitan hacer un cambio, pero no tienen claro por dónde empezar.",
-    "Quienes buscan resultados reales, en poco tiempo y con un proceso flexible.",
-    "Ejecutivos que quieren claridad sobre su concepto de éxito y felicidad personal."
-  ];
+  // Links de pago
+  const PAY_ONCE = "https://academy.ceodetuvida.com/courses/offers/aba9c77c-959f-42bb-bfd4-4eefe1b60de6";
+  const PAY_SPLIT = "https://academy.ceodetuvida.com/courses/offers/c7d9708c-a13a-463c-9b65-be0e98abf33b";
 
-  const notFor = [
-    "Personas que creen que el éxito solo se logra sacrificando bienestar.",
-    "Quienes esperan soluciones mágicas sin cuestionarse o cambiar mentalidad.",
-    "Los que prefieren seguir en automático y no tomar decisiones conscientes."
-  ];
-
-  const testimonials = [
-    { name: "Luis", role: "Director Comercial", text: "Llevaba 20 años intentando alcanzar un éxito que nunca fue mío. En 5 semanas redefiní lo que realmente quiero y, por primera vez, me sentí libre." },
-    { name: "Alejandra", role: "Gerente de Finanzas", text: "Siempre creí que necesitaba otra maestría. FUNDAMENTALS me mostró que no me faltaba preparación, me faltaba claridad." },
-    { name: "Carla", role: "Directora de Marketing", text: "Pensé que priorizarme era egoísta. Hoy sé que es necesario. Gracias a este programa, aprendí a tomar decisiones sin culpa y a reconectarme conmigo." },
-  ];
-
-  onMount(() => {
-    mounted = true;
-  });
+  onMount(() => { mounted = true; });
 </script>
 
+<style>
+  /* Alternancia de secciones: marrón (usa tu var actual) y blanco */
+  .sec-brown { background: var(--webinar-secondary); color: var(--webinar-secondary-foreground); }
+  .sec-light { background: #ffffff; color: #111827; }
+  .badge { display:inline-block; padding:.25rem .6rem; border-radius:.5rem; background: var(--webinar-primary); color:#fff; font-weight:600; font-size:.75rem; letter-spacing:.02em; }
+  .btn { display:inline-block; padding:.75rem 1rem; border-radius:.75rem; font-weight:700; border:1px solid currentColor; transition: all .2s ease; }
+  .btn-primary { background: var(--webinar-primary); color:#fff; border-color: var(--webinar-primary); }
+  .btn-primary:hover { filter: brightness(1.05); transform: translateY(-1px); }
+  .btn-ghost { background: transparent; color: var(--webinar-primary); border-color: var(--webinar-primary); }
+  .btn-ghost:hover { background: var(--webinar-primary); color:#fff; }
+</style>
+
 {#if mounted}
-<main class="font-poppins bg-[var(--webinar-secondary)] text-[var(--webinar-secondary-foreground)] min-h-screen webinar-page"> 
-  <!-- Hero section -->
-  <section
-    class="relative flex items-center justify-center h-[25vh] sm:h-[30vh] md:h-[35vh] lg:h-[40vh] bg-black">
-
-    <!-- Imagen -->
-    <img
-      src="/fundamentals.png"
-      alt="Fondo caligráfico de la palabra 'fundamentals'"
-      class="h-full w-auto object-contain" />
-
-    <!-- Overlay -->
-    <div class="absolute inset-0 bg-black/60 pointer-events-none"></div>
+<main class="font-poppins min-h-screen">
+  <!-- HERO compacto con logo (puedes reemplazar la imagen por tu logo) -->
+  <section class="relative flex items-center justify-center h-[24vh] sm:h-[30vh] md:h-[34vh] lg:h-[40vh] bg-black">
+    <img src="/fundamentals.png" alt="FUNDAMENTALS (logo)" class="h-full w-auto object-contain" />
+    <div class="absolute inset-0 bg-black/55 pointer-events-none"></div>
   </section>
 
-  <!-- BLOQUE 2 -->
-  <section class="py-6 sm:py-10 lg:py-16 flex items-center justify-center">
-    <div class="w-full max-w-5xl px-4 sm:px-6 lg:px-8 text-center">
-      <!-- Intro -->
-      <p class="mb-6 font-light tracking-wider text-white/80
-                 text-base sm:text-lg md:text-xl lg:text-2xl">
-        Los tres pilares para empezar a transformarte en el CEO de tu vida:
+  <!-- 1) Intro · MARRÓN -->
+  <section class="sec-brown py-12 sm:py-16">
+    <div class="container mx-auto px-4 max-w-4xl text-center">
+      <span class="badge mb-4">FUNDAMENTALS</span>
+      <h1 class="text-xl sm:text-2xl md:text-3xl font-bold leading-tight mb-6">Estás cumpliendo con todo… menos contigo.</h1>
+      <p class="text-base sm:text-lg md:text-xl opacity-90 max-w-3xl mx-auto">
+        Te volviste experto en apagar fuegos, pero ya no sabes qué te ilusiona. Cada día rindes, entregas, funcionas… pero sientes que tu chispa se esfumó.
+        <strong class="text-[var(--webinar-primary)]">Fundamentals</strong> es el primer paso para salir del caos, reconectar contigo y recuperar el timón de tu vida.
       </p>
-
-      <!-- Título -->
-      <h2
-        class="flex flex-wrap sm:flex-nowrap items-baseline justify-center
-               gap-x-2 gap-y-2 sm:gap-x-3
-               font-semibold leading-snug text-white
-               text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-        <span class="text-[var(--webinar-primary)]">Felicidad</span>
-        <span class="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl">·</span>
-        <span class="text-[var(--webinar-primary)]">Autoconcepto</span>
-        <span class="text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl">·</span>
-        <span class="text-[var(--webinar-primary)]">Éxito</span>
-      </h2>
+      <ul class="mt-6 grid sm:grid-cols-2 gap-3 text-left text-sm sm:text-base md:text-lg">
+        <li>✔ Solo 5 semanas</li>
+        <li>✔ A tu ritmo y sin horarios fijos</li>
+        <li>✔ 100% online y de acceso inmediato</li>
+        <li>✔ Soporte directo de Leslie Beltrán</li>
+      </ul>
     </div>
   </section>
 
-
- <section class="py-10 bg-black/90 text-[var(--gray-light)]">
-  <div class="container mx-auto px-4 max-w-4xl text-left">
-
-    <h3 class="text-lg sm:text-xl md:text-2xl mb-4 text-left text-white">
-      Es un programa 
-      <span class="text-[var(--webinar-primary)] font-bold">breve, profundo y poderoso</span> 
-      de <span class="text-white font-bold">solo 5 semanas</span>.
-    </h3>
-
-    <h3 class="text-lg sm:text-xl md:text-2xl mb-6 text-white">
-      Diseñado para ejecutivos y líderes que se sienten:
-    </h3>
-
-    <ul class="text-base sm:text-lg md:text-xl text-white list-disc list-inside mb-10 space-y-2">
-      <li>En caos</li>
-      <li>Abrumados</li>
-      <li>Desconectados de sí mismos</li>
-      <li>Viviendo en automático</li>
-      <li>Complaciendo a los demás</li>
-      <li>Poniéndose en segundo lugar de su lista de prioridades</li>
-    </ul>
-
-    <h3 class="text-lg sm:text-xl md:text-2xl mb-6 text-white font-bold">
-      Este es el primer paso para liderar tu vida:
-    </h3>
-
-    <ul class="text-base sm:text-lg md:text-xl text-white list-disc list-inside mb-10 space-y-2">
-      <li>Sin sacrificar lo que amas</li>
-      <li>Sin obligarte a encajar en un molde que no es tuyo</li>
-      <li>Sin cargar con las expectativas de otros</li>
-    </ul>
-
-    <h3 class="text-lg sm:text-xl md:text-2xl mb-8 leading-relaxed text-white text-center">
-      Este programa es un <strong>espacio estratégico</strong> donde vas a 
-      <strong>cuestionar lo que has venido creyendo</strong> sobre el éxito, sobre ti y sobre la felicidad.
-    </h3>
-
-    <div class="text-center mb-10">
-      <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-[var(--webinar-primary)] mt-10">
-        Aquí vas a construir tu FAE:
-      </h3>
-      <h3 class="text-base sm:text-lg md:text-xl text-white mt-2">
-        Tu propia definición de <strong>Felicidad</strong>, <strong>Autoconcepto</strong> y <strong>Éxito</strong> para que dejes de vivir bajo las reglas absurdas y arcaicas que otros te han impuesto.
-      </h3>
-    </div>
-
-    <div class="container mx-auto px-4 text-center">
-      <div class="mb-12 sm:mb-16" in:fade={{ duration: 700 }}>
-        <img 
-          src="infog1.png" 
-          alt="Proceso FAE" 
-          class="w-full max-w-md sm:max-w-3xl mx-auto rounded-lg shadow-lg"
-          loading="lazy"
-        />
-        <p class="mt-4 text-sm text-white italic">Proceso FAE</p>
+  <!-- 2) ¿Para quién es? · BLANCO -->
+  <section class="sec-light py-12 sm:py-16">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8">¿Para quién es <span class="text-[var(--webinar-primary)]">Fundamentals</span>?</h2>
+      <p class="text-base sm:text-lg md:text-xl text-center max-w-3xl mx-auto mb-6">
+        <strong>Fundamentals no es para los que se engañan diciendo “todo está bien”.</strong> Es para quienes reconocen que la vida que llevan no se parece en nada a la que soñaron. Si esto resuena contigo, es para ti:
+      </p>
+      <ul class="space-y-4 text-base sm:text-lg md:text-xl">
+        <li>• Vives en caos, corriendo de un pendiente a otro sin dirección.</li>
+        <li>• Estás abrumado, apagando fuegos todo el día y sin energía para lo que importa.</li>
+        <li>• Llevas años en el mismo puesto y sientes que tu vida está estancada.</li>
+        <li>• Tu vida se volvió gris, sin emoción, sin chispa, sin ilusión.</li>
+        <li>• Te la pasas complaciendo a los demás, aunque eso signifique borrarte a ti.</li>
+        <li>• Siempre te pones en el último lugar de tu lista de prioridades.</li>
+      </ul>
+      <div class="mt-8 p-4 rounded-xl border border-[var(--red,#ef4444)]/30 bg-red-50 text-red-800">
+        <p class="text-sm sm:text-base md:text-lg"><span class="font-bold">La verdad es dura:</span> ❌ No es que no tengas tiempo. <span class="text-green-700 font-semibold">✅ Es que dejaste de ser el protagonista de tu propia vida.</span></p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-10 mt-16 text-center">
-  Tu <span class="text-[var(--webinar-primary)]">FAE</span>:
-</h2>
-
-<h2 class="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-12 text-center">
-  <span class="text-[var(--webinar-primary)]">Felicidad</span>, 
-  <span class="text-[var(--webinar-primary)]">Autoconcepto</span> y 
-  <span class="text-[var(--webinar-primary)]">Éxito</span>
-</h2>
-
-<div class="container mx-auto px-4">
-  <div class="grid md:grid-cols-3 gap-8 mb-12 max-w-4xl mx-auto">
-    {#each pillars as p, index}
-      <div in:fly={{ y: 20, duration: 500, delay: index * 200 }} class="bg-[var(--gray-dark)] p-6 rounded-lg">
-        <h3 class="text-lg sm:text-xl md:text-2xl font-bold text-[var(--webinar-primary)] mb-3">
-          <span class="text-[var(--webinar-primary)]">{p.title}</span>
-        </h3>
-        <p class="text-sm sm:text-base md:text-lg text-[var(--gray-light)]">{p.description}</p>
+  <!-- 3) Lo que lograrás en 5 semanas · MARRÓN -->
+  <section class="sec-brown py-12 sm:py-16">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8">En 5 semanas, esto es lo que lograrás</h2>
+      <ul class="space-y-4 text-base sm:text-lg md:text-xl">
+        <li>• Salir del desorden mental que te drena todos los días.</li>
+        <li>• Saber qué priorizar sin sentir que todo es urgente.</li>
+        <li>• Decidir con seguridad, sin dar tantas vueltas en tu cabeza.</li>
+        <li>• Recuperar energía y entusiasmo para tu vida personal y profesional.</li>
+        <li>• Ganar tiempo real para ti y tu familia.</li>
+      </ul>
+      <p class="mt-6 text-base sm:text-lg md:text-xl opacity-90">Fundamentals es para quienes ya se cansaron de correr sin rumbo… y ahora quieren tomar el timón de su vida.</p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">COMIENZA HOY · Pago único $6,500 MXN</a>
+        <a class="btn btn-ghost" href={PAY_SPLIT} target="_blank">O 2 pagos de $3,250 MXN</a>
       </div>
-    {/each}
-  </div>
-</div>
-
-<section class="py-16 bg-black/50"> 
-  <style>
-    @keyframes fadeInHighlight {
-      from { opacity: 0; transform: translateY(12px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-  </style>
-
-  <div class="bg-white/10 backdrop-blur-md border border-[var(--webinar-primary)] rounded-2xl p-6 sm:p-8 max-w-3xl mx-auto mb-10 shadow-xl animate-[fadeInHighlight_0.8s_ease-out]">
-    <div class="text-center text-[var(--webinar-primary)] text-3xl sm:text-4xl mb-4">🎁</div>
-    <p class="text-base sm:text-lg md:text-xl font-semibold text-[var(--gray-light)] leading-relaxed text-center">
-      El programa <strong class="text-white font-bold">Fundamentals</strong> tiene un valor regular de
-      <strong class="text-[var(--webinar-primary)] font-extrabold text-lg sm:text-xl md:text-2xl">$6,500 MXN</strong>.
-    </p>
-
-    <div class="mt-6 text-center space-y-3">
-      <p class="text-sm sm:text-base md:text-lg text-[var(--gray-light)]">
-        👉 <a href="https://academy.ceodetuvida.com/courses/offers/aba9c77c-959f-42bb-bfd4-4eefe1b60de6" 
-            target="_blank" 
-            class="underline text-[var(--webinar-primary)] font-semibold hover:text-white transition-colors">
-          Haz clic aquí para pagar en una sola exhibición
-        </a>
-      </p>
-      <p class="text-sm sm:text-base md:text-lg text-[var(--gray-light)]">
-        👉 <a href="https://academy.ceodetuvida.com/courses/offers/c7d9708c-a13a-463c-9b65-be0e98abf33b" 
-            target="_blank" 
-            class="underline text-[var(--webinar-primary)] font-semibold hover:text-white transition-colors">
-          O haz clic aquí para pagar en 2 exhibiciones de $3,250 MXN
-        </a>
-      </p>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="py-16 bg-black/90">
-  <div class="container mx-auto px-4">
-    <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-10 mt-16">
-      ¿Qué vas a lograr al finalizar el programa?
-    </h2>
-
-    <ul class="space-y-5 max-w-2xl mx-auto text-left text-base sm:text-lg md:text-xl text-[var(--gray-light)]">
-      {#each achievements as item, index}
-        {#if index === Math.floor(achievements.length / 2)}
-          <li class="text-center text-white font-bold mt-6 mb-4 text-lg sm:text-xl md:text-2xl">
-            y también...
-          </li>
-        {/if}
-        <li class="flex items-start gap-3" in:fly={{ y: 20, duration: 500, delay: index * 150 }}>
-          <span class="text-[var(--webinar-primary)]">📌</span>
-          <span>{item}</span>
-        </li>
-      {/each}
-    </ul>
-  </div>
-</section>
-
-
- <section class="py-16 bg-black text-center text-white">
-  <div class="container mx-auto px-4 max-w-4xl">
-    <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8">
-      Mira por qué <span class="text-[var(--webinar-primary)]">Fundamentals</span> 
-      te ayuda a tomar el timón de tu vida
-    </h2>
-    <div class="w-full rounded-2xl shadow-2xl overflow-hidden">
-      <iframe 
-        src="https://www.youtube.com/embed/GfJJV4_EqYg" 
-        title="Video de Bienvenida Fundamentals" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen 
-        class="w-full h-[240px] sm:h-[320px] md:h-[400px] lg:h-[500px]">
-      </iframe>
+  <!-- 4) ¿Qué más vas a lograr? · BLANCO -->
+  <section class="sec-light py-12 sm:py-16">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8">¿Qué más vas a lograr en Fundamentals?</h2>
+      <p class="text-sm sm:text-base md:text-lg text-center max-w-3xl mx-auto mb-8">En solo 5 semanas, vas a lograr cambios que se sienten en tu día a día:</p>
+      <ul class="space-y-4 text-base sm:text-lg md:text-xl">
+        <li>• Recuperar tiempo para ti, sin descuidar tus responsabilidades.</li>
+        <li>• Dormir en paz, sin que tu cabeza siga dándole vuelta a los pendientes.</li>
+        <li>• Llegar a casa con mejor humor, disfrutando a tu familia.</li>
+        <li>• Tener dirección clara: dejar de sentir que trabajas mucho pero avanzas poco.</li>
+        <li>• Tomar decisiones más rápidas y efectivas.</li>
+        <li>• Reconectarte contigo mismo y recordar quién eres más allá del trabajo.</li>
+        <li>• Bajar la irritabilidad y el estrés; dejar de exigirte como si fueras una máquina.</li>
+        <li>• Volver a entusiasmarte con tus proyectos y tu vida.</li>
+      </ul>
+      <p class="mt-6 text-base sm:text-lg md:text-xl"><span class="font-semibold">🔥 Fundamentals no solo te ayuda a ordenar tu mente:</span> te devuelve la claridad, el ánimo y la fuerza para retomar el timón de tu vida.</p>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="py-16 bg-black/90 text-white text-center">
-  <div class="container mx-auto px-4 max-w-4xl">
-    <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8">
-      Empieza ahora y a tu propio ritmo
-    </h2>
-
-    <ul class="space-y-5 max-w-4xl mx-auto text-left text-base sm:text-lg md:text-xl text-[var(--gray-light)]">
-      <li class="flex items-start gap-3">
-        <span class="text-[var(--webinar-primary)] text-lg sm:text-xl">✔️</span>
-        100% online: estudia desde cualquier lugar.
-      </li>
-      <li class="flex items-start gap-3">
-        <span class="text-[var(--webinar-primary)] text-lg sm:text-xl">✔️</span>
-        Videos pregrabados que puedes ver a tu propio ritmo.
-      </li>
-      <li class="flex items-start gap-3">
-        <span class="text-[var(--webinar-primary)] text-lg sm:text-xl">✔️</span>
-        Acceso inmediato: el contenido ya está disponible.
-      </li>
-      <li class="flex items-start gap-3">
-        <span class="text-[var(--webinar-primary)] text-lg sm:text-xl">✔️</span>
-        Ideal si tienes poco tiempo y quieres avanzar con flexibilidad.
-      </li>
-      <li class="flex items-start gap-3">
-        <span class="text-[var(--webinar-primary)] text-lg sm:text-xl">✔️</span>
-        Soporte directo con Leslie Beltrán para aclarar dudas, dentro de la plataforma.
-      </li>
-    </ul>
-  </div>
-</section>
-
-
-  <section class="py-16 bg-black/80 text-center">
-  <div class="container mx-auto px-4">
-    <div in:fade={{ duration: 700, delay: 200 }}>
-      <img 
-        src="infog2.png" 
-        alt="Escalera FAE" 
-        class="w-full max-w-md sm:max-w-2xl mx-auto rounded-lg shadow-lg"
-        loading="lazy"
-      />
-      <p class="mt-4 text-sm text-white italic">Escalera FAE</p>
+  <!-- 5) Formato del programa · MARRÓN -->
+  <section class="sec-brown py-12 sm:py-16">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8">El formato de Fundamentals</h2>
+      <p class="text-base sm:text-lg md:text-xl text-center mb-6">Fundamentals fue diseñado para adaptarse a tu vida, no para exigirte más.</p>
+      <ul class="grid sm:grid-cols-2 gap-4 text-base sm:text-lg md:text-xl">
+        <li>• Hazlo a tu ritmo, sin horarios fijos.</li>
+        <li>• Acceso inmediato al inscribirte.</li>
+        <li>• 5 módulos en video, breves y al punto.</li>
+        <li>• Plantillas descargables para aplicar de inmediato.</li>
+        <li>• Acompañamiento directo de Leslie Beltrán para resolver tus dudas.</li>
+      </ul>
+      <p class="mt-6 text-base sm:text-lg md:text-xl opacity-90 text-center">Tú eliges el ritmo. Nosotros te damos la dirección.</p>
+      <div class="mt-6 text-center">
+        <a href="#video-plataforma" class="underline text-[var(--webinar-primary)] font-semibold">Así se vive Fundamentals desde dentro (ver video)</a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="py-16 bg-[var(--gray-dark)] text-[var(--gray-light)]">
-  <div class="container mx-auto px-4 max-w-4xl">
-    <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center text-white mb-12">
-      ¿Para quién es este programa?
-    </h2>
-    <ul class="space-y-5 max-w-4xl mx-auto text-left text-base sm:text-lg md:text-xl text-[var(--gray-light)]">
-      <li class="flex gap-3" in:fade={{ delay: 0 }}>
-        <span class="text-[var(--webinar-primary)] text-lg">🔹</span>
-        Tienes un puesto directivo o ejecutivo, y aunque todo parece ir bien en lo profesional, por dentro te sientes perdida(o), cansada(o) y con la sensación de que algo no está bien.
-      </li>
-      <li class="flex gap-3" in:fade={{ delay: 100 }}>
-        <span class="text-[var(--webinar-primary)] text-lg">🔹</span>
-        Vives con caos constante, haciendo malabares para complacer a todos, pero postergándote a ti misma(o) una y otra vez.
-      </li>
-      <li class="flex gap-3" in:fade={{ delay: 200 }}>
-        <span class="text-[var(--webinar-primary)] text-lg">🔹</span>
-        Ya no sabes si lo que estás haciendo es por ti o solo por cumplir con lo que otros esperan.
-      </li>
-      <li class="flex gap-3" in:fade={{ delay: 300 }}>
-        <span class="text-[var(--webinar-primary)] text-lg">🔹</span>
-        Has logrado lo que “se supone” que te haría feliz, pero no te llena.
-      </li>
-      <li class="flex gap-3" in:fade={{ delay: 400 }}>
-        <span class="text-[var(--webinar-primary)] text-lg">🔹</span>
-        Quieres tener claridad sobre qué decisiones, ajustes o acciones necesitas tomar para dejar de vivir en automático y empezar a liderar tu vida con propósito.
-      </li>
-      <li class="flex gap-3" in:fade={{ delay: 500 }}>
-        <span class="text-[var(--webinar-primary)] text-lg">🔹</span>
-        No quieres perder más tiempo, necesitas algo que te dé claridad y dirección rápida, sin largas teorías, sin perderte en contenido interminable.
-      </li>
-    </ul>
-  </div>
-</section>
-
-<section class="py-16 bg-black text-[var(--gray-light)]">
-  <div class="container mx-auto px-4 max-w-4xl">
-    <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center text-white mb-12">
-      ¿Para quién NO es este programa?
-    </h2>
-    <ul class="space-y-5 max-w-4xl mx-auto text-left text-base sm:text-lg md:text-xl text-[var(--gray-light)]">
-      <li class="flex gap-3" in:fade={{ delay: 0 }}>
-        <span class="text-[var(--red)] text-lg">❌</span>
-        Estás esperando una fórmula mágica que lo resuelva todo sin cuestionarte.
-      </li>
-      <li class="flex gap-3" in:fade={{ delay: 100 }}>
-        <span class="text-[var(--red)] text-lg">❌</span>
-        Prefieres seguir haciendo lo que “toca” aunque no te haga sentido.
-      </li>
-      <li class="flex gap-3" in:fade={{ delay: 200 }}>
-        <span class="text-[var(--red)] text-lg">❌</span>
-        No estás dispuesto a desafiar los conceptos que te enseñaron sobre ti, el éxito o la felicidad.
-      </li>
-      <li class="flex gap-3" in:fade={{ delay: 300 }}>
-        <span class="text-[var(--red)] text-lg">❌</span>
-        Buscas motivación momentánea pero no estás listo(a) para tomar decisiones y hacer cambios reales.
-      </li>
-      <li class="flex gap-3" in:fade={{ delay: 400 }}>
-        <span class="text-[var(--red)] text-lg">❌</span>
-        Crees que el éxito es solo sacrificio, perfección y complacer a los demás.
-      </li>
-    </ul>
-  </div>
-</section>
-
-<section class="py-16 bg-black/50"> 
-  <div class="bg-white/10 backdrop-blur-md border border-[var(--webinar-primary)] rounded-2xl p-6 sm:p-8 max-w-3xl mx-auto mb-10 shadow-xl animate-[fadeInHighlight_0.8s_ease-out]">
-    <div class="text-center text-[var(--webinar-primary)] text-3xl sm:text-4xl mb-4">🎁</div>
-    <p class="text-base sm:text-lg md:text-xl font-semibold text-[var(--gray-light)] leading-relaxed text-center">
-      El programa <strong class="text-white font-bold">Fundamentals</strong> tiene un valor regular de
-      <strong class="text-[var(--webinar-primary)] font-extrabold text-lg sm:text-xl md:text-2xl">$6,500 MXN</strong>.
-    </p>
-
-    <div class="mt-6 text-center space-y-3">
-      <p class="text-sm sm:text-base md:text-lg text-[var(--gray-light)]">
-        👉 <a href="https://academy.ceodetuvida.com/courses/offers/aba9c77c-959f-42bb-bfd4-4eefe1b60de6" 
-            target="_blank" 
-            class="underline text-[var(--webinar-primary)] font-semibold hover:text-white transition-colors">
-          Haz clic aquí para pagar en una sola exhibición
-        </a>
-      </p>
-      <p class="text-sm sm:text-base md:text-lg text-[var(--gray-light)]">
-        👉 <a href="https://academy.ceodetuvida.com/courses/offers/c7d9708c-a13a-463c-9b65-be0e98abf33b" 
-            target="_blank" 
-            class="underline text-[var(--webinar-primary)] font-semibold hover:text-white transition-colors">
-          O haz clic aquí para pagar en 2 exhibiciones de $3,250 MXN
-        </a>
-      </p>
+  <!-- 6) Plan 5 semanas · BLANCO -->
+  <section class="sec-light py-12 sm:py-16">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8">Aquí está tu plan de 5 semanas</h2>
+      <p class="text-base sm:text-lg md:text-xl text-center mb-8">Así es como avanzas dentro de Fundamentals:</p>
+      <div class="space-y-6">
+        <div><strong>MÓDULO 1:</strong> El gran error que te está costando la vida — Dejar de ponerte en último lugar y empezar a priorizarte sin culpa.</div>
+        <div><strong>MÓDULO 2:</strong> Rompiendo el guion que no es tuyo — Soltar creencias heredadas de éxito y felicidad que hoy te drenan.</div>
+        <div><strong>MÓDULO 3:</strong> Construyendo tu FAE (Felicidad, Autoconcepto, Éxito) — Diseñar tu brújula interna para tomar mejores decisiones.</div>
+        <div><strong>MÓDULO 4:</strong> Diseñando tu nueva vida — Recablear mente y cuerpo para sostener hábitos y cambios reales.</div>
+        <div><strong>MÓDULO 5:</strong> Edificando tu FAE — Llevar todo a la acción con pasos concretos y rodearte de lo que sí suma a tu expansión.</div>
+      </div>
+      <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">QUIERO EMPEZAR YA · $6,500 MXN</a>
+        <a class="btn btn-ghost" href={PAY_SPLIT} target="_blank">O 2 pagos de $3,250 MXN</a>
+      </div>
+      <div class="mt-6 text-center">
+        <a href="#" class="underline text-[var(--webinar-primary)] font-semibold">👉 Descargar PDF con el plan completo</a>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="py-16 bg-black/50">
-  <div class="container mx-auto px-4 text-center">
-    <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-12 mt-16">
-      Temario del Programa
-    </h2>
-    <div class="space-y-10 max-w-5xl mx-auto">
-      {#each weeks as week, index}
-        <div class="bg-[var(--gray-dark)] p-6 rounded-lg text-left flex flex-col md:flex-row gap-6 items-start" in:fly={{ y: 20, duration: 500, delay: index * 200 }}>
-          <div class="flex-shrink-0 text-[var(--webinar-primary)] text-2xl sm:text-3xl md:text-4xl font-bold">{week.week}</div>
-          <div>
-            <h3 class="text-base sm:text-lg md:text-xl font-bold mb-2 text-[var(--webinar-primary)]">{week.title}</h3>
-            <p class="text-sm sm:text-base md:text-lg text-[var(--gray-light)]"><strong>Objetivo:</strong> {week.objective}</p>
-          </div>
+  <!-- 7) Video explicación · MARRÓN -->
+  <section id="video-plataforma" class="sec-brown py-12 sm:py-16 text-center">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-xl sm:text-2xl md:text-3xl font-bold mb-6">Aquí te cuento por qué funciona Fundamentals</h2>
+      <div class="w-full rounded-2xl shadow-2xl overflow-hidden">
+        <iframe src="https://www.youtube.com/embed/GfJJV4_EqYg" title="Video de la plataforma Fundamentals" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="w-full h-[240px] sm:h-[320px] md:h-[420px] lg:h-[500px]"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8) ¿Por qué lo creé? · BLANCO -->
+  <section class="sec-light py-12 sm:py-16">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8">¿Por qué creé Fundamentals?</h2>
+      <div class="space-y-4 text-base sm:text-lg md:text-xl">
+        <p>Después de trabajar con cientos de ejecutivos y empresarios descubrí algo claro: muchos viven con agendas llenas, pero vacíos por dentro. Yo también estuve ahí.</p>
+        <p>Sé lo que es correr todo el día y sentir que no avanzas. Sé lo que es vivir en modo supervivencia, aparentando que todo está bien cuando por dentro no lo está.</p>
+        <p>Fundamentals nació de mi propia experiencia y de años acompañando a líderes como tú. Está basado en neurociencias, ciencias de la felicidad y coaching de alto desempeño.</p>
+        <p><strong>No es un cursito motivacional.</strong> Es una guía para crear una vida con sentido, desde adentro hacia afuera. No se trata de lograr más; se trata de reconectar contigo, redefinir tu éxito y diseñar una vida que realmente se sienta tuya. Y sí, es posible.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9) Testimonios · MARRÓN -->
+  <section class="sec-brown py-12 sm:py-16">
+    <div class="container mx-auto px-4 max-w-5xl text-center">
+      <h2 class="text-xl sm:text-2xl md:text-3xl font-bold mb-10">Lo que dicen quienes ya vivieron Fundamentals</h2>
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="bg-white/10 rounded-xl p-6">
+          <p class="italic mb-4">“Llevaba 20 años intentando alcanzar un éxito que nunca fue mío. En 5 semanas redefiní lo que realmente quiero y, por primera vez, me sentí libre.”</p>
+          <p class="font-semibold text-[var(--webinar-primary)]">Luis</p>
+          <p class="text-sm opacity-80">Director Comercial</p>
         </div>
-      {/each}
+        <div class="bg-white/10 rounded-xl p-6">
+          <p class="italic mb-4">“Siempre creí que necesitaba otra maestría. FUNDAMENTALS me mostró que no me faltaba preparación, me faltaba claridad.”</p>
+          <p class="font-semibold text-[var(--webinar-primary)]">Alejandra</p>
+          <p class="text-sm opacity-80">Gerente de Finanzas</p>
+        </div>
+        <div class="bg-white/10 rounded-xl p-6">
+          <p class="italic mb-4">“Pensé que priorizarme era egoísta. Hoy sé que es necesario. Aprendí a tomar decisiones sin culpa y a reconectarme conmigo.”</p>
+          <p class="font-semibold text-[var(--webinar-primary)]">Carla</p>
+          <p class="text-sm opacity-80">Directora de Marketing</p>
+        </div>
+      </div>
+      <div class="mt-8">
+        <p class="text-sm sm:text-base md:text-lg opacity-90">¿Te gustaría agregar <strong>screenshots</strong> de mensajes reales? Puedo armar un carrusel con 4 imágenes.</p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-  
-  <script src="https://link.funnelia.io/js/form_embed.js"></script>
+  <!-- 10) Cierre/CTA · BLANCO -->
+  <section class="sec-light py-12 sm:py-16">
+    <div class="container mx-auto px-4 max-w-3xl text-center">
+      <h2 class="text-xl sm:text-2xl md:text-3xl font-bold mb-6">Tu vida puede sentirse más ligera, empieza aquí.</h2>
+      <p class="text-base sm:text-lg md:text-xl">No tienes que seguir corriendo sin parar ni vivir con la mente saturada. Hoy puedes elegir un camino más claro, con tiempo para ti y tranquilidad en tu día a día. <strong>Fundamentals</strong> es tu guía para recuperar enfoque, calma y dirección.</p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">LISTO PARA ENTRAR · $6,500 MXN</a>
+        <a class="btn btn-ghost" href={PAY_SPLIT} target="_blank">O 2 pagos de $3,250 MXN</a>
+      </div>
+    </div>
+  </section>
 </main>
 {/if}
