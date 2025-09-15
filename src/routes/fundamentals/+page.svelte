@@ -80,57 +80,107 @@
     <div class="absolute inset-0 bg-black/55 pointer-events-none"></div>
   </section>
 
-  <!-- INTRO -->
-  <section class="sec-brown py-14">
-    <div class="container mx-auto px-6 max-w-4xl text-center stack">
-      <h1>Estás cumpliendo con todo… menos contigo.</h1>
-      <p>
-        Te volviste experto en apagar fuegos, pero ya no sabes qué te ilusiona. Cada día rindes, entregas, funcionas… pero sientes que tu chispa se esfumó.
-        <strong class="text-white">Fundamentals</strong> es el primer paso para salir del caos, reconectar contigo y recuperar el timón de tu vida.
-      </p>
-      <ul class="text-left stack">
-        <li>✔ Solo 5 semanas</li>
-        <li>✔ A tu ritmo y sin horarios fijos</li>
-        <li>✔ 100% online y de acceso inmediato</li>
-        <li>✔ Soporte directo de Leslie Beltrán</li>
-      </ul>
-    </div>
-  </section>
+<!-- INTRO -->
+<section class="sec-brown py-14">
+  <div class="container mx-auto px-6 max-w-4xl text-left space-y-6">
+    
+    <!-- Título -->
+    <h2 class="text-xl sm:text-2xl font-bold">
+      Estás cumpliendo con todo… menos contigo.
+    </h2>
+    <hr class="border-white/20 my-4" />
 
-  <!-- PARA QUIÉN ES -->
-  <section class="sec-light py-14">
-    <div class="container mx-auto px-6 max-w-4xl stack-xl">
-      <h2 class="text-center">¿Para quién es Fundamentals?</h2>
-      <p><strong class="text-[var(--webinar-primary)]">Fundamentals</strong> no es para los que se engañan diciendo “todo está bien”. Es para quienes reconocen que la vida que llevan no se parece en nada a la que soñaron.</p>
-      <p>Si esto resuena contigo, <strong class="text-[var(--webinar-primary)]">Fundamentals</strong> es para ti:</p>
-      <ul class="stack">
-        <li>• Vives en caos, corriendo de un pendiente a otro sin dirección.</li>
-        <li>• Estás abrumado, apagando fuegos todo el día y sin energía para lo que importa.</li>
-        <li>• Llevas años en el mismo puesto y, aunque no lo digas, sientes que tu vida está estancada.</li>
-        <li>• Tu vida se volvió gris, sin emoción, sin chispa, sin ilusión.</li>
-        <li>• Te la pasas complaciendo a los demás, aunque eso signifique borrarte a ti.</li>
-        <li>• Siempre te pones en el último lugar de tu lista de prioridades.</li>
-      </ul>
-      <div class="card-dark sec-brown">
-        <p>❌ No es que no tengas tiempo.<br>✅ Es que dejaste de ser el protagonista de tu propia vida.</p>
-      </div>
-    </div>
-  </section>
+    <!-- Texto introductorio -->
+    <p class="text-base sm:text-lg leading-relaxed">
+      Te volviste experto en apagar fuegos, pero ya no sabes qué te ilusiona. 
+      Cada día rindes, entregas, <em>funcionas</em>… pero sientes que tu chispa se esfumó.
+    </p>
+    <p class="text-base sm:text-lg leading-relaxed">
+      <span class="text-white font-bold">Fundamentals</span> es el primer paso para salir del 
+      <strong>caos, reconectar contigo y recuperar el timón de tu vida</strong>.
+    </p>
 
-  <!-- LOGROS 5 SEMANAS -->
-  <section class="sec-brown py-14">
-    <div class="container mx-auto px-6 max-w-4xl stack-xl">
-      <h2 class="text-center">En 5 semanas, esto es lo que lograrás:</h2>
-      <ul class="stack">
-        <li>• Salir del desorden mental que te drena todos los días.</li>
-        <li>• Saber qué priorizar sin sentir que todo es urgente.</li>
-        <li>• Decidir con seguridad, sin dar tantas vueltas en tu cabeza.</li>
-        <li>• Recuperar energía y entusiasmo para tu vida personal y profesional.</li>
-        <li>• Ganar tiempo real para ti y tu familia.</li>
-      </ul>
-      <p><strong class="text-white">Fundamentals</strong> es para quienes ya se cansaron de correr sin rumbo… y ahora quieren tomar el timón de su vida.</p>
+    <hr class="border-white/20 my-4" />
+
+    <!-- Lista de beneficios -->
+    <ul class="text-base sm:text-lg space-y-2">
+      <li><strong>✔ Solo 5 semanas</strong></li>
+      <li><strong>✔ A tu ritmo y sin horarios fijos</strong></li>
+      <li><strong>✔ 100% online y de acceso inmediato</strong></li>
+      <li><strong>✔ Soporte directo de Leslie Beltrán, Business Life Coach</strong></li>
+    </ul>
+
+    <hr class="border-white/20 my-4" />
+  </div>
+</section>
+
+
+ <!-- PARA QUIÉN ES -->
+<section class="sec-light py-14">
+  <div class="container mx-auto px-6 max-w-4xl stack-xl">
+    
+    <!-- Título -->
+    <h2 class="text-center font-bold text-xl sm:text-2xl">
+      ¿Para quién es <span class="text-[var(--webinar-primary)]">Fundamentals</span>?
+    </h2>
+
+    <!-- Párrafo introductorio -->
+    <p class="mt-6 text-base sm:text-lg">
+      <strong>
+        <span class="text-[var(--webinar-primary)]">Fundamentals</span> no es para los que se engañan diciendo “todo está bien”.
+      </strong>
+      Es para quienes reconocen que la vida que llevan no se parece en nada a la que soñaron.
+    </p>
+
+    <!-- Respuesta -->
+    <p class="mt-4 text-base sm:text-lg font-bold">
+      Si esto resuena contigo, <span class="text-[var(--webinar-primary)]">Fundamentals</span> es para ti:
+    </p>
+
+    <!-- Lista -->
+    <ul class="stack mt-4 text-base sm:text-lg space-y-2">
+      <li>• Vives en <strong>caos</strong>, corriendo de un pendiente a otro sin dirección.</li>
+      <li>• Estás <strong>abrumado</strong>, apagando fuegos todo el día y sin energía para lo que importa.</li>
+      <li>• Llevas años en el mismo puesto y, aunque no lo digas, sientes que tu vida está <strong>estancada</strong>.</li>
+      <li>• Tu vida se volvió <strong>gris</strong>, sin emoción, sin chispa, sin ilusión.</li>
+      <li>• Te la pasas <strong>complaciendo a los demás</strong>, aunque eso signifique borrarte a ti.</li>
+      <li>• Siempre te pones en el <strong>último lugar</strong> de tu lista de prioridades.</li>
+    </ul>
+
+    <!-- Recuadro -->
+    <div class="card-dark sec-brown mt-6 p-4 rounded-lg text-center text-base sm:text-lg">
+      <p>❌ No es que no tengas tiempo.<br>✅ Es que dejaste de ser el protagonista de tu propia vida.</p>
     </div>
-  </section>
+  </div>
+</section>
+
+
+ <!-- LOGROS 5 SEMANAS -->
+<section class="sec-brown py-14">
+  <div class="container mx-auto px-6 max-w-4xl stack-xl">
+    
+    <!-- Título -->
+    <h2 class="text-center font-bold text-xl sm:text-2xl">
+      En 5 semanas, esto es lo que lograrás:
+    </h2>
+
+    <!-- Lista -->
+    <ul class="stack mt-6 text-base sm:text-lg space-y-3">
+      <li>• <strong>Salir del desorden mental</strong> que te drena todos los días.</li>
+      <li>• <strong>Saber qué priorizar</strong> sin sentir que todo es urgente.</li>
+      <li>• <strong>Decidir con seguridad</strong>, sin dar tantas vueltas en tu cabeza.</li>
+      <li>• <strong>Recuperar energía y entusiasmo</strong> para tu vida personal y profesional.</li>
+      <li>• <strong>Ganar tiempo real</strong> para ti y tu familia.</li>
+    </ul>
+
+    <!-- Párrafo de cierre -->
+    <p class="mt-6 text-base sm:text-lg">
+      <span class="text-white font-bold">Fundamentals</span> es para quienes ya se cansaron de correr sin rumbo… y ahora quieren tomar el timón de su vida.
+    </p>
+
+  </div>
+</section>
+
 
   <!-- CTA PAGOS #1 -->
   <section class="sec-light py-14 text-center">
@@ -148,24 +198,35 @@
     <a class="btn btn-ghost" href={WHATSAPP} target="_blank">¿Tienes dudas? Habla con nuestro equipo en WhatsApp</a>
   </section>
 
-  <!-- ¿QUÉ MÁS VAS A LOGRAR? -->
-  <section class="sec-brown py-14">
-    <div class="container mx-auto px-6 max-w-4xl stack-xl">
-      <h2 class="text-center">¿Qué más vas a lograr en Fundamentals?</h2>
-      <p>En solo 5 semanas, vas a lograr cambios que se sienten en tu día a día:</p>
-      <ul class="stack">
-        <li>• Recuperar tiempo para ti, sin descuidar tus responsabilidades.</li>
-        <li>• Dormir en paz, sin que tu cabeza siga dándole vueltas a los pendientes a la 1:00 a.m.</li>
-        <li>• Llegar a casa con mejor humor, disfrutando a tu familia en lugar de descargar el estrés en ellos.</li>
-        <li>• Tener dirección clara, dejar de sentir que trabajas mucho pero avanzas poco.</li>
-        <li>• Tomar decisiones más rápidas y efectivas, sin gastar energía en darle vueltas una y otra vez.</li>
-        <li>• Reconectarte contigo mismo, y recordar quién eres más allá del trabajo.</li>
-        <li>• Bajar la irritabilidad y el estrés, dejando de exigirte como si fueras una máquina.</li>
-        <li>• Volver a entusiasmarte con tus proyectos y tu vida, con la energía de estar construyendo algo que sí vale la pena.</li>
-      </ul>
-      <p>🔥 <strong class="text-white">Fundamentals</strong> no solo te ayuda a ordenar tu mente: te devuelve la claridad, el ánimo y la fuerza para retomar el timón de tu vida.</p>
-    </div>
-  </section>
+<!-- MÁS LOGROS -->
+<section class="sec-brown py-14">
+  <div class="container mx-auto px-6 max-w-4xl stack-xl">
+
+    <!-- Título -->
+    <h2 class="text-center font-bold text-xl sm:text-2xl mb-6">
+      ¿Qué más vas a lograr en <span class="text-white">Fundamentals</span>?
+    </h2>
+
+    <!-- Intro -->
+    <p class="text-base sm:text-lg mb-6">
+      En solo 5 semanas, vas a lograr cambios <strong>que se sienten en tu día a día</strong>:
+    </p>
+
+    <!-- Lista de logros -->
+    <ul class="text-base sm:text-lg space-y-4">
+      <li>• Recuperar tiempo para ti, <strong>sin descuidar tus responsabilidades.</strong></li>
+      <li>• Dormir en paz, <strong>sin que tu cabeza siga dándole vueltas a los pendientes a la 1:00 a.m.</strong></li>
+      <li>• Llegar a casa con mejor humor, disfrutando a tu familia <strong>en lugar de descargar el estrés en ellos.</strong></li>
+      <li>• Tener dirección clara, <strong>dejar de sentir que trabajas mucho pero avanzas poco.</strong></li>
+      <li>• Tomar decisiones más rápidas y efectivas, <strong>sin gastar energía en darle vueltas una y otra vez.</strong></li>
+      <li>• <strong>Reconectarte</strong> contigo mismo, y <strong>recordar quién eres más allá del trabajo.</strong></li>
+      <li>• Bajar la irritabilidad y el estrés, <strong>dejando de exigirte como si fueras una máquina.</strong></li>
+      <li>• Volver a <strong>entusiasmarte con</strong> tus proyectos y tu vida, <strong>con la energía de estar construyendo algo que sí vale la pena.</strong></li>
+    </ul>
+
+  </div>
+</section>
+
 
   <!-- VIDEO 1: POR QUÉ FUNCIONA -->
   <section class="sec-brown py-0">
