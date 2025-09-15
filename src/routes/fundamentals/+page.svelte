@@ -236,19 +236,106 @@
     </div>
   </section>
 
-  <!-- FORMATO -->
+<!-- SUENA DEMASIADO BUENO -->
+<section class="sec-brown py-14">
+  <div class="container mx-auto px-6 max-w-4xl stack-xl">
+    <h2 class="text-center"><strong>¿Suena demasiado bueno para ser verdad?</strong></h2>
+
+    <p>Es normal que lo pienses.</p>
+
+    <p>
+      Sobre todo si ya intentaste cambiar desde la fuerza de voluntad, desde libros de autoayuda
+      o terapias que no conectan contigo.
+    </p>
+
+    <p>
+      Pero esto no es un cursito para “sentirte mejor”.
+    </p>
+
+    <p><strong>Es un método probado, basado en:</strong></p>
+
+    <ul class="stack">
+      <li>• Neurociencia aplicada</li>
+      <li>• Herramientas para <u>reenfocar</u> tu mente y salir del caos</li>
+      <li>• Coaching de alto desempeño</li>
+    </ul>
+
+    <p>No te doy motivación.<br>
+    <strong>Te doy dirección.</strong></p>
+
+    <p>No te doy teoría.<br>
+    <strong>Te doy estrategia.</strong></p>
+  </div>
+</section>
+<!-- POR QUÉ 5 SEMANAS -->
+<section class="sec-light py-14">
+  <div class="container mx-auto px-6 max-w-4xl stack-xl">
+    <h2 class="text-center"><strong>¿Y por qué solo 5 semanas?</strong></h2>
+
+    <p>
+      Porque <strong>cuando entiendes cómo funciona tu mente, no necesitas años.</strong>
+    </p>
+
+    <p><strong>Necesitas herramientas precisas.</strong></p>
+
+    <p><strong>Y eso es lo que obtienes aquí:</strong></p>
+
+    <ul class="stack">
+      <li>→ Recableas tu sistema operativo mental</li>
+      <li>→ Tomas decisiones desde otro nivel de conciencia</li>
+      <li>→ Recuperas el timón de tu vida</li>
+    </ul>
+  </div>
+</section>
+<!-- CTA PAGOS #2 -->
+  <section class="sec-light py-14 text-center">
+    <div class="container mx-auto px-6 max-w-4xl stack">
+      <h2>COMIENZA HOY</h2>
+      <div class="grid-fixed-2">
+        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">Pago único $6,500 MXN</a>
+        <a class="btn btn-ghost"   href={PAY_SPLIT} target="_blank">2 pagos de $3,250 MXN</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHATSAPP REFUERZO #2 -->
+  <section class="sec-light py-6 text-center">
+    <a class="btn btn-ghost" href={WHATSAPP} target="_blank">¿Tienes dudas? Habla con nuestro equipo en WhatsApp</a>
+  </section>
+
+<!-- FORMATO -->
+<section class="sec-light py-14">
+  <div class="container mx-auto px-6 max-w-4xl stack-xl">
+    <h2 class="text-center"><strong>El formato de <span class="text-[var(--webinar-primary)]">Fundamentals</span></strong></h2>
+
+    <p>
+      <span class="text-[var(--webinar-primary)]">Fundamentals</span> fue diseñado para adaptarse a tu vida, 
+      <strong>no para exigirte más.</strong>
+    </p>
+
+    <ul class="stack">
+      <li>• <strong>Hazlo a tu ritmo</strong>, sin horarios fijos.</li>
+      <li>• <strong>Acceso inmediato</strong> al inscribirte.</li>
+      <li>• <strong>5 módulos en video</strong>, breves y al punto.</li>
+      <li>• <strong>Plantillas descargables</strong> para aplicar de inmediato.</li>
+      <li>• <strong>Acompañamiento directo</strong> de Leslie Beltrán para resolver tus dudas.</li>
+    </ul>
+
+    <p>
+      <strong>Tú eliges el ritmo. Nosotros te damos la dirección.</strong>
+    </p>
+  </div>
+</section>
+
+ <!-- VIDEO 2: ASÍ SE VE POR DENTRO -->
   <section class="sec-light py-14">
-    <div class="container mx-auto px-6 max-w-4xl stack-xl">
-      <h2 class="text-center">El formato de Fundamentals</h2>
-      <p><strong class="text-[var(--webinar-primary)]">Fundamentals</strong> fue diseñado para adaptarse a tu vida, no para exigirte más.</p>
-      <ul class="stack">
-        <li>• Hazlo a tu ritmo, sin horarios fijos.</li>
-        <li>• Acceso inmediato al inscribirte.</li>
-        <li>• 5 módulos en video, breves y al punto.</li>
-        <li>• Plantillas descargables para aplicar de inmediato.</li>
-        <li>• Acompañamiento directo de Leslie Beltrán para resolver tus dudas.</li>
-      </ul>
-      <p>Tú eliges el ritmo. Nosotros te damos la dirección.</p>
+    <div class="container mx-auto px-6 max-w-4xl stack">
+      <h2 class="text-center">Así se vive <span class="text-[var(--webinar-primary)]">Fundamentals</span> desde dentro</h2>
+      <div class="video"><iframe src={VIDEO_ADENTRO} title="Así se ve Fundamentals desde adentro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <div class="grid-fixed-2">
+        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">Pago único $6,500 MXN</a>
+        <a class="btn btn-ghost"   href={PAY_SPLIT} target="_blank">2 pagos de $3,250 MXN</a>
+      </div>
     </div>
   </section>
 
@@ -268,17 +355,26 @@
     </div>
   </section>
 
-  <!-- VIDEO 2: ASÍ SE VE POR DENTRO -->
-  <section class="sec-light py-14">
-    <div class="container mx-auto px-6 max-w-4xl stack">
-      <h2 class="text-center">Así se vive <span class="text-[var(--webinar-primary)]">Fundamentals</span> desde dentro</h2>
-      <div class="video"><iframe src={VIDEO_ADENTRO} title="Así se ve Fundamentals desde adentro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-      <div class="grid-fixed-2">
-        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">Pago único $6,500 MXN</a>
-        <a class="btn btn-ghost"   href={PAY_SPLIT} target="_blank">2 pagos de $3,250 MXN</a>
-      </div>
-    </div>
-  </section>
+<!-- POR QUÉ LO CREÉ -->
+<section class="sec-brown py-14">
+  <div class="container mx-auto px-6 max-w-4xl stack-xl">
+    <h2 class="text-center">¿Por qué creé <span class="text-white">Fundamentals</span>?</h2>
+    <p>Después de trabajar con cientos de ejecutivos y empresarios descubrí algo claro: muchos viven con agendas llenas, pero vacíos por dentro.</p>
+    <p>Yo también estuve ahí.</p>
+
+    <ul class="stack">
+      <li>• <strong>Sé lo que es correr todo el día y sentir que no avanzas.</strong></li>
+      <li>• <strong>Sé lo que es vivir en modo supervivencia</strong>, aparentando que todo está bien cuando por dentro no lo está.</li>
+      <li>• <strong class="text-white">Fundamentals</strong> <strong>nació de mi propia experiencia</strong> y de años acompañando a líderes como tú.</li>
+      <li>• No es un cursito motivacional. Es una guía para crear una vida con sentido, desde adentro hacia afuera.</li>
+    </ul>
+
+    <p>Y no se trata de lograr más.</p>
+    <p><strong>Se trata de reconectar contigo, redefinir tu éxito y diseñar una vida que realmente se sienta tuya.</strong></p>
+    <p>Y sí, es posible.</p>
+  </div>
+</section>
+
 
   <!-- WHATSAPP REFUERZO #2 -->
   <section class="sec-light py-6 text-center">
@@ -343,20 +439,6 @@
     </div>
   </section>
 
-  <!-- POR QUÉ LO CREÉ -->
-  <section class="sec-brown py-0">
-    <div class="container mx-auto px-6 max-w-4xl stack-xl">
-      <h2 class="text-center">¿Por qué creé Fundamentals?</h2>
-      <ul class="stack">
-        <li>• Después de trabajar con cientos de ejecutivos y empresarios vi que muchos viven con agendas llenas, pero vacíos por dentro. Yo también estuve ahí.</li>
-        <li>• Sé lo que es correr todo el día y sentir que no avanzas; vivir en modo supervivencia aparentando que todo está bien cuando por dentro no lo está.</li>
-        <li>• <strong class="text-white">Fundamentals</strong> nació de mi experiencia y de años acompañando a líderes como tú.</li>
-        <li>• Está basado en neurociencias, ciencias de la felicidad y coaching de alto desempeño.</li>
-        <li>• No es un cursito motivacional. Es una guía para crear una vida con sentido, desde adentro hacia afuera.</li>
-      </ul>
-      <p>Y no se trata de lograr más. Se trata de reconectar contigo, redefinir tu éxito y diseñar una vida que realmente se sienta tuya. Y sí, es posible.</p>
-    </div>
-  </section>
 
   <!-- CIERRE + CTA FINAL -->
   <section class="sec-light py-14 text-center">
