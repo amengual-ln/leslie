@@ -5,7 +5,7 @@
 
   const PAY_ONCE = "https://academy.ceodetuvida.com/courses/offers/aba9c77c-959f-42bb-bfd4-4eefe1b60de6";
   const PAY_SPLIT = "https://academy.ceodetuvida.com/courses/offers/c7d9708c-a13a-463c-9b65-be0e98abf33b";
-  const PDF_PLAN = "https://drive.google.com/file/d/1RI4RRpaB7B0L3v1jL3tvSNXCbL5KiGva/view?usp=sharing";
+  const PDF_PLAN = "https://drive.google.com/file/d/1kTSqyYbuSeEWJRY2Zjnvv88nj0-xr7oC/view";
   const WHATSAPP = "https://wa.link/fundamentals";
   const VIDEO_FUNCIONA = "https://www.youtube.com/embed/GfJJV4_EqYg?si=NcQY4c4ROdrCCDV2";
   const VIDEO_ADENTRO  = "https://www.youtube.com/embed/vYoHHJQISiw";
