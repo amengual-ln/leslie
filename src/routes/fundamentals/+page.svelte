@@ -398,7 +398,7 @@
 
         <div class="card-dark text-left">
           <p class="italic">
-            “Es increíble cómo en 5 semanas mi caos se fue. Me siento enfocado y con mucha claridad para decidir, delegar y hasta para decir NO.
+            “Es increíble cómo en 5 semanas mi caos se fue. Me siento enfocada y con mucha claridad para decidir, delegar y hasta para decir NO.
             Ya no necesito correr entre semana para ganar tiempo.”
           </p>
           <p class="mt-3 font-semibold text-[var(--webinar-primary)]">Sofía, Directora de RRHH</p>
@@ -407,14 +407,14 @@
         <div class="card-dark text-left">
           <p class="italic">
             “Estoy terminando el módulo 3 de <span class="text-white">Fundamentals</span> y amo los cambios que estoy viendo en mi vida.
-            Siento que me estoy quitando toneladas de culpas, miedos e inseguridades. Ya hasta mi esposo me dijo que ando de mejor humor.”
+            Siento que me estoy quitando toneladas de culpas, miedos e inseguridades. Ya hasta mi esposa me dijo que ando de mejor humor.”
           </p>
           <p class="mt-3 font-semibold text-[var(--webinar-primary)]">Miguel, Ejecutivo Comercial</p>
         </div>
 
         <div class="card-dark text-left">
           <p class="italic">
-            “En la oficina me siento con claridad mental, ya no ahogado en mil pendientes. Participo más en reuniones y mis ideas han sido aplaudidas.
+            “En la oficina me siento con claridad mental, ya no ahogada en mil pendientes. Participo más en reuniones y mis ideas han sido aplaudidas.
             Y en casa, la comunicación ha mejorado muchísimo.”
           </p>
           <p class="mt-3 font-semibold text-[var(--webinar-primary)]">Ana, Consultora Financiera</p>
