@@ -75,10 +75,10 @@
 {#if mounted}
 <main class="webinar-page font-poppins">
   <!-- HERO -->
-  <section class="relative flex items-center justify-center h-[22vh] sm:h-[28vh] bg-black">
-    <img src="/fundamentals.png" alt="FUNDAMENTALS (LOGO)" class="h-full w-auto object-contain" />
-    <div class="absolute inset-0 bg-black/55 pointer-events-none"></div>
-  </section>
+<section class="relative flex items-center justify-center h-[22vh] sm:h-[28vh] bg-black">
+  <img src="/fundamentals.png" alt="FUNDAMENTALS (LOGO)" class="h-full w-auto object-contain z-10" />
+  <div class="absolute inset-0 bg-transparent pointer-events-none"></div>
+</section>
 
 <!-- INTRO -->
 <section class="sec-brown py-14">
@@ -95,10 +95,11 @@
       Te volviste experto en apagar fuegos, pero ya no sabes qué te ilusiona. 
       Cada día rindes, entregas, <em>funcionas</em>… pero sientes que tu chispa se esfumó.
     </p>
-    <p class="text-base sm:text-lg leading-relaxed">
-      <span class="text-white font-bold">Fundamentals</span> es el primer paso para salir del 
-      <strong>caos, reconectar contigo y recuperar el timón de tu vida</strong>.
-    </p>
+<p class="text-base sm:text-lg leading-relaxed">
+  <span class="font-bold text-[var(--webinar-primary)]">Fundamentals</span> es el primer paso para salir del 
+  <strong>caos, reconectar contigo y recuperar el timón de tu vida</strong>.
+</p>
+
 
     <hr class="border-white/20 my-4" />
 
@@ -107,7 +108,7 @@
       <li><strong>✔ Solo 5 semanas</strong></li>
       <li><strong>✔ A tu ritmo y sin horarios fijos</strong></li>
       <li><strong>✔ 100% online y de acceso inmediato</strong></li>
-      <li><strong>✔ Soporte directo de Leslie Beltrán, Business Life Coach</strong></li>
+      <li><strong class="text-[var(--webinar-primary)]">✔ Soporte directo de Leslie Beltrán, Business Life Coach</strong></li>
     </ul>
 
     <hr class="border-white/20 my-4" />
@@ -134,7 +135,7 @@
 
     <!-- Respuesta -->
     <p class="mt-4 text-base sm:text-lg font-bold">
-      Si esto resuena contigo, <span class="text-[var(--webinar-primary)]">Fundamentals</span> es para ti:
+      <span class="text-[var(--webinar-primary)]">Fundamentals</span> es para ti, sí:
     </p>
 
     <!-- Lista -->
@@ -166,11 +167,11 @@
 
     <!-- Lista -->
     <ul class="stack mt-6 text-base sm:text-lg space-y-3">
-      <li>• <strong>Salir del desorden mental</strong> que te drena todos los días.</li>
-      <li>• <strong>Saber qué priorizar</strong> sin sentir que todo es urgente.</li>
-      <li>• <strong>Decidir con seguridad</strong>, sin dar tantas vueltas en tu cabeza.</li>
-      <li>• <strong>Recuperar energía y entusiasmo</strong> para tu vida personal y profesional.</li>
-      <li>• <strong>Ganar tiempo real</strong> para ti y tu familia.</li>
+      <li><span class="text-[var(--webinar-primary)]">•</span> <strong class="text-[var(--webinar-primary)]">Salir del desorden mental</strong> que te drena todos los días.</li>
+      <li><span class="text-[var(--webinar-primary)]">•</span> <strong class="text-[var(--webinar-primary)]">Saber qué priorizar</strong> sin sentir que todo es urgente.</li>
+      <li><span class="text-[var(--webinar-primary)]">•</span> <strong class="text-[var(--webinar-primary)]">Decidir con seguridad</strong>, sin dar tantas vueltas en tu cabeza.</li>
+      <li><span class="text-[var(--webinar-primary)]">•</span> <strong class="text-[var(--webinar-primary)]">Recuperar energía y entusiasmo</strong> para tu vida personal y profesional.</li>
+      <li><span class="text-[var(--webinar-primary)]">•</span> <strong class="text-[var(--webinar-primary)]">Ganar tiempo real</strong> para ti y tu familia.</li>
     </ul>
 
     <!-- Párrafo de cierre -->
@@ -187,8 +188,49 @@
     <div class="container mx-auto px-6 max-w-4xl stack">
       <h2>COMIENZA HOY</h2>
       <div class="grid-fixed-2">
-        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">Pago único $6,500 MXN</a>
-        <a class="btn btn-ghost"   href={PAY_SPLIT} target="_blank">2 pagos de $3,250 MXN</a>
+        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">Pago único $362.00 USD</a>
+               <a
+        class="btn btn-ghost relative pr-10"
+        href={PAY_SPLIT}
+        target="_blank"
+        title="Pagás 50% al inscribirte y el 50% restante automáticamente en 30 días."
+      >
+        2 pagos de $181 USD
+
+        <!-- Flecha (trigger del tooltip) -->
+        <span
+          class="group/arrow absolute right-2 top-1/2 -translate-y-1/2 inline-flex items-center justify-center
+                cursor-pointer select-none"
+          tabindex="0"
+          aria-describedby="tooltip-split"
+          aria-label="Plan en 2 pagos: 50% ahora y 50% en 30 días"
+        >
+          <!-- Icono flecha hacia abajo -->
+          <svg
+            class="w-5 h-5 text-red-500 transition-transform duration-150
+                  group-hover/arrow:translate-y-0.5 group-focus/arrow:translate-y-0.5"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+          >
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+
+          <!-- Tooltip centrado respecto a la flecha -->
+          <span
+            id="tooltip-split"
+            role="tooltip"
+            class="pointer-events-none absolute left-1/2 -translate-x-1/2 top-full mt-2 w-72
+                  rounded-md bg-black text-white text-sm p-3 shadow-xl
+                  opacity-0 translate-y-1 transition duration-150 ease-out
+                  invisible
+                  group-hover/arrow:opacity-100 group-hover/arrow:translate-y-0 group-hover/arrow:visible
+                  group-focus/arrow:opacity-100 group-focus/arrow:translate-y-0 group-focus/arrow:visible"
+          >
+            Pagás <strong>50%</strong> al inscribirte y el <strong>50% restante</strong> se cobra automáticamente en
+            <strong>30 días</strong> mismo método de pago.
+          </span>
+        </span>
+      </a>
       </div>
     </div>
   </section>
@@ -204,7 +246,7 @@
 
     <!-- Título -->
     <h2 class="text-center font-bold text-xl sm:text-2xl mb-6">
-      ¿Qué más vas a lograr en <span class="text-white">Fundamentals</span>?
+     ¿Qué más vas a lograr en <span class="text-[var(--webinar-primary)]">Fundamentals</span>?
     </h2>
 
     <!-- Intro -->
@@ -215,7 +257,7 @@
     <!-- Lista de logros -->
     <ul class="text-base sm:text-lg space-y-4">
       <li>• Recuperar tiempo para ti, <strong>sin descuidar tus responsabilidades.</strong></li>
-      <li>• Dormir en paz, <strong>sin que tu cabeza siga dándole vueltas a los pendientes a la 1:00 a.m.</strong></li>
+      <li>• Dormir en paz, <strong>sin que tu cabeza siga dándole vueltas a los pendientes en la madrugada</strong></li>
       <li>• Llegar a casa con mejor humor, disfrutando a tu familia <strong>en lugar de descargar el estrés en ellos.</strong></li>
       <li>• Tener dirección clara, <strong>dejar de sentir que trabajas mucho pero avanzas poco.</strong></li>
       <li>• Tomar decisiones más rápidas y efectivas, <strong>sin gastar energía en darle vueltas una y otra vez.</strong></li>
@@ -243,16 +285,16 @@
 
     <p>Es normal que lo pienses.</p>
 
-    <p>
-      Sobre todo si ya intentaste cambiar desde la fuerza de voluntad, desde libros de autoayuda
+    <p>   
+      Sobre todo si ya intentaste cambiar desde la fuerza de voluntad, libros de autoayuda
       o terapias que no conectan contigo.
     </p>
-
+ 
     <p>
       Pero esto no es un cursito para “sentirte mejor”.
     </p>
 
-    <p><strong>Es un método probado, basado en:</strong></p>
+    <p><strong class="text-[var(--webinar-primary)]">Es un método probado, basado en:</strong></p>
 
     <ul class="stack">
       <li>• Neurociencia aplicada</li>
@@ -261,10 +303,13 @@
     </ul>
 
     <p>No te doy motivación.<br>
-    <strong>Te doy dirección.</strong></p>
+     <strong class="text-[var(--webinar-primary)]">Te doy dirección.</strong>
+    </p>
 
     <p>No te doy teoría.<br>
-    <strong>Te doy estrategia.</strong></p>
+     <strong class="text-[var(--webinar-primary)]">Te doy estrategia.</strong>
+    </p>
+
   </div>
 </section>
 <!-- POR QUÉ 5 SEMANAS -->
@@ -292,8 +337,49 @@
     <div class="container mx-auto px-6 max-w-4xl stack">
       <h2>COMIENZA HOY</h2>
       <div class="grid-fixed-2">
-        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">Pago único $6,500 MXN</a>
-        <a class="btn btn-ghost"   href={PAY_SPLIT} target="_blank">2 pagos de $3,250 MXN</a>
+        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">Pago único $362.00 USD</a>
+              <a
+        class="btn btn-ghost relative pr-10"
+        href={PAY_SPLIT}
+        target="_blank"
+        title="Pagás 50% al inscribirte y el 50% restante automáticamente en 30 días."
+      >
+        2 pagos de $181 USD
+
+        <!-- Flecha (trigger del tooltip) -->
+        <span
+          class="group/arrow absolute right-2 top-1/2 -translate-y-1/2 inline-flex items-center justify-center
+                cursor-pointer select-none"
+          tabindex="0"
+          aria-describedby="tooltip-split"
+          aria-label="Plan en 2 pagos: 50% ahora y 50% en 30 días"
+        >
+          <!-- Icono flecha hacia abajo -->
+          <svg
+            class="w-5 h-5 text-red-500 transition-transform duration-150
+                  group-hover/arrow:translate-y-0.5 group-focus/arrow:translate-y-0.5"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+          >
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+
+          <!-- Tooltip centrado respecto a la flecha -->
+          <span
+            id="tooltip-split"
+            role="tooltip"
+            class="pointer-events-none absolute left-1/2 -translate-x-1/2 top-full mt-2 w-72
+                  rounded-md bg-black text-white text-sm p-3 shadow-xl
+                  opacity-0 translate-y-1 transition duration-150 ease-out
+                  invisible
+                  group-hover/arrow:opacity-100 group-hover/arrow:translate-y-0 group-hover/arrow:visible
+                  group-focus/arrow:opacity-100 group-focus/arrow:translate-y-0 group-focus/arrow:visible"
+          >
+            Pagás <strong>50%</strong> al inscribirte y el <strong>50% restante</strong> se cobra automáticamente en
+            <strong>30 días</strong> mismo método de pago.
+          </span>
+        </span>
+      </a>
       </div>
     </div>
   </section>
@@ -316,9 +402,9 @@
     <ul class="stack">
       <li>• <strong>Hazlo a tu ritmo</strong>, sin horarios fijos.</li>
       <li>• <strong>Acceso inmediato</strong> al inscribirte.</li>
-      <li>• <strong>5 módulos en video</strong>, breves y al punto.</li>
+      <li>• <strong>5 módulos en video</strong>, claros y al punto.</li>
       <li>• <strong>Plantillas descargables</strong> para aplicar de inmediato.</li>
-      <li>• <strong>Acompañamiento directo</strong> de Leslie Beltrán para resolver tus dudas.</li>
+      <li>• <strong>Acompañamiento directo</strong> de <span class="text-[var(--webinar-primary)]">Leslie Beltrán</span> para resolver tus dudas.</li>
     </ul>
 
     <p>
@@ -330,11 +416,51 @@
  <!-- VIDEO 2: ASÍ SE VE POR DENTRO -->
   <section class="sec-light py-14">
     <div class="container mx-auto px-6 max-w-4xl stack">
-      <h2 class="text-center">Así se vive <span class="text-[var(--webinar-primary)]">Fundamentals</span> desde dentro</h2>
+      <h2 class="text-center font-bold">Así se vive <span class="text-[var(--webinar-primary)]">Fundamentals</span> desde adentro</h2>
       <div class="video"><iframe src={VIDEO_ADENTRO} title="Así se ve Fundamentals desde adentro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
       <div class="grid-fixed-2">
-        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">Pago único $6,500 MXN</a>
-        <a class="btn btn-ghost"   href={PAY_SPLIT} target="_blank">2 pagos de $3,250 MXN</a>
+               <a
+        class="btn btn-ghost relative pr-10"
+        href={PAY_SPLIT}
+        target="_blank"
+        title="Pagás 50% al inscribirte y el 50% restante automáticamente en 30 días."
+      >
+        2 pagos de $181 USD
+
+        <!-- Flecha (trigger del tooltip) -->
+        <span
+          class="group/arrow absolute right-2 top-1/2 -translate-y-1/2 inline-flex items-center justify-center
+                cursor-pointer select-none"
+          tabindex="0"
+          aria-describedby="tooltip-split"
+          aria-label="Plan en 2 pagos: 50% ahora y 50% en 30 días"
+        >
+          <!-- Icono flecha hacia abajo -->
+          <svg
+            class="w-5 h-5 text-red-500 transition-transform duration-150
+                  group-hover/arrow:translate-y-0.5 group-focus/arrow:translate-y-0.5"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+          >
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+
+          <!-- Tooltip centrado respecto a la flecha -->
+          <span
+            id="tooltip-split"
+            role="tooltip"
+            class="pointer-events-none absolute left-1/2 -translate-x-1/2 top-full mt-2 w-72
+                  rounded-md bg-black text-white text-sm p-3 shadow-xl
+                  opacity-0 translate-y-1 transition duration-150 ease-out
+                  invisible
+                  group-hover/arrow:opacity-100 group-hover/arrow:translate-y-0 group-hover/arrow:visible
+                  group-focus/arrow:opacity-100 group-focus/arrow:translate-y-0 group-focus/arrow:visible"
+          >
+            Pagás <strong>50%</strong> al inscribirte y el <strong>50% restante</strong> se cobra automáticamente en
+            <strong>30 días</strong> mismo método de pago.
+          </span>
+        </span>
+      </a>
       </div>
     </div>
   </section>
@@ -342,38 +468,63 @@
   <!-- PLAN 5 SEMANAS + PDF -->
   <section class="sec-brown py-14">
     <div class="container mx-auto px-6 max-w-4xl stack-xl">
-      <h2 class="text-center">Aquí está tu plan de 5 semanas</h2>
+      <h2 class="text-center font-bold">Aquí está tu plan de 5 semanas</h2>
       <p>Así es como avanzas dentro de <strong class="text-white">Fundamentals</strong>:</p>
       <ul class="stack">
-        <li><strong>MÓDULO 1:</strong> El gran error que te está costando la vida — Dejar de ponerte en último lugar y empezar a priorizarte sin culpa.</li>
-        <li><strong>MÓDULO 2:</strong> Rompiendo el guion que no es tuyo — Soltar creencias heredadas de éxito y felicidad que hoy te drenan.</li>
-        <li><strong>MÓDULO 3:</strong> Construyendo tu FAE (Felicidad, Autoconcepto, Éxito) — Diseñar tu brújula interna para tomar mejores decisiones.</li>
-        <li><strong>MÓDULO 4:</strong> Diseñando tu nueva vida — Recablear mente y cuerpo para sostener hábitos y cambios reales.</li>
-        <li><strong>MÓDULO 5:</strong> Edificando tu FAE — Llevar todo a la acción con pasos concretos y rodearte de lo que sí suma.</li>
+        <li>
+          <span class="text-[var(--webinar-primary)] font-bold">
+            • MÓDULO 1: El gran error que te está costando la vida
+          </span>
+          — Dejar de ponerte en último lugar y empezar a priorizarte sin culpa.
+        </li>
+        <li>
+          <span class="text-[var(--webinar-primary)] font-bold">
+            • MÓDULO 2: Rompiendo el guion que no es tuyo
+          </span>
+          — Soltar creencias heredadas de éxito y felicidad que hoy te drenan.
+        </li>
+        <li>
+          <span class="text-[var(--webinar-primary)] font-bold">
+            • MÓDULO 3: Construyendo tu FAE (Felicidad, Autoconcepto, Éxito)
+          </span>
+          — Diseñar tu brújula interna para tomar mejores decisiones.
+        </li>
+        <li>
+          <span class="text-[var(--webinar-primary)] font-bold">
+            • MÓDULO 4: Diseñando tu nueva vida
+          </span>
+          — Recablear mente y cuerpo para sostener hábitos y cambios reales.
+        </li>
+        <li>
+          <span class="text-[var(--webinar-primary)] font-bold">
+            • MÓDULO 5: Edificando tu FAE
+          </span>
+          — Llevar todo a la acción con pasos concretos y rodearte de lo que sí suma.
+        </li>
       </ul>
       <p>👉 ¿Quieres ver lo que lograrás semana a semana? <a href={PDF_PLAN} target="_blank" class="underline text-[var(--webinar-primary)]">Descargar PDF con el plan completo</a></p>
     </div>
   </section>
 
-<!-- POR QUÉ LO CREÉ -->
-<section class="sec-brown py-14">
-  <div class="container mx-auto px-6 max-w-4xl stack-xl">
-    <h2 class="text-center">¿Por qué creé <span class="text-white">Fundamentals</span>?</h2>
-    <p>Después de trabajar con cientos de ejecutivos y empresarios descubrí algo claro: muchos viven con agendas llenas, pero vacíos por dentro.</p>
-    <p>Yo también estuve ahí.</p>
+  <!-- POR QUÉ LO CREÉ -->
+  <section class="sec-brown py-14">
+    <div class="container mx-auto px-6 max-w-4xl stack-xl">
+      <h2 class="text-center font-bold">¿Por qué creé <span class="text-[var(--webinar-primary)]">Fundamentals</span>?</h2>
+      <p>Después de trabajar con cientos de ejecutivos y empresarios descubrí algo claro: muchos viven con agendas llenas, pero vacíos por dentro.</p>
+      <p>Yo también estuve ahí.</p>
 
-    <ul class="stack">
-      <li>• <strong>Sé lo que es correr todo el día y sentir que no avanzas.</strong></li>
-      <li>• <strong>Sé lo que es vivir en modo supervivencia</strong>, aparentando que todo está bien cuando por dentro no lo está.</li>
-      <li>• <strong class="text-white">Fundamentals</strong> <strong>nació de mi propia experiencia</strong> y de años acompañando a líderes como tú.</li>
-      <li>• No es un cursito motivacional. Es una guía para crear una vida con sentido, desde adentro hacia afuera.</li>
-    </ul>
+      <ul class="stack">
+        <li>• <strong class="text-[var(--webinar-primary)]">Sé lo que es correr todo el día y sentir que no avanzas.</strong></li>
+        <li>• <strong class="text-[var(--webinar-primary)]">Sé lo que es vivir en modo supervivencia</strong>, aparentando que todo está bien cuando por dentro no lo está.</li>
+        <li>• <strong class="text-[var(--webinar-primary)]">Fundamentals</strong> <strong class="text-[var(--webinar-primary)]">nació de mi propia experiencia</strong> y de años acompañando a líderes como tú.</li>
+        <li>• No es un cursito motivacional. Es una guía para crear una vida con sentido, desde adentro hacia afuera.</li>
+      </ul>
 
-    <p>Y no se trata de lograr más.</p>
-    <p><strong>Se trata de reconectar contigo, redefinir tu éxito y diseñar una vida que realmente se sienta tuya.</strong></p>
-    <p>Y sí, es posible.</p>
-  </div>
-</section>
+      <p>Y no se trata de lograr más <strong class="text-[var(--webinar-primary)]">sin un rumbo claro</strong>.</p>
+      <p><strong class="text-[var(--webinar-primary)]">Se trata de reconectar contigo, redefinir tu éxito y diseñar una vida que realmente se sienta tuya.</strong></p>
+      <p>Y sí, es posible.</p>
+    </div>
+  </section>
 
 
   <!-- WHATSAPP REFUERZO #2 -->
@@ -384,70 +535,83 @@
   <!-- TESTIMONIOS (2 columnas fijas) -->
   <section class="sec-brown py-14">
     <div class="container mx-auto px-6 max-w-5xl stack-xl">
-      <h2 class="text-center">Lo que dicen quienes ya vivieron <span class="text-white">Fundamentals</span></h2>
+      <h2 class="text-center font-bold">Lo que dicen quienes ya vivieron <span class="text-white">Fundamentals</span></h2>
 
       <div class="grid-fixed-2">
-        <div class="card-dark text-left">
-          <p class="italic">
-            “Estoy terminando la quinta semana de <span class="text-white">Fundamentals</span> y estoy impactado de mis logros:
-            he dejado de andar corriendo todo el día. Llevo dos semanas que termino los pendientes en tiempo y forma.
-            Mis niveles de estrés han bajado en un 50%.”
-          </p>
-          <p class="mt-3 font-semibold text-[var(--webinar-primary)]">Rodrigo, Gerente de Operaciones</p>
-        </div>
-
-        <div class="card-dark text-left">
-          <p class="italic">
-            “Es increíble cómo en 5 semanas mi caos se fue. Me siento enfocada y con mucha claridad para decidir, delegar y hasta para decir NO.
-            Ya no necesito correr entre semana para ganar tiempo.”
-          </p>
-          <p class="mt-3 font-semibold text-[var(--webinar-primary)]">Sofía, Directora de RRHH</p>
-        </div>
-
-        <div class="card-dark text-left">
-          <p class="italic">
-            “Estoy terminando el módulo 3 de <span class="text-white">Fundamentals</span> y amo los cambios que estoy viendo en mi vida.
-            Siento que me estoy quitando toneladas de culpas, miedos e inseguridades. Ya hasta mi esposa me dijo que ando de mejor humor.”
-          </p>
-          <p class="mt-3 font-semibold text-[var(--webinar-primary)]">Miguel, Ejecutivo Comercial</p>
-        </div>
-
-        <div class="card-dark text-left">
-          <p class="italic">
-            “En la oficina me siento con claridad mental, ya no ahogada en mil pendientes. Participo más en reuniones y mis ideas han sido aplaudidas.
-            Y en casa, la comunicación ha mejorado muchísimo.”
-          </p>
-          <p class="mt-3 font-semibold text-[var(--webinar-primary)]">Ana, Consultora Financiera</p>
-        </div>
-
-        <div class="card-dark text-left">
-          <p class="italic">
-            “A raíz de <span class="text-white">Fundamentals</span> mis días han dejado de ser caóticos y me siento más seguro al dar mi opinión en reuniones.
-            Gracias por crear este programa que me permitió ir a mi ritmo.”
-          </p>
-          <p class="mt-3 font-semibold text-[var(--webinar-primary)]">Javier, Director de Estrategia</p>
-        </div>
-
-        <div class="card-dark text-left">
-          <p class="italic">
-            “Acabo de hacer la primera actividad del módulo 1 de <span class="text-white">Fundamentals</span> y me di cuenta de cómo yo solo me estaba poniendo el pie para subir de puesto.
-            Estoy en shock, pero con claridad porque por fin pude ver dónde me estaba atorando.”
-          </p>
-          <p class="mt-3 font-semibold text-[var(--webinar-primary)]">Valeria, Líder de Proyecto</p>
-        </div>
+        {#each [
+          { file: "testimonio1.webp", name: "Rodrigo, Gerente de Operaciones" },
+          { file: "testimonio2.webp", name: "Sofía, Directora de RRHH" },
+          { file: "testimonio3.webp", name: "Miguel, Ejecutivo Comercial" },
+          { file: "testimonio4.webp", name: "Ana, Consultora Financiera" },
+          { file: "testimonio5.webp", name: "Javier, Director de Estrategia" },
+          { file: "testimonio6.webp", name: "Valeria, Líder de Proyecto" }
+        ] as t}
+          <div class="card-dark text-left">
+            <img
+              src={"/testimonios/" + t.file}
+              alt={"Testimonio de " + t.name}
+              class="w-full h-auto rounded"
+              loading="lazy"
+              decoding="async"
+            />
+             <p class="mt-3 font-semibold text-[var(--webinar-primary)]">{t.name}</p>
+          </div>
+        {/each}
       </div>
     </div>
-  </section>
+  </section> 
 
 
   <!-- CIERRE + CTA FINAL -->
   <section class="sec-light py-14 text-center">
     <div class="container mx-auto px-6 max-w-4xl stack">
-      <h2>Tu vida puede sentirse más ligera, empieza aquí.</h2>
-      <p>No tienes que seguir corriendo sin parar ni vivir con la mente saturada. Hoy puedes elegir un camino más claro, con tiempo para ti y tranquilidad en tu día a día. <strong class="text-[var(--webinar-primary)]">Fundamentals</strong> es tu guía para recuperar enfoque, calma y dirección.</p>
+      <h2 class="font-bold">Tu vida puede sentirse más ligera, empieza aquí.</h2>
+      <p>No tienes que seguir corriendo sin parar ni vivir con la mente saturada. Hoy puedes elegir un camino más claro, con tiempo para ti y tranquilidad en tu día a día.</p>
+      <p><strong class="text-[var(--webinar-primary)]">Fundamentals</strong> es tu guía para recuperar enfoque, calma y dirección.</p>
+
       <div class="grid-fixed-2">
-        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">Pago único $6,500 MXN</a>
-        <a class="btn btn-ghost"   href={PAY_SPLIT} target="_blank">2 pagos de $3,250 MXN</a>
+               <a
+        class="btn btn-ghost relative pr-10"
+        href={PAY_SPLIT}
+        target="_blank"
+        title="Pagás 50% al inscribirte y el 50% restante automáticamente en 30 días."
+      >
+        2 pagos de $181 USD
+
+        <!-- Flecha (trigger del tooltip) -->
+        <span
+          class="group/arrow absolute right-2 top-1/2 -translate-y-1/2 inline-flex items-center justify-center
+                cursor-pointer select-none"
+          tabindex="0"
+          aria-describedby="tooltip-split"
+          aria-label="Plan en 2 pagos: 50% ahora y 50% en 30 días"
+        >
+          <!-- Icono flecha hacia abajo -->
+          <svg
+            class="w-5 h-5 text-red-500 transition-transform duration-150
+                  group-hover/arrow:translate-y-0.5 group-focus/arrow:translate-y-0.5"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+          >
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+
+          <!-- Tooltip centrado respecto a la flecha -->
+          <span
+            id="tooltip-split"
+            role="tooltip"
+            class="pointer-events-none absolute left-1/2 -translate-x-1/2 top-full mt-2 w-72
+                  rounded-md bg-black text-white text-sm p-3 shadow-xl
+                  opacity-0 translate-y-1 transition duration-150 ease-out
+                  invisible
+                  group-hover/arrow:opacity-100 group-hover/arrow:translate-y-0 group-hover/arrow:visible
+                  group-focus/arrow:opacity-100 group-focus/arrow:translate-y-0 group-focus/arrow:visible"
+          >
+            Pagás <strong>50%</strong> al inscribirte y el <strong>50% restante</strong> se cobra automáticamente en
+            <strong>30 días</strong> mismo método de pago.
+          </span>
+        </span>
+      </a>
       </div>
       <div>
         <a class="btn btn-ghost" href={WHATSAPP} target="_blank">¿Tienes dudas? Habla con nuestro equipo en WhatsApp</a>
@@ -456,5 +620,4 @@
   </section>
 </main>
 {/if}
-
 
