@@ -419,48 +419,33 @@
       <h2 class="text-center font-bold">Así se vive <span class="text-[var(--webinar-primary)]">Fundamentals</span> desde adentro</h2>
       <div class="video"><iframe src={VIDEO_ADENTRO} title="Así se ve Fundamentals desde adentro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
       <div class="grid-fixed-2">
-               <a
-        class="btn btn-ghost relative pr-10"
-        href={PAY_SPLIT}
-        target="_blank"
-        title="Pagás 50% al inscribirte y el 50% restante automáticamente en 30 días."
-      >
-        2 pagos de $181 USD
+        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">Pago único $362.00 USD</a>
 
-        <!-- Flecha (trigger del tooltip) -->
-        <span
-          class="group/arrow absolute right-2 top-1/2 -translate-y-1/2 inline-flex items-center justify-center
-                cursor-pointer select-none"
-          tabindex="0"
-          aria-describedby="tooltip-split"
-          aria-label="Plan en 2 pagos: 50% ahora y 50% en 30 días"
+        <a
+          class="btn btn-ghost relative pr-10"
+          href={PAY_SPLIT}
+          target="_blank"
+          title="Pagás 50% al inscribirte y el 50% restante automáticamente en 30 días."
         >
-          <!-- Icono flecha hacia abajo -->
-          <svg
-            class="w-5 h-5 text-red-500 transition-transform duration-150
-                  group-hover/arrow:translate-y-0.5 group-focus/arrow:translate-y-0.5"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
-          >
-            <path d="M6 9l6 6 6-6" />
-          </svg>
-
-          <!-- Tooltip centrado respecto a la flecha -->
+          2 pagos de $181 USD
           <span
-            id="tooltip-split"
-            role="tooltip"
-            class="pointer-events-none absolute left-1/2 -translate-x-1/2 top-full mt-2 w-72
-                  rounded-md bg-black text-white text-sm p-3 shadow-xl
-                  opacity-0 translate-y-1 transition duration-150 ease-out
-                  invisible
-                  group-hover/arrow:opacity-100 group-hover/arrow:translate-y-0 group-hover/arrow:visible
-                  group-focus/arrow:opacity-100 group-focus/arrow:translate-y-0 group-focus/arrow:visible"
+            class="group/arrow absolute right-2 top-1/2 -translate-y-1/2 inline-flex items-center justify-center cursor-pointer select-none"
+            tabindex="0"
+            aria-describedby="tooltip-split-a"
+            aria-label="Plan en 2 pagos: 50% ahora y 50% en 30 días"
           >
-            Pagás <strong>50%</strong> al inscribirte y el <strong>50% restante</strong> se cobra automáticamente en
-            <strong>30 días</strong> mismo método de pago.
+            <svg class="w-5 h-5 text-red-500 transition-transform duration-150 group-hover/arrow:translate-y-0.5 group-focus/arrow:translate-y-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M6 9l6 6 6-6" />
+            </svg>
+            <span
+              id="tooltip-split-a"
+              role="tooltip"
+              class="pointer-events-none absolute left-1/2 -translate-x-1/2 top-full mt-2 w-72 rounded-md bg-black text-white text-sm p-3 shadow-xl opacity-0 translate-y-1 transition duration-150 ease-out invisible group-hover/arrow:opacity-100 group-hover/arrow:translate-y-0 group-hover/arrow:visible group-focus/arrow:opacity-100 group-focus/arrow:translate-y-0 group-focus/arrow:visible"
+            >
+              Pagás <strong>50%</strong> al inscribirte y el <strong>50% restante</strong> se cobra automáticamente en <strong>30 días</strong> con el mismo método de pago.
+            </span>
           </span>
-        </span>
-      </a>
+        </a>
       </div>
     </div>
   </section>
@@ -568,54 +553,43 @@
       <h2 class="font-bold">Tu vida puede sentirse más ligera, empieza aquí.</h2>
       <p>No tienes que seguir corriendo sin parar ni vivir con la mente saturada. Hoy puedes elegir un camino más claro, con tiempo para ti y tranquilidad en tu día a día.</p>
       <p><strong class="text-[var(--webinar-primary)]">Fundamentals</strong> es tu guía para recuperar enfoque, calma y dirección.</p>
+           <div class="grid-fixed-2">
+        <a class="btn btn-primary" href={PAY_ONCE} target="_blank">Pago único $362.00 USD</a>
 
-      <div class="grid-fixed-2">
-               <a
-        class="btn btn-ghost relative pr-10"
-        href={PAY_SPLIT}
-        target="_blank"
-        title="Pagás 50% al inscribirte y el 50% restante automáticamente en 30 días."
-      >
-        2 pagos de $181 USD
-
-        <!-- Flecha (trigger del tooltip) -->
-        <span
-          class="group/arrow absolute right-2 top-1/2 -translate-y-1/2 inline-flex items-center justify-center
-                cursor-pointer select-none"
-          tabindex="0"
-          aria-describedby="tooltip-split"
-          aria-label="Plan en 2 pagos: 50% ahora y 50% en 30 días"
+        <a
+          class="btn btn-ghost relative pr-10"
+          href={PAY_SPLIT}
+          target="_blank"
+          title="Pagás 50% al inscribirte y el 50% restante automáticamente en 30 días."
         >
-          <!-- Icono flecha hacia abajo -->
-          <svg
-            class="w-5 h-5 text-red-500 transition-transform duration-150
-                  group-hover/arrow:translate-y-0.5 group-focus/arrow:translate-y-0.5"
-            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
-          >
-            <path d="M6 9l6 6 6-6" />
-          </svg>
-
-          <!-- Tooltip centrado respecto a la flecha -->
+          2 pagos de $181 USD
           <span
-            id="tooltip-split"
-            role="tooltip"
-            class="pointer-events-none absolute left-1/2 -translate-x-1/2 top-full mt-2 w-72
-                  rounded-md bg-black text-white text-sm p-3 shadow-xl
-                  opacity-0 translate-y-1 transition duration-150 ease-out
-                  invisible
-                  group-hover/arrow:opacity-100 group-hover/arrow:translate-y-0 group-hover/arrow:visible
-                  group-focus/arrow:opacity-100 group-focus/arrow:translate-y-0 group-focus/arrow:visible"
+            class="group/arrow absolute right-2 top-1/2 -translate-y-1/2 inline-flex items-center justify-center cursor-pointer select-none"
+            tabindex="0"
+            aria-describedby="tooltip-split-a"
+            aria-label="Plan en 2 pagos: 50% ahora y 50% en 30 días"
           >
-            Pagás <strong>50%</strong> al inscribirte y el <strong>50% restante</strong> se cobra automáticamente en
-            <strong>30 días</strong> mismo método de pago.
+            <svg class="w-5 h-5 text-red-500 transition-transform duration-150 group-hover/arrow:translate-y-0.5 group-focus/arrow:translate-y-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M6 9l6 6 6-6" />
+            </svg>
+            <span
+              id="tooltip-split-a"
+              role="tooltip"
+              class="pointer-events-none absolute left-1/2 -translate-x-1/2 top-full mt-2 w-72 rounded-md bg-black text-white text-sm p-3 shadow-xl opacity-0 translate-y-1 transition duration-150 ease-out invisible group-hover/arrow:opacity-100 group-hover/arrow:translate-y-0 group-hover/arrow:visible group-focus/arrow:opacity-100 group-focus/arrow:translate-y-0 group-focus/arrow:visible"
+            >
+              Pagás <strong>50%</strong> al inscribirte y el <strong>50% restante</strong> se cobra automáticamente en <strong>30 días</strong> con el mismo método de pago.
+            </span>
           </span>
-        </span>
-      </a>
+        </a>
       </div>
       <div>
         <a class="btn btn-ghost" href={WHATSAPP} target="_blank">¿Tienes dudas? Habla con nuestro equipo en WhatsApp</a>
       </div>
+    </div>
+    <div class="mt-6 text-left leading-relaxed max-w-3xl mx-auto">
+      <p><strong>Tiempo:</strong> Solo necesitas dedicarle aproximadamente <strong>90 minutos a la semana</strong>.</p>
+      <p class="mt-2"><strong>Acceso:</strong> El programa dura <strong>5 semanas</strong>, pero tendrás <strong>2 semanas extras de acceso</strong> para ponerte al corriente o repasar.</p>
+      <p class="mt-2"><strong>Inicio:</strong> Al inscribirte recibirás un <strong>correo con tu acceso a la plataforma</strong> para empezar de inmediato.</p>
     </div>
   </section>
 </main>
