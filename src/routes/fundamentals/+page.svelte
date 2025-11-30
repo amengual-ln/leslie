@@ -3,7 +3,7 @@
   let mounted = false;
   onMount(() => { mounted = true; });
 
-  const PAY_ONCE = "https://academy.ceodetuvida.com/courses/offers/aba9c77c-959f-42bb-bfd4-4eefe1b60de6";
+  const PAY_ONCE = "https://www.skool.com/ceo-academy/classroom";
   const PAY_SPLIT = "https://academy.ceodetuvida.com/courses/offers/c7d9708c-a13a-463c-9b65-be0e98abf33b";
   const PDF_PLAN = "https://drive.google.com/file/d/1kTSqyYbuSeEWJRY2Zjnvv88nj0-xr7oC/view";
   const WHATSAPP = "https://wa.link/fundamentals";
@@ -122,20 +122,20 @@
     
     <!-- Título -->
     <h2 class="text-center font-bold text-xl sm:text-2xl">
-      ¿Para quién es <span class="text-[var(--webinar-primary)]">Fundamentals</span>?
+      ¿Para quién es <span class="text-[var(--webinar-primary)]"></span>?
     </h2>
 
     <!-- Párrafo introductorio -->
     <p class="mt-6 text-base sm:text-lg">
       <strong>
-        <span class="text-[var(--webinar-primary)]">Fundamentals</span> no es para los que se engañan diciendo “todo está bien”.
+        <span class="text-[var(--webinar-primary)]"></span> no es para los que se engañan diciendo “todo está bien”.
       </strong>
       Es para quienes reconocen que la vida que llevan no se parece en nada a la que soñaron.
     </p>
 
     <!-- Respuesta -->
     <p class="mt-4 text-base sm:text-lg font-bold">
-      <span class="text-[var(--webinar-primary)]">Fundamentals</span> es para ti, sí:
+      <span class="text-[var(--webinar-primary)]"></span> es para ti, sí:
     </p>
 
     <!-- Lista -->
@@ -176,7 +176,7 @@
 
     <!-- Párrafo de cierre -->
     <p class="mt-6 text-base sm:text-lg">
-      <span class="text-white font-bold">Fundamentals</span> es para quienes ya se cansaron de correr sin rumbo… y ahora quieren tomar el timón de su vida.
+      <span class="text-white font-bold"></span> es para quienes ya se cansaron de correr sin rumbo… y ahora quieren tomar el timón de su vida.
     </p>
 
   </div>
