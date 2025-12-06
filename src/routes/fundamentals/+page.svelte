@@ -202,7 +202,7 @@
         target="_blank"
         title="Pagás 50% al inscribirte y el 50% restante automáticamente en 30 días."
       >
-        $7,500 pago hasta 12 meses con tarjeta de crédito
+        $7,800 pago hasta 12 meses con tarjeta de crédito
 
         <!-- Flecha (trigger del tooltip) -->
         <span
