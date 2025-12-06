@@ -191,14 +191,14 @@
     <h2>COMIENZA HOY</h2>
     <div class="grid-fixed-2">
       <!-- PAGO ÚNICO - TRANSFERENCIA → WHATSAPP -->
-      <a class="btn btn-primary" href={WHATSAPP} target="_blank">
-        $6,000 un solo pago por transferencia
+      <a class="btn btn-primary" href={PAY_ONCE} target="_blank">
+        $6,500 un solo pago con tarjeta
       </a>
 
       <!-- TARJETA → SKOOL -->
       <a
         class="btn btn-ghost relative pr-10"
-        href={PAY_ONCE}
+        href={PAY_SPLIT}
         target="_blank"
         title="Pagás 50% al inscribirte y el 50% restante automáticamente en 30 días."
       >
@@ -346,18 +346,18 @@
     <h2>COMIENZA HOY</h2>
     <div class="grid-fixed-2">
       <!-- PAGO ÚNICO - TRANSFERENCIA → WHATSAPP -->
-      <a class="btn btn-primary" href={WHATSAPP} target="_blank">
-        $6,000 un solo pago por transferencia
+      <a class="btn btn-primary" href={PAY_ONCE} target="_blank">
+        $6,500 un solo pago con tarjeta
       </a>
 
       <!-- TARJETA → SKOOL -->
       <a
         class="btn btn-ghost relative pr-10"
-        href={PAY_ONCE}
+        href={PAY_SPLIT}
         target="_blank"
         title="Pagás 50% al inscribirte y el 50% restante automáticamente en 30 días."
       >
-        $7,500 pago hasta 12 meses con tarjeta de crédito
+        $7,800 pago hasta 12 meses con tarjeta de crédito
 
         <!-- Flecha (trigger del tooltip) -->
         <span
@@ -598,18 +598,18 @@
 
     <div class="grid-fixed-2">
       <!-- PAGO ÚNICO - TRANSFERENCIA → WHATSAPP -->
-      <a class="btn btn-primary" href={WHATSAPP} target="_blank">
-        $6,000 un solo pago por transferencia
+      <a class="btn btn-primary" href={PAY_ONCE} target="_blank">
+        $6,500 un solo pago con tarjeta
       </a>
 
       <!-- TARJETA → SKOOL -->
       <a
         class="btn btn-ghost relative pr-10"
-        href={PAY_ONCE}
+        href={PAY_SPLIT}
         target="_blank"
         title="Pagás 50% al inscribirte y el 50% restante automáticamente en 30 días."
       >
-        $7,500 pago hasta 12 meses con tarjeta de crédito
+        $7,800 pago hasta 12 meses con tarjeta de crédito
 
         <span
           class="group/arrow absolute right-2 top-1/2 -translate-y-1/2 inline-flex items-center justify-center cursor-pointer select-none"
