@@ -109,7 +109,7 @@
   <div class="container mx-auto px-6 max-w-4xl text-left space-y-6">
     
     <!-- Título -->
-    <h2 class="text-xl sm:text-2xl font-bold">
+    <h2 class="text-base sm:text-lg font-bold">
       Estás cumpliendo con todo… menos contigo.
     </h2>
     <hr class="border-white/20 my-4" />
@@ -533,7 +533,7 @@
     </div>
   </div>
 
-  <div class="mt-6 text-left leading-relaxed max-w-3xl mx-auto body-text">
+  <div class="mt-6 text-left leading-relaxed max-w-3xl mx-auto body-text px-6">
     <p><strong>Tiempo:</strong> Solo necesitas dedicarle aproximadamente <strong>90 minutos a la semana</strong>.</p>
     <p class="mt-2"><strong>Acceso:</strong> El programa dura <strong>5 semanas</strong>, pero tendrás <strong>2 semanas extras de acceso</strong> para ponerte al corriente o repasar.</p>
     <p class="mt-2"><strong>Inicio:</strong> Al inscribirte recibirás un <strong>correo con tu acceso a la plataforma</strong> para empezar de inmediato.</p>
