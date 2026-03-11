@@ -109,7 +109,7 @@
   <div class="container mx-auto px-6 max-w-4xl text-left space-y-6">
     
     <!-- Título -->
-    <h2 style="font-size: 1rem;" class="font-bold">
+    <h2 style="font-size: 1.5rem;" class="font-bold">
       Estás cumpliendo con todo… menos contigo.
     </h2>
     <hr class="border-white/20 my-4" />
