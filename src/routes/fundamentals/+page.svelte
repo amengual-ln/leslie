@@ -99,7 +99,7 @@
 {#if mounted}
 <main class="webinar-page font-poppins">
   <!-- HERO — FIX 1: reducido el alto del hero para acercar al intro -->
-<section class="relative flex items-center justify-center h-[10vh] sm:h-[14vh] bg-black">
+<section class="relative flex items-center justify-center h-[18vh] sm:h-[22vh] bg-black">
   <img src="/fundamentals.png" alt="FUNDAMENTALS (LOGO)" class="h-full w-auto object-contain z-10" />
   <div class="absolute inset-0 bg-transparent pointer-events-none"></div>
 </section>
@@ -109,7 +109,7 @@
   <div class="container mx-auto px-6 max-w-4xl text-left space-y-6">
     
     <!-- Título -->
-    <h2 class="text-base sm:text-lg font-bold">
+    <h2 style="font-size: 1rem;" class="font-bold">
       Estás cumpliendo con todo… menos contigo.
     </h2>
     <hr class="border-white/20 my-4" />
