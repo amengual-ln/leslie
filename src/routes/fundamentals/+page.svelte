@@ -14,13 +14,13 @@
 <svelte:head>
   <meta property="og:title" content="Fundamentals — Recupera el timón de tu vida" />
   <meta property="og:description" content="El primer paso para salir del caos, reconectar contigo y recuperar el timón de tu vida. 5 semanas, a tu ritmo, 100% online." />
-  <meta property="og:image" content="https://drive.google.com/uc?export=view&id=16eV2GvNsL14jQqO7QtLaD7QfMlvvejVl" />
+  <meta property="og:image" content="https://i.ibb.co/gZr70S09/og-fundamentals-square.png" />
   <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  <meta property="og:image:height" content="1200" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://tusitio.com/fundamentals" />
+  <meta property="og:url" content="https://www.ceodetuvida.com/fundamentals" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://drive.google.com/uc?export=view&id=16eV2GvNsL14jQqO7QtLaD7QfMlvvejVl" />
+  <meta name="twitter:image" content="https://i.ibb.co/gZr70S09/og-fundamentals-square.png" />
 </svelte:head>
 
 <style>
