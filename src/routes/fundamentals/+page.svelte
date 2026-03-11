@@ -87,13 +87,13 @@
 {#if mounted}
 <main class="webinar-page font-poppins">
   <!-- HERO — FIX 1: reducido el alto del hero para acercar al intro -->
-<section class="relative flex items-center justify-center h-[14vh] sm:h-[20vh] bg-black">
+<section class="relative flex items-center justify-center h-[10vh] sm:h-[14vh] bg-black">
   <img src="/fundamentals.png" alt="FUNDAMENTALS (LOGO)" class="h-full w-auto object-contain z-10" />
   <div class="absolute inset-0 bg-transparent pointer-events-none"></div>
 </section>
 
-<!-- INTRO — FIX 1: reducido padding top -->
-<section class="sec-brown py-8 sm:py-10">
+<!-- INTRO -->
+<section class="sec-brown pt-0 pb-8 sm:pb-10">
   <div class="container mx-auto px-6 max-w-4xl text-left space-y-6">
     
     <!-- Título -->
