@@ -3,7 +3,7 @@
   let mounted = false;
   onMount(() => { mounted = true; });
 
-  const PAY_ONCE = "https://www.skool.com/ceo-academy/about";
+  const PAY_ONCE = "https://buy.stripe.com/6oU3cv2pFa3f8nf8KB1Nu0p";
   const PAY_SPLIT = "https://wa.link/fundamentals";
   const PDF_PLAN = "https://drive.google.com/file/d/1kTSqyYbuSeEWJRY2Zjnvv88nj0-xr7oC/view";
   const WHATSAPP = "https://wa.link/fundamentals";
