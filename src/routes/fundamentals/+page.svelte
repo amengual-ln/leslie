@@ -172,7 +172,7 @@
       </p>
 
       <p class="mt-4 body-text font-bold">
-        <span class="text-[var(--webinar-primary)]">✔</span> Es para ti si:
+        <span class="text-[var(--webinar-primary)]">✔</span> Es para ti, sí:
       </p>
 
       <ul class="stack mt-4 body-text space-y-2">
@@ -188,7 +188,7 @@
 
       <div class="card-dark sec-brown mt-6 p-4 rounded-lg text-center body-text">
         <p>❌ Tu problema no es falta de tiempo.<br>
-        ✅ Tu problema es que todo se volvió urgente terminaste cargando más de lo que te toca.</p>
+        ✅ Tu problema es que todo se volvió urgente y terminaste cargando más de lo que te toca.</p>
       </div>
     </div>
   </section>
@@ -315,7 +315,6 @@
 
         <li>
           • <strong>2 sesiones grupales en vivo conmigo</strong> para resolver dudas y darte seguimiento puntual.
-          La primera sesión será a las 2 semanas de arrancar el programa y la segunda cuando lo termines.
         </li>
 
         <li>• <strong>5 módulos claros y aplicables</strong></li>
