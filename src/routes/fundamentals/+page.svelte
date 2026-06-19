@@ -267,11 +267,11 @@
 
       <div class="grid-fixed-2">
         {#each [
-          { file: "testimonio1.webp", name: "Rodrigo, Gerente de Operaciones" },
+          { file: "testimonio1.jpeg", name: "Rodrigo, Gerente de Operaciones" },
           { file: "testimonio2.webp", name: "Ramiro, Director de RRHH" },
           { file: "testimonio3.webp", name: "Sofia, Ejecutiva Comercial" },
           { file: "testimonio4.webp", name: "Ana, Consultora Financiera" },
-          { file: "testimonio5.webp", name: "Javier, Director de Estrategia" },
+          { file: "testimonio5.jpeg", name: "Javier, Director de Estrategia" },
           { file: "testimonio6.webp", name: "Valeria, Líder de Proyecto" }
         ] as t}
           <div class="card-dark text-left">
