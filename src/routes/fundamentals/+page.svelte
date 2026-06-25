@@ -139,7 +139,7 @@
       <ul class="body-text space-y-2">
         <li><strong>✔ Solo necesitas 20 minutos al día</strong></li>
         <li><strong>✔ Programa grabado y de acceso inmediato</strong></li>
-        <li> <strong>✔  2 sesiones grupales en vivo con Leslie Beltrán:</strong> *Estos son espacios de trabajo directo para ayudarte a implementar la metodología en tu situación específica*. </li>
+        <li> <strong>✔  2 sesiones grupales en vivo con Leslie Beltrán:</strong> *Estos son espacios de trabajo directo para ayudarte a implementar la metodología en tu situación específica* </li>
         <li><strong>✔ Seguimiento vía whats app con Leslie Beltrán para resolver tus dudas </strong></li>
         <li><strong class="text-[var(--webinar-primary)]">✔ 100% online y a tu ritmo</strong></li>
       </ul>
