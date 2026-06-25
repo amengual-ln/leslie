@@ -314,6 +314,14 @@
         <li>• <strong>Programa grabado y de acceso inmediato</strong></li>
 
         <li>
+          • <strong>2 sesiones grupales en vivo con Leslie Beltrán:</strong> *Estos son espacios de trabajo directo para ayudarte a implementar la metodología en tu situación específica*.
+        </li>
+
+        <li>
+          • <strong>Seguimiento vía whats app con Leslie Beltrán para resolver tus dudas </strong>
+        </li>
+
+        <li>
           • <strong>2 sesiones grupales en vivo conmigo</strong> para resolver dudas y darte seguimiento puntual.
         </li>
 
